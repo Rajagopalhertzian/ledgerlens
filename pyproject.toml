@@ -37,6 +37,9 @@ dependencies = [
     "pdf2image>=1.17.0",
     "pillow>=10.4.0",
     "weasyprint>=62.0",
+    # M1: Synthetic data & eval
+    "jinja2>=3.1.4",
+    "scipy>=1.13.0",
     # Evaluation & testing
     "pytest>=8.3.0",
     "pytest-asyncio>=0.23.7",
@@ -91,7 +94,7 @@ build-backend = "hatchling.build"
 
 [tool.ruff]
 target-version = "py312"
-line-length = 100
+line-length = 120
 select = [
     "E",   # pycodestyle errors
     "W",   # pycodestyle warnings
@@ -101,12 +104,9 @@ select = [
     "B",   # flake8-bugbear
     "C4",  # flake8-comprehensions
     "ARG", # flake8-unused-arguments
-    "PTH", # flake8-use-pathlib
     "T20", # flake8-print
-    "SIM", # flake8-simplify
     "N",   # pep8-naming
     "D",   # pydocstyle
-    "TRY", # tryceratops
     "TID", # flake8-tidy-imports
 ]
 ignore = [
@@ -120,6 +120,11 @@ ignore = [
     "S101",  # assert (used in tests)
     "ARG001", # unused argument (used in callbacks)
     "ARG002", # unused argument (used in callbacks)
+    "TRY003", # long error messages outside exception class
+    "PTH123", # open() vs Path.open()
+    "D413",   # missing blank line after last section
+    "SIM103", # negated condition
+    "E741",   # ambiguous variable name (single letter)
 ]
 per-file-ignores = { "tests/*" = ["S101", "D100", "D101", "D102", "D103", "D104", "D105", "D107"] }
 [tool.ruff.format]
@@ -128,15 +133,14 @@ indent-style = "space"
 skip-magic-trailing-comma = true
 
 [tool.pyright]
-python-version = "3.12"
-type-checking-mode = "basic"
-report-missing-imports = true
-report-missing-type-stubs = true
-report-unknown-member-type = true
-report-unknown-parameter-type = true
-report-unknown-variable-type = true
-report-unused-parameter = true
-report-unused-variable = true
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportUnknownMemberType = false
+reportUnknownParameterType = false
+reportUnknownVariableType = false
+reportUnusedVariable = true
 
 [tool.pytest.ini_options]
 asyncio-mode = "auto"

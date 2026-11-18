@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice {{ invoice.invoice_number }}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 15mm 25mm 15mm;
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                font-size: 8pt;
+                color: #666;
+            }
+        }
+        @page :first {
+            @bottom-center { content: none; }
+        }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-row { display: flex; justify-content: space-between; }
+        .company-info h1 { margin: 0; font-size: 18pt; color: #2c3e50; }
+        .company-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 16pt; color: #2c3e50; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 80px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 6px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .page-break { page-break-before: always; }
+        .totals { width: 380px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-breakdown { font-size: 9pt; margin-bottom: 15px; }
+        .tax-breakdown .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-details { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .terms { margin-top: 15px; font-size: 8pt; }
+        .terms h4 { margin: 0 0 8px 0; font-size: 9pt; }
+        .terms ul { margin: 0; padding-left: 20px; }
+        .terms li { margin: 4px 0; }
+        .watermark-bg { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 120pt; color: rgba(44,62,80,0.02); pointer-events: none; z-index: -1; white-space: nowrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watermark-bg">{{ vendor.name.upper() }}</div>
+
+        <div class="header">
+            <div class="header-row">
+                <div class="company-info">
+                    <h1>{{ vendor.name }}</h1>
+                    <p>GSTIN: {{ vendor.gstin }} | PAN: {{ vendor.pan if vendor.pan else 'AAAAA0000A' }}</p>
+                    <p>{{ vendor.address.full_address() }}</p>
+                    <p>Email: {{ vendor.email }} | Phone: {{ vendor.phone }}</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>Invoice No:</strong> {{ invoice.invoice_number }}</div>
+                        <div><strong>Date:</strong> {{ invoice.invoice_date.strftime('%d/%m/%Y') }}</div>
+                        {% if invoice.po_reference %}
+                        <div><strong>PO Reference:</strong> {{ invoice.po_reference }}</div>
+                        {% endif %}
+                        {% if invoice.grn_reference %}
+                        <div><strong>GRN Reference:</strong> {{ invoice.grn_reference }}</div>
+                        {% endif %}
+                        <div><strong>Place of Supply:</strong> {{ invoice.place_of_supply }}</div>
+                        <div><strong>Place of Delivery:</strong> {{ invoice.place_of_delivery }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">Name:</span>{{ invoice.buyer_name }}</div>
+                <div class="row"><span class="label">GSTIN:</span>{{ invoice.buyer_gstin }}</div>
+                <div class="row"><span class="label">State:</span>{{ invoice.place_of_supply }}</div>
+                <div class="row">{{ invoice.buyer_address.full_address() }}</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Name:</span>{{ invoice.vendor_name }}</div>
+                <div class="row"><span class="label">GSTIN:</span>{{ invoice.vendor_gstin }}</div>
+                <div class="row"><span class="label">State:</span>{{ invoice.place_of_delivery }}</div>
+                <div class="row">{{ invoice.vendor_address.full_address() }}</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 4%">S.No</th>
+                    <th style="width: 8%">HSN</th>
+                    <th style="width: 28%">Description of Goods/Services</th>
+                    <th style="width: 6%">UoM</th>
+                    <th style="width: 7%" class="text-right">Quantity</th>
+                    <th style="width: 10%" class="text-right">Unit Price</th>
+                    <th style="width: 7%" class="text-right">Disc %</th>
+                    <th style="width: 10%" class="text-right">Taxable Value</th>
+                    <th style="width: 6%" class="text-center">Tax Type</th>
+                    <th style="width: 6%" class="text-right">Tax Rate</th>
+                    <th style="width: 7%" class="text-right">Tax Amount</th>
+                    <th style="width: 10%" class="text-right">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for line in invoice.lines %}
+                <tr>
+                    <td class="text-center">{{ line.line_number }}</td>
+                    <td>{{ line.hsn_code }}</td>
+                    <td>{{ line.item_description }}</td>
+                    <td class="text-center">{{ line.uom }}</td>
+                    <td class="text-right">{{ "{:,.2f}".format(line.quantity) }}</td>
+                    <td class="text-right">{{ indian_format(line.unit_price) }}</td>
+                    <td class="text-right">{{ "{:.2f}".format(line.discount_percent) }}%</td>
+                    <td class="text-right">{{ indian_format(line.taxable_value) }}</td>
+                    <td class="text-center">{{ line.tax_type }}</td>
+                    <td class="text-right">{{ "{:.0%}".format(line.tax_rate) }}</td>
+                    <td class="text-right">{{ indian_format(line.tax_amount) }}</td>
+                    <td class="text-right">{{ indian_format(line.line_total) }}</td>
+                </tr>
+                {% if loop.index % 25 == 0 and not loop.last %}
+                </tbody>
+            </table>
+            <div class="page-break"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 4%">S.No</th>
+                        <th style="width: 8%">HSN</th>
+                        <th style="width: 28%">Description of Goods/Services</th>
+                        <th style="width: 6%">UoM</th>
+                        <th style="width: 7%" class="text-right">Quantity</th>
+                        <th style="width: 10%" class="text-right">Unit Price</th>
+                        <th style="width: 7%" class="text-right">Disc %</th>
+                        <th style="width: 10%" class="text-right">Taxable Value</th>
+                        <th style="width: 6%" class="text-center">Tax Type</th>
+                        <th style="width: 6%" class="text-right">Tax Rate</th>
+                        <th style="width: 7%" class="text-right">Tax Amount</th>
+                        <th style="width: 10%" class="text-right">Line Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="tax-breakdown">
+            <div class="row"><strong>Tax Breakdown</strong></div>
+            <div class="row"><span>CGST @ 9%</span><span>{{ indian_format(invoice.tax_breakdown.cgst) }}</span></div>
+            <div class="row"><span>SGST @ 9%</span><span>{{ indian_format(invoice.tax_breakdown.sgst) }}</span></div>
+            <div class="row"><span>IGST @ 18%</span><span>{{ indian_format(invoice.tax_breakdown.igst) }}</span></div>
+            {% if invoice.tax_breakdown.cess > 0 %}
+            <div class="row"><span>CESS</span><span>{{ indian_format(invoice.tax_breakdown.cess) }}</span></div>
+            {% endif %}
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">{{ indian_format(invoice.subtotal) }}</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">{{ indian_format(invoice.total_tax) }}</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">{{ indian_format(invoice.grand_total) }}</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> {{ amount_in_words(invoice.grand_total) }} Rupees Only</p>
+
+            {% if invoice.bank_account %}
+            <div class="bank-details">
+                <strong>Bank Details for Payment</strong>
+                <div class="row"><span class="label">A/c No:</span>{{ invoice.bank_account.masked_account() }}</div>
+                <div class="row"><span class="label">IFSC:</span>{{ invoice.bank_account.ifsc }}</div>
+                <div class="row"><span class="label">Bank:</span>{{ invoice.bank_account.bank_name }}, {{ invoice.bank_account.branch }}</div>
+                <div class="row"><span class="label">Holder:</span>{{ invoice.bank_account.account_holder }}</div>
+            </div>
+            {% endif %}
+
+            {% if invoice.payment_terms %}
+            <div class="terms">
+                <h4>Payment Terms & Conditions</h4>
+                <ul>
+                    <li>{{ invoice.payment_terms }}</li>
+                    <li>Payment due within 30 days from invoice date</li>
+                    <li>Late payment attracts interest @ 18% p.a.</li>
+                    <li>All disputes subject to {{ vendor.address.city }} jurisdiction</li>
+                </ul>
+            </div>
+            {% endif %}
+
+            <p style="margin-top: 15px; font-style: italic;">We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 25px;">Authorized Signatory<br><br>{{ vendor.contact_person or vendor.name }}</p>
+
+            {% if invoice.irn %}
+            <div style="margin-top: 10px; font-size: 8pt; border-top: 1px dashed #ddd; padding-top: 8px;">
+                <strong>IRN:</strong> {{ invoice.irn }}<br>
+                {% if invoice.eway_bill_number %}
+                <strong>E-Way Bill No:</strong> {{ invoice.eway_bill_number }}
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
