@@ -1,0 +1,109 @@
+{
+  "invoice_id": "226b3fbc-76de-45a5-ac5a-b0006ed1f0a0",
+  "invoice_number": "INV000519",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000519",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000173",
+    "grn_reference": "GRN000201",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE681",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "34.21",
+      "unit_price": "7114.07",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "243372.3347",
+      "tax_amount": "12168.616735",
+      "line_total": "255540.951435",
+      "po_line_id": "29fc764b-3c06-4f90-a78f-48577a641a15"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE684",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "186.12",
+      "unit_price": "36525.86",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6798193.0632",
+      "tax_amount": "1903494.057696",
+      "line_total": "8701687.120896",
+      "po_line_id": "062ae381-7fa3-4f6c-a5a6-46b3f8d90d74"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE740",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "357.13",
+      "unit_price": "44997.81",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "16070067.8853",
+      "tax_amount": "1928408.146236",
+      "line_total": "17998476.031536",
+      "po_line_id": "801f1835-88ec-4838-9072-07a6fedf67be"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE715",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2902",
+      "uom": "PCS",
+      "quantity": "79.07",
+      "unit_price": "39141.13",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "2.31",
+      "taxable_value": "3023397.20975579",
+      "tax_amount": "544211.4977560422",
+      "line_total": "3567608.7075118322",
+      "po_line_id": "d148383b-e8ca-4bc8-8272-65c90e443eac"
+    }
+  ],
+  "taxes": {
+    "cgst": "4376113.7016880422",
+    "sgst": "12168.616735",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "26135030.49295579",
+    "total_tax": "4388282.3184230422",
+    "grand_total": "30523312.8113788322"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "db53a189-b860-4fa6-a64b-8f0ec82477b4",
+  "grn_id": "0f0c4a61-63fd-4242-ab26-ef266b9470a3",
+  "generated_at": "2026-11-18T15:45:20.736694"
+}

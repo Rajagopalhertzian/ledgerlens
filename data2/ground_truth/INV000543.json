@@ -1,0 +1,95 @@
+{
+  "invoice_id": "762fe56e-d45e-4ce7-8afd-d04e0a33c165",
+  "invoice_number": "INV000543",
+  "vendor_id": "5b1319e8-9083-4e25-8e5d-5a41049e25c6",
+  "vendor_gstin": "09PHRMI2326UKZ7",
+  "header": {
+    "invoice_number": "INV000543",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "09PHRMI2326UKZ7",
+    "vendor_name": "Prime Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000193",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP434",
+      "item_description": "Paper Bags",
+      "hsn_code": "4801",
+      "uom": "PCS",
+      "quantity": "896.06",
+      "unit_price": "2704.24",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2423161.2944",
+      "tax_amount": "678485.162432",
+      "line_total": "3101646.456832",
+      "po_line_id": "f7c08253-c476-476a-a263-43aa3658eef1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP419",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4803",
+      "uom": "PCS",
+      "quantity": "241.53",
+      "unit_price": "19723.01",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4763698.6053",
+      "tax_amount": "1333835.609484",
+      "line_total": "6097534.214784",
+      "po_line_id": "03e54862-de86-4d2e-9b11-8c5182b6177f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP828",
+      "item_description": "Paper Bags",
+      "hsn_code": "4811",
+      "uom": "PCS",
+      "quantity": "883.40",
+      "unit_price": "42125.34",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37213525.3560",
+      "tax_amount": "4465623.042720",
+      "line_total": "41679148.398720",
+      "po_line_id": "fb4f963e-13c8-447d-8807-8d851ed2b8e4"
+    }
+  ],
+  "taxes": {
+    "cgst": "5799458.652204",
+    "sgst": "678485.162432",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "44400385.2557",
+    "total_tax": "6477943.814636",
+    "grand_total": "50878329.070336"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "4d5cd4d0-df1d-4c91-bf11-1efa645b53ed",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.743667"
+}

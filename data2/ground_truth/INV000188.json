@@ -1,0 +1,141 @@
+{
+  "invoice_id": "3d77060c-c9d6-4114-b2a1-17a63649ce32",
+  "invoice_number": "INV000188",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000188",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000030",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO636",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "103.91",
+      "unit_price": "3283.24",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "7.71",
+      "taxable_value": "314857.91918636",
+      "tax_amount": "88160.2173721808",
+      "line_total": "403018.1365585408",
+      "po_line_id": "a8b7648e-2c06-4a29-aaf4-65eea03382ec"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO553",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "618.48",
+      "unit_price": "4307.13",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.38",
+      "taxable_value": "2467279.87873488",
+      "tax_amount": "690838.3660457664",
+      "line_total": "3158118.2447806464",
+      "po_line_id": "b43fe1ca-22ca-4724-8699-d7cb6ed672af"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO433",
+      "item_description": "Sugar Refined",
+      "hsn_code": "2106",
+      "uom": "LTR",
+      "quantity": "527.22",
+      "unit_price": "8613.34",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4541125.1148",
+      "tax_amount": "227056.255740",
+      "line_total": "4768181.370540",
+      "po_line_id": "b12903be-fd92-4703-9254-ea3f82ff7839"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO332",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1901",
+      "uom": "PKT",
+      "quantity": "435.54",
+      "unit_price": "32025.35",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13948320.9390",
+      "tax_amount": "2510697.769020",
+      "line_total": "16459018.708020",
+      "po_line_id": "dfe5c2a1-648f-4f07-8907-634dd1c8ed26"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO968",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "366.42",
+      "unit_price": "13064.37",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "8.15",
+      "taxable_value": "4396902.16928490",
+      "tax_amount": "791442.3904712820",
+      "line_total": "5188344.5597561820",
+      "po_line_id": "ca3ab706-a4df-425f-8129-256c6f0c80fc"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO917",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1006",
+      "uom": "PCS",
+      "quantity": "469.73",
+      "unit_price": "515.02",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.66",
+      "taxable_value": "223389.24620364",
+      "tax_amount": "62548.9889370192",
+      "line_total": "285938.2351406592",
+      "po_line_id": "616f597e-78de-4ef9-801b-3d95759c6a33"
+    }
+  ],
+  "taxes": {
+    "cgst": "791442.3904712820",
+    "sgst": "3264085.1240027856",
+    "igst": "315216.4731121808",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "25891875.26720978",
+    "total_tax": "4370743.9875862484",
+    "grand_total": "30262619.2547960284"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "37e59723-3b3e-40a4-9694-bb956ab8abe2",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.636003"
+}

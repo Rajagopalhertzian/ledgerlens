@@ -1,0 +1,109 @@
+{
+  "invoice_id": "84509769-c517-477f-8080-d836c72517a7",
+  "invoice_number": "INV000605",
+  "vendor_id": "dff757f9-8f9e-4d16-8753-3d068eee286f",
+  "vendor_gstin": "29SUJVG5714NAZA",
+  "header": {
+    "invoice_number": "INV000605",
+    "invoice_date": "2026-11-09",
+    "vendor_gstin": "29SUJVG5714NAZA",
+    "vendor_name": "Jai Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000024",
+    "grn_reference": "GRN000027",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP700",
+      "item_description": "File Folders",
+      "hsn_code": "4810",
+      "uom": "ROL",
+      "quantity": "770.20",
+      "unit_price": "37897.92",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "29188977.9840",
+      "tax_amount": "8172913.835520",
+      "line_total": "37361891.819520",
+      "po_line_id": "18e8542f-d880-43a9-a373-cf2eca08e4d8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP919",
+      "item_description": "Label Stickers",
+      "hsn_code": "4801",
+      "uom": "PCS",
+      "quantity": "258.56",
+      "unit_price": "19195.39",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4963160.0384",
+      "tax_amount": "595579.204608",
+      "line_total": "5558739.243008",
+      "po_line_id": "70c56a4e-4e5b-4732-9fc1-28fd5db72267"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP866",
+      "item_description": "Tissue Rolls",
+      "hsn_code": "4803",
+      "uom": "PKT",
+      "quantity": "516.99",
+      "unit_price": "585.19",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "3.99",
+      "taxable_value": "290466.13671381",
+      "tax_amount": "52283.9046084858",
+      "line_total": "342750.0413222958",
+      "po_line_id": "14672968-db17-410e-913c-057a46b44b2f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP799",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "477.08",
+      "unit_price": "17741.54",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8464133.9032",
+      "tax_amount": "1523544.102576",
+      "line_total": "9987678.005776",
+      "po_line_id": "0551c63b-1a91-469b-b2c4-583d857dc8ec"
+    }
+  ],
+  "taxes": {
+    "cgst": "1575828.0071844858",
+    "sgst": "0",
+    "igst": "8768493.040128",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42906738.06231381",
+    "total_tax": "10344321.0473124858",
+    "grand_total": "53251059.1096262958"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "677b3413-7e1f-4297-9a07-5cba48cc5fca",
+  "grn_id": "c00f9ec6-cc2f-4770-b77a-e236245e25b8",
+  "generated_at": "2026-11-18T15:45:20.761914"
+}

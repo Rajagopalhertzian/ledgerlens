@@ -1,0 +1,93 @@
+{
+  "invoice_id": "944ec632-7ecd-4304-bfe3-6f57ab3a2467",
+  "invoice_number": "INV000268",
+  "vendor_id": "2791a614-38ab-41f8-9dc3-88f6d103e8b5",
+  "vendor_gstin": "33OBONO1351GWZY",
+  "header": {
+    "invoice_number": "INV000268",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "33OBONO1351GWZY",
+    "vendor_name": "Select Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET778",
+      "item_description": "Angle Iron",
+      "hsn_code": "7208",
+      "uom": "BOX",
+      "quantity": "686.80",
+      "unit_price": "45676.84",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "31370853.7120",
+      "tax_amount": "5646753.668160",
+      "line_total": "37017607.380160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET155",
+      "item_description": "Flat Bars",
+      "hsn_code": "7210",
+      "uom": "PCS",
+      "quantity": "825.85",
+      "unit_price": "23072.70",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "19054589.2950",
+      "tax_amount": "5335285.002600",
+      "line_total": "24389874.297600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET767",
+      "item_description": "Copper Wire",
+      "hsn_code": "7208",
+      "uom": "KG",
+      "quantity": "849.88",
+      "unit_price": "6675.06",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5672999.9928",
+      "tax_amount": "1588439.997984",
+      "line_total": "7261439.990784",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "12570478.668744",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "56098442.9998",
+    "total_tax": "12570478.668744",
+    "grand_total": "68668921.668544"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.659470"
+}

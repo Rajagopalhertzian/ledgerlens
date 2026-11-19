@@ -1,0 +1,93 @@
+{
+  "invoice_id": "013204cb-9593-4aac-a8d7-8a9f9acf04da",
+  "invoice_number": "INV000492",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "27PXTPA2685AIZ4",
+  "header": {
+    "invoice_number": "INV000492",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "27PXTPA2685AIZ4",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET407",
+      "item_description": "Round Bars",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "317.04",
+      "unit_price": "22685.12",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7192090.4448",
+      "tax_amount": "863050.853376",
+      "line_total": "8055141.298176",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET718",
+      "item_description": "Flat Bars",
+      "hsn_code": "7208",
+      "uom": "MTR",
+      "quantity": "983.12",
+      "unit_price": "16224.63",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "15950758.2456",
+      "tax_amount": "4466212.308768",
+      "line_total": "20416970.554368",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET422",
+      "item_description": "Steel Bars 12mm",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "816.56",
+      "unit_price": "18328.49",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14966311.7944",
+      "tax_amount": "748315.589720",
+      "line_total": "15714627.384120",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "748315.589720",
+    "sgst": "863050.853376",
+    "igst": "4466212.308768",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "38109160.4848",
+    "total_tax": "6077578.751864",
+    "grand_total": "44186739.236664"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.728338"
+}

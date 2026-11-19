@@ -1,0 +1,79 @@
+{
+  "invoice_id": "0b476086-dc7c-4407-bda6-53b1b16cf8a3",
+  "invoice_number": "INV000122",
+  "vendor_id": "d414d131-eef7-4646-83b3-8a8880a5f208",
+  "vendor_gstin": "06VHHSP3893PNZT",
+  "header": {
+    "invoice_number": "INV000122",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "06VHHSP3893PNZT",
+    "vendor_name": "Sri Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX806",
+      "item_description": "Denim Jeans",
+      "hsn_code": "6109",
+      "uom": "MTR",
+      "quantity": "964.88",
+      "unit_price": "8235.44",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7946211.3472",
+      "tax_amount": "1430318.042496",
+      "line_total": "9376529.389696",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX368",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5512",
+      "uom": "MTR",
+      "quantity": "659.58",
+      "unit_price": "21219.71",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13996096.3218",
+      "tax_amount": "2519297.337924",
+      "line_total": "16515393.659724",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1679531.558616",
+    "sgst": "1430318.042496",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "21942307.6690",
+    "total_tax": "3109849.601112",
+    "grand_total": "25052157.270112"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.616665"
+}

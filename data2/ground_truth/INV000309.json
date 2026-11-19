@@ -1,0 +1,93 @@
+{
+  "invoice_id": "c26ac420-1077-4bf9-9c51-21c96bf76dd3",
+  "invoice_number": "INV000309",
+  "vendor_id": "9dde547a-ae26-4cfe-a08e-d43b1365dd8f",
+  "vendor_gstin": "36BKULC9505HAZG",
+  "header": {
+    "invoice_number": "INV000309",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "36BKULC9505HAZG",
+    "vendor_name": "Select Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP178",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "417.70",
+      "unit_price": "39825.70",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16635194.8900",
+      "tax_amount": "1996223.386800",
+      "line_total": "18631418.276800",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP187",
+      "item_description": "Label Stickers",
+      "hsn_code": "4801",
+      "uom": "PKT",
+      "quantity": "109.25",
+      "unit_price": "9575.30",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "7.63",
+      "taxable_value": "966283.97864250",
+      "tax_amount": "115954.0774371000",
+      "line_total": "1082238.0560796000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP168",
+      "item_description": "Printing Paper",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "912.72",
+      "unit_price": "8356.35",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7627007.7720",
+      "tax_amount": "381350.388600",
+      "line_total": "8008358.160600",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "115954.0774371000",
+    "sgst": "381350.388600",
+    "igst": "1996223.386800",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "25228486.64064250",
+    "total_tax": "2493527.8528371000",
+    "grand_total": "27722014.4934796000"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.671573"
+}

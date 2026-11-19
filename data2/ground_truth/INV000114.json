@@ -1,0 +1,77 @@
+{
+  "invoice_id": "e61c8b58-e596-4054-b9b9-57f30fa4d7db",
+  "invoice_number": "INV000114",
+  "vendor_id": "2791a614-38ab-41f8-9dc3-88f6d103e8b5",
+  "vendor_gstin": "33OBONO1351GWZY",
+  "header": {
+    "invoice_number": "INV000114",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "33OBONO1351GWZY",
+    "vendor_name": "Select Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000090",
+    "grn_reference": "GRN000107",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO597",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1701",
+      "uom": "PKT",
+      "quantity": "596.24",
+      "unit_price": "27759.80",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "16551503.1520",
+      "tax_amount": "2979270.567360",
+      "line_total": "19530773.719360",
+      "po_line_id": "4088274d-54fe-41cd-8fe0-9af3a00bd25c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO640",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1901",
+      "uom": "PKT",
+      "quantity": "935.35",
+      "unit_price": "45263.15",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "42336887.3525",
+      "tax_amount": "11854328.458700",
+      "line_total": "54191215.811200",
+      "po_line_id": "8f5b5df7-5ea1-452a-9010-d7574b2d73a7"
+    }
+  ],
+  "taxes": {
+    "cgst": "14833599.026060",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58888390.5045",
+    "total_tax": "14833599.026060",
+    "grand_total": "73721989.530560"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "fe87b65c-4163-4bd8-b816-ffa734f0aa08",
+  "grn_id": "1b4f890c-4378-46aa-85f5-474bb2c18031",
+  "generated_at": "2026-11-18T15:45:20.614241"
+}

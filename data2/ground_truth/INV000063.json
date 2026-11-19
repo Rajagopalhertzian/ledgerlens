@@ -1,0 +1,61 @@
+{
+  "invoice_id": "9fb9b6e8-ef49-4534-be62-ab1eba42276e",
+  "invoice_number": "INV000063",
+  "vendor_id": "897397a6-dd52-4414-a8b9-13b3c323089b",
+  "vendor_gstin": "07PNIAC4919ENZW",
+  "header": {
+    "invoice_number": "INV000063",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "07PNIAC4919ENZW",
+    "vendor_name": "Superior Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000209",
+    "grn_reference": "GRN000237",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX262",
+      "item_description": "Safety Vest",
+      "hsn_code": "5209",
+      "uom": "PCS",
+      "quantity": "26.91",
+      "unit_price": "44020.51",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "9.45",
+      "taxable_value": "1072647.98727255",
+      "tax_amount": "193076.6377090590",
+      "line_total": "1265724.6249816090",
+      "po_line_id": "aaccf882-ce2a-44f8-bf7f-dd4aab3133e5"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "193076.6377090590",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1072647.98727255",
+    "total_tax": "193076.6377090590",
+    "grand_total": "1265724.6249816090"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "123bfaf0-54de-4997-849e-6b25fe573e90",
+  "grn_id": "1c95f025-6160-41db-96b3-1d41330486c6",
+  "generated_at": "2026-11-18T15:45:20.596365"
+}

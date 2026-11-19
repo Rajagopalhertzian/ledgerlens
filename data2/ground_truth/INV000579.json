@@ -1,0 +1,77 @@
+{
+  "invoice_id": "200b9ee4-3234-4171-bcd4-7bb422eacb62",
+  "invoice_number": "INV000579",
+  "vendor_id": "2791a614-38ab-41f8-9dc3-88f6d103e8b5",
+  "vendor_gstin": "33OBONO1351GWZY",
+  "header": {
+    "invoice_number": "INV000579",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "33OBONO1351GWZY",
+    "vendor_name": "Select Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000054",
+    "grn_reference": "GRN000064",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP726",
+      "item_description": "Register Books",
+      "hsn_code": "4811",
+      "uom": "PKT",
+      "quantity": "918.58",
+      "unit_price": "46840.16",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "43026434.1728",
+      "tax_amount": "7744758.151104",
+      "line_total": "50771192.323904",
+      "po_line_id": "45c39706-34bf-4676-a9dc-6da4afacc695"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP940",
+      "item_description": "Tissue Rolls",
+      "hsn_code": "4811",
+      "uom": "BOX",
+      "quantity": "852.65",
+      "unit_price": "3214.29",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2740664.3685",
+      "tax_amount": "137033.218425",
+      "line_total": "2877697.586925",
+      "po_line_id": "6e9f87f9-657e-48e9-ac32-bb8f1523afa9"
+    }
+  ],
+  "taxes": {
+    "cgst": "7881791.369529",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "45767098.5413",
+    "total_tax": "7881791.369529",
+    "grand_total": "53648889.910829"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "30f23434-a2cf-4e5b-9ece-4a667f879719",
+  "grn_id": "f4aa31e7-9c55-4e73-a3d7-53e535f1a029",
+  "generated_at": "2026-11-18T15:45:20.754147"
+}

@@ -1,0 +1,127 @@
+{
+  "invoice_id": "973e3d90-8710-4cd9-a21b-606c40e72383",
+  "invoice_number": "INV000177",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000177",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000277",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE708",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "416.12",
+      "unit_price": "41892.20",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "8.43",
+      "taxable_value": "15962649.29914480",
+      "tax_amount": "2873276.8738460640",
+      "line_total": "18835926.1729908640",
+      "po_line_id": "c7c7a2db-8a16-4a61-bb50-6b762b6c642e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE133",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "593.29",
+      "unit_price": "23724.15",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14075300.9535",
+      "tax_amount": "2533554.171630",
+      "line_total": "16608855.125130",
+      "po_line_id": "a32fc871-0c24-4f53-b487-a205354a2d7f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE240",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "537.54",
+      "unit_price": "21339.47",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.00",
+      "taxable_value": "11126694.142686",
+      "tax_amount": "556334.70713430",
+      "line_total": "11683028.84982030",
+      "po_line_id": "82f7e1da-257e-4a0d-bc0c-b855a6a3593a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE472",
+      "item_description": "Graphics Card",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "999.28",
+      "unit_price": "14105.34",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14095184.1552",
+      "tax_amount": "3946651.563456",
+      "line_total": "18041835.718656",
+      "po_line_id": "71ec2b9d-4214-46af-8e60-cac1d090785c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE828",
+      "item_description": "Router WiFi",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "738.89",
+      "unit_price": "20402.86",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15075469.2254",
+      "tax_amount": "753773.461270",
+      "line_total": "15829242.686670",
+      "po_line_id": "6b48d9ba-c6c1-4bfa-871e-7979ae063e7b"
+    }
+  ],
+  "taxes": {
+    "cgst": "7036540.44222030",
+    "sgst": "3627050.3351160640",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "70335297.77593080",
+    "total_tax": "10663590.7773363640",
+    "grand_total": "80998888.5532671640"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "d99c63e3-3d9b-4ecb-aea9-6df17d4dbe66",
+  "grn_id": "6e23184b-70e7-407c-a132-067e6759e604",
+  "generated_at": "2026-11-18T15:45:20.633191"
+}

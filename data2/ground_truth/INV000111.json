@@ -1,0 +1,143 @@
+{
+  "invoice_id": "fc344f81-42ab-49f5-96e1-8f800aebd436",
+  "invoice_number": "INV000111",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000111",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000266",
+    "grn_reference": "GRN000312",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX354",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5209",
+      "uom": "PCS",
+      "quantity": "574.29",
+      "unit_price": "14035.92",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.10",
+      "taxable_value": "7972020.9233352",
+      "tax_amount": "956642.510800224",
+      "line_total": "8928663.434135424",
+      "po_line_id": "ce0c3622-3f0c-48da-abd4-b21b86109ee2"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX918",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "68.01",
+      "unit_price": "18933.51",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1287668.0151",
+      "tax_amount": "64383.400755",
+      "line_total": "1352051.415855",
+      "po_line_id": "78970e90-5996-473e-854f-ab5965776d50"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX611",
+      "item_description": "Protective Clothing",
+      "hsn_code": "5513",
+      "uom": "SET",
+      "quantity": "751.88",
+      "unit_price": "26221.17",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "19715173.2996",
+      "tax_amount": "5520248.523888",
+      "line_total": "25235421.823488",
+      "po_line_id": "2be06a82-3cc4-4c1a-ac05-bdb0d59a152f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX522",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5209",
+      "uom": "ROL",
+      "quantity": "74.34",
+      "unit_price": "49736.26",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3697393.5684",
+      "tax_amount": "665530.842312",
+      "line_total": "4362924.410712",
+      "po_line_id": "ead9aa2c-828d-4bc6-abc7-fe97318bd557"
+    },
+    {
+      "line_number": 5,
+      "item_code": "TEX868",
+      "item_description": "Curtains Window",
+      "hsn_code": "5512",
+      "uom": "PCS",
+      "quantity": "374.25",
+      "unit_price": "15795.80",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "7.75",
+      "taxable_value": "5453430.84337500",
+      "tax_amount": "654411.7012050000",
+      "line_total": "6107842.5445800000",
+      "po_line_id": "3b7d4629-05b5-409a-b938-1bad59260dd4"
+    },
+    {
+      "line_number": 6,
+      "item_code": "TEX351",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5407",
+      "uom": "SET",
+      "quantity": "599.49",
+      "unit_price": "23313.71",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "9.60",
+      "taxable_value": "12634607.7511416",
+      "tax_amount": "1516152.930136992",
+      "line_total": "14150760.681278592",
+      "po_line_id": "cfeb7019-a87e-45e7-b11a-1f019721cabd"
+    }
+  ],
+  "taxes": {
+    "cgst": "6840191.0674050000",
+    "sgst": "2537178.841692216",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "50760294.40095180",
+    "total_tax": "9377369.9090972160",
+    "grand_total": "60137664.3100490160"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D03",
+      "evidence": "Line 6: Invoiced qty 599.49 > GRN accepted 531.95",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "partial_approve_or_reject"
+  ],
+  "po_id": "3dc73a29-1fa9-4082-8a07-de60045c8cc2",
+  "grn_id": "21aaf16d-e3de-4324-9d95-40341a3f907a",
+  "generated_at": "2026-11-18T15:45:20.613358"
+}

@@ -7,9 +7,7 @@ from pathlib import Path
 import pytest
 
 from datagen.generate import DataGenerator
-from datagen.models import (
-    DefectType,
-)
+from datagen.models import DefectType
 from datagen.utils import (
     generate_goods_receipt,
     generate_invoice,
@@ -25,6 +23,7 @@ class TestVendorGeneration:
     def test_generate_vendor_has_valid_gstin(self):
         """Generated vendor should have valid GSTIN."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         assert vendor.gstin is not None
@@ -33,6 +32,7 @@ class TestVendorGeneration:
     def test_generate_vendor_has_address(self):
         """Generated vendor should have address."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         assert vendor.address is not None
@@ -44,6 +44,7 @@ class TestVendorGeneration:
     def test_generate_vendor_has_bank_account(self):
         """Generated vendor should have bank account."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         assert vendor.bank_account is not None
@@ -54,6 +55,7 @@ class TestVendorGeneration:
     def test_generate_vendor_deterministic(self):
         """Same seed should produce same vendor."""
         import random
+
         rng1 = random.Random(42)
         rng2 = random.Random(42)
         v1 = generate_vendor(rng1)
@@ -68,6 +70,7 @@ class TestPOGeneration:
     def test_generate_purchase_order(self):
         """Should generate valid PO."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -82,6 +85,7 @@ class TestPOGeneration:
         """PO line calculations should be correct."""
         import random
         from decimal import Decimal
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -98,6 +102,7 @@ class TestGRNGeneration:
     def test_generate_goods_receipt(self):
         """Should generate valid GRN."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -110,6 +115,7 @@ class TestGRNGeneration:
     def test_grn_partial_delivery(self):
         """GRN should have partial delivery quantities."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -126,6 +132,7 @@ class TestInvoiceGeneration:
     def test_generate_invoice_with_po(self):
         """Should generate invoice linked to PO."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -140,6 +147,7 @@ class TestInvoiceGeneration:
     def test_generate_invoice_without_po(self):
         """Should generate invoice without PO."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         invoice = generate_invoice(rng, vendor, None, None, 1, "template_01_standard", DefectType.D01, True)
@@ -151,6 +159,7 @@ class TestInvoiceGeneration:
         """Invoice totals should be calculated correctly."""
         import random
         from decimal import Decimal
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -167,6 +176,7 @@ class TestDefectApplication:
     def test_d01_clean_no_defects(self):
         """D01 should have no defects."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -177,6 +187,7 @@ class TestDefectApplication:
     def test_d02_price_variance(self):
         """D02 should have price variance."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -187,6 +198,7 @@ class TestDefectApplication:
     def test_d03_over_billing(self):
         """D03 should have quantity exceeding GRN."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -198,6 +210,7 @@ class TestDefectApplication:
     def test_d04_no_grn(self):
         """D04 should have no GRN reference."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -210,6 +223,7 @@ class TestDefectApplication:
     def test_d09_invalid_gstin(self):
         """D09 should have invalid GSTIN."""
         import random
+
         rng = random.Random(42)
         vendor = generate_vendor(rng)
         po = generate_purchase_order(rng, vendor, 1)
@@ -225,6 +239,7 @@ class TestTemplateSelection:
     def test_first_100_use_template_01(self):
         """First 100 invoices should use template_01."""
         import random
+
         rng = random.Random(42)
         for i in range(100):
             template = get_template_for_invoice(rng, i)
@@ -233,6 +248,7 @@ class TestTemplateSelection:
     def test_after_100_uses_various(self):
         """After 100 should use various templates."""
         import random
+
         rng = random.Random(42)
         templates = set()
         for i in range(100, 200):

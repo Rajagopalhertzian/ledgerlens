@@ -1,0 +1,125 @@
+{
+  "invoice_id": "ca1815f0-75ca-41f7-9d67-f9e18e61dc32",
+  "invoice_number": "INV000368",
+  "vendor_id": "f514abf0-fb19-44ab-99cf-b3b12373aba5",
+  "vendor_gstin": "27KGWZP1069JQZ3",
+  "header": {
+    "invoice_number": "INV000368",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "27KGWZP1069JQZ3",
+    "vendor_name": "Jai Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000059",
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR393",
+      "item_description": "Office Chair",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "578.56",
+      "unit_price": "28685.71",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16596404.3776",
+      "tax_amount": "2987352.787968",
+      "line_total": "19583757.165568",
+      "po_line_id": "cb80e21d-543c-4f4c-861d-af355ea2e0fd"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR978",
+      "item_description": "Executive Desk",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "506.09",
+      "unit_price": "42587.12",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.81",
+      "taxable_value": "20947278.63354152",
+      "tax_amount": "3770510.1540374736",
+      "line_total": "24717788.7875789936",
+      "po_line_id": "1e010af0-68ec-444c-a4c7-cedd26338cd8"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR927",
+      "item_description": "Office Chair",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "604.22",
+      "unit_price": "45515.56",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "27501411.6632",
+      "tax_amount": "3300169.399584",
+      "line_total": "30801581.062784",
+      "po_line_id": "5d391226-c665-49ee-8753-51eaf5baa31f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR248",
+      "item_description": "Storage Rack",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "485.43",
+      "unit_price": "39988.66",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "19411695.2238",
+      "tax_amount": "970584.761190",
+      "line_total": "20382279.984990",
+      "po_line_id": "a417b54b-5277-417b-8ce1-1b8afc8f6f9c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR843",
+      "item_description": "Filing Cabinet",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "753.01",
+      "unit_price": "20706.10",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "15591900.3610",
+      "tax_amount": "4365732.101080",
+      "line_total": "19957632.462080",
+      "po_line_id": "2ade5727-f636-4697-b706-8e46036f69b1"
+    }
+  ],
+  "taxes": {
+    "cgst": "4365732.101080",
+    "sgst": "4741094.9152274736",
+    "igst": "6287522.187552",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "100048690.25914152",
+    "total_tax": "15394349.2038594736",
+    "grand_total": "115443039.4630009936"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6a38cee8-4c20-4b42-848f-8c88e2786624",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.688851"
+}

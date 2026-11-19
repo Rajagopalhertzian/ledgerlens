@@ -1,0 +1,109 @@
+{
+  "invoice_id": "6aa9ae67-7697-46be-a011-25c643522c29",
+  "invoice_number": "INV000381",
+  "vendor_id": "53c1a9a8-fb3c-46e3-abe0-e7065fc23b8c",
+  "vendor_gstin": "08XQRDX5636R9ZP",
+  "header": {
+    "invoice_number": "INV000381",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "08XQRDX5636R9ZP",
+    "vendor_name": "National Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000142",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC258",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "759.91",
+      "unit_price": "44630.28",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "33914996.0748",
+      "tax_amount": "4069799.528976",
+      "line_total": "37984795.603776",
+      "po_line_id": "27a4e31e-50c1-450b-b76d-367dbb254772"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC205",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "627.86",
+      "unit_price": "6241.47",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3918769.3542",
+      "tax_amount": "195938.467710",
+      "line_total": "4114707.821910",
+      "po_line_id": "7a49492c-9a78-4826-b14c-376ca763ac57"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC461",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "2.21",
+      "unit_price": "11293.21",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "24957.9941",
+      "tax_amount": "2994.959292",
+      "line_total": "27952.953392",
+      "po_line_id": "a6eb3975-b76d-4143-858c-80cd0012ceb3"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC204",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "921.77",
+      "unit_price": "34252.43",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "1.10",
+      "taxable_value": "31225560.9146879",
+      "tax_amount": "1561278.045734395",
+      "line_total": "32786838.960422295",
+      "po_line_id": "26b71bbf-5773-4686-ba7a-8cc0fc96e7d5"
+    }
+  ],
+  "taxes": {
+    "cgst": "195938.467710",
+    "sgst": "5634072.534002395",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "69084284.3377879",
+    "total_tax": "5830011.001712395",
+    "grand_total": "74914295.339500295"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "26fe517e-a0b9-4327-bb88-55cb46b9c5fc",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.692429"
+}

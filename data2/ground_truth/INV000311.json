@@ -1,0 +1,125 @@
+{
+  "invoice_id": "d6604b87-804c-4f2c-80c7-0d9548c25e79",
+  "invoice_number": "INV000311",
+  "vendor_id": "046ff3bf-3a8a-41e4-b755-a2ac868274d5",
+  "vendor_gstin": "08KQUUG3260AOZS",
+  "header": {
+    "invoice_number": "INV000311",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "08KQUUG3260AOZS",
+    "vendor_name": "Shree Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC584",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "552.37",
+      "unit_price": "22018.32",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12162259.4184",
+      "tax_amount": "608112.970920",
+      "line_total": "12770372.389320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC698",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "704.19",
+      "unit_price": "8966.19",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0.86",
+      "taxable_value": "6259601.78460954",
+      "tax_amount": "1126728.3212297172",
+      "line_total": "7386330.1058392572",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC107",
+      "item_description": "Welding Set",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "650.76",
+      "unit_price": "8085.62",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "1.10",
+      "taxable_value": "5203918.2924168",
+      "tax_amount": "936705.292635024",
+      "line_total": "6140623.585051824",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC522",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "693.67",
+      "unit_price": "19898.89",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "8.55",
+      "taxable_value": "12623084.03755135",
+      "tax_amount": "1514770.0845061620",
+      "line_total": "14137854.1220575120",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC143",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "905.86",
+      "unit_price": "41459.54",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37556538.9044",
+      "tax_amount": "1877826.945220",
+      "line_total": "39434365.849620",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1877826.945220",
+    "sgst": "0",
+    "igst": "4186316.6692909032",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "73805402.43737769",
+    "total_tax": "6064143.6145109032",
+    "grand_total": "79869546.0518885932"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.672094"
+}

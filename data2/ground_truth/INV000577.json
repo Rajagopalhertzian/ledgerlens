@@ -1,0 +1,141 @@
+{
+  "invoice_id": "aabab6aa-ba51-4e07-9e8d-ddb03e18f815",
+  "invoice_number": "INV000577",
+  "vendor_id": "51fa16b7-74d6-41e9-a572-550676f0bd73",
+  "vendor_gstin": "33ZGULK9957EDZF",
+  "header": {
+    "invoice_number": "INV000577",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "33ZGULK9957EDZF",
+    "vendor_name": "Grand Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET263",
+      "item_description": "Round Bars",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "748.88",
+      "unit_price": "49680.75",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "37204920.0600",
+      "tax_amount": "4464590.407200",
+      "line_total": "41669510.467200",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET813",
+      "item_description": "Flat Bars",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "765.66",
+      "unit_price": "29825.28",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "22836023.8848",
+      "tax_amount": "6394086.687744",
+      "line_total": "29230110.572544",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET701",
+      "item_description": "Copper Wire",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "298.90",
+      "unit_price": "29676.94",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "1.82",
+      "taxable_value": "8708995.40593880",
+      "tax_amount": "435449.7702969400",
+      "line_total": "9144445.1762357400",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET687",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "326.33",
+      "unit_price": "35219.78",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "6.57",
+      "taxable_value": "10738162.91535382",
+      "tax_amount": "1288579.5498424584",
+      "line_total": "12026742.4651962784",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET530",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "212.93",
+      "unit_price": "6521.67",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1388659.1931",
+      "tax_amount": "166639.103172",
+      "line_total": "1555298.296272",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET593",
+      "item_description": "GI Sheets",
+      "hsn_code": "7201",
+      "uom": "KG",
+      "quantity": "250.46",
+      "unit_price": "37916.45",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9496554.0670",
+      "tax_amount": "1709379.732060",
+      "line_total": "11205933.799060",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1709379.732060",
+    "sgst": "8284755.1110553984",
+    "igst": "4464590.407200",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "90373315.52619262",
+    "total_tax": "14458725.2503153984",
+    "grand_total": "104832040.7765080184"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.753396"
+}

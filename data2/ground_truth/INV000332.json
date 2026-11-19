@@ -1,0 +1,141 @@
+{
+  "invoice_id": "480f3bcc-f334-407d-bfe4-675da5e54840",
+  "invoice_number": "INV000332",
+  "vendor_id": "79532d76-885d-47bf-b329-f9b8cf4cd524",
+  "vendor_gstin": "33UXFRO4775NBZK",
+  "header": {
+    "invoice_number": "INV000332",
+    "invoice_date": "2026-11-01",
+    "vendor_gstin": "33UXFRO4775NBZK",
+    "vendor_name": "Jai Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000130",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB259",
+      "item_description": "Expansion Joints",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "477.39",
+      "unit_price": "6465.85",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3086732.1315",
+      "tax_amount": "154336.606575",
+      "line_total": "3241068.738075",
+      "po_line_id": "b4e1ddf7-7d7f-48bc-b120-edc02f350eb2"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB794",
+      "item_description": "Conveyor Belt Rubber",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "567.99",
+      "unit_price": "13441.76",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7634785.2624",
+      "tax_amount": "1374261.347232",
+      "line_total": "9009046.609632",
+      "po_line_id": "3f8536c8-e118-49e9-bc42-6246e728bb82"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB633",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "183.92",
+      "unit_price": "49313.69",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "9.53",
+      "taxable_value": "8205424.41548456",
+      "tax_amount": "2297518.8363356768",
+      "line_total": "10502943.2518202368",
+      "po_line_id": "2f691cbf-785f-48ad-9796-43e01ef20a89"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB178",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4002",
+      "uom": "PCS",
+      "quantity": "947.51",
+      "unit_price": "20385.09",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "19315076.6259",
+      "tax_amount": "3476713.792662",
+      "line_total": "22791790.418562",
+      "po_line_id": "3ae6238e-7f10-4f01-a1c8-7fe7e4d68105"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB927",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4002",
+      "uom": "MTR",
+      "quantity": "575.74",
+      "unit_price": "4320.80",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2487657.3920",
+      "tax_amount": "447778.330560",
+      "line_total": "2935435.722560",
+      "po_line_id": "d7367298-d1a2-4084-9dcb-a101363767fd"
+    },
+    {
+      "line_number": 6,
+      "item_code": "RUB951",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "480.18",
+      "unit_price": "25799.07",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "1.90",
+      "taxable_value": "12152821.6813806",
+      "tax_amount": "607641.084069030",
+      "line_total": "12760462.765449630",
+      "po_line_id": "e54bd0c2-af82-4398-ada2-3b61688f2c8e"
+    }
+  ],
+  "taxes": {
+    "cgst": "3476713.792662",
+    "sgst": "607641.084069030",
+    "igst": "4273895.1207026768",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "52882497.50866516",
+    "total_tax": "8358249.9974337068",
+    "grand_total": "61240747.5060988668"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1c127670-420f-4d5c-8d02-2313f346b404",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.678339"
+}

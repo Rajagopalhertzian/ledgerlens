@@ -1,0 +1,93 @@
+{
+  "invoice_id": "43dbd7cf-09e3-4f4c-a412-a223fe0b4898",
+  "invoice_number": "INV000435",
+  "vendor_id": "046ff3bf-3a8a-41e4-b755-a2ac868274d5",
+  "vendor_gstin": "08KQUUG3260AOZS",
+  "header": {
+    "invoice_number": "INV000435",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "08KQUUG3260AOZS",
+    "vendor_name": "Shree Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE754",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "165.89",
+      "unit_price": "46424.96",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7701436.6144",
+      "tax_amount": "2156402.252032",
+      "line_total": "9857838.866432",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE731",
+      "item_description": "Desktop PC",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "61.02",
+      "unit_price": "19616.42",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1196993.9484",
+      "tax_amount": "59849.697420",
+      "line_total": "1256843.645820",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE933",
+      "item_description": "Mouse Optical",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "372.55",
+      "unit_price": "42538.30",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15847643.6650",
+      "tax_amount": "4437340.226200",
+      "line_total": "20284983.891200",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "4497189.923620",
+    "igst": "2156402.252032",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "24746074.2278",
+    "total_tax": "6653592.175652",
+    "grand_total": "31399666.403452"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.708662"
+}

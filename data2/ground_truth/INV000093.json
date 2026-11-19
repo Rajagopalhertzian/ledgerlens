@@ -1,0 +1,77 @@
+{
+  "invoice_id": "b9acf518-e36d-40e5-8843-7756c8bc4963",
+  "invoice_number": "INV000093",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000093",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB250",
+      "item_description": "Conveyor Belt Rubber",
+      "hsn_code": "4009",
+      "uom": "SET",
+      "quantity": "522.93",
+      "unit_price": "39798.71",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20811939.4203",
+      "tax_amount": "2497432.730436",
+      "line_total": "23309372.150736",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB101",
+      "item_description": "Rubber Gloves",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "707.74",
+      "unit_price": "37818.88",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "26765934.1312",
+      "tax_amount": "4817868.143616",
+      "line_total": "31583802.274816",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4817868.143616",
+    "sgst": "0",
+    "igst": "2497432.730436",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "47577873.5515",
+    "total_tax": "7315300.874052",
+    "grand_total": "54893174.425552"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.607938"
+}

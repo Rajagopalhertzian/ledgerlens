@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000521</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 3px double #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-top { display: flex; justify-content: space-between; align-items: flex-start; }
+        .company-block h1 { margin: 0; font-size: 20pt; color: #2c3e50; }
+        .company-block p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-header { text-align: right; }
+        .invoice-header h2 { margin: 0; font-size: 16pt; color: #2c3e50; background: #ecf0f1; padding: 8px 12px; display: inline-block; }
+        .invoice-meta { margin-top: 8px; font-size: 9pt; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party-box { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party-box h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party-box .row { display: flex; justify-content: space-between; margin: 4px 0; font-size: 9pt; }
+        .party-box .label { color: #666; }
+        .party-box .value { font-weight: 500; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background: #34495e; color: white; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        /* Column order swapped: Description first, then HSN, UoM, etc. */
+        .totals-table { width: 350px; margin-left: auto; border: 1px solid #ddd; }
+        .totals-table th, .totals-table td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals-table .grand { background: #2c3e50; color: white; font-weight: bold; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-box { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="company-block">
+                    <h1>Prime Packaging</h1>
+                    <p>GSTIN: 29GMSLA2426LVZS</p>
+                    <p>678 Brigade Road, Near Metro Station, Thane, 29, 400601</p>
+                </div>
+                <div class="invoice-header">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>No:</strong> INV000521</div>
+                        <div><strong>Date:</strong> 01/11/2026</div>
+                        <div><strong>PO:</strong> PO780026</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party-box">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">LedgerLens Technologies Pvt Ltd</span></div>
+                <div class="row"><span class="label">GSTIN:</span><span class="value">29AAAAA0000A1Z5</span></div>
+                <div class="row"><span class="label">State:</span><span class="value">29</span></div>
+                <div class="row"><span class="label">123 Tech Park, Bengaluru, 29, 560100</span></div>
+            </div>
+            <div class="party-box">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Prime Packaging</span></div>
+                <div class="row"><span class="label">GSTIN:</span><span class="value">29GMSLA2426LVZS</span></div>
+                <div class="row"><span class="label">State:</span><span class="value">29</span></div>
+                <div class="row"><span class="label">678 Brigade Road, Near Metro Station, Thane, 29, 400601</span></div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 30%">Item Description</th>
+                    <th style="width: 10%">HSN Code</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 7%" class="text-center">Tax</th>
+                    <th style="width: 7%" class="text-right">Tax Amt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Conveyor Belt Rubber</td>
+                    <td>4001</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">233.44</td>
+                    <td class="text-right">49,085.62</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,14,58,547.13</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">20,62,538.48</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>Tyre Retread</td>
+                    <td>4011</td>
+                    <td class="text-center">MTR</td>
+                    <td class="text-right">251.45</td>
+                    <td class="text-right">2,070.48</td>
+                    <td class="text-right">6.97%</td>
+                    <td class="text-right">4,84,334.83</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">1,35,613.75</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Conveyor Belt Rubber</td>
+                    <td>4016</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">324.36</td>
+                    <td class="text-right">23,472.90</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">76,13,669.84</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">9,13,640.38</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>9,13,640.38</span></div>
+            <div class="row"><span>SGST</span><span>20,62,538.48</span></div>
+            <div class="row"><span>IGST</span><span>1,35,613.75</span></div>
+        </div>
+
+        <table class="totals-table">
+            <tr><th>Subtotal</th><td class="text-right">1,95,56,551.81</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">31,11,792.62</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">2,26,68,344.42</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Two Crore Twenty Six Lakh Sixty Eight Thousand Three Hundred Forty Four Only Rupees Only</p>
+            <div class="bank-box">
+                <strong>Bank Details</strong>
+                <div class="row"><span class="label">A/c:</span><span class="value">XXXXXXXXXX5669</span></div>
+                <div class="row"><span class="label">IFSC:</span><span class="value">IDIB0Q3VLI7</span></div>
+                <div class="row"><span class="label">Bank:</span><span class="value">Bank of India</span></div>
+            </div>
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

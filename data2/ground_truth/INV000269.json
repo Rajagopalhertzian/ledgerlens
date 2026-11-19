@@ -1,0 +1,61 @@
+{
+  "invoice_id": "21b7499c-6aef-445c-8f51-d1ff70c7f2dc",
+  "invoice_number": "INV000269",
+  "vendor_id": "1ed0ced2-32c2-469b-a617-8125bf1b6b68",
+  "vendor_gstin": "08SZZUJ7054VHZD",
+  "header": {
+    "invoice_number": "INV000269",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "08SZZUJ7054VHZD",
+    "vendor_name": "National Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000309",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE234",
+      "item_description": "Monitor 24 inch",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "373.13",
+      "unit_price": "11555.71",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4311782.0723",
+      "tax_amount": "517413.848676",
+      "line_total": "4829195.920976",
+      "po_line_id": "87993181-2226-455d-9c33-125187947156"
+    }
+  ],
+  "taxes": {
+    "cgst": "517413.848676",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "4311782.0723",
+    "total_tax": "517413.848676",
+    "grand_total": "4829195.920976"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1a90cda4-5426-4cab-b576-d0a817f0d726",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.659689"
+}

@@ -1,0 +1,141 @@
+{
+  "invoice_id": "152e7cb0-74de-41b8-bfb4-153b97cf0b5c",
+  "invoice_number": "INV000699",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV000699",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000213",
+    "grn_reference": "GRN000240",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET513",
+      "item_description": "Copper Wire",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "308.71",
+      "unit_price": "28207.99",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8708088.5929",
+      "tax_amount": "2438264.806012",
+      "line_total": "11146353.398912",
+      "po_line_id": "fcfb69df-ffdb-4d8a-be60-0ffa78deb999"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET313",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "646.15",
+      "unit_price": "7082.52",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.04",
+      "taxable_value": "4254193.82902080",
+      "tax_amount": "1191174.2721258240",
+      "line_total": "5445368.1011466240",
+      "po_line_id": "7132b6ad-3a4b-4689-9be8-5d0527478868"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET433",
+      "item_description": "Round Bars",
+      "hsn_code": "7302",
+      "uom": "PCS",
+      "quantity": "295.50",
+      "unit_price": "18736.41",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5536609.1550",
+      "tax_amount": "996589.647900",
+      "line_total": "6533198.802900",
+      "po_line_id": "9418f8bc-65e3-4103-b843-d86f3a111dc6"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET433",
+      "item_description": "Steel Channels",
+      "hsn_code": "7301",
+      "uom": "MTR",
+      "quantity": "797.68",
+      "unit_price": "30916.04",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "2.43",
+      "taxable_value": "24061841.89227104",
+      "tax_amount": "6737315.7298358912",
+      "line_total": "30799157.6221069312",
+      "po_line_id": "22e1d504-fe54-4289-93ca-ba8a13bde560"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET823",
+      "item_description": "Iron Castings",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "952.09",
+      "unit_price": "47340.74",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "45072645.1466",
+      "tax_amount": "12620340.641048",
+      "line_total": "57692985.787648",
+      "po_line_id": "f727946a-ea9a-4aff-989a-8c4afeb66db1"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET650",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7210",
+      "uom": "PCS",
+      "quantity": "986.94",
+      "unit_price": "29347.11",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.43",
+      "taxable_value": "27970377.14310138",
+      "tax_amount": "1398518.8571550690",
+      "line_total": "29368896.0002564490",
+      "po_line_id": "b8585120-01a1-4309-815f-ab56f6e0f871"
+    }
+  ],
+  "taxes": {
+    "cgst": "3836783.6631670690",
+    "sgst": "8925079.6498617152",
+    "igst": "12620340.641048",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "115603755.75889322",
+    "total_tax": "25382203.9540767842",
+    "grand_total": "140985959.7129700042"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1a9b20b8-44bd-4600-a9f6-16219c16a1ba",
+  "grn_id": "dc966cec-0b19-4405-8ef4-3bf65dd564d1",
+  "generated_at": "2026-11-18T15:45:20.789126"
+}

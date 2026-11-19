@@ -1,0 +1,79 @@
+{
+  "invoice_id": "8e2c785b-8812-4d24-88dd-b4c12bc59c34",
+  "invoice_number": "INV000444",
+  "vendor_id": "561147d5-1ace-4358-9ced-d61872dc4ddd",
+  "vendor_gstin": "24YRUIK1374HKZP",
+  "header": {
+    "invoice_number": "INV000444",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "24YRUIK1374HKZP",
+    "vendor_name": "Imperial Pharmaceuticals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX924",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "419.89",
+      "unit_price": "39676.16",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16659622.8224",
+      "tax_amount": "832981.141120",
+      "line_total": "17492603.963520",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX967",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5407",
+      "uom": "ROL",
+      "quantity": "852.07",
+      "unit_price": "29490.53",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "6.86",
+      "taxable_value": "23404215.37855894",
+      "tax_amount": "2808505.8454270728",
+      "line_total": "26212721.2239860128",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2808505.8454270728",
+    "sgst": "0",
+    "igst": "832981.141120",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "40063838.20095894",
+    "total_tax": "3641486.9865470728",
+    "grand_total": "43705325.1875060128"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.710772"
+}

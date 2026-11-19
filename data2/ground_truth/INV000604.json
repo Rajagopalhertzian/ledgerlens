@@ -1,0 +1,125 @@
+{
+  "invoice_id": "57a63b6a-2684-4de7-bfb3-f4c2f7623ef3",
+  "invoice_number": "INV000604",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000604",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000281",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE880",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "141.56",
+      "unit_price": "14038.47",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1987285.8132",
+      "tax_amount": "556440.027696",
+      "line_total": "2543725.840896",
+      "po_line_id": "abb57219-b4ab-4042-be77-1ad8a25e4d37"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE959",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3801",
+      "uom": "PCS",
+      "quantity": "454.97",
+      "unit_price": "15229.46",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "8.64",
+      "taxable_value": "6330286.35944032",
+      "tax_amount": "759634.3631328384",
+      "line_total": "7089920.7225731584",
+      "po_line_id": "dab36643-669d-4463-be78-0324923af3a3"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE760",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "161.30",
+      "unit_price": "11106.23",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1791434.8990",
+      "tax_amount": "214972.187880",
+      "line_total": "2006407.086880",
+      "po_line_id": "b77ca8b4-b6a7-450d-ad18-16775d23904a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE360",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2902",
+      "uom": "KG",
+      "quantity": "986.51",
+      "unit_price": "27632.15",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "3.71",
+      "taxable_value": "26248068.84229985",
+      "tax_amount": "3149768.2610759820",
+      "line_total": "29397837.1033758320",
+      "po_line_id": "23a6017d-1a9d-4389-a8af-081b524fac5c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE164",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "862.14",
+      "unit_price": "25872.38",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "22305613.6932",
+      "tax_amount": "4015010.464776",
+      "line_total": "26320624.157976",
+      "po_line_id": "a875bde7-c3c1-487c-84a3-98450bd89469"
+    }
+  ],
+  "taxes": {
+    "cgst": "3921180.4766519820",
+    "sgst": "759634.3631328384",
+    "igst": "4015010.464776",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58662689.60714017",
+    "total_tax": "8695825.3045608204",
+    "grand_total": "67358514.9117009904"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "82522115-98a5-4abb-a341-1dea5ef2be8e",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.761628"
+}

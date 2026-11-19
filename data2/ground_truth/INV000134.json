@@ -1,0 +1,61 @@
+{
+  "invoice_id": "d7bcd847-a307-4637-a593-a5d150700064",
+  "invoice_number": "INV000134",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000134",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE255",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "964.26",
+      "unit_price": "36380.30",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "35080068.0780",
+      "tax_amount": "4209608.169360",
+      "line_total": "39289676.247360",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4209608.169360",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "35080068.0780",
+    "total_tax": "4209608.169360",
+    "grand_total": "39289676.247360"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.620217"
+}

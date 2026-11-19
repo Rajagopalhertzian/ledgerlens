@@ -1,0 +1,125 @@
+{
+  "invoice_id": "62efe8df-1c5a-4d11-8095-5bc3a44a5d67",
+  "invoice_number": "INV000683",
+  "vendor_id": "e92a6f25-a45e-4223-9947-113e1eeb6b03",
+  "vendor_gstin": "33OUMNO2595Y3ZM",
+  "header": {
+    "invoice_number": "INV000683",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "33OUMNO2595Y3ZM",
+    "vendor_name": "Major Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA329",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3902",
+      "uom": "BOX",
+      "quantity": "47.14",
+      "unit_price": "48029.23",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2264097.9022",
+      "tax_amount": "633947.412616",
+      "line_total": "2898045.314816",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA677",
+      "item_description": "Stretch Film",
+      "hsn_code": "3904",
+      "uom": "PKT",
+      "quantity": "681.08",
+      "unit_price": "12876.82",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "9.94",
+      "taxable_value": "7898392.19577936",
+      "tax_amount": "1421710.5952402848",
+      "line_total": "9320102.7910196448",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA975",
+      "item_description": "Poly Bags",
+      "hsn_code": "3901",
+      "uom": "KG",
+      "quantity": "390.20",
+      "unit_price": "47247.72",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "18436060.3440",
+      "tax_amount": "5162096.896320",
+      "line_total": "23598157.240320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA175",
+      "item_description": "Stretch Film",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "343.76",
+      "unit_price": "8879.00",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3052245.0400",
+      "tax_amount": "152612.252000",
+      "line_total": "3204857.292000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA121",
+      "item_description": "Plastic Crates",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "530.63",
+      "unit_price": "24069.88",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "6.70",
+      "taxable_value": "11916462.9959652",
+      "tax_amount": "1429975.559515824",
+      "line_total": "13346438.555481024",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2216535.224131824",
+    "sgst": "1421710.5952402848",
+    "igst": "5162096.896320",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "43567258.47794456",
+    "total_tax": "8800342.7156921088",
+    "grand_total": "52367601.1936366688"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.784782"
+}

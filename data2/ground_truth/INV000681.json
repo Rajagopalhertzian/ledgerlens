@@ -1,0 +1,125 @@
+{
+  "invoice_id": "0097c541-ec71-4bbd-ab72-f306324cd40c",
+  "invoice_number": "INV000681",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000681",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000083",
+    "grn_reference": "GRN000095",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR745",
+      "item_description": "Whiteboard",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "453.81",
+      "unit_price": "1464.81",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "664745.4261",
+      "tax_amount": "33237.271305",
+      "line_total": "697982.697405",
+      "po_line_id": "c949040d-8539-43f3-9866-027f9319b30d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR213",
+      "item_description": "Partition Screen",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "4.07",
+      "unit_price": "10083.76",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "41040.9032",
+      "tax_amount": "7387.362576",
+      "line_total": "48428.265776",
+      "po_line_id": "4b93d6e0-af11-4c8f-a2f2-f0a1ae3545d1"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR852",
+      "item_description": "Conference Table",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "847.11",
+      "unit_price": "34319.09",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "29072044.3299",
+      "tax_amount": "5232967.979382",
+      "line_total": "34305012.309282",
+      "po_line_id": "e978e233-66d8-4c6d-8acb-380d0221a037"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR502",
+      "item_description": "Storage Rack",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "687.78",
+      "unit_price": "41355.75",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "3.68",
+      "taxable_value": "27396931.13035200",
+      "tax_amount": "4931447.6034633600",
+      "line_total": "32328378.7338153600",
+      "po_line_id": "b87c908b-8ffc-4643-b80c-48860507bb77"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR680",
+      "item_description": "Whiteboard",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "50.73",
+      "unit_price": "30938.40",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "3.68",
+      "taxable_value": "1511747.24682240",
+      "tax_amount": "272114.5044280320",
+      "line_total": "1783861.7512504320",
+      "po_line_id": "13b21421-4cc1-44c2-9b53-ebd64d5963ab"
+    }
+  ],
+  "taxes": {
+    "cgst": "5203562.1078913920",
+    "sgst": "5240355.341958",
+    "igst": "33237.271305",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58686509.03637440",
+    "total_tax": "10477154.7211543920",
+    "grand_total": "69163663.7575287920"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6f8c539e-479a-4890-8678-fdf018bb3e8b",
+  "grn_id": "68595131-8cd7-4411-9211-a6c65a24022e",
+  "generated_at": "2026-11-18T15:45:20.784123"
+}

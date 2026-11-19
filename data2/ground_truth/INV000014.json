@@ -1,0 +1,103 @@
+{
+  "invoice_id": "038feaea-3b4c-45a3-b9fa-e49f7ad0906e",
+  "invoice_number": "INV000014",
+  "vendor_id": "046ff3bf-3a8a-41e4-b755-a2ac868274d5",
+  "vendor_gstin": "08KQUUG3260AOZS",
+  "header": {
+    "invoice_number": "INV000014",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "08KQUUG3260AOZS",
+    "vendor_name": "Shree Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000313",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET604",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7301",
+      "uom": "PCS",
+      "quantity": "418.46",
+      "unit_price": "24506.25",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10254885.3750",
+      "tax_amount": "2871367.905000",
+      "line_total": "13126253.280000",
+      "po_line_id": "dfbe6098-6af6-4e2b-9e98-0dced146f4bf"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET691",
+      "item_description": "GI Sheets",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "290.55",
+      "unit_price": "47100.73",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13685117.1015",
+      "tax_amount": "2463321.078270",
+      "line_total": "16148438.179770",
+      "po_line_id": "45f284d8-5cdd-4f59-a60d-37e76a1cd7c4"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET171",
+      "item_description": "Angle Iron",
+      "hsn_code": "7210",
+      "uom": "KG",
+      "quantity": "181.28",
+      "unit_price": "22396.65",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.74",
+      "taxable_value": "3989419.58601120",
+      "tax_amount": "1117037.4840831360",
+      "line_total": "5106457.0700943360",
+      "po_line_id": "c9921e77-0e0b-4c8d-8d2b-c14b56200661"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET836",
+      "item_description": "Steel Bars 12mm",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "247.24",
+      "unit_price": "45063.52",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11141504.6848",
+      "tax_amount": "3119621.311744",
+      "line_total": "14261125.996544",
+      "po_line_id": "1c631433-f4ac-44d2-b71d-60ae4ddb0bab"
+    }
+  ],
+  "taxes": {
+    "cgst": "1117037.4840831360",
+    "sgst": "2463321.078270",
+    "igst": "5990989.216744",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "39070926.74731120",
+    "total_tax": "9571347.7790971360",
+    "grand_total": "48642274.5264083360"
+  },
+  "expected_decision": "investigate",
+  "defects": [],
+  "expected_actions": [],
+  "po_id": "0a81742d-544d-4356-8390-9bb7a0502fcc",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.581789"
+}

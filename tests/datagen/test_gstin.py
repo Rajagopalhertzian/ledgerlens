@@ -4,13 +4,7 @@ import pytest
 from hypothesis import given
 from hypothesis import strategies as st
 
-from datagen.gstin import (
-    compute_checksum,
-    generate_gstin,
-    generate_random_gstin,
-    parse_gstin,
-    validate_gstin,
-)
+from datagen.gstin import compute_checksum, generate_gstin, generate_random_gstin, parse_gstin, validate_gstin
 
 
 class TestGSTINChecksum:
@@ -32,11 +26,7 @@ class TestGSTINChecksum:
     def test_compute_checksum_known_values(self):
         """Test known checksum values."""
         # Computed using the official GST algorithm
-        test_cases = [
-            ("29ABCDE1234F1Z", "3"),
-            ("07AAAAA0000A1Z", "A"),
-            ("27BBBBB1111B2Z", "7"),
-        ]
+        test_cases = [("29ABCDE1234F1Z", "3"), ("07AAAAA0000A1Z", "A"), ("27BBBBB1111B2Z", "7")]
         for prefix, expected in test_cases:
             assert compute_checksum(prefix) == expected
 
@@ -59,13 +49,7 @@ class TestGSTINValidation:
     def test_validate_known_valid_gstins(self):
         """Test known valid GSTINs."""
         # GSTINs with correct checksums computed by the algorithm
-        valid_gstins = [
-            "29ABCDE1234F1Z3",
-            "07AAAAA0000A1ZA",
-            "27BBBBB1111B2Z7",
-            "33CCCCC2222C3ZA",
-            "36DDDDD3333D4ZI",
-        ]
+        valid_gstins = ["29ABCDE1234F1Z3", "07AAAAA0000A1ZA", "27BBBBB1111B2Z7", "33CCCCC2222C3ZA", "36DDDDD3333D4ZI"]
         for gstin in valid_gstins:
             assert validate_gstin(gstin), f"Expected valid: {gstin}"
 
@@ -114,6 +98,7 @@ class TestGSTINGeneration:
     def test_generate_random_gstin_valid(self):
         """Random GSTIN should be valid."""
         import random
+
         rng = random.Random(42)
         for _ in range(100):
             gstin = generate_random_gstin(rng)
@@ -122,6 +107,7 @@ class TestGSTINGeneration:
     def test_generate_gstin_specific_state(self):
         """Should generate for specific state."""
         import random
+
         rng = random.Random(42)
         gstin = generate_random_gstin(rng, state_code="29")
         assert gstin.startswith("29")
@@ -180,6 +166,7 @@ class TestGSTINProperties:
     def test_generated_always_validates(self):
         """Any generated GSTIN should validate."""
         import random
+
         rng = random.Random(12345)
         for _ in range(1000):
             gstin = generate_random_gstin(rng)
@@ -188,6 +175,7 @@ class TestGSTINProperties:
     def test_state_code_distribution(self):
         """Generated GSTINs should cover all states."""
         import random
+
         rng = random.Random(12345)
         states = set()
         for _ in range(500):

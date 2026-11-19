@@ -3,7 +3,6 @@
 Tests the provider-agnostic LLM adapter with fake provider.
 """
 
-
 import pytest
 from pydantic import SecretStr
 
@@ -41,38 +40,22 @@ class TestLLMRequest:
     """Tests for LLMRequest."""
 
     def test_request_creation(self):
-        request = LLMRequest(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": "Hello"}],
-            temperature=0.0,
-        )
+        request = LLMRequest(model="gpt-4o", messages=[{"role": "user", "content": "Hello"}], temperature=0.0)
         assert request.model == "gpt-4o"
         assert len(request.messages) == 1
 
     def test_cache_key_deterministic(self):
-        request1 = LLMRequest(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": "Hello"}],
-            temperature=0.0,
-        )
-        request2 = LLMRequest(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": "Hello"}],
-            temperature=0.0,
-        )
+        request1 = LLMRequest(model="gpt-4o", messages=[{"role": "user", "content": "Hello"}], temperature=0.0)
+        request2 = LLMRequest(model="gpt-4o", messages=[{"role": "user", "content": "Hello"}], temperature=0.0)
         # Same request should produce same cache key
         assert request1.cache_key().value == request2.cache_key().value
 
     def test_cache_key_excludes_metadata(self):
         request1 = LLMRequest(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": "Hello"}],
-            metadata={"request_id": "1"},
+            model="gpt-4o", messages=[{"role": "user", "content": "Hello"}], metadata={"request_id": "1"}
         )
         request2 = LLMRequest(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": "Hello"}],
-            metadata={"request_id": "2"},
+            model="gpt-4o", messages=[{"role": "user", "content": "Hello"}], metadata={"request_id": "2"}
         )
         # Metadata should not affect cache key
         assert request1.cache_key().value == request2.cache_key().value
@@ -231,6 +214,7 @@ class TestCircuitBreaker:
 
         # Wait for recovery timeout
         import time
+
         time.sleep(0.02)
 
         # State should transition to HALF_OPEN on next check
@@ -243,6 +227,7 @@ class TestCircuitBreaker:
         breaker.record_failure()
         breaker.record_failure()
         import time
+
         time.sleep(0.02)
 
         assert breaker.state == CircuitState.HALF_OPEN
@@ -259,6 +244,7 @@ class TestCircuitBreaker:
         breaker.record_failure()
         breaker.record_failure()
         import time
+
         time.sleep(0.02)
 
         assert breaker.state == CircuitState.HALF_OPEN
@@ -280,38 +266,20 @@ class TestCircuitBreaker:
 class FakeLLMAdapter(LLMAdapter):
     """Fake adapter for testing without real API calls."""
 
-    def __init__(
-        self,
-        responses: dict[str, str],
-        cache_dir: str = "data/test_cache",
-        *args,
-        **kwargs,
-    ):
+    def __init__(self, responses: dict[str, str], cache_dir: str = "data/test_cache", *args, **kwargs):
         # Create minimal configs
         configs = {
             ModelRole.CHEAP: ModelConfig(
-                model_id="fake-cheap",
-                provider=LLMProvider.CUSTOM,
-                base_url="http://fake",
-                api_key=SecretStr("fake"),
+                model_id="fake-cheap", provider=LLMProvider.CUSTOM, base_url="http://fake", api_key=SecretStr("fake")
             ),
             ModelRole.STRONG: ModelConfig(
-                model_id="fake-strong",
-                provider=LLMProvider.CUSTOM,
-                base_url="http://fake",
-                api_key=SecretStr("fake"),
+                model_id="fake-strong", provider=LLMProvider.CUSTOM, base_url="http://fake", api_key=SecretStr("fake")
             ),
             ModelRole.JUDGE: ModelConfig(
-                model_id="fake-judge",
-                provider=LLMProvider.CUSTOM,
-                base_url="http://fake",
-                api_key=SecretStr("fake"),
+                model_id="fake-judge", provider=LLMProvider.CUSTOM, base_url="http://fake", api_key=SecretStr("fake")
             ),
             ModelRole.VLM: ModelConfig(
-                model_id="fake-vlm",
-                provider=LLMProvider.CUSTOM,
-                base_url="http://fake",
-                api_key=SecretStr("fake"),
+                model_id="fake-vlm", provider=LLMProvider.CUSTOM, base_url="http://fake", api_key=SecretStr("fake")
             ),
         }
         cache = DiskCache(cache_dir, max_size_mb=1)
@@ -361,20 +329,14 @@ class TestLLMAdapter:
 
     @pytest.mark.asyncio
     async def test_chat_cheap_role(self, adapter):
-        response = await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-        )
+        response = await adapter.chat(role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}])
         assert response.content == "cheap response"
         assert response.role == ModelRole.CHEAP
         assert response.model == "fake-cheap"
 
     @pytest.mark.asyncio
     async def test_chat_strong_role(self, adapter):
-        response = await adapter.chat(
-            role=ModelRole.STRONG,
-            messages=[{"role": "user", "content": "Hello"}],
-        )
+        response = await adapter.chat(role=ModelRole.STRONG, messages=[{"role": "user", "content": "Hello"}])
         assert response.content == "strong response"
         assert response.role == ModelRole.STRONG
 
@@ -382,17 +344,13 @@ class TestLLMAdapter:
     async def test_chat_caching(self, adapter):
         # First call
         response1 = await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-            use_cache=True,
+            role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}], use_cache=True
         )
         assert response1.cached is False
 
         # Second call with same request should hit cache
         response2 = await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-            use_cache=True,
+            role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}], use_cache=True
         )
         assert response2.cached is True
         assert response2.content == "cheap response"
@@ -400,14 +358,10 @@ class TestLLMAdapter:
     @pytest.mark.asyncio
     async def test_chat_no_cache(self, adapter):
         response1 = await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-            use_cache=False,
+            role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}], use_cache=False
         )
         response2 = await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-            use_cache=False,
+            role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}], use_cache=False
         )
         # Both should not be cached
         assert response1.cached is False
@@ -417,10 +371,7 @@ class TestLLMAdapter:
     async def test_cost_tracking(self, adapter):
         initial_cost = adapter.cost_tracker.get_snapshot().total_cost_usd
 
-        await adapter.chat(
-            role=ModelRole.CHEAP,
-            messages=[{"role": "user", "content": "Hello"}],
-        )
+        await adapter.chat(role=ModelRole.CHEAP, messages=[{"role": "user", "content": "Hello"}])
 
         final_cost = adapter.cost_tracker.get_snapshot().total_cost_usd
         assert final_cost > initial_cost
@@ -434,12 +385,12 @@ class TestLLMAdapter:
         # Record some costs
         usage = TokenUsage(prompt_tokens=1000, completion_tokens=500, total_tokens=1500)
         tracker.record(0.003, usage)
-        assert tracker.can_spend(0.005) is True   # 0.003 + 0.005 = 0.008 <= 0.01
+        assert tracker.can_spend(0.005) is True  # 0.003 + 0.005 = 0.008 <= 0.01
         assert tracker.can_spend(0.008) is False  # 0.003 + 0.008 = 0.011 > 0.01
 
         tracker.record(0.005, usage)  # Total now 0.008
-        assert tracker.can_spend(0.001) is True   # 0.008 + 0.001 = 0.009 <= 0.01
-        assert tracker.can_spend(0.002) is True   # 0.008 + 0.002 = 0.010 <= 0.01 (boundary)
+        assert tracker.can_spend(0.001) is True  # 0.008 + 0.001 = 0.009 <= 0.01
+        assert tracker.can_spend(0.002) is True  # 0.008 + 0.002 = 0.010 <= 0.01 (boundary)
         assert tracker.can_spend(0.003) is False  # 0.008 + 0.003 = 0.011 > 0.01
 
 

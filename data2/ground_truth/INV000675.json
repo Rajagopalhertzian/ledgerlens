@@ -1,0 +1,143 @@
+{
+  "invoice_id": "87ad9e69-a63c-4a20-9b24-dc44903254da",
+  "invoice_number": "INV000675",
+  "vendor_id": "561147d5-1ace-4358-9ced-d61872dc4ddd",
+  "vendor_gstin": "24YRUIK1374HKZP",
+  "header": {
+    "invoice_number": "INV000675",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "24YRUIK1374HKZP",
+    "vendor_name": "Imperial Pharmaceuticals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE506",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "951.51",
+      "unit_price": "38158.75",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "9.75",
+      "taxable_value": "32768360.07178125",
+      "tax_amount": "1638418.0035890625",
+      "line_total": "34406778.0753703125",
+      "po_line_id": "c6a749af-ee8b-4c74-a807-4a03358c1601"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE584",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "208.47",
+      "unit_price": "47110.45",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "6.16",
+      "taxable_value": "9216134.79599160",
+      "tax_amount": "1105936.1755189920",
+      "line_total": "10322070.9715105920",
+      "po_line_id": "2323a280-abbe-46c4-b6a6-8a08a7cb2dbf"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE954",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "59.87",
+      "unit_price": "24721.55",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1480079.1985",
+      "tax_amount": "414422.175580",
+      "line_total": "1894501.374080",
+      "po_line_id": "287ed404-1176-431d-8ee2-a11541ef1095"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE873",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "689.31",
+      "unit_price": "29976.63",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20663190.8253",
+      "tax_amount": "1033159.541265",
+      "line_total": "21696350.366565",
+      "po_line_id": "599d6f8a-325d-4bad-bfad-b1bc76d165e7"
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE594",
+      "item_description": "RAM 16GB DDR4",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "546.04",
+      "unit_price": "15719.51",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "8583481.2404",
+      "tax_amount": "1030017.748848",
+      "line_total": "9613498.989248",
+      "po_line_id": "2d417088-303d-425b-81db-193bfca68a2b"
+    },
+    {
+      "line_number": 6,
+      "item_code": "ELE632",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "921.31",
+      "unit_price": "21342.53",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0.14",
+      "taxable_value": "19635557.99345998",
+      "tax_amount": "981777.8996729990",
+      "line_total": "20617335.8931329790",
+      "po_line_id": "d294cd06-55f4-49db-a15f-7cd256dbb0e2"
+    }
+  ],
+  "taxes": {
+    "cgst": "1105936.1755189920",
+    "sgst": "5097795.3689550615",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "92346804.12543283",
+    "total_tax": "6203731.5444740535",
+    "grand_total": "98550535.6699068835"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "467a5835-3bc3-4666-a520-99a4b7b76314",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.782190"
+}

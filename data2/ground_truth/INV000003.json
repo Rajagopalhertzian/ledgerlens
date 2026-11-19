@@ -1,0 +1,125 @@
+{
+  "invoice_id": "c3d74cc2-1673-4a89-8b43-3b8ff79511d1",
+  "invoice_number": "INV000003",
+  "vendor_id": "c6159298-8314-4625-a421-82626ba44cd7",
+  "vendor_gstin": "24QSTLC0205QTZ2",
+  "header": {
+    "invoice_number": "INV000003",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "24QSTLC0205QTZ2",
+    "vendor_name": "Classic Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000236",
+    "grn_reference": "GRN000273",
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET682",
+      "item_description": "Flat Bars",
+      "hsn_code": "7208",
+      "uom": "BOX",
+      "quantity": "133.98",
+      "unit_price": "26543.84",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3556343.6832",
+      "tax_amount": "426761.241984",
+      "line_total": "3983104.925184",
+      "po_line_id": "a5049148-b8a1-49f3-b00d-7f32e1e8e1c3"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET304",
+      "item_description": "GI Sheets",
+      "hsn_code": "7210",
+      "uom": "BOX",
+      "quantity": "109.54",
+      "unit_price": "32646.65",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3576114.0410",
+      "tax_amount": "643700.527380",
+      "line_total": "4219814.568380",
+      "po_line_id": "d1c6ae69-6f63-4c45-9954-7ffd274eef51"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET124",
+      "item_description": "Copper Wire",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "659.99",
+      "unit_price": "46862.39",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "30928708.7761",
+      "tax_amount": "8660038.457308",
+      "line_total": "39588747.233408",
+      "po_line_id": "516e5336-d5b3-4144-9871-aeac87b95108"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET900",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "567.83",
+      "unit_price": "8699.81",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4940013.1123",
+      "tax_amount": "592801.573476",
+      "line_total": "5532814.685776",
+      "po_line_id": "ee799579-0852-4d45-8441-0403fc2e8f1d"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET881",
+      "item_description": "GI Sheets",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "317.17",
+      "unit_price": "12360.35",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3920332.2095",
+      "tax_amount": "470439.865140",
+      "line_total": "4390772.074640",
+      "po_line_id": "271cf1aa-7e69-4ec8-acdb-0a361b5cdced"
+    }
+  ],
+  "taxes": {
+    "cgst": "9086799.699292",
+    "sgst": "470439.865140",
+    "igst": "1236502.100856",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "46921511.8221",
+    "total_tax": "10793741.665288",
+    "grand_total": "57715253.487388"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dae7d0c5-98a2-4912-bbd0-84c3ff03fff1",
+  "grn_id": "3e6c281b-ddcd-4260-89f5-42125e1e4f58",
+  "generated_at": "2026-11-18T15:45:20.578128"
+}

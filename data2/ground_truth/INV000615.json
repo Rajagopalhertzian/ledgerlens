@@ -1,0 +1,61 @@
+{
+  "invoice_id": "13afc3a8-7643-4a9e-a3b8-72372395429e",
+  "invoice_number": "INV000615",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000615",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET524",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "284.64",
+      "unit_price": "17315.58",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4928706.6912",
+      "tax_amount": "591444.802944",
+      "line_total": "5520151.494144",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "591444.802944",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "4928706.6912",
+    "total_tax": "591444.802944",
+    "grand_total": "5520151.494144"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.764756"
+}

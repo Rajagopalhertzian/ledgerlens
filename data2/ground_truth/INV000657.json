@@ -1,0 +1,125 @@
+{
+  "invoice_id": "574bc4f6-5372-4896-9943-e7b05bf187d8",
+  "invoice_number": "INV000657",
+  "vendor_id": "53c1a9a8-fb3c-46e3-abe0-e7065fc23b8c",
+  "vendor_gstin": "08XQRDX5636R9ZP",
+  "header": {
+    "invoice_number": "INV000657",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "08XQRDX5636R9ZP",
+    "vendor_name": "National Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000072",
+    "grn_reference": "GRN000085",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP810",
+      "item_description": "File Folders",
+      "hsn_code": "4801",
+      "uom": "PKT",
+      "quantity": "581.48",
+      "unit_price": "28322.17",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16468775.4116",
+      "tax_amount": "2964379.574088",
+      "line_total": "19433154.985688",
+      "po_line_id": "9d9fd18d-52dc-4c75-ba2a-e8e0804e3140"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP999",
+      "item_description": "Paper Bags",
+      "hsn_code": "4801",
+      "uom": "PCS",
+      "quantity": "845.43",
+      "unit_price": "8226.08",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6954574.8144",
+      "tax_amount": "347728.740720",
+      "line_total": "7302303.555120",
+      "po_line_id": "b690b095-e668-415f-8e8e-799af11611e0"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP464",
+      "item_description": "Printing Paper",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "164.15",
+      "unit_price": "13706.25",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2249880.9375",
+      "tax_amount": "629966.662500",
+      "line_total": "2879847.600000",
+      "po_line_id": "73326cda-0a2d-4fe7-b66b-5ce074504d1b"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP870",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4801",
+      "uom": "PKT",
+      "quantity": "530.08",
+      "unit_price": "46822.22",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0.95",
+      "taxable_value": "24583736.91501280",
+      "tax_amount": "2950048.4298015360",
+      "line_total": "27533785.3448143360",
+      "po_line_id": "37a213bc-1e08-48ca-bc16-a0c45b0cfbc5"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP804",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "872.57",
+      "unit_price": "41358.42",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "36088116.5394",
+      "tax_amount": "6495860.977092",
+      "line_total": "42583977.516492",
+      "po_line_id": "9450d18e-b3f2-46fc-91a7-45a01c586343"
+    }
+  ],
+  "taxes": {
+    "cgst": "347728.740720",
+    "sgst": "6495860.977092",
+    "igst": "6544394.6663895360",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "86345084.61791280",
+    "total_tax": "13387984.3842015360",
+    "grand_total": "99733069.0021143360"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "38d248b3-6152-4201-9dbf-50a224033292",
+  "grn_id": "278daba3-bda7-49d8-86e7-07ef12a5ccfb",
+  "generated_at": "2026-11-18T15:45:20.777321"
+}

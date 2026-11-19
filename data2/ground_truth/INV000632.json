@@ -1,0 +1,141 @@
+{
+  "invoice_id": "d194dae4-2b33-466a-8f91-6dcb8174fcf9",
+  "invoice_number": "INV000632",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000632",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC158",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "787.62",
+      "unit_price": "18114.28",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "14267169.2136",
+      "tax_amount": "2568090.458448",
+      "line_total": "16835259.672048",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC713",
+      "item_description": "Welding Set",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "736.71",
+      "unit_price": "13552.86",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9984527.4906",
+      "tax_amount": "2795667.697368",
+      "line_total": "12780195.187968",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC444",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "842.43",
+      "unit_price": "18037.84",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "8.32",
+      "taxable_value": "13931342.17094016",
+      "tax_amount": "2507641.5907692288",
+      "line_total": "16438983.7617093888",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC132",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "361.51",
+      "unit_price": "779.19",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "281684.9769",
+      "tax_amount": "78871.793532",
+      "line_total": "360556.770432",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC179",
+      "item_description": "Milling Machine",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "732.01",
+      "unit_price": "5866.92",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4294644.1092",
+      "tax_amount": "515357.293104",
+      "line_total": "4810001.402304",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC694",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "283.47",
+      "unit_price": "10552.94",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2991441.9018",
+      "tax_amount": "149572.095090",
+      "line_total": "3141013.996890",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3311024.990472",
+    "sgst": "2717662.553538",
+    "igst": "2586513.3843012288",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "45750809.86304016",
+    "total_tax": "8615200.9283112288",
+    "grand_total": "54366010.7913513888"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.770141"
+}

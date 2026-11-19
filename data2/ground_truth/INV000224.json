@@ -1,0 +1,109 @@
+{
+  "invoice_id": "b92e22f0-c129-4cfe-8759-d94e793ef267",
+  "invoice_number": "INV000224",
+  "vendor_id": "046ff3bf-3a8a-41e4-b755-a2ac868274d5",
+  "vendor_gstin": "08KQUUG3260AOZS",
+  "header": {
+    "invoice_number": "INV000224",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "08KQUUG3260AOZS",
+    "vendor_name": "Shree Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO242",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1701",
+      "uom": "BOX",
+      "quantity": "13.51",
+      "unit_price": "33643.29",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "454520.8479",
+      "tax_amount": "127265.837412",
+      "line_total": "581786.685312",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO317",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1006",
+      "uom": "LTR",
+      "quantity": "121.03",
+      "unit_price": "48355.98",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5852524.2594",
+      "tax_amount": "702302.911128",
+      "line_total": "6554827.170528",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO909",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1901",
+      "uom": "PKT",
+      "quantity": "165.87",
+      "unit_price": "27824.29",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.61",
+      "taxable_value": "4494757.87126197",
+      "tax_amount": "809056.4168271546",
+      "line_total": "5303814.2880891246",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO759",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1006",
+      "uom": "LTR",
+      "quantity": "198.36",
+      "unit_price": "653.56",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "129640.1616",
+      "tax_amount": "23335.229088",
+      "line_total": "152975.390688",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "702302.911128",
+    "sgst": "936322.2542391546",
+    "igst": "23335.229088",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "10931443.14016197",
+    "total_tax": "1661960.3944551546",
+    "grand_total": "12593403.5346171246"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.646365"
+}

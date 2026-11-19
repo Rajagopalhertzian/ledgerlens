@@ -17,11 +17,7 @@ from opentelemetry.instrumentation.redis import RedisInstrumentor
 from opentelemetry.instrumentation.sqlalchemy import SQLAlchemyInstrumentor
 from opentelemetry.sdk.resources import SERVICE_NAME, SERVICE_VERSION, Resource
 from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import (
-    BatchSpanProcessor,
-    ConsoleSpanExporter,
-    SimpleSpanProcessor,
-)
+from opentelemetry.sdk.trace.export import BatchSpanProcessor, ConsoleSpanExporter, SimpleSpanProcessor
 from opentelemetry.trace import SpanKind, Status, StatusCode
 from structlog import get_logger
 
@@ -52,10 +48,7 @@ def init_tracing(
     global _tracer_provider
 
     # Create resource
-    resource = Resource.create({
-        SERVICE_NAME: service_name,
-        SERVICE_VERSION: service_version,
-    })
+    resource = Resource.create({SERVICE_NAME: service_name, SERVICE_VERSION: service_version})
 
     # Create tracer provider
     _tracer_provider = TracerProvider(resource=resource)
@@ -96,9 +89,7 @@ def get_tracer(name: str = "ledgerlens") -> trace.Tracer:
 
 
 def trace_function(
-    name: str | None = None,
-    kind: SpanKind = SpanKind.INTERNAL,
-    attributes: dict[str, Any] | None = None,
+    name: str | None = None, kind: SpanKind = SpanKind.INTERNAL, attributes: dict[str, Any] | None = None
 ) -> Callable:
     """Trace a function.
 
@@ -111,6 +102,7 @@ def trace_function(
         async def call_llm():
             ...
     """
+
     def decorator(func: Callable) -> Callable:
         @wraps(func)
         async def async_wrapper(*args, **kwargs):
@@ -153,6 +145,7 @@ def trace_function(
                     return result
 
         import asyncio
+
         if asyncio.iscoroutinefunction(func):
             return async_wrapper
         return sync_wrapper
@@ -161,11 +154,7 @@ def trace_function(
 
 
 @contextmanager
-def trace_span(
-    name: str,
-    kind: SpanKind = SpanKind.INTERNAL,
-    attributes: dict[str, Any] | None = None,
-):
+def trace_span(name: str, kind: SpanKind = SpanKind.INTERNAL, attributes: dict[str, Any] | None = None):
     """Context manager for manual span creation.
 
     Usage:
@@ -210,11 +199,7 @@ async def hello_world_trace() -> None:
     Run with: python -m ledgerlens.observability.tracing
     """
     # Initialize tracing with console export
-    init_tracing(
-        service_name="ledgerlens-hello-world",
-        service_version="0.1.0",
-        console_export=True,
-    )
+    init_tracing(service_name="ledgerlens-hello-world", service_version="0.1.0", console_export=True)
 
     tracer = get_tracer("hello-world")
 
@@ -230,6 +215,7 @@ async def hello_world_trace() -> None:
 
             # Simulate work
             import asyncio
+
             await asyncio.sleep(0.1)
 
             llm_span.set_attribute("llm.tokens.prompt", 100)
@@ -247,7 +233,7 @@ async def hello_world_trace() -> None:
         parent_span.set_attribute("status", "completed")
 
 
-
 if __name__ == "__main__":
     import asyncio
+
     asyncio.run(hello_world_trace())

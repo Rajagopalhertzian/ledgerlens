@@ -8,16 +8,7 @@ from uuid import UUID
 
 import pytest
 
-from datagen.models import (
-    Address,
-    BankAccount,
-    Invoice,
-    InvoiceLine,
-    StateCode,
-    TaxType,
-    UoM,
-    Vendor,
-)
+from datagen.models import Address, BankAccount, Invoice, InvoiceLine, StateCode, TaxType, UoM, Vendor
 from datagen.render import WEASYPRINT_AVAILABLE, InvoiceRenderer, render_invoice
 
 
@@ -34,12 +25,7 @@ class TestInvoiceRenderer:
             id=UUID("00000000-0000-0000-0000-000000000001"),
             name="Test Vendor Pvt Ltd",
             gstin="29ABCDE1234F1Z5",
-            address=Address(
-                line1="123 Test Street",
-                city="Bengaluru",
-                state=StateCode.KA,
-                pincode="560001",
-            ),
+            address=Address(line1="123 Test Street", city="Bengaluru", state=StateCode.KA, pincode="560001"),
             bank_account=BankAccount(
                 account_number="1234567890123456",
                 ifsc="SBIN0001234",
@@ -83,20 +69,10 @@ class TestInvoiceRenderer:
             vendor_id=UUID("00000000-0000-0000-0000-000000000001"),
             vendor_gstin="29ABCDE1234F1Z5",
             vendor_name="Test Vendor Pvt Ltd",
-            vendor_address=Address(
-                line1="123 Test Street",
-                city="Bengaluru",
-                state=StateCode.KA,
-                pincode="560001",
-            ),
+            vendor_address=Address(line1="123 Test Street", city="Bengaluru", state=StateCode.KA, pincode="560001"),
             buyer_gstin="29AAAAA0000A1Z5",
             buyer_name="Buyer Corp",
-            buyer_address=Address(
-                line1="456 Buyer Ave",
-                city="Mumbai",
-                state=StateCode.MH,
-                pincode="400001",
-            ),
+            buyer_address=Address(line1="456 Buyer Ave", city="Mumbai", state=StateCode.MH, pincode="400001"),
             lines=lines,
             place_of_supply=StateCode.KA,
             place_of_delivery=StateCode.KA,

@@ -1,0 +1,61 @@
+{
+  "invoice_id": "17553dbf-a28d-4de3-9faa-a694e5bf0f86",
+  "invoice_number": "INV000440",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000440",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000003",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC140",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "988.68",
+      "unit_price": "14871.51",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.75",
+      "taxable_value": "14445859.12793100",
+      "tax_amount": "4044840.5558206800",
+      "line_total": "18490699.6837516800",
+      "po_line_id": "17581496-524b-4f2a-a969-388383acbf04"
+    }
+  ],
+  "taxes": {
+    "cgst": "4044840.5558206800",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "14445859.12793100",
+    "total_tax": "4044840.5558206800",
+    "grand_total": "18490699.6837516800"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c4dfbab3-77a5-422f-b9a4-3da3d9ebfee5",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.709849"
+}

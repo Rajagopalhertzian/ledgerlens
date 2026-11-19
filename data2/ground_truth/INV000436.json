@@ -1,0 +1,61 @@
+{
+  "invoice_id": "71648e97-05e0-4667-869c-e83caaf06009",
+  "invoice_number": "INV000436",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000436",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC328",
+      "item_description": "Air Compressor",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "838.31",
+      "unit_price": "6907.11",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5790299.3841",
+      "tax_amount": "1621283.827548",
+      "line_total": "7411583.211648",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1621283.827548",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "5790299.3841",
+    "total_tax": "1621283.827548",
+    "grand_total": "7411583.211648"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.708801"
+}

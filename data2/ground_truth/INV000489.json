@@ -1,0 +1,125 @@
+{
+  "invoice_id": "c1d2abcd-3fcf-4f52-8cab-966c4d86cf9b",
+  "invoice_number": "INV000489",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000489",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000061",
+    "grn_reference": "GRN000073",
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE825",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "92.85",
+      "unit_price": "46931.42",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4357582.3470",
+      "tax_amount": "522909.881640",
+      "line_total": "4880492.228640",
+      "po_line_id": "edcb5b1b-2e87-4e18-b030-a185d03b4847"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE359",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "130.78",
+      "unit_price": "32854.09",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4296657.8902",
+      "tax_amount": "515598.946824",
+      "line_total": "4812256.837024",
+      "po_line_id": "711479b6-5d85-4bab-9533-56f17eae491e"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE783",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2901",
+      "uom": "PCS",
+      "quantity": "936.25",
+      "unit_price": "31975.15",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "29936734.1875",
+      "tax_amount": "5388612.153750",
+      "line_total": "35325346.341250",
+      "po_line_id": "d3d0a1ff-63e3-4dfd-aa3b-92f3cb003620"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE161",
+      "item_description": "Industrial Solvent",
+      "hsn_code": "2901",
+      "uom": "KG",
+      "quantity": "780.95",
+      "unit_price": "13936.65",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10883826.8175",
+      "tax_amount": "544191.340875",
+      "line_total": "11428018.158375",
+      "po_line_id": "58ccbf5d-aa49-40f6-900f-2155660f8518"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE760",
+      "item_description": "Industrial Solvent",
+      "hsn_code": "2901",
+      "uom": "KG",
+      "quantity": "441.13",
+      "unit_price": "24636.92",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10868084.5196",
+      "tax_amount": "1304170.142352",
+      "line_total": "12172254.661952",
+      "po_line_id": "07f3d5ed-5124-4fe2-83d1-0ec78102fb49"
+    }
+  ],
+  "taxes": {
+    "cgst": "515598.946824",
+    "sgst": "5932803.494625",
+    "igst": "1827080.023992",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60342885.7618",
+    "total_tax": "8275482.465441",
+    "grand_total": "68618368.227241"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d10d1320-3a0d-47c1-aa68-a75e4ee55719",
+  "grn_id": "1ad4bb30-780e-43fe-afbd-47af3257f1df",
+  "generated_at": "2026-11-18T15:45:20.727689"
+}

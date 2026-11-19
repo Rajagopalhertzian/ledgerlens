@@ -1,0 +1,125 @@
+{
+  "invoice_id": "0c18b0e6-8df7-45c2-b9aa-d5a7b46cad50",
+  "invoice_number": "INV000717",
+  "vendor_id": "c5bf8821-5033-4f4e-b117-393228cb4582",
+  "vendor_gstin": "19BBLMF6377LQZX",
+  "header": {
+    "invoice_number": "INV000717",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "19BBLMF6377LQZX",
+    "vendor_name": "Grand Printing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000243",
+    "grn_reference": "GRN000282",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP915",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "43.66",
+      "unit_price": "17709.46",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "773195.0236",
+      "tax_amount": "216494.606608",
+      "line_total": "989689.630208",
+      "po_line_id": "f3e6e407-97bd-47d5-ac3a-d39d31286537"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP994",
+      "item_description": "Label Stickers",
+      "hsn_code": "4810",
+      "uom": "ROL",
+      "quantity": "452.72",
+      "unit_price": "7189.94",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3255029.6368",
+      "tax_amount": "911408.298304",
+      "line_total": "4166437.935104",
+      "po_line_id": "b7cf3f14-8b2c-49fd-ad37-81b43f14be3c"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP777",
+      "item_description": "Paper Bags",
+      "hsn_code": "4802",
+      "uom": "ROL",
+      "quantity": "989.77",
+      "unit_price": "31646.43",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.91",
+      "taxable_value": "28845062.47773099",
+      "tax_amount": "8076617.4937646772",
+      "line_total": "36921679.9714956672",
+      "po_line_id": "3f54d715-5bda-4f80-8e76-84ab24773989"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP609",
+      "item_description": "Printing Paper",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "217.78",
+      "unit_price": "917.83",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.98",
+      "taxable_value": "195927.29405548",
+      "tax_amount": "54859.6423355344",
+      "line_total": "250786.9363910144",
+      "po_line_id": "0c1044ca-e9ae-4544-80a5-bc43103b2652"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP611",
+      "item_description": "Printing Paper",
+      "hsn_code": "4810",
+      "uom": "PKT",
+      "quantity": "829.95",
+      "unit_price": "42705.35",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "6.07",
+      "taxable_value": "33291896.60488725",
+      "tax_amount": "5992541.3888797050",
+      "line_total": "39284437.9937669550",
+      "po_line_id": "c705f491-f13c-43bc-9176-1aadde6a555c"
+    }
+  ],
+  "taxes": {
+    "cgst": "6047401.0312152394",
+    "sgst": "9204520.3986766772",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "66361111.03707372",
+    "total_tax": "15251921.4298919166",
+    "grand_total": "81613032.4669656366"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "29ff6ff2-4a4b-413f-a2a9-0d145171eaf2",
+  "grn_id": "bede1965-c519-4e40-b167-72c138e7ff57",
+  "generated_at": "2026-11-18T15:45:20.794173"
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_id": "86907d0d-b079-4d4e-be4d-a25f8004131b",
+  "invoice_number": "INV000350",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000350",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000136",
+    "grn_reference": "GRN000163",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB315",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4002",
+      "uom": "KG",
+      "quantity": "741.55",
+      "unit_price": "18133.11",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13446607.7205",
+      "tax_amount": "2420389.389690",
+      "line_total": "15866997.110190",
+      "po_line_id": "1cf3e3c9-f5f6-48fe-8fac-0e9060aaf8d7"
+    }
+  ],
+  "taxes": {
+    "cgst": "2420389.389690",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "13446607.7205",
+    "total_tax": "2420389.389690",
+    "grand_total": "15866997.110190"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4c496943-aa37-48ce-9149-26800fd4f624",
+  "grn_id": "775f73c0-455c-492d-81c3-2ccd4e264652",
+  "generated_at": "2026-11-18T15:45:20.683608"
+}

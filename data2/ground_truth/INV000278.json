@@ -1,0 +1,109 @@
+{
+  "invoice_id": "f93fdf07-30c6-4ab1-b123-fa12e4748718",
+  "invoice_number": "INV000278",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000278",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000103",
+    "grn_reference": "GRN000123",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE775",
+      "item_description": "Graphics Card",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "111.84",
+      "unit_price": "13939.64",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1559009.3376",
+      "tax_amount": "436522.614528",
+      "line_total": "1995531.952128",
+      "po_line_id": "0d03f61f-a963-46dc-9677-1b127be1db37"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE333",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "66.30",
+      "unit_price": "6499.50",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "5.70",
+      "taxable_value": "406354.5895500",
+      "tax_amount": "20317.729477500",
+      "line_total": "426672.319027500",
+      "po_line_id": "de6c30d9-a161-4ad6-a922-b3d6786177d1"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE564",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "192.66",
+      "unit_price": "33931.14",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6537173.4324",
+      "tax_amount": "1176691.217832",
+      "line_total": "7713864.650232",
+      "po_line_id": "59ed1cd8-87d5-4a83-a165-c3846f21f881"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE607",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "854.01",
+      "unit_price": "16217.66",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "5.18",
+      "taxable_value": "13132611.54690012",
+      "tax_amount": "3677131.2331320336",
+      "line_total": "16809742.7800321536",
+      "po_line_id": "19464b60-d84c-48ba-8948-1fb281ae19b3"
+    }
+  ],
+  "taxes": {
+    "cgst": "456840.344005500",
+    "sgst": "3677131.2331320336",
+    "igst": "1176691.217832",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "21635148.90645012",
+    "total_tax": "5310662.7949695336",
+    "grand_total": "26945811.7014196536"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "f12dd09a-01bb-4e99-97f6-fbc89c5f2953",
+  "grn_id": "d27c4c34-08fc-48ad-ad84-633d47b60f85",
+  "generated_at": "2026-11-18T15:45:20.662393"
+}

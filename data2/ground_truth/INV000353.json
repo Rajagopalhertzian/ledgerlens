@@ -1,0 +1,109 @@
+{
+  "invoice_id": "5c67406a-8ba1-4eb0-8371-84b99d56789b",
+  "invoice_number": "INV000353",
+  "vendor_id": "1c9f5b2a-98c2-44e0-a272-2780b5e5d688",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000353",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Universal Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA201",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3926",
+      "uom": "BOX",
+      "quantity": "978.52",
+      "unit_price": "13980.43",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13680130.3636",
+      "tax_amount": "3830436.501808",
+      "line_total": "17510566.865408",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA239",
+      "item_description": "PP Bags",
+      "hsn_code": "3901",
+      "uom": "PKT",
+      "quantity": "232.17",
+      "unit_price": "4064.81",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "943726.9377",
+      "tax_amount": "47186.346885",
+      "line_total": "990913.284585",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA701",
+      "item_description": "PP Bags",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "38.82",
+      "unit_price": "38769.75",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1505041.6950",
+      "tax_amount": "270907.505100",
+      "line_total": "1775949.200100",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA379",
+      "item_description": "PP Bags",
+      "hsn_code": "3903",
+      "uom": "PCS",
+      "quantity": "442.91",
+      "unit_price": "46569.51",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20626101.6741",
+      "tax_amount": "5775308.468748",
+      "line_total": "26401410.142848",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "47186.346885",
+    "sgst": "9605744.970556",
+    "igst": "270907.505100",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36755000.6704",
+    "total_tax": "9923838.822541",
+    "grand_total": "46678839.492941"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.684362"
+}

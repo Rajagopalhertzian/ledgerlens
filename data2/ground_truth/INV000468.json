@@ -1,0 +1,95 @@
+{
+  "invoice_id": "ad05107a-8f30-4578-94a3-d9e3f42e3512",
+  "invoice_number": "INV000468",
+  "vendor_id": "d0af9338-e0a0-4c88-b56f-c4bcdd364694",
+  "vendor_gstin": "09ANHZA8689D7ZF",
+  "header": {
+    "invoice_number": "INV000468",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "09ANHZA8689D7ZF",
+    "vendor_name": "Top Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000342",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP460",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4802",
+      "uom": "PCS",
+      "quantity": "214.00",
+      "unit_price": "38548.57",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0.45",
+      "taxable_value": "8212271.70709000",
+      "tax_amount": "410613.5853545000",
+      "line_total": "8622885.2924445000",
+      "po_line_id": "7da05a5b-2595-4954-8d49-dfcc17c21a89"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP909",
+      "item_description": "Register Books",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "222.56",
+      "unit_price": "9240.48",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "8.82",
+      "taxable_value": "1875172.52841984",
+      "tax_amount": "525048.3079575552",
+      "line_total": "2400220.8363773952",
+      "po_line_id": "e0ba0a07-27f7-4d7d-b3bd-7cca51d75fd5"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP255",
+      "item_description": "Paper Bags",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "256.78",
+      "unit_price": "38220.65",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "9814298.5070",
+      "tax_amount": "1177715.820840",
+      "line_total": "10992014.327840",
+      "po_line_id": "47f5e8f5-115e-46fb-93a6-070271337590"
+    }
+  ],
+  "taxes": {
+    "cgst": "410613.5853545000",
+    "sgst": "1702764.1287975552",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "19901742.74250984",
+    "total_tax": "2113377.7141520552",
+    "grand_total": "25461051.42"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": "0bf8d324-6c86-4a19-9f36-0426c7dc6d32",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.721189"
+}

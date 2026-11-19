@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000154</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #1a1a2e; padding-bottom: 12px; margin-bottom: 20px; }
+        .header-flex { display: flex; justify-content: space-between; }
+        .vendor-info h1 { margin: 0; font-size: 18pt; color: #1a1a2e; }
+        .vendor-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-head { text-align: right; }
+        .invoice-head h2 { margin: 0; font-size: 16pt; color: #1a1a2e; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f5f5f5; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 70px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background: #1a1a2e; color: white; }
+        tr:nth-child(even) { background: #fafafa; }
+        .text-right { text-align: right; font-variant-numeric: tabular-nums; }
+        .text-center { text-align: center; }
+        /* Indian numbering format: 12,34,567.00 */
+        .indian-num { font-family: 'DejaVu Sans Mono', monospace; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 10px 12px; }
+        .totals .grand { background: #1a1a2e; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-box { background: #f5f5f5; padding: 12px; border-radius: 4px; margin-bottom: 15px; font-size: 9pt; }
+        .tax-box .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-box { background: #f5f5f5; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .amt-words { font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-flex">
+                <div class="vendor-info">
+                    <h1>Sri Technologies</h1>
+                    <p>GSTIN: 06VHHSP3893PNZT</p>
+                    <p>206 Brigade Road, Next to Bank, Hyderabad, 06, 500001</p>
+                </div>
+                <div class="invoice-head">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div>Invoice No: INV000154</div>
+                        <div>Date: 23-10-2026</div>
+                        <div>PO Ref: PO000368</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row">LedgerLens Technologies Pvt Ltd</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>06</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row">Sri Technologies</div>
+                <div class="row"><span class="label">GSTIN:</span>06VHHSP3893PNZT</div>
+                <div class="row"><span class="label">State:</span>06</div>
+                <div class="row">206 Brigade Road, Next to Bank, Hyderabad, 06, 500001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">S.No</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 25%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 8%" class="text-right">Qty</th>
+                    <th style="width: 12%" class="text-right">Rate (₹)</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 12%" class="text-right">Taxable (₹)</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 12%" class="text-right">Total (₹)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>4009</td>
+                    <td>O-Rings Set</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right indian-num">696.07</td>
+                    <td class="text-right indian-num">19,887.78</td>
+                    <td class="text-right">9.35%</td>
+                    <td class="text-right indian-num">1,25,48,939.69</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right indian-num">15,05,872.76</td>
+                    <td class="text-right indian-num">1,40,54,812.45</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>4009</td>
+                    <td>Industrial Hose</td>
+                    <td class="text-center">MTR</td>
+                    <td class="text-right indian-num">297.33</td>
+                    <td class="text-right indian-num">9,260.00</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">27,53,275.80</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right indian-num">7,70,917.22</td>
+                    <td class="text-right indian-num">35,24,193.02</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>4002</td>
+                    <td>Industrial Hose</td>
+                    <td class="text-center">MTR</td>
+                    <td class="text-right indian-num">195.71</td>
+                    <td class="text-right indian-num">22,930.21</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">44,87,671.40</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right indian-num">5,38,520.57</td>
+                    <td class="text-right indian-num">50,26,191.97</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>4001</td>
+                    <td>Industrial Hose</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right indian-num">232.76</td>
+                    <td class="text-right indian-num">22,593.04</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">52,58,755.99</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right indian-num">14,72,451.68</td>
+                    <td class="text-right indian-num">67,31,207.67</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>4011</td>
+                    <td>Vibration Mounts</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right indian-num">33.64</td>
+                    <td class="text-right indian-num">39,594.34</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">13,31,953.60</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right indian-num">2,39,751.65</td>
+                    <td class="text-right indian-num">15,71,705.25</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>4016</td>
+                    <td>Rubber Mats</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right indian-num">753.51</td>
+                    <td class="text-right indian-num">47,967.24</td>
+                    <td class="text-right">6.63%</td>
+                    <td class="text-right indian-num">3,37,47,461.40</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right indian-num">40,49,695.37</td>
+                    <td class="text-right indian-num">3,77,97,156.77</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-box">
+            <div class="row"><strong>Tax Breakdown (Indian Format)</strong></div>
+            <div class="row"><span>CGST</span><span class="indian-num">22,76,789.99</span></div>
+            <div class="row"><span>SGST</span><span class="indian-num">5,38,520.57</span></div>
+            <div class="row"><span>IGST</span><span class="indian-num">57,61,898.69</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right indian-num">6,01,28,057.88</td></tr>
+            <tr><th>Total Tax</th><td class="text-right indian-num">85,77,209.25</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right indian-num">6,87,05,267.13</td></tr>
+        </table>
+
+        <div class="footer">
+            <p class="amt-words"><strong>Amount in Words:</strong> Six Crore Eighty Seven Lakh Five Thousand Two Hundred Sixty Seven Only Rupees Only</p>
+
+            <div class="bank-box">
+                <strong>Bank Details</strong>
+                <div class="row"><span class="label">A/c:</span>XXXXXXXXXX4275</div>
+                <div class="row"><span class="label">IFSC:</span>ICIC0R1DWWO</div>
+                <div class="row"><span class="label">Bank:</span>Indian Bank, Commercial Branch</div>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

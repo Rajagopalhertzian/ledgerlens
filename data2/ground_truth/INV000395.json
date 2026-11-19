@@ -1,0 +1,79 @@
+{
+  "invoice_id": "720381a0-1a8e-40d9-89f5-f4b64324313a",
+  "invoice_number": "INV000395",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000395",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000346",
+    "grn_reference": "GRN000399",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB134",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4009",
+      "uom": "MTR",
+      "quantity": "909.39",
+      "unit_price": "34332.63",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "3.88",
+      "taxable_value": "30010346.48034684",
+      "tax_amount": "5401862.3664624312",
+      "line_total": "35412208.8468092712",
+      "po_line_id": "79f5f074-b3f4-4c08-b31a-e312dc984260"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB944",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "569.83",
+      "unit_price": "28922.69",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "16481016.4427",
+      "tax_amount": "824050.822135",
+      "line_total": "17305067.264835",
+      "po_line_id": "6c513acf-e327-404b-ba20-096a086e0435"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "824050.822135",
+    "igst": "5401862.3664624312",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "46491362.92304684",
+    "total_tax": "6225913.1885974312",
+    "grand_total": "52717276.1116442712"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "8ca351ec-04fd-4f39-97a0-851234e4fe49",
+  "grn_id": "e440e995-0dd4-43b1-b0f3-eaf3b3fb7eed",
+  "generated_at": "2026-11-18T15:45:20.696580"
+}

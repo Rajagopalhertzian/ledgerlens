@@ -86,10 +86,7 @@ class DiskCache:
             return
 
         # Sort by last accessed time (LRU)
-        sorted_entries = sorted(
-            self._index.items(),
-            key=lambda x: x[1].get("accessed_at", 0),
-        )
+        sorted_entries = sorted(self._index.items(), key=lambda x: x[1].get("accessed_at", 0))
 
         for key, entry in sorted_entries:
             if total_size <= self.max_size_bytes * 0.8:  # Evict to 80%

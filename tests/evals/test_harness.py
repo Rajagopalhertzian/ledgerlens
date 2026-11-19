@@ -126,9 +126,7 @@ class TestMatchLineItems:
             {"item_description": "Widget A", "quantity": "10", "unit_price": "100"},
             {"item_description": "Widget B", "quantity": "5", "unit_price": "200"},
         ]
-        gt = [
-            {"item_description": "Widget A", "quantity": "10", "unit_price": "100"},
-        ]
+        gt = [{"item_description": "Widget A", "quantity": "10", "unit_price": "100"}]
         result = match_line_items(pred, gt)
         assert result["precision"] == 0.5
         assert result["recall"] == 1.0
@@ -222,7 +220,7 @@ class TestSelectivePredictionCurve:
         assert len(curve) == 5
         # Coverage should increase
         coverages = [c for c, _ in curve]
-        assert all(coverages[i] <= coverages[i+1] for i in range(len(coverages)-1))
+        assert all(coverages[i] <= coverages[i + 1] for i in range(len(coverages) - 1))
 
     def test_mismatched_lengths(self):
         with pytest.raises(ValueError):

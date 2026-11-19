@@ -1,0 +1,61 @@
+{
+  "invoice_id": "c7c36274-a0c6-41ef-aee3-b894e34a6951",
+  "invoice_number": "INV000315",
+  "vendor_id": "6a5502ab-d546-4424-b112-2bf7a6beb06b",
+  "vendor_gstin": "29OROYM7426ZRZP",
+  "header": {
+    "invoice_number": "INV000315",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "29OROYM7426ZRZP",
+    "vendor_name": "Bharat Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000400",
+    "grn_reference": "GRN000464",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP843",
+      "item_description": "File Folders",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "86.67",
+      "unit_price": "15108.70",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1309471.0290",
+      "tax_amount": "65473.551450",
+      "line_total": "1374944.580450",
+      "po_line_id": "f26893cd-afa4-45cf-af8e-91b7027b6c89"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "65473.551450",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1309471.0290",
+    "total_tax": "65473.551450",
+    "grand_total": "1374944.580450"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4568cb16-2b1c-435f-9765-824eb0356377",
+  "grn_id": "5636dd12-9cfb-4d95-b8bc-f4d70d37b2e1",
+  "generated_at": "2026-11-18T15:45:20.673128"
+}

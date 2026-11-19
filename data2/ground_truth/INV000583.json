@@ -1,0 +1,93 @@
+{
+  "invoice_id": "93e33d96-f00a-48df-a8d9-aacadc34a25b",
+  "invoice_number": "INV000583",
+  "vendor_id": "2bbf02cc-8f00-4189-b5fb-919fd208e8ac",
+  "vendor_gstin": "09SNTVB9646L9Z2",
+  "header": {
+    "invoice_number": "INV000583",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "09SNTVB9646L9Z2",
+    "vendor_name": "Indian Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000197",
+    "grn_reference": "GRN000223",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP744",
+      "item_description": "Label Stickers",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "372.91",
+      "unit_price": "18957.72",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7069523.3652",
+      "tax_amount": "353476.168260",
+      "line_total": "7422999.533460",
+      "po_line_id": "22e7fdb8-b23c-4e0f-9e44-bf9fa600bb43"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP413",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "421.99",
+      "unit_price": "16802.15",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7090339.2785",
+      "tax_amount": "354516.963925",
+      "line_total": "7444856.242425",
+      "po_line_id": "84004b77-e043-4647-8393-126bc7f67372"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP545",
+      "item_description": "Label Stickers",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "752.29",
+      "unit_price": "22006.53",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16555292.4537",
+      "tax_amount": "4635481.887036",
+      "line_total": "21190774.340736",
+      "po_line_id": "b01769aa-2b69-4554-b2b4-8cc2f21eab85"
+    }
+  ],
+  "taxes": {
+    "cgst": "354516.963925",
+    "sgst": "353476.168260",
+    "igst": "4635481.887036",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30715155.0974",
+    "total_tax": "5343475.019221",
+    "grand_total": "36058630.116621"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c6b64f08-8a98-42f6-b043-cbc5af040324",
+  "grn_id": "b4a5239d-3fe0-46a3-8cb9-58b8b5189b4a",
+  "generated_at": "2026-11-18T15:45:20.755189"
+}

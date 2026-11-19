@@ -1,0 +1,77 @@
+{
+  "invoice_id": "a6fc72b7-a501-4c7f-97df-c6287b0a4de2",
+  "invoice_number": "INV000271",
+  "vendor_id": "1ed0ced2-32c2-469b-a617-8125bf1b6b68",
+  "vendor_gstin": "08SZZUJ7054VHZD",
+  "header": {
+    "invoice_number": "INV000271",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "08SZZUJ7054VHZD",
+    "vendor_name": "National Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000052",
+    "grn_reference": "GRN000060",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO440",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "392.52",
+      "unit_price": "35263.41",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13841593.6932",
+      "tax_amount": "3875646.234096",
+      "line_total": "17717239.927296",
+      "po_line_id": "9fdad1d6-6c31-4e06-91be-27e709713ac0"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO815",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "1006",
+      "uom": "PKT",
+      "quantity": "79.47",
+      "unit_price": "46146.92",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "8.13",
+      "taxable_value": "3369144.58935588",
+      "tax_amount": "943360.4850196464",
+      "line_total": "4312505.0743755264",
+      "po_line_id": "4c85e5f2-b54c-440b-9822-6513b7977b67"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "4819006.7191156464",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "17210738.28255588",
+    "total_tax": "4819006.7191156464",
+    "grand_total": "22029745.0016715264"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "9fcf5f82-3814-429d-a29c-096caf28b28d",
+  "grn_id": "41f1e5cd-28b6-47fb-b8f3-fe01b6afcae4",
+  "generated_at": "2026-11-18T15:45:20.660265"
+}

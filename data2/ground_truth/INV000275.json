@@ -1,0 +1,109 @@
+{
+  "invoice_id": "6dca3b12-404f-4571-9e72-1bd80c49e51c",
+  "invoice_number": "INV000275",
+  "vendor_id": "4900ab42-4bf3-46a4-a41c-8725db3cde20",
+  "vendor_gstin": "33EJTOX0564ASZL",
+  "header": {
+    "invoice_number": "INV000275",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "33EJTOX0564ASZL",
+    "vendor_name": "Fine Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000152",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA593",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3902",
+      "uom": "KG",
+      "quantity": "895.06",
+      "unit_price": "21483.86",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "9.42",
+      "taxable_value": "17417939.55208328",
+      "tax_amount": "3135229.1193749904",
+      "line_total": "20553168.6714582704",
+      "po_line_id": "9a9657cf-bc56-4ccd-a965-a9f6ce2d4141"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA711",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "965.62",
+      "unit_price": "21895.52",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "21142752.0224",
+      "tax_amount": "5919970.566272",
+      "line_total": "27062722.588672",
+      "po_line_id": "6c12bc65-9015-4de7-b56b-8d8c2bc5ba52"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA251",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3902",
+      "uom": "PCS",
+      "quantity": "324.41",
+      "unit_price": "49319.76",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "4.59",
+      "taxable_value": "15265431.45022056",
+      "tax_amount": "2747777.6610397008",
+      "line_total": "18013209.1112602608",
+      "po_line_id": "e98c7a55-4fb3-4c36-bfcb-3f43927a88b9"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA561",
+      "item_description": "Cable Ties",
+      "hsn_code": "3904",
+      "uom": "KG",
+      "quantity": "792.22",
+      "unit_price": "33729.87",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "26721477.6114",
+      "tax_amount": "4809865.970052",
+      "line_total": "31531343.581452",
+      "po_line_id": "bd85d1d3-311e-4a82-90b2-77123ac8fb57"
+    }
+  ],
+  "taxes": {
+    "cgst": "11802977.3466866912",
+    "sgst": "0",
+    "igst": "4809865.970052",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "80547600.63610384",
+    "total_tax": "16612843.3167386912",
+    "grand_total": "97160443.9528425312"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "36cd0c57-08ee-4e60-ab2b-d92cb66615fc",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.661508"
+}

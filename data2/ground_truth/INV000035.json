@@ -1,0 +1,127 @@
+{
+  "invoice_id": "caa7a8f0-929c-4f0e-8b07-905fdd18bfe1",
+  "invoice_number": "INV000035",
+  "vendor_id": "0031f3f1-0b79-45ed-afb6-ec6cf3a22995",
+  "vendor_gstin": "07GNUTT9593FCZZ",
+  "header": {
+    "invoice_number": "INV000035",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "07GNUTT9593FCZZ",
+    "vendor_name": "Select Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO142",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "245.07",
+      "unit_price": "23128.32",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5668057.3824",
+      "tax_amount": "1587056.067072",
+      "line_total": "7255113.449472",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO746",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "913.49",
+      "unit_price": "1675.15",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1530232.7735",
+      "tax_amount": "183627.932820",
+      "line_total": "1713860.706320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO106",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1901",
+      "uom": "PCS",
+      "quantity": "788.20",
+      "unit_price": "30253.71",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "23845974.2220",
+      "tax_amount": "2861516.906640",
+      "line_total": "26707491.128640",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO862",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1701",
+      "uom": "KG",
+      "quantity": "264.43",
+      "unit_price": "46540.90",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12306810.1870",
+      "tax_amount": "615340.509350",
+      "line_total": "12922150.696350",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO792",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "804.43",
+      "unit_price": "30820.37",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "24792830.2391",
+      "tax_amount": "4462709.443038",
+      "line_total": "29255539.682138",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1587056.067072",
+    "sgst": "4646337.375858",
+    "igst": "3476857.415990",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "68143904.8040",
+    "total_tax": "9710250.858920",
+    "grand_total": "77854155.662920"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.587837"
+}

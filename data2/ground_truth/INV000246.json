@@ -1,0 +1,93 @@
+{
+  "invoice_id": "d8330ee1-f7e3-4715-9979-77846e780028",
+  "invoice_number": "INV000246",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "24YYOCH5343PVZJ",
+  "header": {
+    "invoice_number": "INV000246",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "24YYOCH5343PVZJ",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE142",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "492.96",
+      "unit_price": "26010.94",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12822352.9824",
+      "tax_amount": "2308023.536832",
+      "line_total": "15130376.519232",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE740",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "3801",
+      "uom": "PCS",
+      "quantity": "572.96",
+      "unit_price": "15840.99",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "1.86",
+      "taxable_value": "8907435.31287456",
+      "tax_amount": "1068892.2375449472",
+      "line_total": "9976327.5504195072",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE739",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "887.58",
+      "unit_price": "21842.12",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "19386628.8696",
+      "tax_amount": "3489593.196528",
+      "line_total": "22876222.066128",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4558485.4340729472",
+    "sgst": "2308023.536832",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "41116417.16487456",
+    "total_tax": "6866508.9709049472",
+    "grand_total": "47982926.1357795072"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.652346"
+}

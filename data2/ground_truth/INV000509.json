@@ -1,0 +1,141 @@
+{
+  "invoice_id": "dc98f292-3ade-4e95-8320-2ddf2b1bb10e",
+  "invoice_number": "INV000509",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000509",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA115",
+      "item_description": "PET Bottles",
+      "hsn_code": "3902",
+      "uom": "PCS",
+      "quantity": "347.20",
+      "unit_price": "37152.54",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0.68",
+      "taxable_value": "12811646.22716160",
+      "tax_amount": "640582.3113580800",
+      "line_total": "13452228.5385196800",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA126",
+      "item_description": "Stretch Film",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "616.93",
+      "unit_price": "18805.64",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "11601763.4852",
+      "tax_amount": "1392211.618224",
+      "line_total": "12993975.103424",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA339",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3903",
+      "uom": "KG",
+      "quantity": "840.69",
+      "unit_price": "21742.68",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "18278853.6492",
+      "tax_amount": "913942.682460",
+      "line_total": "19192796.331660",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA878",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3902",
+      "uom": "PCS",
+      "quantity": "776.43",
+      "unit_price": "25030.84",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "19434695.1012",
+      "tax_amount": "971734.755060",
+      "line_total": "20406429.856260",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA692",
+      "item_description": "Cable Ties",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "735.81",
+      "unit_price": "3392.79",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2496448.8099",
+      "tax_amount": "299573.857188",
+      "line_total": "2796022.667088",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "PLA285",
+      "item_description": "PP Bags",
+      "hsn_code": "3902",
+      "uom": "KG",
+      "quantity": "820.87",
+      "unit_price": "9077.14",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7451151.9118",
+      "tax_amount": "372557.595590",
+      "line_total": "7823709.507390",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1392211.618224",
+    "sgst": "3198391.2016560800",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "72074559.18446160",
+    "total_tax": "4590602.8198800800",
+    "grand_total": "76665162.0043416800"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.733306"
+}

@@ -1,0 +1,143 @@
+{
+  "invoice_id": "b3e0c984-d549-4641-9e3c-fdd692f99ea2",
+  "invoice_number": "INV000209",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000209",
+    "invoice_date": "2026-11-09",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000306",
+    "grn_reference": "GRN000359",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET726",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7208",
+      "uom": "MTR",
+      "quantity": "934.30",
+      "unit_price": "19719.35",
+      "tax_rate": "0.09",
+      "tax_type": "CGST",
+      "discount_percent": "8.26",
+      "taxable_value": "16901983.75796700",
+      "tax_amount": "1521178.5382170300",
+      "line_total": "18423162.2961840300",
+      "po_line_id": "19bb1137-8653-426c-97fa-15c26b081899"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET327",
+      "item_description": "GI Sheets",
+      "hsn_code": "7208",
+      "uom": "MTR",
+      "quantity": "634.32",
+      "unit_price": "6741.59",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4276325.3688",
+      "tax_amount": "769738.566384",
+      "line_total": "5046063.935184",
+      "po_line_id": "cb5d4542-8baa-45e3-ab1f-ca82596730cc"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET435",
+      "item_description": "Steel Channels",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "340.85",
+      "unit_price": "8304.63",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2830633.1355",
+      "tax_amount": "141531.656775",
+      "line_total": "2972164.792275",
+      "po_line_id": "af96b9ae-4c03-4cbb-980d-538a30b65618"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET689",
+      "item_description": "Steel Channels",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "722.70",
+      "unit_price": "46614.84",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "33688544.8680",
+      "tax_amount": "4042625.384160",
+      "line_total": "37731170.252160",
+      "po_line_id": "dd543b88-2478-4429-bdd1-a00a51fbbe93"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET616",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "868.47",
+      "unit_price": "11191.29",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "9.91",
+      "taxable_value": "8756117.03333367",
+      "tax_amount": "1576101.0660000606",
+      "line_total": "10332218.0993337306",
+      "po_line_id": "447072ee-dd85-43a1-ae9b-1280ce83687a"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET970",
+      "item_description": "Steel Channels",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "369.86",
+      "unit_price": "1380.40",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "3.86",
+      "taxable_value": "490847.33088160",
+      "tax_amount": "137437.2526468480",
+      "line_total": "628284.5835284480",
+      "po_line_id": "a0bbc742-923b-46b0-b820-debdc231f7c0"
+    }
+  ],
+  "taxes": {
+    "cgst": "6308656.5182308206",
+    "sgst": "4812363.950544",
+    "igst": "278968.9094218480",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "66944451.49448227",
+    "total_tax": "11399989.3781966686",
+    "grand_total": "78344440.8726789386"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": "78ee079f-f390-490d-adc2-ad4f63e27d74",
+  "grn_id": "30e30684-cb9b-4623-b9f8-f1251e15f8e3",
+  "generated_at": "2026-11-18T15:45:20.642516"
+}

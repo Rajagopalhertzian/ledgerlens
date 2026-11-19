@@ -1,0 +1,93 @@
+{
+  "invoice_id": "a5bff8ed-3f0f-42df-b384-60ece05a3ce3",
+  "invoice_number": "INV000419",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV000419",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000206",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO492",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1101",
+      "uom": "PKT",
+      "quantity": "830.04",
+      "unit_price": "38170.45",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "31683000.3180",
+      "tax_amount": "3801960.038160",
+      "line_total": "35484960.356160",
+      "po_line_id": "c1b55af7-3032-4659-934c-44fdb9cca1bd"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO615",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1901",
+      "uom": "BOX",
+      "quantity": "974.27",
+      "unit_price": "20573.66",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "6.10",
+      "taxable_value": "18821597.4447798",
+      "tax_amount": "941079.872238990",
+      "line_total": "19762677.317018790",
+      "po_line_id": "c4694717-d973-477f-aa9c-f767979f86ef"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO583",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "732.42",
+      "unit_price": "47279.90",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "5.69",
+      "taxable_value": "32658368.80402980",
+      "tax_amount": "5878506.3847253640",
+      "line_total": "38536875.1887551640",
+      "po_line_id": "88c70b7e-3724-49a5-b2ba-f1181df6de68"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "10621546.2951243540",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "83162966.56680960",
+    "total_tax": "10621546.2951243540",
+    "grand_total": "93784512.8619339540"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e9db7fb2-57a4-4c1e-bced-12bd68cd03da",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.703693"
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000467</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 15mm 25mm 15mm;
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                font-size: 8pt;
+                color: #666;
+            }
+        }
+        @page :first {
+            @bottom-center { content: none; }
+        }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-row { display: flex; justify-content: space-between; }
+        .company-info h1 { margin: 0; font-size: 18pt; color: #2c3e50; }
+        .company-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 16pt; color: #2c3e50; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 80px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 6px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .page-break { page-break-before: always; }
+        .totals { width: 380px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-breakdown { font-size: 9pt; margin-bottom: 15px; }
+        .tax-breakdown .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-details { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .terms { margin-top: 15px; font-size: 8pt; }
+        .terms h4 { margin: 0 0 8px 0; font-size: 9pt; }
+        .terms ul { margin: 0; padding-left: 20px; }
+        .terms li { margin: 4px 0; }
+        .watermark-bg { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 120pt; color: rgba(44,62,80,0.02); pointer-events: none; z-index: -1; white-space: nowrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watermark-bg">SHREE ENTERPRISES</div>
+
+        <div class="header">
+            <div class="header-row">
+                <div class="company-info">
+                    <h1>Shree Enterprises</h1>
+                    <p>GSTIN: 08KQUUG3260AOZS | PAN: AAAAA0000A</p>
+                    <p>837 Park Road, Next to Bank, Kanpur, 08, 208001</p>
+                    <p>Email: shreeenterprises798@gmail.com | Phone: +91-97783-96298</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>Invoice No:</strong> INV000467</div>
+                        <div><strong>Date:</strong> 26/10/2026</div>
+                        <div><strong>PO Reference:</strong> PO000175</div>
+                        <div><strong>GRN Reference:</strong> GRN000203</div>
+                        <div><strong>Place of Supply:</strong> 08</div>
+                        <div><strong>Place of Delivery:</strong> 08</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">Name:</span>LedgerLens Technologies Pvt Ltd</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>08</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Name:</span>Shree Enterprises</div>
+                <div class="row"><span class="label">GSTIN:</span>08KQUUG3260AOZS</div>
+                <div class="row"><span class="label">State:</span>08</div>
+                <div class="row">837 Park Road, Next to Bank, Kanpur, 08, 208001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 4%">S.No</th>
+                    <th style="width: 8%">HSN</th>
+                    <th style="width: 28%">Description of Goods/Services</th>
+                    <th style="width: 6%">UoM</th>
+                    <th style="width: 7%" class="text-right">Quantity</th>
+                    <th style="width: 10%" class="text-right">Unit Price</th>
+                    <th style="width: 7%" class="text-right">Disc %</th>
+                    <th style="width: 10%" class="text-right">Taxable Value</th>
+                    <th style="width: 6%" class="text-center">Tax Type</th>
+                    <th style="width: 6%" class="text-right">Tax Rate</th>
+                    <th style="width: 7%" class="text-right">Tax Amount</th>
+                    <th style="width: 10%" class="text-right">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>1701</td>
+                    <td>Tea Powder 1kg</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">22.42</td>
+                    <td class="text-right">2,862.29</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">64,172.54</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">12%</td>
+                    <td class="text-right">7,700.71</td>
+                    <td class="text-right">71,873.25</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>1006</td>
+                    <td>Wheat Flour 50kg</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right">118.87</td>
+                    <td class="text-right">30,821.09</td>
+                    <td class="text-right">4.37%</td>
+                    <td class="text-right">35,03,599.15</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">18%</td>
+                    <td class="text-right">6,30,647.85</td>
+                    <td class="text-right">41,34,246.00</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>1006</td>
+                    <td>Edible Oil 15L</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">589.03</td>
+                    <td class="text-right">11,433.58</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">67,34,721.63</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5%</td>
+                    <td class="text-right">3,36,736.08</td>
+                    <td class="text-right">70,71,457.71</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>1001</td>
+                    <td>Wheat Flour 50kg</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">127.59</td>
+                    <td class="text-right">9,111.61</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">11,62,550.32</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">5%</td>
+                    <td class="text-right">58,127.52</td>
+                    <td class="text-right">12,20,677.84</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>1006</td>
+                    <td>Tea Powder 1kg</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">606.52</td>
+                    <td class="text-right">23,987.20</td>
+                    <td class="text-right">2.50%</td>
+                    <td class="text-right">1,41,84,998.63</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">5%</td>
+                    <td class="text-right">7,09,249.93</td>
+                    <td class="text-right">1,48,94,248.56</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-breakdown">
+            <div class="row"><strong>Tax Breakdown</strong></div>
+            <div class="row"><span>CGST @ 9%</span><span>3,36,736.08</span></div>
+            <div class="row"><span>SGST @ 9%</span><span>6,88,775.36</span></div>
+            <div class="row"><span>IGST @ 18%</span><span>7,16,950.64</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">2,56,50,042.27</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">17,42,462.08</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">2,73,92,504.35</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Two Crore Seventy Three Lakh Ninety Two Thousand Five Hundred Four Only Rupees Only</p>
+
+            <div class="bank-details">
+                <strong>Bank Details for Payment</strong>
+                <div class="row"><span class="label">A/c No:</span>XXXXXXXXXXX9150</div>
+                <div class="row"><span class="label">IFSC:</span>ICIC0P0WFOY</div>
+                <div class="row"><span class="label">Bank:</span>Axis Bank, Main Branch</div>
+                <div class="row"><span class="label">Holder:</span>Shree Enterprises</div>
+            </div>
+
+            <div class="terms">
+                <h4>Payment Terms & Conditions</h4>
+                <ul>
+                    <li>Net 30 days</li>
+                    <li>Payment due within 30 days from invoice date</li>
+                    <li>Late payment attracts interest @ 18% p.a.</li>
+                    <li>All disputes subject to Kanpur jurisdiction</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 25px;">Authorized Signatory<br><br>Ajay Shah</p>
+
+        </div>
+    </div>
+</body>
+</html>

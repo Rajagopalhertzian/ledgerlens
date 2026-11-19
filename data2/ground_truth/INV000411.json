@@ -1,0 +1,127 @@
+{
+  "invoice_id": "dce1f1bd-7f13-4ce4-81aa-4b09f8679095",
+  "invoice_number": "INV000411",
+  "vendor_id": "d414d131-eef7-4646-83b3-8a8880a5f208",
+  "vendor_gstin": "06VHHSP3893PNZT",
+  "header": {
+    "invoice_number": "INV000411",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "06VHHSP3893PNZT",
+    "vendor_name": "Sri Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO325123",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR228",
+      "item_description": "Storage Rack",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "424.25",
+      "unit_price": "7924.35",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3361905.4875",
+      "tax_amount": "168095.274375",
+      "line_total": "3530000.761875",
+      "po_line_id": "81535a73-1c37-4ce7-8d5b-67de37d3d818"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR420",
+      "item_description": "Reception Counter",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "219.69",
+      "unit_price": "9266.32",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2035717.8408",
+      "tax_amount": "101785.892040",
+      "line_total": "2137503.732840",
+      "po_line_id": "01124055-150a-4263-9036-f120703bd2d3"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR471",
+      "item_description": "Reception Counter",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "55.62",
+      "unit_price": "18636.76",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.04",
+      "taxable_value": "1025796.19465152",
+      "tax_amount": "287222.9345024256",
+      "line_total": "1313019.1291539456",
+      "po_line_id": "3f12dc42-4f3f-4f42-9cd7-1b8c8c52b5ac"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR416",
+      "item_description": "Workstation",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "240.29",
+      "unit_price": "8221.74",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0.11",
+      "taxable_value": "1973428.74250494",
+      "tax_amount": "98671.4371252470",
+      "line_total": "2072100.1796301870",
+      "po_line_id": "f713e0cb-e0ac-4b05-899d-f7e2b3747346"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR678",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "638.75",
+      "unit_price": "1715.10",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1095520.1250",
+      "tax_amount": "197193.622500",
+      "line_total": "1292713.747500",
+      "po_line_id": "551f57a7-b998-4be3-9d4e-0c07ed0197d5"
+    }
+  ],
+  "taxes": {
+    "cgst": "583087.9941276726",
+    "sgst": "0",
+    "igst": "269881.166415",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "9492368.39045646",
+    "total_tax": "852969.1605426726",
+    "grand_total": "10345337.5509991326"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "1c30261a-cae7-4d81-8256-b0c23a9022b1",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.701112"
+}

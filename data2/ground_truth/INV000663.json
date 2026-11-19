@@ -1,0 +1,93 @@
+{
+  "invoice_id": "649630ba-99f0-4709-969d-a2a7a80739b8",
+  "invoice_number": "INV000663",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000663",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET783",
+      "item_description": "Steel Channels",
+      "hsn_code": "7302",
+      "uom": "MTR",
+      "quantity": "854.20",
+      "unit_price": "45869.25",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "5.11",
+      "taxable_value": "37179338.01781500",
+      "tax_amount": "1858966.9008907500",
+      "line_total": "39038304.9187057500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET387",
+      "item_description": "GI Sheets",
+      "hsn_code": "7301",
+      "uom": "MTR",
+      "quantity": "517.96",
+      "unit_price": "16168.36",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8374563.7456",
+      "tax_amount": "1004947.649472",
+      "line_total": "9379511.395072",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET480",
+      "item_description": "Iron Castings",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "961.57",
+      "unit_price": "25820.72",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "24828429.7304",
+      "tax_amount": "4469117.351472",
+      "line_total": "29297547.081872",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4469117.351472",
+    "sgst": "0",
+    "igst": "2863914.5503627500",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "70382331.49381500",
+    "total_tax": "7333031.9018347500",
+    "grand_total": "77715363.3956497500"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.778676"
+}

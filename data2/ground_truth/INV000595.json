@@ -1,0 +1,61 @@
+{
+  "invoice_id": "0187839c-755f-4eaa-ab62-776832156b78",
+  "invoice_number": "INV000595",
+  "vendor_id": "dff757f9-8f9e-4d16-8753-3d068eee286f",
+  "vendor_gstin": "29SUJVG5714NAZA",
+  "header": {
+    "invoice_number": "INV000595",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "29SUJVG5714NAZA",
+    "vendor_name": "Jai Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000283",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC137",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "718.71",
+      "unit_price": "11114.53",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7988123.8563",
+      "tax_amount": "958574.862756",
+      "line_total": "8946698.719056",
+      "po_line_id": "34d094ba-8b12-44a7-a2f8-bcdda76eff83"
+    }
+  ],
+  "taxes": {
+    "cgst": "958574.862756",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "7988123.8563",
+    "total_tax": "958574.862756",
+    "grand_total": "8946698.719056"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dfd91916-c7be-494f-ae5b-15d378bed513",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.758926"
+}

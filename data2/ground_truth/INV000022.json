@@ -1,0 +1,93 @@
+{
+  "invoice_id": "77636f8f-b206-4e93-b860-8ad6ba3a1f6a",
+  "invoice_number": "INV000022",
+  "vendor_id": "6a5502ab-d546-4424-b112-2bf7a6beb06b",
+  "vendor_gstin": "29OROYM7426ZRZP",
+  "header": {
+    "invoice_number": "INV000022",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "29OROYM7426ZRZP",
+    "vendor_name": "Bharat Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA677",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3917",
+      "uom": "PCS",
+      "quantity": "412.24",
+      "unit_price": "44595.77",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "18384160.2248",
+      "tax_amount": "3309148.840464",
+      "line_total": "21693309.065264",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA881",
+      "item_description": "Plastic Crates",
+      "hsn_code": "3901",
+      "uom": "PKT",
+      "quantity": "527.33",
+      "unit_price": "36188.57",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "5.61",
+      "taxable_value": "18012744.44362459",
+      "tax_amount": "5043568.4442148852",
+      "line_total": "23056312.8878394752",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA914",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3904",
+      "uom": "KG",
+      "quantity": "425.56",
+      "unit_price": "17780.74",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7566771.7144",
+      "tax_amount": "378338.585720",
+      "line_total": "7945110.300120",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "8731055.8703988852",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "43963676.38282459",
+    "total_tax": "8731055.8703988852",
+    "grand_total": "52694732.2532234752"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.583807"
+}

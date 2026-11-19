@@ -1,0 +1,93 @@
+{
+  "invoice_id": "42607ffe-8a10-465f-a849-496dfa57051d",
+  "invoice_number": "INV409133",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV409133",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX144",
+      "item_description": "Curtains Window",
+      "hsn_code": "6109",
+      "uom": "SET",
+      "quantity": "791.18",
+      "unit_price": "1037.24",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "820643.5432",
+      "tax_amount": "41032.177160",
+      "line_total": "861675.720360",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX358",
+      "item_description": "Towels Bath",
+      "hsn_code": "5208",
+      "uom": "MTR",
+      "quantity": "228.10",
+      "unit_price": "33487.17",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7638423.4770",
+      "tax_amount": "2138758.573560",
+      "line_total": "9777182.050560",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX617",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5513",
+      "uom": "MTR",
+      "quantity": "294.02",
+      "unit_price": "12813.85",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3767528.1770",
+      "tax_amount": "1054907.889560",
+      "line_total": "4822436.066560",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2138758.573560",
+    "sgst": "0",
+    "igst": "1095940.066720",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "12226595.1972",
+    "total_tax": "3234698.640280",
+    "grand_total": "15461293.837480"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.789883"
+}

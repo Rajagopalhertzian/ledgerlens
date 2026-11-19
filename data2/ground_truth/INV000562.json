@@ -1,0 +1,79 @@
+{
+  "invoice_id": "56f655a0-5c59-445e-8d70-68eec62af5c7",
+  "invoice_number": "INV000562",
+  "vendor_id": "bcf62784-0118-48c8-8a43-ae202815c60d",
+  "vendor_gstin": "36TRMPG4468CQZR",
+  "header": {
+    "invoice_number": "INV000562",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "36TRMPG4468CQZR",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX972",
+      "item_description": "Socks Cotton",
+      "hsn_code": "6109",
+      "uom": "MTR",
+      "quantity": "151.06",
+      "unit_price": "48670.12",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7352108.3272",
+      "tax_amount": "1323379.498896",
+      "line_total": "8675487.826096",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX780",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "592.46",
+      "unit_price": "14561.58",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8627153.6868",
+      "tax_amount": "2415603.032304",
+      "line_total": "11042756.719104",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "1323379.498896",
+    "igst": "2415603.032304",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15979262.0140",
+    "total_tax": "3738982.531200",
+    "grand_total": "20906017.20"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.748656"
+}

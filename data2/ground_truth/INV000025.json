@@ -1,0 +1,109 @@
+{
+  "invoice_id": "3d5ec74e-f69b-4aba-b7b4-4a9281d0e8c9",
+  "invoice_number": "INV000025",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000025",
+    "invoice_date": "2026-11-09",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000213",
+    "grn_reference": "GRN000240",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET513",
+      "item_description": "Copper Wire",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "308.71",
+      "unit_price": "28207.99",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8708088.5929",
+      "tax_amount": "2438264.806012",
+      "line_total": "11146353.398912",
+      "po_line_id": "fcfb69df-ffdb-4d8a-be60-0ffa78deb999"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET313",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "646.15",
+      "unit_price": "7082.52",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.04",
+      "taxable_value": "4254193.82902080",
+      "tax_amount": "1191174.2721258240",
+      "line_total": "5445368.1011466240",
+      "po_line_id": "7132b6ad-3a4b-4689-9be8-5d0527478868"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET433",
+      "item_description": "Round Bars",
+      "hsn_code": "7302",
+      "uom": "PCS",
+      "quantity": "295.50",
+      "unit_price": "18736.41",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5536609.1550",
+      "tax_amount": "996589.647900",
+      "line_total": "6533198.802900",
+      "po_line_id": "9418f8bc-65e3-4103-b843-d86f3a111dc6"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET433",
+      "item_description": "Steel Channels",
+      "hsn_code": "7301",
+      "uom": "MTR",
+      "quantity": "797.68",
+      "unit_price": "30916.04",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "2.43",
+      "taxable_value": "24061841.89227104",
+      "tax_amount": "6737315.7298358912",
+      "line_total": "30799157.6221069312",
+      "po_line_id": "22e1d504-fe54-4289-93ca-ba8a13bde560"
+    }
+  ],
+  "taxes": {
+    "cgst": "2438264.806012",
+    "sgst": "8925079.6498617152",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42560733.46919184",
+    "total_tax": "11363344.4558737152",
+    "grand_total": "53924077.9250655552"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1a9b20b8-44bd-4600-a9f6-16219c16a1ba",
+  "grn_id": "dc966cec-0b19-4405-8ef4-3bf65dd564d1",
+  "generated_at": "2026-11-18T15:45:20.584792"
+}

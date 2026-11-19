@@ -1,0 +1,141 @@
+{
+  "invoice_id": "b452cfdd-41aa-4c1d-8ef6-771cac24c0d1",
+  "invoice_number": "INV000334",
+  "vendor_id": "c5bf8821-5033-4f4e-b117-393228cb4582",
+  "vendor_gstin": "19BBLMF6377LQZX",
+  "header": {
+    "invoice_number": "INV000334",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "19BBLMF6377LQZX",
+    "vendor_name": "Grand Printing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000265",
+    "grn_reference": "GRN000311",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO699",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "348.88",
+      "unit_price": "13529.17",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.19",
+      "taxable_value": "4616687.58503176",
+      "tax_amount": "831003.7653057168",
+      "line_total": "5447691.3503374768",
+      "po_line_id": "fe9f332c-ed44-435c-b304-30570d7d2723"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO878",
+      "item_description": "Salt Iodized",
+      "hsn_code": "2106",
+      "uom": "PKT",
+      "quantity": "531.41",
+      "unit_price": "9866.04",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5242912.3164",
+      "tax_amount": "262145.615820",
+      "line_total": "5505057.932220",
+      "po_line_id": "09bc2833-4c88-471e-bb4b-588d1d54664e"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO270",
+      "item_description": "Tea Powder 1kg",
+      "hsn_code": "1006",
+      "uom": "LTR",
+      "quantity": "858.64",
+      "unit_price": "13997.82",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "12019088.1648",
+      "tax_amount": "1442290.579776",
+      "line_total": "13461378.744576",
+      "po_line_id": "d6788a28-c01d-49d5-a732-791a18d4b11c"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO375",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "807.92",
+      "unit_price": "9849.71",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7957777.7032",
+      "tax_amount": "397888.885160",
+      "line_total": "8355666.588360",
+      "po_line_id": "28bb78d5-3a2b-4784-a09e-1a58c71398ca"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO291",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "779.28",
+      "unit_price": "27716.59",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "5.34",
+      "taxable_value": "20445598.49597232",
+      "tax_amount": "3680207.7292750176",
+      "line_total": "24125806.2252473376",
+      "po_line_id": "8166e68b-60fa-4fd4-a9ae-d38c718af972"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO158",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1006",
+      "uom": "PCS",
+      "quantity": "855.55",
+      "unit_price": "38340.85",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "32802514.2175",
+      "tax_amount": "1640125.710875",
+      "line_total": "34442639.928375",
+      "po_line_id": "164dc497-ba06-416b-8171-fdab112c51d8"
+    }
+  ],
+  "taxes": {
+    "cgst": "1840179.464936",
+    "sgst": "1093149.3811257168",
+    "igst": "5320333.4401500176",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "83084578.48290408",
+    "total_tax": "8253662.2862117344",
+    "grand_total": "91338240.7691158144"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "fb9fabaf-156c-40f0-a745-c68e0ea8da3c",
+  "grn_id": "b90f5bb0-980c-4c08-91be-e26efa49d1f5",
+  "generated_at": "2026-11-18T15:45:20.679045"
+}

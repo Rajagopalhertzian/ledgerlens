@@ -1,0 +1,77 @@
+{
+  "invoice_id": "241318ed-045a-479b-8f3f-0694358e4abf",
+  "invoice_number": "INV000606",
+  "vendor_id": "d0af9338-e0a0-4c88-b56f-c4bcdd364694",
+  "vendor_gstin": "09ANHZA8689D7ZF",
+  "header": {
+    "invoice_number": "INV000606",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "09ANHZA8689D7ZF",
+    "vendor_name": "Top Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000208",
+    "grn_reference": "GRN000236",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX810",
+      "item_description": "Curtains Window",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "142.81",
+      "unit_price": "12229.13",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "3.30",
+      "taxable_value": "1688809.4674751",
+      "tax_amount": "472866.650893028",
+      "line_total": "2161676.118368128",
+      "po_line_id": "9aa58860-8759-4bb6-a026-5bf6ff32ba0e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX438",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5208",
+      "uom": "SET",
+      "quantity": "752.75",
+      "unit_price": "37873.33",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28509149.1575",
+      "tax_amount": "5131646.848350",
+      "line_total": "33640796.005850",
+      "po_line_id": "cc8ae213-4313-4974-b697-41ca5982f7a7"
+    }
+  ],
+  "taxes": {
+    "cgst": "472866.650893028",
+    "sgst": "5131646.848350",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30197958.6249751",
+    "total_tax": "5604513.499243028",
+    "grand_total": "35802472.124218128"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "5298ba38-e202-4388-87cb-d6943c9db78c",
+  "grn_id": "fa78e507-db37-4eae-9056-d3cd49252814",
+  "generated_at": "2026-11-18T15:45:20.762131"
+}

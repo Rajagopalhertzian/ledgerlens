@@ -1,0 +1,77 @@
+{
+  "invoice_id": "bcd9f61b-a916-4ae8-b2aa-856fbc98e080",
+  "invoice_number": "INV000668",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000668",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000190",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE528",
+      "item_description": "Router WiFi",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "626.54",
+      "unit_price": "26277.00",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16463591.5800",
+      "tax_amount": "1975630.989600",
+      "line_total": "18439222.569600",
+      "po_line_id": "28e332bd-85d3-4d34-a3eb-b94fb65bc850"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE480",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "118.47",
+      "unit_price": "49787.64",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5898341.7108",
+      "tax_amount": "1061701.507944",
+      "line_total": "6960043.218744",
+      "po_line_id": "a30160e3-e31d-4675-b384-a2cbb06d5b2a"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "3037332.497544",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "22361933.2908",
+    "total_tax": "3037332.497544",
+    "grand_total": "25399265.788344"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6a097ebd-e172-4f7c-a2a2-7059c76b4d70",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.779959"
+}

@@ -1,0 +1,141 @@
+{
+  "invoice_id": "432b6774-8100-46b0-ab36-ac77c2fd9958",
+  "invoice_number": "INV000253",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000253",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET854",
+      "item_description": "Round Bars",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "512.99",
+      "unit_price": "14158.07",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7262948.3293",
+      "tax_amount": "363147.416465",
+      "line_total": "7626095.745765",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET554",
+      "item_description": "Steel Channels",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "654.75",
+      "unit_price": "14476.53",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "3.32",
+      "taxable_value": "9163821.55131900",
+      "tax_amount": "1649487.8792374200",
+      "line_total": "10813309.4305564200",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET620",
+      "item_description": "Angle Iron",
+      "hsn_code": "7210",
+      "uom": "PCS",
+      "quantity": "347.32",
+      "unit_price": "17679.61",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6140482.1452",
+      "tax_amount": "736857.857424",
+      "line_total": "6877340.002624",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET437",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "508.28",
+      "unit_price": "35619.10",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "18104476.1480",
+      "tax_amount": "2172537.137760",
+      "line_total": "20277013.285760",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET284",
+      "item_description": "Iron Castings",
+      "hsn_code": "7208",
+      "uom": "BOX",
+      "quantity": "627.96",
+      "unit_price": "46695.21",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "29322724.0716",
+      "tax_amount": "5278090.332888",
+      "line_total": "34600814.404488",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET931",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7208",
+      "uom": "KG",
+      "quantity": "127.06",
+      "unit_price": "25764.29",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3273610.6874",
+      "tax_amount": "392833.282488",
+      "line_total": "3666443.969888",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1649487.8792374200",
+    "sgst": "8580318.610560",
+    "igst": "363147.416465",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "73268062.93281900",
+    "total_tax": "10592953.9062624200",
+    "grand_total": "83861016.8390814200"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.654394"
+}

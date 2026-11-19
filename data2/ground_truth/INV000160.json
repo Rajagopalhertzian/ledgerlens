@@ -1,0 +1,63 @@
+{
+  "invoice_id": "b999ca76-a5d1-4fae-94ca-31711f1de45e",
+  "invoice_number": "INV000160",
+  "vendor_id": "4900ab42-4bf3-46a4-a41c-8725db3cde20",
+  "vendor_gstin": "33EJTOX0564ASZL",
+  "header": {
+    "invoice_number": "INV000160",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "33EJTOX0564ASZL",
+    "vendor_name": "Fine Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000240",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP445",
+      "item_description": "Printing Paper",
+      "hsn_code": "4803",
+      "uom": "PCS",
+      "quantity": "649.76",
+      "unit_price": "35055.69",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "22777785.1344",
+      "tax_amount": "4100001.324192",
+      "line_total": "26877786.458592",
+      "po_line_id": "68f904da-c84f-4e28-b5e0-48eaa2ad0a4f"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "4100001.324192",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "22777785.1344",
+    "total_tax": "4100001.324192",
+    "grand_total": "30187683.39"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": "9b3f8588-35d3-48f0-a848-979ce2ef6ee4",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.628106"
+}

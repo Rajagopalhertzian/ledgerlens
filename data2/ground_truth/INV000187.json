@@ -1,0 +1,111 @@
+{
+  "invoice_id": "2d9823b3-7a5b-48f8-b69a-ee67406c585e",
+  "invoice_number": "INV000187",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000187",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB193",
+      "item_description": "Rubber Gloves",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "664.81",
+      "unit_price": "25753.49",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "17121177.6869",
+      "tax_amount": "3081811.983642",
+      "line_total": "20202989.670542",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB524",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "787.11",
+      "unit_price": "30856.37",
+      "tax_rate": "0.17",
+      "tax_type": "IGST",
+      "discount_percent": "0.97",
+      "taxable_value": "24051770.02401021",
+      "tax_amount": "4088800.9040817357",
+      "line_total": "28140570.9280919457",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB602",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4009",
+      "uom": "KG",
+      "quantity": "638.86",
+      "unit_price": "28005.43",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17891549.0098",
+      "tax_amount": "894577.450490",
+      "line_total": "18786126.460290",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB911",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4002",
+      "uom": "KG",
+      "quantity": "419.05",
+      "unit_price": "48072.17",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20144642.8385",
+      "tax_amount": "3626035.710930",
+      "line_total": "23770678.549430",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "4520613.161420",
+    "igst": "4284400.4848425105",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "79209139.55921021",
+    "total_tax": "8805013.6462625105",
+    "grand_total": "88014153.2054727205"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.635646"
+}

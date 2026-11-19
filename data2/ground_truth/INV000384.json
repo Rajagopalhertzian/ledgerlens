@@ -1,0 +1,77 @@
+{
+  "invoice_id": "a762da38-fe99-43e4-bc95-d0d75bff07f1",
+  "invoice_number": "INV000384",
+  "vendor_id": "e92a6f25-a45e-4223-9947-113e1eeb6b03",
+  "vendor_gstin": "33OUMNO2595Y3ZM",
+  "header": {
+    "invoice_number": "INV000384",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "33OUMNO2595Y3ZM",
+    "vendor_name": "Major Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC275",
+      "item_description": "Welding Set",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "572.56",
+      "unit_price": "31732.19",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "18168582.7064",
+      "tax_amount": "3270344.887152",
+      "line_total": "21438927.593552",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC535",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "417.66",
+      "unit_price": "9225.32",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3853047.1512",
+      "tax_amount": "192652.357560",
+      "line_total": "4045699.508760",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "192652.357560",
+    "sgst": "0",
+    "igst": "3270344.887152",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "22021629.8576",
+    "total_tax": "3462997.244712",
+    "grand_total": "25484627.102312"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.693222"
+}

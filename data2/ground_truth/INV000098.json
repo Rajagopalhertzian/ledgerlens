@@ -1,0 +1,61 @@
+{
+  "invoice_id": "4e83c642-ffd2-4e0d-8382-807a36e69271",
+  "invoice_number": "INV000098",
+  "vendor_id": "a82418f9-6ae0-4620-b973-25eeb0594fb8",
+  "vendor_gstin": "08JWMUS7323BFZ1",
+  "header": {
+    "invoice_number": "INV000098",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "08JWMUS7323BFZ1",
+    "vendor_name": "Fine Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP678",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4811",
+      "uom": "PKT",
+      "quantity": "29.05",
+      "unit_price": "8912.87",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "6.65",
+      "taxable_value": "241700.76841225",
+      "tax_amount": "43506.1383142050",
+      "line_total": "285206.9067264550",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "43506.1383142050",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "241700.76841225",
+    "total_tax": "43506.1383142050",
+    "grand_total": "285206.9067264550"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.609368"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "53bd6a11-1e0f-45fa-8f3e-88ede1cfe5e9",
+  "invoice_number": "INV000454",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000454",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000038",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE142",
+      "item_description": "Degreaser",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "928.72",
+      "unit_price": "31730.97",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "29469186.4584",
+      "tax_amount": "8251372.208352",
+      "line_total": "37720558.666752",
+      "po_line_id": "10a72366-34a0-4a21-956b-6299f2ae32c8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE502",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "2901",
+      "uom": "PCS",
+      "quantity": "150.43",
+      "unit_price": "25169.84",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "7.32",
+      "taxable_value": "3509141.94211616",
+      "tax_amount": "421097.0330539392",
+      "line_total": "3930238.9751700992",
+      "po_line_id": "60e8e805-3ac3-4bc1-aefb-3ca7e11ab81c"
+    }
+  ],
+  "taxes": {
+    "cgst": "8672469.2414059392",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32978328.40051616",
+    "total_tax": "8672469.2414059392",
+    "grand_total": "41650797.6419220992"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3f14f3d9-980f-40c9-9a7d-4ddc0145802b",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.713913"
+}

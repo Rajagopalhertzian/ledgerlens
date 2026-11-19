@@ -1,0 +1,109 @@
+{
+  "invoice_id": "6ba5cd7f-4892-464c-ab5a-752ea1f3de08",
+  "invoice_number": "INV000706",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000706",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000028",
+    "grn_reference": "GRN000033",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC856",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "555.78",
+      "unit_price": "42829.81",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "23803951.8018",
+      "tax_amount": "2856474.216216",
+      "line_total": "26660426.018016",
+      "po_line_id": "f629ccab-9182-4053-8f0d-0eba0c71277d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC675",
+      "item_description": "Packing Machine",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "177.43",
+      "unit_price": "25029.93",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4441060.4799",
+      "tax_amount": "799390.886382",
+      "line_total": "5240451.366282",
+      "po_line_id": "e3f2298f-86e3-434f-80b7-38de25c71b06"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC744",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "99.88",
+      "unit_price": "8250.76",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "824085.9088",
+      "tax_amount": "98890.309056",
+      "line_total": "922976.217856",
+      "po_line_id": "a71fbb1c-dbc8-45e0-831d-76153de6e34c"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC988",
+      "item_description": "Packing Machine",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "260.51",
+      "unit_price": "18079.30",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.21",
+      "taxable_value": "4652849.39783970",
+      "tax_amount": "837512.8916111460",
+      "line_total": "5490362.2894508460",
+      "po_line_id": "1d39d8f5-f984-41c7-9a30-6a8488175d97"
+    }
+  ],
+  "taxes": {
+    "cgst": "2856474.216216",
+    "sgst": "1735794.0870491460",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "33721947.58833970",
+    "total_tax": "4592268.3032651460",
+    "grand_total": "38314215.8916048460"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "b4fc72f7-ad91-4972-8b4d-106eb50eff41",
+  "grn_id": "bace0ff5-8109-42e0-9cf0-dc1c8a63e32a",
+  "generated_at": "2026-11-18T15:45:20.791215"
+}

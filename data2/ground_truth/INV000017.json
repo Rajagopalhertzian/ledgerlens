@@ -1,0 +1,111 @@
+{
+  "invoice_id": "91605d44-3e20-48cb-a5aa-899646ae1c3b",
+  "invoice_number": "INV000017",
+  "vendor_id": "1e14ef2e-c386-4ef7-b045-41995840634b",
+  "vendor_gstin": "27TQSAI2616UQZB",
+  "header": {
+    "invoice_number": "INV000017",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "27TQSAI2616UQZB",
+    "vendor_name": "Sri Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC138",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "693.04",
+      "unit_price": "21180.66",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "14679044.6064",
+      "tax_amount": "733952.230320",
+      "line_total": "15412996.836720",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC321",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "916.54",
+      "unit_price": "38288.00",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0.50",
+      "taxable_value": "34917021.1024000",
+      "tax_amount": "9776765.908672000",
+      "line_total": "44693787.011072000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC139",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "831.23",
+      "unit_price": "26269.81",
+      "tax_rate": "0.07",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "21836254.1663",
+      "tax_amount": "1528537.791641",
+      "line_total": "23364791.957941",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC584",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "386.49",
+      "unit_price": "12229.34",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4726517.6166",
+      "tax_amount": "236325.880830",
+      "line_total": "4962843.497430",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "236325.880830",
+    "igst": "11602530.847307000",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "76158837.4917000",
+    "total_tax": "11838856.728137000",
+    "grand_total": "87997694.219837000"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.582502"
+}

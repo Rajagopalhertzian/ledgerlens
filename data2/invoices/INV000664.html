@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000664</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 20px; margin: -15px -15px 20px -15px; border-radius: 0 0 10px 10px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company-name { font-size: 22pt; margin: 0; font-weight: 700; }
+        .company-gstin { font-size: 10pt; opacity: 0.9; margin-top: 4px; }
+        .invoice-badge { background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; text-align: right; }
+        .invoice-badge h2 { margin: 0; font-size: 18pt; }
+        .invoice-badge .meta { font-size: 9pt; opacity: 0.9; margin-top: 4px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .party-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; }
+        .party-card h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+        .party-card .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party-card .detail { font-size: 9pt; margin: 3px 0; color: #495057; }
+        .party-card .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals-card { width: 350px; margin-left: auto; background: white; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; }
+        .totals-card .row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #dee2e6; }
+        .totals-card .row:last-child { border-bottom: none; background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .bank-card h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-card .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .declaration { margin-top: 20px; font-style: italic; text-align: center; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .no-po-notice { background: #fff3cd; border: 1px solid #ffc107; color: #856404; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div>
+                    <h1 class="company-name">First Suppliers</h1>
+                    <div class="company-gstin">GSTIN: 06KVILG9171DBZS</div>
+                    <div class="company-gstin">779 Nehru Road, Opposite Mall, Patna, 06, 800001</div>
+                </div>
+                <div class="invoice-badge">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000664</div>
+                        <div>Date: 06/11/2026</div>
+                        <div style="color: #ffc107;">No Purchase Order Reference</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-po-notice">
+            <strong>Notice:</strong> This invoice does not reference a Purchase Order. Please verify authorization before processing.
+        </div>
+
+        <div class="parties">
+            <div class="party-card">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State:</span> 06</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party-card">
+                <h3>Ship To</h3>
+                <div class="name">First Suppliers</div>
+                <div class="detail"><span class="label">GSTIN:</span> 06KVILG9171DBZS</div>
+                <div class="detail"><span class="label">State:</span> 06</div>
+                <div class="detail">779 Nehru Road, Opposite Mall, Patna, 06, 800001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>5209</td>
+                    <td>Towels Bath</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">142.69</td>
+                    <td class="text-right">735.47</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,04,944.21</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">29,384.38</td>
+                    <td class="text-right">1,34,328.59</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>5407</td>
+                    <td>Polyester Yarn</td>
+                    <td class="text-center">ROL</td>
+                    <td class="text-right">679.52</td>
+                    <td class="text-right">42,669.17</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,89,94,554.40</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">52,19,019.79</td>
+                    <td class="text-right">3,42,13,574.19</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>0.00</span></div>
+            <div class="row"><span>SGST</span><span>52,48,404.17</span></div>
+            <div class="row"><span>IGST</span><span>0.00</span></div>
+        </div>
+
+        <div class="totals-card">
+            <div class="row"><span>Subtotal</span><span>2,90,99,498.61</span></div>
+            <div class="row"><span>Total Tax</span><span>52,48,404.17</span></div>
+            <div class="row"><span>Grand Total</span><span>3,43,47,902.78</span></div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Three Crore Forty Three Lakh Forty Seven Thousand Nine Hundred Two Only Rupees Only</p>
+
+            <div class="bank-card">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXX3737</span></div>
+                <div class="row"><span>IFSC:</span><span>BKID0DTIRC9</span></div>
+                <div class="row"><span>Bank:</span><span>Bank of India, Main Branch</span></div>
+                <div class="row"><span>Holder:</span><span>First Suppliers</span></div>
+            </div>
+
+            <div class="declaration">
+                We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.
+            </div>
+
+            <p style="margin-top: 20px; text-align: center;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

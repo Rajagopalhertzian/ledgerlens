@@ -1,0 +1,93 @@
+{
+  "invoice_id": "1e649f07-74e3-4fb1-849b-ad99e688e2e4",
+  "invoice_number": "INV000280",
+  "vendor_id": "1c9f5b2a-98c2-44e0-a272-2780b5e5d688",
+  "vendor_gstin": "24ZOGTE3783DOZM",
+  "header": {
+    "invoice_number": "INV000280",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "24ZOGTE3783DOZM",
+    "vendor_name": "Universal Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000212",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE724",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "2801",
+      "uom": "KG",
+      "quantity": "307.89",
+      "unit_price": "15338.65",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4722616.9485",
+      "tax_amount": "1322332.745580",
+      "line_total": "6044949.694080",
+      "po_line_id": "907f3775-6660-489f-9e2c-6dcbab36d9d9"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE724",
+      "item_description": "Rust Remover",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "155.44",
+      "unit_price": "7903.75",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1228558.9000",
+      "tax_amount": "343996.492000",
+      "line_total": "1572555.392000",
+      "po_line_id": "7b18d122-b0e3-4a90-a121-3281aa7e6257"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE583",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "956.75",
+      "unit_price": "49059.60",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "9.33",
+      "taxable_value": "42558478.14441000",
+      "tax_amount": "11916373.8804348000",
+      "line_total": "54474852.0248448000",
+      "po_line_id": "f16ef836-bd2c-47e1-af03-c3fc29cb81ee"
+    }
+  ],
+  "taxes": {
+    "cgst": "1666329.237580",
+    "sgst": "0",
+    "igst": "11916373.8804348000",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48509653.99291000",
+    "total_tax": "13582703.1180148000",
+    "grand_total": "62092357.1109248000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e9e09451-3eb6-4422-ad5a-84a5e8b26567",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.662862"
+}

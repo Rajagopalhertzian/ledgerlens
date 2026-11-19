@@ -1,0 +1,141 @@
+{
+  "invoice_id": "69b0419d-4386-4b29-bcd5-c10e52fc6271",
+  "invoice_number": "INV000008",
+  "vendor_id": "5b1319e8-9083-4e25-8e5d-5a41049e25c6",
+  "vendor_gstin": "09PHRMI2326UKZ7",
+  "header": {
+    "invoice_number": "INV000008",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "09PHRMI2326UKZ7",
+    "vendor_name": "Prime Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000011",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR291",
+      "item_description": "Whiteboard",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "776.37",
+      "unit_price": "48218.06",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "6.83",
+      "taxable_value": "34878240.96915774",
+      "tax_amount": "6278083.3744483932",
+      "line_total": "41156324.3436061332",
+      "po_line_id": "8f4265fb-4648-4653-9b92-0e2a671c024c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR105",
+      "item_description": "Whiteboard",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "377.82",
+      "unit_price": "21482.54",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "8.46",
+      "taxable_value": "7429874.54876712",
+      "tax_amount": "1337377.4187780816",
+      "line_total": "8767251.9675452016",
+      "po_line_id": "50cfe922-eb90-4838-b482-d68511b5ec7d"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR777",
+      "item_description": "Bookshelf",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "40.90",
+      "unit_price": "46438.55",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1899336.6950",
+      "tax_amount": "94966.834750",
+      "line_total": "1994303.529750",
+      "po_line_id": "c144d6c8-549a-47e2-bb4f-9f9ece48acdb"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR905",
+      "item_description": "Bookshelf",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "73.81",
+      "unit_price": "35413.31",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2613856.4111",
+      "tax_amount": "313662.769332",
+      "line_total": "2927519.180432",
+      "po_line_id": "e1fe73da-fce0-4b21-8b29-ce5a9aece2de"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR779",
+      "item_description": "Filing Cabinet",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "543.54",
+      "unit_price": "20230.51",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10996091.4054",
+      "tax_amount": "1979296.452972",
+      "line_total": "12975387.858372",
+      "po_line_id": "721e9adf-a8d1-4c9b-bb2f-d26b94f41efa"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FUR764",
+      "item_description": "Workstation",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "294.28",
+      "unit_price": "47520.38",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13984297.4264",
+      "tax_amount": "3915603.279392",
+      "line_total": "17899900.705792",
+      "po_line_id": "b19806e8-4831-447d-9936-d55e1c58e266"
+    }
+  ],
+  "taxes": {
+    "cgst": "3630336.6410820816",
+    "sgst": "6278083.3744483932",
+    "igst": "4010570.114142",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "71801697.45582486",
+    "total_tax": "13918990.1296724748",
+    "grand_total": "85720687.5854973348"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "46115c21-2b85-45e2-a7bd-c47ac74b9eac",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.579930"
+}

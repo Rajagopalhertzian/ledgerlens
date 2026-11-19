@@ -1,0 +1,77 @@
+{
+  "invoice_id": "6cbecd02-39a8-4606-aa9d-9c8c5efb5200",
+  "invoice_number": "INV000064",
+  "vendor_id": "4900ab42-4bf3-46a4-a41c-8725db3cde20",
+  "vendor_gstin": "33EJTOX0564ASZL",
+  "header": {
+    "invoice_number": "INV000064",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "33EJTOX0564ASZL",
+    "vendor_name": "Fine Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000170",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA979",
+      "item_description": "Stretch Film",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "820.45",
+      "unit_price": "42101.87",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "34542479.2415",
+      "tax_amount": "6217646.263470",
+      "line_total": "40760125.504970",
+      "po_line_id": "7c6a439b-6393-4a51-a878-8577b693fd4b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA773",
+      "item_description": "Poly Bags",
+      "hsn_code": "3926",
+      "uom": "KG",
+      "quantity": "432.92",
+      "unit_price": "31846.24",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13786874.2208",
+      "tax_amount": "1654424.906496",
+      "line_total": "15441299.127296",
+      "po_line_id": "8166512e-1fba-4ca4-8fa0-7b65aee9000c"
+    }
+  ],
+  "taxes": {
+    "cgst": "1654424.906496",
+    "sgst": "0",
+    "igst": "6217646.263470",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48329353.4623",
+    "total_tax": "7872071.169966",
+    "grand_total": "56201424.632266"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e967d2aa-e992-45b8-8634-501963d029ff",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.596591"
+}

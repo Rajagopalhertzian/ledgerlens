@@ -1,0 +1,87 @@
+{
+  "invoice_id": "df098dcb-b931-42d7-a377-86281459c50a",
+  "invoice_number": "INV000442",
+  "vendor_id": "3da39e2b-8543-4ab8-8e27-7b319584b425",
+  "vendor_gstin": "29TTHDM4152RNZS",
+  "header": {
+    "invoice_number": "INV000442",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "29TTHDM4152RNZS",
+    "vendor_name": "Standard Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX997",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "380.31",
+      "unit_price": "41939.17",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "15949885.7427",
+      "tax_amount": "2870979.433686",
+      "line_total": "18820865.176386",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX429",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5209",
+      "uom": "PCS",
+      "quantity": "582.85",
+      "unit_price": "3138.18",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1829088.2130",
+      "tax_amount": "329235.878340",
+      "line_total": "2158324.091340",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX882",
+      "item_description": "Towels Bath",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "337.03",
+      "unit_price": "40075.05",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13506494.1015",
+      "tax_amount": "1620779.292180",
+      "line_total": "15127273.393680",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2870979.433686",
+    "sgst": "1620779.292180",
+    "igst": "329235.878340",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "31285468.0572",
+    "total_tax": "4820994.604206",
+    "grand_total": "36106462.661406"
+  },
+  "expected_decision": "investigate",
+  "defects": [],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.710348"
+}

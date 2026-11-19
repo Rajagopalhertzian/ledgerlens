@@ -1,0 +1,125 @@
+{
+  "invoice_id": "0473cf8b-c6d9-4823-a6f4-029b337bc643",
+  "invoice_number": "INV000720",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000720",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000387",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB827",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "583.26",
+      "unit_price": "21958.22",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12807351.3972",
+      "tax_amount": "2305323.251496",
+      "line_total": "15112674.648696",
+      "po_line_id": "1e453e13-1a52-4028-a01d-0d98780bd832"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB697",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "945.50",
+      "unit_price": "37120.67",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "4.41",
+      "taxable_value": "33549789.61231150",
+      "tax_amount": "1677489.4806155750",
+      "line_total": "35227279.0929270750",
+      "po_line_id": "7470f1b0-0cc3-4cec-8f0b-81eed903c3ba"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB980",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "820.18",
+      "unit_price": "15032.06",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12328994.9708",
+      "tax_amount": "1479479.396496",
+      "line_total": "13808474.367296",
+      "po_line_id": "33b2ab23-53f4-447f-b70a-2fa406f51e94"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB635",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "426.03",
+      "unit_price": "38051.42",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16211046.4626",
+      "tax_amount": "1945325.575512",
+      "line_total": "18156372.038112",
+      "po_line_id": "a66ccec5-7ae6-4603-b006-c40bf57f746f"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB870",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "726.39",
+      "unit_price": "31945.95",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "23205218.6205",
+      "tax_amount": "2784626.234460",
+      "line_total": "25989844.854960",
+      "po_line_id": "8d2b1e62-960f-40e5-b45f-03f8583bdcef"
+    }
+  ],
+  "taxes": {
+    "cgst": "1677489.4806155750",
+    "sgst": "2305323.251496",
+    "igst": "6209431.206468",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "98102401.06341150",
+    "total_tax": "10192243.9385795750",
+    "grand_total": "108294645.0019910750"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "641c695c-1dff-48c7-86b1-2fcdbe91dc7d",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.795148"
+}

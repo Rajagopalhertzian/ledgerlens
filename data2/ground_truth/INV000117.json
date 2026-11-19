@@ -1,0 +1,111 @@
+{
+  "invoice_id": "5f51b846-c672-4869-8657-82b6f2545c5f",
+  "invoice_number": "INV000117",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000117",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000242",
+    "grn_reference": "GRN000280",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET580",
+      "item_description": "Steel Channels",
+      "hsn_code": "7302",
+      "uom": "MTR",
+      "quantity": "476.57",
+      "unit_price": "9945.26",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4739612.5582",
+      "tax_amount": "1327091.516296",
+      "line_total": "6066704.074496",
+      "po_line_id": "3fcde6b4-08f3-4352-99ba-b7841fc737bf"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET333",
+      "item_description": "Steel Channels",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "700.27",
+      "unit_price": "35173.12",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.21",
+      "taxable_value": "23840035.89056896",
+      "tax_amount": "1192001.7945284480",
+      "line_total": "25032037.6850974080",
+      "po_line_id": "6d4d5b49-fdc6-4a80-924e-081895adee0b"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET944",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "601.95",
+      "unit_price": "25382.06",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "15278731.0170",
+      "tax_amount": "2750171.583060",
+      "line_total": "18028902.600060",
+      "po_line_id": "4a49fcb1-ce7a-434e-80f6-10f6e2d4d204"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET166",
+      "item_description": "Round Bars",
+      "hsn_code": "7208",
+      "uom": "MTR",
+      "quantity": "531.02",
+      "unit_price": "39780.95",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "21124480.0690",
+      "tax_amount": "3802406.412420",
+      "line_total": "24926886.481420",
+      "po_line_id": "a8bd9827-8800-498b-8ec5-d1e0cc4af231"
+    }
+  ],
+  "taxes": {
+    "cgst": "3942173.3775884480",
+    "sgst": "3802406.412420",
+    "igst": "1327091.516296",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "64982859.53476896",
+    "total_tax": "9071671.3063044480",
+    "grand_total": "74054530.8410734080"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 4: PO price 32776.62, Invoice price 39780.95 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "fcec8580-f123-4692-891f-5f022a3f6719",
+  "grn_id": "0d87cf84-4a48-498c-90a7-9bd854fdd461",
+  "generated_at": "2026-11-18T15:45:20.615292"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "48b65b75-1e97-4ac7-8a02-e79107510155",
+  "invoice_number": "INV000369",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000369",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000171",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP500",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4810",
+      "uom": "PKT",
+      "quantity": "667.87",
+      "unit_price": "47958.66",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "32030150.2542",
+      "tax_amount": "8968442.071176",
+      "line_total": "40998592.325376",
+      "po_line_id": "37f72e7a-0b17-4dea-82ff-9fad973d77d7"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP463",
+      "item_description": "File Folders",
+      "hsn_code": "4801",
+      "uom": "PKT",
+      "quantity": "35.05",
+      "unit_price": "32556.07",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1141090.2535",
+      "tax_amount": "319505.270980",
+      "line_total": "1460595.524480",
+      "po_line_id": "dc455820-5a2a-4526-b084-56dbaf606906"
+    }
+  ],
+  "taxes": {
+    "cgst": "319505.270980",
+    "sgst": "8968442.071176",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "33171240.5077",
+    "total_tax": "9287947.342156",
+    "grand_total": "42459187.849856"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3e40aa3b-e68b-44e7-8bb5-c7e0aff2246e",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.689079"
+}

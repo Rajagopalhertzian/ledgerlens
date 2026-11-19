@@ -1,0 +1,109 @@
+{
+  "invoice_id": "cd551db8-b762-413d-bc18-21819c30bf05",
+  "invoice_number": "INV000238",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000238",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE921",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "151.23",
+      "unit_price": "19841.11",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3000571.0653",
+      "tax_amount": "840159.898284",
+      "line_total": "3840730.963584",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE859",
+      "item_description": "Server Rack",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "808.67",
+      "unit_price": "39944.96",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "32302290.8032",
+      "tax_amount": "5814412.344576",
+      "line_total": "38116703.147776",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE743",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "819.45",
+      "unit_price": "31687.36",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "3.54",
+      "taxable_value": "25047003.41881920",
+      "tax_amount": "7013160.9572693760",
+      "line_total": "32060164.3760885760",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE359",
+      "item_description": "Mouse Optical",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "907.22",
+      "unit_price": "43190.37",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "39183167.4714",
+      "tax_amount": "1959158.373570",
+      "line_total": "41142325.844970",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "15626891.5736993760",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "99533032.75871920",
+    "total_tax": "15626891.5736993760",
+    "grand_total": "115159924.3324185760"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.650017"
+}

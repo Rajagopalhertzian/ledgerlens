@@ -1,0 +1,141 @@
+{
+  "invoice_id": "9e1623a6-5a41-4e22-8bd8-1123b2bf94fb",
+  "invoice_number": "INV000333",
+  "vendor_id": "561147d5-1ace-4358-9ced-d61872dc4ddd",
+  "vendor_gstin": "24YRUIK1374HKZP",
+  "header": {
+    "invoice_number": "INV000333",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "24YRUIK1374HKZP",
+    "vendor_name": "Imperial Pharmaceuticals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE297",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "348.49",
+      "unit_price": "24274.55",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8459437.9295",
+      "tax_amount": "1522698.827310",
+      "line_total": "9982136.756810",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE385",
+      "item_description": "Desktop PC",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "239.19",
+      "unit_price": "19625.75",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4694283.1425",
+      "tax_amount": "563313.977100",
+      "line_total": "5257597.119600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE423",
+      "item_description": "Server Rack",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "767.44",
+      "unit_price": "29218.11",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "22423146.3384",
+      "tax_amount": "6278480.974752",
+      "line_total": "28701627.313152",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE856",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "228.68",
+      "unit_price": "15769.27",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.77",
+      "taxable_value": "3253799.06556628",
+      "tax_amount": "911063.7383585584",
+      "line_total": "4164862.8039248384",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE467",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "767.96",
+      "unit_price": "9941.27",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "8.95",
+      "taxable_value": "6951210.16422660",
+      "tax_amount": "1251217.8295607880",
+      "line_total": "8202427.9937873880",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "ELE969",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "756.01",
+      "unit_price": "33721.11",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "25493496.3711",
+      "tax_amount": "4588829.346798",
+      "line_total": "30082325.717898",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "8093012.7814127880",
+    "sgst": "5499893.0851565584",
+    "igst": "1522698.827310",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "71275373.01129288",
+    "total_tax": "15115604.6938793464",
+    "grand_total": "86390977.7051722264"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.678681"
+}

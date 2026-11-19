@@ -1,0 +1,77 @@
+{
+  "invoice_id": "a5ff6841-58a2-4b01-82dd-d82c3e2247c4",
+  "invoice_number": "INV000320",
+  "vendor_id": "2bbf02cc-8f00-4189-b5fb-919fd208e8ac",
+  "vendor_gstin": "09SNTVB9646L9Z2",
+  "header": {
+    "invoice_number": "INV000320",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "09SNTVB9646L9Z2",
+    "vendor_name": "Indian Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000342",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP460",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4802",
+      "uom": "PCS",
+      "quantity": "214.00",
+      "unit_price": "38548.57",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0.45",
+      "taxable_value": "8212271.70709000",
+      "tax_amount": "410613.5853545000",
+      "line_total": "8622885.2924445000",
+      "po_line_id": "7da05a5b-2595-4954-8d49-dfcc17c21a89"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP909",
+      "item_description": "Register Books",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "222.56",
+      "unit_price": "9240.48",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "8.82",
+      "taxable_value": "1875172.52841984",
+      "tax_amount": "525048.3079575552",
+      "line_total": "2400220.8363773952",
+      "po_line_id": "e0ba0a07-27f7-4d7d-b3bd-7cca51d75fd5"
+    }
+  ],
+  "taxes": {
+    "cgst": "410613.5853545000",
+    "sgst": "525048.3079575552",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "10087444.23550984",
+    "total_tax": "935661.8933120552",
+    "grand_total": "11023106.1288218952"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "0bf8d324-6c86-4a19-9f36-0426c7dc6d32",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.674440"
+}

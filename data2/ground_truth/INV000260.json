@@ -1,0 +1,61 @@
+{
+  "invoice_id": "8ee2a695-d766-4120-9202-296404df3fac",
+  "invoice_number": "INV000260",
+  "vendor_id": "79532d76-885d-47bf-b329-f9b8cf4cd524",
+  "vendor_gstin": "33UXFRO4775NBZK",
+  "header": {
+    "invoice_number": "INV000260",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "33UXFRO4775NBZK",
+    "vendor_name": "Jai Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE611",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "686.29",
+      "unit_price": "36705.03",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "25190295.0387",
+      "tax_amount": "3022835.404644",
+      "line_total": "28213130.443344",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "3022835.404644",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "25190295.0387",
+    "total_tax": "3022835.404644",
+    "grand_total": "28213130.443344"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.657072"
+}

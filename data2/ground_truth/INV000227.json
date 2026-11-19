@@ -1,0 +1,93 @@
+{
+  "invoice_id": "ed86cbf0-6861-47a3-8c42-45ea5ab458e4",
+  "invoice_number": "INV000227",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000227",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000200",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO531",
+      "item_description": "Tea Powder 1kg",
+      "hsn_code": "1006",
+      "uom": "PCS",
+      "quantity": "387.43",
+      "unit_price": "41081.62",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15916252.0366",
+      "tax_amount": "795812.601830",
+      "line_total": "16712064.638430",
+      "po_line_id": "b037d12c-c182-4b66-8940-d138833fee13"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO850",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "682.66",
+      "unit_price": "41728.20",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "28486173.0120",
+      "tax_amount": "7976128.443360",
+      "line_total": "36462301.455360",
+      "po_line_id": "aef30e3b-0e3f-41ec-b71f-c4535bfb46ee"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO493",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "803.75",
+      "unit_price": "710.00",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "570662.5000",
+      "tax_amount": "102719.250000",
+      "line_total": "673381.750000",
+      "po_line_id": "1efb9a26-6bb5-470f-9b63-d4409b105daa"
+    }
+  ],
+  "taxes": {
+    "cgst": "8078847.693360",
+    "sgst": "795812.601830",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "44973087.5486",
+    "total_tax": "8874660.295190",
+    "grand_total": "53847747.843790"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "bda8a914-7140-4e7e-903f-b55b30a1ae28",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.647267"
+}

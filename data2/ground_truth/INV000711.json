@@ -1,0 +1,63 @@
+{
+  "invoice_id": "ecf30224-9c2c-4f56-ad34-b47613e04586",
+  "invoice_number": "INV000711",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000711",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE678",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "714.85",
+      "unit_price": "217.52",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "155494.1720",
+      "tax_amount": "43538.368160",
+      "line_total": "199032.540160",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "43538.368160",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "155494.1720",
+    "total_tax": "43538.368160",
+    "grand_total": "199032.540160"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 165.46, Invoice price 217.52 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.792554"
+}

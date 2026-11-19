@@ -1,0 +1,143 @@
+{
+  "invoice_id": "706a95ec-b94f-4aee-afd6-d47ff677e7fb",
+  "invoice_number": "INV000005",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000005",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO120",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "2106",
+      "uom": "BOX",
+      "quantity": "797.45",
+      "unit_price": "4212.76",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3359465.4620",
+      "tax_amount": "604703.783160",
+      "line_total": "3964169.245160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO341",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "769.38",
+      "unit_price": "8259.94",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6355032.6372",
+      "tax_amount": "1143905.874696",
+      "line_total": "7498938.511896",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO156",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1701",
+      "uom": "KG",
+      "quantity": "43.66",
+      "unit_price": "10219.34",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "9.71",
+      "taxable_value": "402852.65747476",
+      "tax_amount": "20142.6328737380",
+      "line_total": "422995.2903484980",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO355",
+      "item_description": "Tea Powder 1kg",
+      "hsn_code": "1701",
+      "uom": "BOX",
+      "quantity": "407.17",
+      "unit_price": "43246.80",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "5.03",
+      "taxable_value": "16723076.93833320",
+      "tax_amount": "3010153.8488999760",
+      "line_total": "19733230.7872331760",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO280",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "2106",
+      "uom": "PCS",
+      "quantity": "318.78",
+      "unit_price": "32967.07",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10509242.5746",
+      "tax_amount": "525462.128730",
+      "line_total": "11034704.703330",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO162",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "2106",
+      "uom": "KG",
+      "quantity": "401.15",
+      "unit_price": "24686.19",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9902865.1185",
+      "tax_amount": "1188343.814220",
+      "line_total": "11091208.932720",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1733948.5758237380",
+    "sgst": "4154059.7235959760",
+    "igst": "604703.783160",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "47252535.38810796",
+    "total_tax": "6492712.0825797140",
+    "grand_total": "53745247.4706876740"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.578884"
+}

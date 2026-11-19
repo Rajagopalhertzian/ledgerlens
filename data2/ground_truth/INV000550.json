@@ -1,0 +1,125 @@
+{
+  "invoice_id": "7270f406-cb54-4468-958e-9cbfb8e76f18",
+  "invoice_number": "INV000550",
+  "vendor_id": "53c1a9a8-fb3c-46e3-abe0-e7065fc23b8c",
+  "vendor_gstin": "08XQRDX5636R9ZP",
+  "header": {
+    "invoice_number": "INV000550",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "08XQRDX5636R9ZP",
+    "vendor_name": "National Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET616",
+      "item_description": "Iron Castings",
+      "hsn_code": "7208",
+      "uom": "PCS",
+      "quantity": "321.27",
+      "unit_price": "19903.35",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6394349.2545",
+      "tax_amount": "319717.462725",
+      "line_total": "6714066.717225",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET385",
+      "item_description": "Angle Iron",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "312.98",
+      "unit_price": "48221.74",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "8.16",
+      "taxable_value": "13860897.06608768",
+      "tax_amount": "1663307.6479305216",
+      "line_total": "15524204.7140182016",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET492",
+      "item_description": "Flat Bars",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "515.44",
+      "unit_price": "17708.23",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "4.33",
+      "taxable_value": "8732308.01911704",
+      "tax_amount": "436615.4009558520",
+      "line_total": "9168923.4200728920",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET546",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7208",
+      "uom": "MTR",
+      "quantity": "178.60",
+      "unit_price": "33248.77",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5938230.3220",
+      "tax_amount": "1662704.490160",
+      "line_total": "7600934.812160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET336",
+      "item_description": "GI Sheets",
+      "hsn_code": "7302",
+      "uom": "MTR",
+      "quantity": "240.75",
+      "unit_price": "26989.74",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6497779.9050",
+      "tax_amount": "324888.995250",
+      "line_total": "6822668.900250",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1987593.485410",
+    "sgst": "1663307.6479305216",
+    "igst": "756332.8636808520",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "41423564.56670472",
+    "total_tax": "4407233.9970213736",
+    "grand_total": "45830798.5637260936"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.745832"
+}

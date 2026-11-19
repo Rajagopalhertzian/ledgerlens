@@ -1,0 +1,111 @@
+{
+  "invoice_id": "df39c07c-280b-4532-806d-59f7c0a8f257",
+  "invoice_number": "INV000441",
+  "vendor_id": "2bbf02cc-8f00-4189-b5fb-919fd208e8ac",
+  "vendor_gstin": "09SNTVB9646L9Z2",
+  "header": {
+    "invoice_number": "INV000441",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "09SNTVB9646L9Z2",
+    "vendor_name": "Indian Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000069",
+    "grn_reference": "GRN000083",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP283",
+      "item_description": "Paper Bags",
+      "hsn_code": "4811",
+      "uom": "PCS",
+      "quantity": "189.17",
+      "unit_price": "44210.55",
+      "tax_rate": "0.26",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8363309.7435",
+      "tax_amount": "2174460.533310",
+      "line_total": "10537770.276810",
+      "po_line_id": "f21d076c-ade6-415e-ac57-42e29bac69ec"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP742",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4803",
+      "uom": "PCS",
+      "quantity": "165.60",
+      "unit_price": "5690.03",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "2.04",
+      "taxable_value": "923046.68105280",
+      "tax_amount": "110765.6017263360",
+      "line_total": "1033812.2827791360",
+      "po_line_id": "f99c8cae-901e-4b25-985a-e1fa58253b28"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP554",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4801",
+      "uom": "ROL",
+      "quantity": "969.61",
+      "unit_price": "27117.60",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "26293496.1360",
+      "tax_amount": "3155219.536320",
+      "line_total": "29448715.672320",
+      "po_line_id": "6e8fd727-1720-423f-9dc9-f482384c47f4"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP521",
+      "item_description": "Register Books",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "292.23",
+      "unit_price": "3241.18",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "947170.0314",
+      "tax_amount": "113660.403768",
+      "line_total": "1060830.435168",
+      "po_line_id": "d5e9f117-bf79-4150-a00e-5b58ebe17a03"
+    }
+  ],
+  "taxes": {
+    "cgst": "418165.487175",
+    "sgst": "3265985.1380463360",
+    "igst": "113660.403768",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36527022.59195280",
+    "total_tax": "3797811.0289893360",
+    "grand_total": "40324833.6209421360"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": "5be0ad7c-786b-4d09-934d-74fe1bc4b261",
+  "grn_id": "1212a03d-85d1-45e1-9177-05e589c36a46",
+  "generated_at": "2026-11-18T15:45:20.710130"
+}

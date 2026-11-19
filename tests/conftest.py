@@ -1,46 +1,58 @@
-"""Pytest configuration and fixtures for LedgerLens."""
+"""Pytest configuration and fixtures."""
 
-import asyncio
+import os
+import sys
+from pathlib import Path
 
 import pytest
+import pytest_asyncio
 
-# Ensure asyncio mode is auto
-pytest_asyncio_mode = "auto"
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-
-@pytest.fixture(scope="session")
-def event_loop():
-    """Create event loop for async tests."""
-    loop = asyncio.get_event_loop_policy().new_event_loop()
-    yield loop
-    loop.close()
-
-
-@pytest.fixture
-def mock_llm_response():
-    """Mock LLM response for testing."""
-    return {
-        "content": "test response",
-        "model": "gpt-4o",
-        "usage": {"prompt_tokens": 10, "completion_tokens": 20, "total_tokens": 30},
-        "cost_usd": 0.001,
-        "latency_ms": 100.0,
-    }
+# Set test environment - use shared in-memory SQLite for tests
+TEST_DATABASE_URL = "sqlite+aiosqlite:///file:test.db?mode=memory&cache=shared&uri=true"
+os.environ["DATABASE_URL"] = TEST_DATABASE_URL
+os.environ["MCP_SECRET_KEY"] = "test-secret-key-for-testing-only-32bytes!!"
+os.environ["LLM_API_KEY"] = "test-key"
 
 
-@pytest.fixture
-def sample_invoice_data():
-    """Sample invoice data for testing."""
-    return {
-        "invoice_number": "INV-2024-001",
-        "supplier_gstin": "29ABCDE1234F1Z5",
-        "invoice_date": "2024-01-15",
-        "line_items": [
-            {"description": "Product A", "quantity": 10, "unit_price": 100.0, "tax_rate": 18}
-        ],
-        "total_amount": 1180.0,
-    }
+@pytest_asyncio.fixture(scope="session")
+async def db_engine():
+    """Create test database engine using shared in-memory SQLite."""
+    from sqlalchemy.ext.asyncio import create_async_engine
+    from sqlalchemy.pool import NullPool
+
+    from ledgerlens.db.models import Base
+
+    engine = create_async_engine(TEST_DATABASE_URL, echo=False, poolclass=NullPool)
+
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+
+    yield engine
+
+    await engine.dispose()
 
 
-# Async test support
-pytest_plugins = ["pytest_asyncio"]
+@pytest_asyncio.fixture
+async def db_session(db_engine):
+    """Create test database session."""
+    from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
+
+    async_session = async_sessionmaker(db_engine, class_=AsyncSession, expire_on_commit=False)
+
+    async with async_session() as session:
+        yield session
+        await session.rollback()
+
+
+# Initialize auth for tests
+@pytest.fixture(scope="session", autouse=True)
+def init_auth():
+    """Initialize auth managers for tests."""
+    from ledgerlens.mcp_servers.erp.approval_token import init_token_manager
+    from ledgerlens.mcp_servers.erp.auth import init_auth_manager
+
+    init_auth_manager("test-secret-key-for-testing-only-32bytes!!")
+    init_token_manager("test-secret-key-for-testing-only-32bytes!!")

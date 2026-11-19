@@ -1,0 +1,143 @@
+{
+  "invoice_id": "c58fad5f-b23e-4950-8cd9-de572dc1641d",
+  "invoice_number": "INV000563",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000563",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000223",
+    "grn_reference": "GRN000259",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC418",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "206.63",
+      "unit_price": "7206.18",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.17",
+      "taxable_value": "1471591.52161122",
+      "tax_amount": "264886.4738900196",
+      "line_total": "1736477.9955012396",
+      "po_line_id": "cb523d61-b4cd-469e-ab81-d11bf9b63de9"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC565",
+      "item_description": "Air Compressor",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "232.95",
+      "unit_price": "21969.77",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5117857.9215",
+      "tax_amount": "255892.896075",
+      "line_total": "5373750.817575",
+      "po_line_id": "5afdadc3-bc32-48e1-a10a-a2a01422a805"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC361",
+      "item_description": "Air Compressor",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "875.36",
+      "unit_price": "47479.45",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "41561611.3520",
+      "tax_amount": "2078080.567600",
+      "line_total": "43639691.919600",
+      "po_line_id": "d95818fb-a773-4658-828d-464e47333c3a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC849",
+      "item_description": "Welding Set",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "426.48",
+      "unit_price": "8505.95",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "1.03",
+      "taxable_value": "3590253.09517320",
+      "tax_amount": "1005270.8666484960",
+      "line_total": "4595523.9618216960",
+      "po_line_id": "0dfac08d-173f-459d-9a58-7ae39e01459a"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC531",
+      "item_description": "Milling Machine",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "242.05",
+      "unit_price": "42513.27",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10290337.0035",
+      "tax_amount": "2881294.360980",
+      "line_total": "13171631.364480",
+      "po_line_id": "9c88c572-9328-448f-8ffa-d182116507ab"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC436",
+      "item_description": "Welding Set",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "337.97",
+      "unit_price": "14082.16",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4759347.6152",
+      "tax_amount": "856682.570736",
+      "line_total": "5616030.185936",
+      "po_line_id": "88257f43-ae0d-4470-88cb-02d70cc5596e"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "4204920.4788745156",
+    "igst": "3137187.257055",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "66790998.50898442",
+    "total_tax": "7342107.7359295156",
+    "grand_total": "74133106.2449139356"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D03",
+      "evidence": "Line 6: Invoiced qty 337.97 > GRN accepted 273.85",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "partial_approve_or_reject"
+  ],
+  "po_id": "e21a3aa1-d2c6-4f8e-9ab5-f096755420af",
+  "grn_id": "b7446edd-8a04-4a63-9bf1-b8e7d57d197d",
+  "generated_at": "2026-11-18T15:45:20.749017"
+}

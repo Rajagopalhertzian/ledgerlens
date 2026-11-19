@@ -4,19 +4,8 @@ import json
 
 import pytest
 
-from datagen.models import (
-    Decision,
-    Defect,
-    DefectType,
-    GroundTruth,
-)
-from evals.run_oracle import (
-    decide_invoice,
-    run_oracle,
-    validate_duplicate,
-    validate_gst_rules,
-    validate_tax_arithmetic,
-)
+from datagen.models import Decision, Defect, DefectType, GroundTruth
+from evals.run_oracle import decide_invoice, run_oracle, validate_duplicate, validate_gst_rules, validate_tax_arithmetic
 
 
 class TestOracleValidators:
@@ -56,17 +45,8 @@ class TestOracleValidators:
                     "line_total": "11800.00",
                 }
             ],
-            "taxes": {
-                "cgst": "0",
-                "sgst": "0",
-                "igst": "1800.00",
-                "cess": "0",
-            },
-            "totals": {
-                "subtotal": "10000.00",
-                "total_tax": "1800.00",
-                "grand_total": "11800.00",
-            },
+            "taxes": {"cgst": "0", "sgst": "0", "igst": "1800.00", "cess": "0"},
+            "totals": {"subtotal": "10000.00", "total_tax": "1800.00", "grand_total": "11800.00"},
             "expected_decision": Decision.POST,
             "defects": [Defect(type=DefectType.D01)],
             "expected_actions": [],
@@ -83,62 +63,62 @@ class TestOracleValidators:
 
     def test_validate_tax_arithmetic_error(self):
         """Wrong line total should be caught."""
-        gt = self.make_ground_truth({
-            "lines": [{
-                "line_number": 1,
-                "item_code": "ITM001",
-                "item_description": "Test Item",
-                "hsn_code": "8471",
-                "uom": "PCS",
-                "quantity": "10",
-                "unit_price": "1000.00",
-                "tax_rate": "0.18",
-                "tax_type": "IGST",
-                "discount_percent": "0",
-                "taxable_value": "10000.00",
-                "tax_amount": "1800.00",
-                "line_total": "12000.00",  # Wrong
-            }],
-            "totals": {
-                "subtotal": "10000.00",
-                "total_tax": "1800.00",
-                "grand_total": "11800.00",
-            },
-        })
+        gt = self.make_ground_truth(
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "item_code": "ITM001",
+                        "item_description": "Test Item",
+                        "hsn_code": "8471",
+                        "uom": "PCS",
+                        "quantity": "10",
+                        "unit_price": "1000.00",
+                        "tax_rate": "0.18",
+                        "tax_type": "IGST",
+                        "discount_percent": "0",
+                        "taxable_value": "10000.00",
+                        "tax_amount": "1800.00",
+                        "line_total": "12000.00",  # Wrong
+                    }
+                ],
+                "totals": {"subtotal": "10000.00", "total_tax": "1800.00", "grand_total": "11800.00"},
+            }
+        )
         errors = validate_tax_arithmetic(gt)
         assert len(errors) > 0
         assert "line total mismatch" in errors[0]
 
     def test_validate_gst_rules_intra_state(self):
         """Intra-state should use CGST+SGST."""
-        gt = self.make_ground_truth({
-            "header": {
-                **self.make_ground_truth().header,
-                "place_of_supply": "29",
-                "place_of_delivery": "29",
-            },
-            "lines": [{
-                **self.make_ground_truth().lines[0],
-                "tax_type": "IGST",  # Wrong for intra-state
-            }],
-        })
+        gt = self.make_ground_truth(
+            {
+                "header": {**self.make_ground_truth().header, "place_of_supply": "29", "place_of_delivery": "29"},
+                "lines": [
+                    {
+                        **self.make_ground_truth().lines[0],
+                        "tax_type": "IGST",  # Wrong for intra-state
+                    }
+                ],
+            }
+        )
         errors = validate_gst_rules(gt)
         assert len(errors) > 0
         assert "Intrastate supply should use CGST+SGST" in errors[0]
 
     def test_validate_gst_rules_inter_state(self):
         """Inter-state should use IGST."""
-        gt = self.make_ground_truth({
-            "header": {
-                **self.make_ground_truth().header,
-                "place_of_supply": "29",
-                "place_of_delivery": "27",
-            },
-            "lines": [{
-                **self.make_ground_truth().lines[0],
-                "tax_type": "CGST",  # Wrong for inter-state
-            }],
-        })
+        gt = self.make_ground_truth(
+            {
+                "header": {**self.make_ground_truth().header, "place_of_supply": "29", "place_of_delivery": "27"},
+                "lines": [
+                    {
+                        **self.make_ground_truth().lines[0],
+                        "tax_type": "CGST",  # Wrong for inter-state
+                    }
+                ],
+            }
+        )
         errors = validate_gst_rules(gt)
         assert len(errors) > 0
         assert "Interstate supply should use IGST" in errors[0]
@@ -162,81 +142,63 @@ class TestOracleDecision(TestOracleValidators):
 
     def test_clean_invoice_posts(self):
         """Clean invoice (D01 only) should POST."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D01)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D01)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.POST
 
     def test_exact_duplicate_rejects(self):
         """Exact duplicate (D05) should REJECT."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D05)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D05)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.REJECT
 
     def test_illegible_rejects(self):
         """Illegible (D14) should REJECT."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D14)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D14)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.REJECT
 
     def test_near_duplicate_escalates(self):
         """Near duplicate (D06) should ESCALATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D06)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D06)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.ESCALATE
 
     def test_invalid_gstin_escalates(self):
         """Invalid GSTIN (D09) should ESCALATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D09)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D09)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.ESCALATE
 
     def test_bank_change_escalates(self):
         """Bank detail change (D10) should ESCALATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D10)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D10)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.ESCALATE
 
     def test_policy_violation_escalates(self):
         """Policy violation (D15) should ESCALATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D15)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D15)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.ESCALATE
 
     def test_price_variance_investigates(self):
         """Price variance (D02) should INVESTIGATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D02)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D02)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.INVESTIGATE
 
     def test_over_billing_investigates(self):
         """Over-billing (D03) should INVESTIGATE."""
-        gt = self.make_ground_truth({
-            "defects": [Defect(type=DefectType.D03)],
-        })
+        gt = self.make_ground_truth({"defects": [Defect(type=DefectType.D03)]})
         seen = {}
         decision = decide_invoice(gt, seen, [], {})
         assert decision == Decision.INVESTIGATE
@@ -268,21 +230,23 @@ class TestRunOracle:
                     "place_of_supply": "29",
                     "place_of_delivery": "29",
                 },
-                "lines": [{
-                    "line_number": 1,
-                    "item_code": "ITM001",
-                    "item_description": "Test Item",
-                    "hsn_code": "8471",
-                    "uom": "PCS",
-                    "quantity": "10",
-                    "unit_price": "1000.00",
-                    "tax_rate": "0.18",
-                    "tax_type": "IGST",
-                    "discount_percent": "0",
-                    "taxable_value": "10000.00",
-                    "tax_amount": "1800.00",
-                    "line_total": "11800.00",
-                }],
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "item_code": "ITM001",
+                        "item_description": "Test Item",
+                        "hsn_code": "8471",
+                        "uom": "PCS",
+                        "quantity": "10",
+                        "unit_price": "1000.00",
+                        "tax_rate": "0.18",
+                        "tax_type": "IGST",
+                        "discount_percent": "0",
+                        "taxable_value": "10000.00",
+                        "tax_amount": "1800.00",
+                        "line_total": "11800.00",
+                    }
+                ],
                 "taxes": {"cgst": "0", "sgst": "0", "igst": "1800.00", "cess": "0"},
                 "totals": {"subtotal": "10000.00", "total_tax": "1800.00", "grand_total": "11800.00"},
                 "expected_decision": "post" if i < 3 else "investigate",

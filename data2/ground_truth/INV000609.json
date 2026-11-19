@@ -1,0 +1,111 @@
+{
+  "invoice_id": "628b0a17-8ae0-462b-8041-d743fe140ab6",
+  "invoice_number": "INV000609",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000609",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO810668",
+    "grn_reference": "GRN000385",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP938",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4803",
+      "uom": "ROL",
+      "quantity": "346.37",
+      "unit_price": "29478.24",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "5.54",
+      "taxable_value": "9644723.04822048",
+      "tax_amount": "2700522.4535017344",
+      "line_total": "12345245.5017222144",
+      "po_line_id": "2671d02c-cda0-4814-9bd3-22e29460df24"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP811",
+      "item_description": "Printing Paper",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "983.42",
+      "unit_price": "47404.60",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "6.72",
+      "taxable_value": "43485859.67960960",
+      "tax_amount": "5218303.1615531520",
+      "line_total": "48704162.8411627520",
+      "po_line_id": "639a91d0-a32f-45f4-ab32-16f050ac0996"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP360",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "878.77",
+      "unit_price": "18165.26",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "9.45",
+      "taxable_value": "14454573.94759610",
+      "tax_amount": "2601823.3105672980",
+      "line_total": "17056397.2581633980",
+      "po_line_id": "67365f4d-0be7-483a-b904-f0ac78783845"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP178",
+      "item_description": "Register Books",
+      "hsn_code": "4803",
+      "uom": "PKT",
+      "quantity": "285.92",
+      "unit_price": "23414.48",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6694668.1216",
+      "tax_amount": "803360.174592",
+      "line_total": "7498028.296192",
+      "po_line_id": "b2d2a7a5-3617-4d33-a7b6-43839f516e58"
+    }
+  ],
+  "taxes": {
+    "cgst": "3405183.4851592980",
+    "sgst": "5218303.1615531520",
+    "igst": "2700522.4535017344",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "74279824.79702618",
+    "total_tax": "11324009.1002141844",
+    "grand_total": "85603833.8972403644"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "199320b8-2b56-46e4-aa0c-fee530e6dfc8",
+  "grn_id": "b449be46-20a9-42dc-b541-72643bd554fc",
+  "generated_at": "2026-11-18T15:45:20.762807"
+}

@@ -1,0 +1,127 @@
+{
+  "invoice_id": "ce60cbc5-dcbc-4223-bc0b-065071f29101",
+  "invoice_number": "INV000062",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000062",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE956",
+      "item_description": "Desktop PC",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "709.75",
+      "unit_price": "11133.57",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7902051.3075",
+      "tax_amount": "2212574.366100",
+      "line_total": "10114625.673600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE358",
+      "item_description": "Router WiFi",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "10.24",
+      "unit_price": "10396.43",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "106459.4432",
+      "tax_amount": "5322.972160",
+      "line_total": "111782.415360",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE397",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "100.49",
+      "unit_price": "19609.09",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "5.47",
+      "taxable_value": "1862730.14936073",
+      "tax_amount": "521564.4418210044",
+      "line_total": "2384294.5911817344",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE246",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "100.75",
+      "unit_price": "36470.52",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3674404.8900",
+      "tax_amount": "183720.244500",
+      "line_total": "3858125.134500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE937",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "516.21",
+      "unit_price": "29358.79",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0.06",
+      "taxable_value": "15146207.80530846",
+      "tax_amount": "2726317.4049555228",
+      "line_total": "17872525.2102639828",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3247881.8467765272",
+    "sgst": "2401617.582760",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "28691853.59536919",
+    "total_tax": "5649499.4295365272",
+    "grand_total": "34341353.0249057172"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.596146"
+}

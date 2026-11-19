@@ -1,0 +1,109 @@
+{
+  "invoice_id": "663b420a-cec5-4138-8fbe-e07d1c07dd36",
+  "invoice_number": "INV000622",
+  "vendor_id": "f4124b40-7167-4f77-8c94-c67d46a2e529",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000622",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Jai Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000276",
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB634",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4009",
+      "uom": "PCS",
+      "quantity": "911.01",
+      "unit_price": "31055.06",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.42",
+      "taxable_value": "27323901.92939748",
+      "tax_amount": "1366195.0964698740",
+      "line_total": "28690097.0258673540",
+      "po_line_id": "215c5fc3-9ddc-4dec-9b72-5cb60961e0a8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB498",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "991.12",
+      "unit_price": "37889.99",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37553526.8888",
+      "tax_amount": "6759634.839984",
+      "line_total": "44313161.728784",
+      "po_line_id": "8ca32a1f-15f4-48c3-b3fc-67035f4509e4"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB168",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "213.15",
+      "unit_price": "9588.17",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2043718.4355",
+      "tax_amount": "572241.161940",
+      "line_total": "2615959.597440",
+      "po_line_id": "312dca63-7bc1-4952-8a2b-4577a96f35ef"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB142",
+      "item_description": "Rubber Gloves",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "557.90",
+      "unit_price": "22946.87",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12802058.7730",
+      "tax_amount": "2304370.579140",
+      "line_total": "15106429.352140",
+      "po_line_id": "5d88f5f9-301b-49f5-91cd-9b85f9f1783c"
+    }
+  ],
+  "taxes": {
+    "cgst": "8125829.9364538740",
+    "sgst": "0",
+    "igst": "2876611.741080",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "79723206.02669748",
+    "total_tax": "11002441.6775338740",
+    "grand_total": "90725647.7042313540"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "5fc0eeb3-4810-4d47-bd41-f3fa3b0a0b1b",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.767361"
+}

@@ -1,0 +1,109 @@
+{
+  "invoice_id": "766326fc-c72e-474b-aa69-cedf9ae6130d",
+  "invoice_number": "INV000586",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000586",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000067",
+    "grn_reference": "GRN000082",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR134",
+      "item_description": "Locker Steel",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "418.35",
+      "unit_price": "2306.79",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "965045.5965",
+      "tax_amount": "270212.767020",
+      "line_total": "1235258.363520",
+      "po_line_id": "5891a14d-bb01-4cea-aebd-a942e181d050"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR185",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "479.79",
+      "unit_price": "39921.07",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "19153730.1753",
+      "tax_amount": "957686.508765",
+      "line_total": "20111416.684065",
+      "po_line_id": "dadacc89-ac3f-4280-8f98-1bdd934c095d"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR192",
+      "item_description": "Office Chair",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "949.98",
+      "unit_price": "6722.33",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6386079.0534",
+      "tax_amount": "1149494.229612",
+      "line_total": "7535573.283012",
+      "po_line_id": "e7a58333-fa6e-41fa-b082-a27e9302dc5c"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR241",
+      "item_description": "Bookshelf",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "162.64",
+      "unit_price": "23018.21",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3743681.6744",
+      "tax_amount": "187184.083720",
+      "line_total": "3930865.758120",
+      "po_line_id": "7b4a60c6-cc13-4cae-91cf-02c6fafedc5c"
+    }
+  ],
+  "taxes": {
+    "cgst": "1149494.229612",
+    "sgst": "1144870.592485",
+    "igst": "270212.767020",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30248536.4996",
+    "total_tax": "2564577.589117",
+    "grand_total": "32813114.088717"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "14b2e137-6ffb-4fb2-9e1e-f7c04e771ada",
+  "grn_id": "c11004a3-0467-4c1d-9cb8-9d66b7a8a924",
+  "generated_at": "2026-11-18T15:45:20.756107"
+}

@@ -1,0 +1,111 @@
+{
+  "invoice_id": "ef605493-b39f-4257-a042-9e922f852aa1",
+  "invoice_number": "INV000297",
+  "vendor_id": "f60cf842-ab4e-4c7c-ab67-3d140627343e",
+  "vendor_gstin": "27NDFIP2206H5Z8",
+  "header": {
+    "invoice_number": "INV000297",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "27NDFIP2206H5Z8",
+    "vendor_name": "Imperial Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000040",
+    "grn_reference": "GRN000047",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB689",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "243.07",
+      "unit_price": "13386.23",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3253790.9261",
+      "tax_amount": "911061.459308",
+      "line_total": "4164852.385408",
+      "po_line_id": "56b4eff0-8a1b-4e5f-bae6-e186bb939aa5"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB124",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "424.12",
+      "unit_price": "21543.00",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "9136817.1600",
+      "tax_amount": "1644627.088800",
+      "line_total": "10781444.248800",
+      "po_line_id": "35a24ce5-f927-4568-a873-ab91752938c0"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB937",
+      "item_description": "Conveyor Belt Rubber",
+      "hsn_code": "4009",
+      "uom": "KG",
+      "quantity": "616.60",
+      "unit_price": "49508.94",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0.45",
+      "taxable_value": "30389839.94818200",
+      "tax_amount": "8509155.1854909600",
+      "line_total": "38898995.1336729600",
+      "po_line_id": "ea2aa7c3-ff5a-46f5-9c0f-5c8715fddac2"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB348",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4002",
+      "uom": "KG",
+      "quantity": "156.84",
+      "unit_price": "36451.49",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5717051.6916",
+      "tax_amount": "285852.584580",
+      "line_total": "6002904.276180",
+      "po_line_id": "c50b01ee-6ab5-423b-ac57-dc7e52f2670e"
+    }
+  ],
+  "taxes": {
+    "cgst": "285852.584580",
+    "sgst": "2555688.548108",
+    "igst": "8509155.1854909600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48497499.72588200",
+    "total_tax": "11350696.3181789600",
+    "grand_total": "59848196.0440609600"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 2: PO price 17480.56, Invoice price 21543.00 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "695f6fe3-6586-42f3-9753-a83771cdac6a",
+  "grn_id": "90a27565-9ef3-45a0-8ce3-a9b5a4ba7b8b",
+  "generated_at": "2026-11-18T15:45:20.667619"
+}

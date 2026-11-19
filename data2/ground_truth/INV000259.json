@@ -1,0 +1,79 @@
+{
+  "invoice_id": "11b5c05b-524c-41fa-8c6d-018d1fc105df",
+  "invoice_number": "INV000259",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV000259",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000216",
+    "grn_reference": "GRN000246",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC867",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "163.72",
+      "unit_price": "12488.22",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2044571.3784",
+      "tax_amount": "572479.985952",
+      "line_total": "2617051.364352",
+      "po_line_id": "9e7d2746-4d55-41d0-a0f9-fbcfacace4b6"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC567",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "211.12",
+      "unit_price": "4630.47",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.12",
+      "taxable_value": "966635.87634432",
+      "tax_amount": "173994.4577419776",
+      "line_total": "1140630.3340862976",
+      "po_line_id": "931b6ced-fe81-4f7d-96f2-9317c2fca587"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "173994.4577419776",
+    "igst": "572479.985952",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "3011207.25474432",
+    "total_tax": "746474.4436939776",
+    "grand_total": "3757681.6984382976"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 10560.93, Invoice price 12488.22 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "ce955c1e-b707-4178-8ed2-f9419629ece9",
+  "grn_id": "6f4bc0d5-e533-418f-9b85-681aac7a5499",
+  "generated_at": "2026-11-18T15:45:20.656924"
+}

@@ -1,0 +1,125 @@
+{
+  "invoice_id": "8a03ad86-6c52-4301-ab70-0a118b2800c8",
+  "invoice_number": "INV000359",
+  "vendor_id": "d2b0fd7e-beb8-4e55-abb9-dd0e9a07dbe7",
+  "vendor_gstin": "08YADLJ4013KIZ9",
+  "header": {
+    "invoice_number": "INV000359",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "08YADLJ4013KIZ9",
+    "vendor_name": "Royal Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000068",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP376",
+      "item_description": "Register Books",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "860.52",
+      "unit_price": "3627.86",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.26",
+      "taxable_value": "2988855.44388528",
+      "tax_amount": "537993.9798993504",
+      "line_total": "3526849.4237846304",
+      "po_line_id": "d47b51b9-ff5b-4b3f-bfe6-c1d0cf133972"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP763",
+      "item_description": "Paper Bags",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "111.86",
+      "unit_price": "18342.98",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2051845.7428",
+      "tax_amount": "102592.287140",
+      "line_total": "2154438.029940",
+      "po_line_id": "321a326d-c0e6-4d65-a392-a0d6bfa0f89f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP589",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4811",
+      "uom": "PCS",
+      "quantity": "561.20",
+      "unit_price": "38701.42",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.14",
+      "taxable_value": "21471637.60329440",
+      "tax_amount": "2576596.5123953280",
+      "line_total": "24048234.1156897280",
+      "po_line_id": "aef99e59-8abf-4185-9e63-885db17c892b"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP615",
+      "item_description": "File Folders",
+      "hsn_code": "4819",
+      "uom": "BOX",
+      "quantity": "753.42",
+      "unit_price": "38068.21",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28681350.7782",
+      "tax_amount": "5162643.140076",
+      "line_total": "33843993.918276",
+      "po_line_id": "a1730b6f-1326-4384-9f33-2e964b407ac1"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP949",
+      "item_description": "Tissue Rolls",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "55.41",
+      "unit_price": "18703.41",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1036355.9481",
+      "tax_amount": "290179.665468",
+      "line_total": "1326535.613568",
+      "po_line_id": "815d9fd5-5d03-46fb-a080-585d0b2a1547"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "8132011.6050793280",
+    "igst": "537993.9798993504",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "56230045.51627968",
+    "total_tax": "8670005.5849786784",
+    "grand_total": "64900051.1012583584"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "5b9f8e3b-e635-43bc-b85a-8566ecf127e9",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.686202"
+}

@@ -1,0 +1,109 @@
+{
+  "invoice_id": "8715edb8-5e26-4e4c-9fb8-9250e8fa40c4",
+  "invoice_number": "INV620517",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV620517",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR836",
+      "item_description": "Partition Screen",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "57.10",
+      "unit_price": "4260.69",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "243285.3990",
+      "tax_amount": "43791.371820",
+      "line_total": "287076.770820",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR292",
+      "item_description": "Bookshelf",
+      "hsn_code": "9402",
+      "uom": "SET",
+      "quantity": "40.31",
+      "unit_price": "39687.93",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1599820.4583",
+      "tax_amount": "287967.682494",
+      "line_total": "1887788.140794",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR902",
+      "item_description": "Bookshelf",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "868.53",
+      "unit_price": "39491.79",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "34299804.3687",
+      "tax_amount": "9603945.223236",
+      "line_total": "43903749.591936",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR427",
+      "item_description": "Bookshelf",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "534.04",
+      "unit_price": "37202.76",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "19867761.9504",
+      "tax_amount": "5562973.346112",
+      "line_total": "25430735.296512",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "5894732.400426",
+    "sgst": "0",
+    "igst": "9603945.223236",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "56010672.1764",
+    "total_tax": "15498677.623662",
+    "grand_total": "71509349.800062"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.610119"
+}

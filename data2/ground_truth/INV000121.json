@@ -1,0 +1,77 @@
+{
+  "invoice_id": "abd3e36d-b56f-4dd1-977b-5243d020082a",
+  "invoice_number": "INV000121",
+  "vendor_id": "897397a6-dd52-4414-a8b9-13b3c323089b",
+  "vendor_gstin": "07PNIAC4919ENZW",
+  "header": {
+    "invoice_number": "INV000121",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "07PNIAC4919ENZW",
+    "vendor_name": "Superior Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000271",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC805",
+      "item_description": "Milling Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "158.24",
+      "unit_price": "38826.15",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6143849.9760",
+      "tax_amount": "307192.498800",
+      "line_total": "6451042.474800",
+      "po_line_id": "57d35059-39a7-431c-ac80-8797e63c2ce5"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC346",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "418.55",
+      "unit_price": "46531.81",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "19475889.0755",
+      "tax_amount": "3505660.033590",
+      "line_total": "22981549.109090",
+      "po_line_id": "fae79da5-cbae-43dd-b55f-17f1f28a8be3"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "307192.498800",
+    "igst": "3505660.033590",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "25619739.0515",
+    "total_tax": "3812852.532390",
+    "grand_total": "29432591.583890"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "555fa004-294d-45ec-936a-e39cbc9d8436",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.616462"
+}

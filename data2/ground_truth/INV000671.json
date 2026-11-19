@@ -1,0 +1,125 @@
+{
+  "invoice_id": "0527f931-aa85-4315-8627-04f8232382ae",
+  "invoice_number": "INV000671",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000671",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000310",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC668",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "340.59",
+      "unit_price": "1786.09",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "608324.3931",
+      "tax_amount": "72998.927172",
+      "line_total": "681323.320272",
+      "po_line_id": "70182775-e4a5-4898-96f8-ab2fd25b27c0"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC752",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "963.13",
+      "unit_price": "34549.00",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "33275178.3700",
+      "tax_amount": "3993021.404400",
+      "line_total": "37268199.774400",
+      "po_line_id": "6b68dd61-8c6a-4c44-96e2-dd679b3935f6"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC627",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "643.50",
+      "unit_price": "7570.26",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4871462.3100",
+      "tax_amount": "243573.115500",
+      "line_total": "5115035.425500",
+      "po_line_id": "d7bc95e9-0597-4336-9425-99da0fed1675"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC824",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "919.32",
+      "unit_price": "14466.87",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.14",
+      "taxable_value": "12217088.73802824",
+      "tax_amount": "610854.4369014120",
+      "line_total": "12827943.1749296520",
+      "po_line_id": "f1c58437-c52d-4034-a8e6-63195f6c9865"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC107",
+      "item_description": "Air Compressor",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "191.23",
+      "unit_price": "3239.49",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "8.41",
+      "taxable_value": "567388.75942593",
+      "tax_amount": "68086.6511311116",
+      "line_total": "635475.4105570416",
+      "po_line_id": "fe1cf787-bc82-449d-b096-a9753b003174"
+    }
+  ],
+  "taxes": {
+    "cgst": "243573.115500",
+    "sgst": "3993021.404400",
+    "igst": "751940.0152045236",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "51539442.57055417",
+    "total_tax": "4988534.5351045236",
+    "grand_total": "56527977.1056586936"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "86b088a6-6612-4416-af6e-1a958bc4ca96",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.780751"
+}

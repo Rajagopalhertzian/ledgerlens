@@ -1,0 +1,61 @@
+{
+  "invoice_id": "516b34f0-ff37-478b-9dc1-904082ca5ca4",
+  "invoice_number": "INV000179",
+  "vendor_id": "8cf75f68-1976-4b66-aa30-774c44f4bb15",
+  "vendor_gstin": "19MWPYB8583JRZJ",
+  "header": {
+    "invoice_number": "INV000179",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "19MWPYB8583JRZJ",
+    "vendor_name": "Hindustan Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET898",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "95.51",
+      "unit_price": "25539.48",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2439275.7348",
+      "tax_amount": "682997.205744",
+      "line_total": "3122272.940544",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "682997.205744",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2439275.7348",
+    "total_tax": "682997.205744",
+    "grand_total": "3122272.940544"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.633599"
+}

@@ -1,0 +1,125 @@
+{
+  "invoice_id": "9ecb8aaa-ad6d-4aca-9d3c-0e0a094b1abd",
+  "invoice_number": "INV000624",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000624",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE226",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "649.49",
+      "unit_price": "44888.47",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0.76",
+      "taxable_value": "28933037.32620972",
+      "tax_amount": "3471964.4791451664",
+      "line_total": "32405001.8053548864",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE312",
+      "item_description": "Graphics Card",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "484.18",
+      "unit_price": "29883.96",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14469215.7528",
+      "tax_amount": "2604458.835504",
+      "line_total": "17073674.588304",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE845",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "190.22",
+      "unit_price": "5180.27",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "985390.9594",
+      "tax_amount": "177370.372692",
+      "line_total": "1162761.332092",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE159",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "106.29",
+      "unit_price": "20200.46",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "1.35",
+      "taxable_value": "2118120.95033910",
+      "tax_amount": "105906.0475169550",
+      "line_total": "2224026.9978560550",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE893",
+      "item_description": "Graphics Card",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "501.23",
+      "unit_price": "41843.80",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "3.54",
+      "taxable_value": "20230910.65126040",
+      "tax_amount": "3641563.9172268720",
+      "line_total": "23872474.5684872720",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "9823893.2793929934",
+    "sgst": "0",
+    "igst": "177370.372692",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "66736675.64000922",
+    "total_tax": "10001263.6520849934",
+    "grand_total": "76737939.2920942134"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.767864"
+}

@@ -1,0 +1,109 @@
+{
+  "invoice_id": "93c2e7ba-f37f-41ba-beed-dbd86da26f04",
+  "invoice_number": "INV836921",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV836921",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC420",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "335.30",
+      "unit_price": "42339.15",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.16",
+      "taxable_value": "12895934.35825800",
+      "tax_amount": "3610861.6203122400",
+      "line_total": "16506795.9785702400",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC828",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "342.05",
+      "unit_price": "36121.17",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "8.30",
+      "taxable_value": "11329760.7640245",
+      "tax_amount": "2039356.937524410",
+      "line_total": "13369117.701548910",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC215",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "339.62",
+      "unit_price": "4236.99",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0.70",
+      "taxable_value": "1428893.7779934",
+      "tax_amount": "257200.880038812",
+      "line_total": "1686094.658032212",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC295",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "59.06",
+      "unit_price": "48209.84",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2847273.1504",
+      "tax_amount": "797236.482112",
+      "line_total": "3644509.632512",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "6447455.0399486500",
+    "igst": "257200.880038812",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "28501862.05067590",
+    "total_tax": "6704655.9199874620",
+    "grand_total": "35206517.9706633620"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.788260"
+}

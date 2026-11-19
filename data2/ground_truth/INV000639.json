@@ -1,0 +1,109 @@
+{
+  "invoice_id": "ffb036ad-49de-472c-b9fd-c22ab4949c21",
+  "invoice_number": "INV000639",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000639",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000202",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB753",
+      "item_description": "Seals Kit",
+      "hsn_code": "4016",
+      "uom": "PCS",
+      "quantity": "77.46",
+      "unit_price": "18702.49",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1448694.8754",
+      "tax_amount": "173843.385048",
+      "line_total": "1622538.260448",
+      "po_line_id": "28cb9e2a-16e6-429f-b8ef-c97bfbadc3bc"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB288",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4001",
+      "uom": "PCS",
+      "quantity": "338.43",
+      "unit_price": "31873.38",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10786907.9934",
+      "tax_amount": "1941643.438812",
+      "line_total": "12728551.432212",
+      "po_line_id": "c33da77d-e37f-481e-935e-ebf294b19a44"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB410",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4009",
+      "uom": "PCS",
+      "quantity": "837.02",
+      "unit_price": "21728.42",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "18187122.1084",
+      "tax_amount": "909356.105420",
+      "line_total": "19096478.213820",
+      "po_line_id": "9f924933-f4cd-43e9-915c-ae76c62ddfb2"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB547",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "694.56",
+      "unit_price": "2536.68",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1761876.4608",
+      "tax_amount": "493325.409024",
+      "line_total": "2255201.869824",
+      "po_line_id": "9a174e09-435f-45eb-b6db-4cf2a8f3e1c3"
+    }
+  ],
+  "taxes": {
+    "cgst": "1402681.514444",
+    "sgst": "1941643.438812",
+    "igst": "173843.385048",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32184601.4380",
+    "total_tax": "3518168.338304",
+    "grand_total": "35702769.776304"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "98cd8ad8-8f1f-40b4-a209-183a22af468d",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.772095"
+}

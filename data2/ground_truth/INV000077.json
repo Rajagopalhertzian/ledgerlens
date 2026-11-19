@@ -1,0 +1,77 @@
+{
+  "invoice_id": "7167e3d9-17d2-4a8c-88e2-616b36796cbe",
+  "invoice_number": "INV000077",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "27PXTPA2685AIZ4",
+  "header": {
+    "invoice_number": "INV000077",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "27PXTPA2685AIZ4",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000159",
+    "grn_reference": "GRN000182",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE834",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "145.89",
+      "unit_price": "15791.20",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2303778.1680",
+      "tax_amount": "115188.908400",
+      "line_total": "2418967.076400",
+      "po_line_id": "3afb030e-39c8-45ca-969b-09188f90feed"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE317",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "2901",
+      "uom": "LTR",
+      "quantity": "567.90",
+      "unit_price": "16145.91",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "2.84",
+      "taxable_value": "8908855.23999240",
+      "tax_amount": "1069062.6287990880",
+      "line_total": "9977917.8687914880",
+      "po_line_id": "d022a159-1fbf-4f4d-a340-656d53a02f25"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "115188.908400",
+    "igst": "1069062.6287990880",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "11212633.40799240",
+    "total_tax": "1184251.5371990880",
+    "grand_total": "12396884.9451914880"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "de4c68c0-3bdb-4645-9969-46c2b5ceae4f",
+  "grn_id": "4d838168-1c8d-4194-93d3-23d59b8e3e89",
+  "generated_at": "2026-11-18T15:45:20.600885"
+}

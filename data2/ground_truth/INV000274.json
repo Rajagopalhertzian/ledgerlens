@@ -1,0 +1,127 @@
+{
+  "invoice_id": "ab584942-5aaf-47a5-a19b-5d49a0777c65",
+  "invoice_number": "INV000274",
+  "vendor_id": "1c9f5b2a-98c2-44e0-a272-2780b5e5d688",
+  "vendor_gstin": "24ZOGTE3783DOZM",
+  "header": {
+    "invoice_number": "INV000274",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "24ZOGTE3783DOZM",
+    "vendor_name": "Universal Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO524",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1701",
+      "uom": "KG",
+      "quantity": "503.15",
+      "unit_price": "24044.63",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "4.72",
+      "taxable_value": "11527027.36091160",
+      "tax_amount": "576351.3680455800",
+      "line_total": "12103378.7289571800",
+      "po_line_id": "dad8aabb-999f-44ad-9cf3-e7fdde9b24d8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO225",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "2106",
+      "uom": "KG",
+      "quantity": "113.89",
+      "unit_price": "37531.00",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4274405.5900",
+      "tax_amount": "1196833.565200",
+      "line_total": "5471239.155200",
+      "po_line_id": "0c6236f1-bb61-442f-9146-5325665eb1fa"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO144",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "919.02",
+      "unit_price": "15220.50",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13987943.9100",
+      "tax_amount": "2517829.903800",
+      "line_total": "16505773.813800",
+      "po_line_id": "327605b1-0a71-42e1-a2b8-5c8818f7d833"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO486",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1701",
+      "uom": "PCS",
+      "quantity": "665.60",
+      "unit_price": "47739.14",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.40",
+      "taxable_value": "28788305.4551040",
+      "tax_amount": "8060725.527429120",
+      "line_total": "36849030.982533120",
+      "po_line_id": "386eea8b-a5e5-4dfa-a648-a436ee7662eb"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO886",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "324.28",
+      "unit_price": "17275.23",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.32",
+      "taxable_value": "5079904.10473392",
+      "tax_amount": "1422373.1493254976",
+      "line_total": "6502277.2540594176",
+      "po_line_id": "e648c80f-9ec1-40a3-a8ef-638383c6b431"
+    }
+  ],
+  "taxes": {
+    "cgst": "2517829.903800",
+    "sgst": "10679932.2419546176",
+    "igst": "576351.3680455800",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "63657586.42074952",
+    "total_tax": "13774113.5138001976",
+    "grand_total": "77431699.9345497176"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "103ada09-80d7-455f-99af-bcd8b9e1dc92",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.661220"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "7fa4c7c3-5870-48a5-a228-ee4ee8ba43f5",
+  "invoice_number": "INV000168",
+  "vendor_id": "e92a6f25-a45e-4223-9947-113e1eeb6b03",
+  "vendor_gstin": "33OUMNO2595Y3ZM",
+  "header": {
+    "invoice_number": "INV000168",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "33OUMNO2595Y3ZM",
+    "vendor_name": "Major Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000396",
+    "grn_reference": "GRN000458",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE245",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "3801",
+      "uom": "PCS",
+      "quantity": "42.22",
+      "unit_price": "25514.87",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1077237.8114",
+      "tax_amount": "53861.890570",
+      "line_total": "1131099.701970",
+      "po_line_id": "9029df99-c001-4c77-93b4-f59aeef6e0dd"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE214",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2802",
+      "uom": "KG",
+      "quantity": "804.46",
+      "unit_price": "12768.90",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10272069.2940",
+      "tax_amount": "1848972.472920",
+      "line_total": "12121041.766920",
+      "po_line_id": "f5af8df6-4f37-4f8b-ad43-631de5d46e5c"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "1902834.363490",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "11349307.1054",
+    "total_tax": "1902834.363490",
+    "grand_total": "13252141.468890"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "fbf55351-8df2-4dc8-95d4-85f9b8b87cbc",
+  "grn_id": "d7d8d402-ab21-4505-b3d7-69d924af9c6d",
+  "generated_at": "2026-11-18T15:45:20.630594"
+}

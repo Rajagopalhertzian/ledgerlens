@@ -1,0 +1,77 @@
+{
+  "invoice_id": "4c34696f-0ae5-4ecc-9719-37cdaefd0964",
+  "invoice_number": "INV000182",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000182",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP552",
+      "item_description": "Printing Paper",
+      "hsn_code": "4810",
+      "uom": "BOX",
+      "quantity": "104.06",
+      "unit_price": "17688.24",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1840638.2544",
+      "tax_amount": "515378.711232",
+      "line_total": "2356016.965632",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP676",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4803",
+      "uom": "ROL",
+      "quantity": "228.62",
+      "unit_price": "30225.50",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "2.01",
+      "taxable_value": "6771259.71841900",
+      "tax_amount": "1218826.7493154200",
+      "line_total": "7990086.4677344200",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "515378.711232",
+    "sgst": "0",
+    "igst": "1218826.7493154200",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "8611897.97281900",
+    "total_tax": "1734205.4605474200",
+    "grand_total": "10346103.4333664200"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.634386"
+}

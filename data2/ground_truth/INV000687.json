@@ -1,0 +1,109 @@
+{
+  "invoice_id": "57ba08cc-57ca-431d-b55b-793c189c540f",
+  "invoice_number": "INV000687",
+  "vendor_id": "f4124b40-7167-4f77-8c94-c67d46a2e529",
+  "vendor_gstin": "19MXBCP0265KPZF",
+  "header": {
+    "invoice_number": "INV000687",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "19MXBCP0265KPZF",
+    "vendor_name": "Jai Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP239",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "54.66",
+      "unit_price": "12257.65",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "670003.1490",
+      "tax_amount": "80400.377880",
+      "line_total": "750403.526880",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP961",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "575.88",
+      "unit_price": "40719.66",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "23449637.8008",
+      "tax_amount": "6565898.584224",
+      "line_total": "30015536.385024",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP770",
+      "item_description": "Paper Bags",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "158.78",
+      "unit_price": "22231.36",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3529895.3408",
+      "tax_amount": "423587.440896",
+      "line_total": "3953482.781696",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP346",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4819",
+      "uom": "BOX",
+      "quantity": "691.28",
+      "unit_price": "7264.79",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5022004.0312",
+      "tax_amount": "1406161.128736",
+      "line_total": "6428165.159936",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "6565898.584224",
+    "sgst": "503987.818776",
+    "igst": "1406161.128736",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32671540.3218",
+    "total_tax": "8476047.531736",
+    "grand_total": "41147587.853536"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.785833"
+}

@@ -1,0 +1,93 @@
+{
+  "invoice_id": "518de2cd-ff2b-4e49-af40-266352dee688",
+  "invoice_number": "INV000193",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000193",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000279",
+    "grn_reference": "GRN000326",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR941",
+      "item_description": "Partition Screen",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "470.85",
+      "unit_price": "36464.56",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "17169338.0760",
+      "tax_amount": "2060320.569120",
+      "line_total": "19229658.645120",
+      "po_line_id": "1cf1e1b0-edfe-44aa-bb4a-5c4ac3473a47"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR894",
+      "item_description": "Conference Table",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "6.28",
+      "unit_price": "26196.46",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "164513.7688",
+      "tax_amount": "29612.478384",
+      "line_total": "194126.247184",
+      "po_line_id": "85a00fa1-7231-4493-9bff-309cf3e5eee7"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR399",
+      "item_description": "Bookshelf",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "60.31",
+      "unit_price": "10629.28",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "641051.8768",
+      "tax_amount": "179494.525504",
+      "line_total": "820546.402304",
+      "po_line_id": "9755baea-6bdb-4785-b205-855b892ba8f5"
+    }
+  ],
+  "taxes": {
+    "cgst": "2239815.094624",
+    "sgst": "0",
+    "igst": "29612.478384",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "17974903.7216",
+    "total_tax": "2269427.573008",
+    "grand_total": "20244331.294608"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4ffcb84a-1419-4362-9020-220a2acdfa1f",
+  "grn_id": "4a1758af-d6d7-4cc5-82f4-2af0be5ace98",
+  "generated_at": "2026-11-18T15:45:20.637449"
+}

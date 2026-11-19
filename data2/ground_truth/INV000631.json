@@ -1,0 +1,111 @@
+{
+  "invoice_id": "b707a03a-d1f1-4532-b8c7-08344e1bb5b8",
+  "invoice_number": "INV000631",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV000631",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000107",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC463",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "593.29",
+      "unit_price": "42054.90",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "24950751.6210",
+      "tax_amount": "2994090.194520",
+      "line_total": "27944841.815520",
+      "po_line_id": "8aa870ae-909b-4020-8656-018507ef5ad5"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC625",
+      "item_description": "Packing Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "186.74",
+      "unit_price": "6969.87",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "5.85",
+      "taxable_value": "1225412.64265770",
+      "tax_amount": "61270.6321328850",
+      "line_total": "1286683.2747905850",
+      "po_line_id": "1afc1ef6-1b83-4530-9f86-e9172464839f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC717",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "584.08",
+      "unit_price": "27103.07",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "15830361.1256",
+      "tax_amount": "1899643.335072",
+      "line_total": "17730004.460672",
+      "po_line_id": "e3d658c8-f5aa-4d23-9d72-24b450d6fbd5"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC672",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "970.30",
+      "unit_price": "25932.26",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "8.19",
+      "taxable_value": "23101298.19119180",
+      "tax_amount": "2772155.7829430160",
+      "line_total": "25873453.9741348160",
+      "po_line_id": "436aa52b-f857-4778-b81a-0223ad6fa5b5"
+    }
+  ],
+  "taxes": {
+    "cgst": "4733069.7501479010",
+    "sgst": "0",
+    "igst": "2994090.194520",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "65107823.58044950",
+    "total_tax": "7727159.9446679010",
+    "grand_total": "72834983.5251174010"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "6e0815b0-72fd-422f-893e-d3cdb0bd7934",
+  "grn_id": "62d14272-155c-46bd-bc34-c5b5472f3b95",
+  "generated_at": "2026-11-18T15:45:20.769808"
+}

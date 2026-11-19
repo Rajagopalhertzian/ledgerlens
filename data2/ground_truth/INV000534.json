@@ -1,0 +1,127 @@
+{
+  "invoice_id": "5c1412bd-cd7d-4e5f-b15b-0a53e6aeb2d1",
+  "invoice_number": "INV000534",
+  "vendor_id": "8cf75f68-1976-4b66-aa30-774c44f4bb15",
+  "vendor_gstin": "19MWPYB8583JRZJ",
+  "header": {
+    "invoice_number": "INV000534",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "19MWPYB8583JRZJ",
+    "vendor_name": "Hindustan Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000198",
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR375",
+      "item_description": "Bookshelf",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "300.87",
+      "unit_price": "48541.21",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "4.26",
+      "taxable_value": "13982438.15457498",
+      "tax_amount": "1677892.5785489976",
+      "line_total": "15660330.7331239776",
+      "po_line_id": "a7f7c38c-fbcb-492e-8e8b-04556e7cf7c9"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR636",
+      "item_description": "Reception Counter",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "164.86",
+      "unit_price": "8402.60",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1385252.6360",
+      "tax_amount": "249345.474480",
+      "line_total": "1634598.110480",
+      "po_line_id": "47de5bb7-4823-4aff-a3ee-028313182cb0"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR408",
+      "item_description": "Workstation",
+      "hsn_code": "9402",
+      "uom": "SET",
+      "quantity": "396.60",
+      "unit_price": "23083.33",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9154848.6780",
+      "tax_amount": "1098581.841360",
+      "line_total": "10253430.519360",
+      "po_line_id": "cceee869-fd04-47f2-8d3d-cff7d52d1d5f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR965",
+      "item_description": "Executive Desk",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "236.95",
+      "unit_price": "10245.77",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "6.85",
+      "taxable_value": "2261435.34019725",
+      "tax_amount": "113071.7670098625",
+      "line_total": "2374507.1072071125",
+      "po_line_id": "9009b454-0f75-4d16-816b-7424c219988f"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR485",
+      "item_description": "Office Chair",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "160.17",
+      "unit_price": "5085.68",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "4.72",
+      "taxable_value": "776125.50274368",
+      "tax_amount": "217315.1407682304",
+      "line_total": "993440.6435119104",
+      "po_line_id": "326566b7-943d-4073-a6bd-a4db65ec27e2"
+    }
+  ],
+  "taxes": {
+    "cgst": "1098581.841360",
+    "sgst": "0",
+    "igst": "2257624.9608070905",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "27560100.31151591",
+    "total_tax": "3356206.8021670905",
+    "grand_total": "30916307.1136830005"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "77b682f8-297f-4cd1-9dfa-8e097c1bda8d",
+  "grn_id": "83d04028-33d4-4827-8a68-eaf78050ddb7",
+  "generated_at": "2026-11-18T15:45:20.741020"
+}

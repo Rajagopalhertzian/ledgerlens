@@ -1,0 +1,79 @@
+{
+  "invoice_id": "d254870a-7695-4f75-8683-3412856f1834",
+  "invoice_number": "INV000367",
+  "vendor_id": "2bbf02cc-8f00-4189-b5fb-919fd208e8ac",
+  "vendor_gstin": "09SNTVB9646L9Z2",
+  "header": {
+    "invoice_number": "INV000367",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "09SNTVB9646L9Z2",
+    "vendor_name": "Indian Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX289",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5512",
+      "uom": "PCS",
+      "quantity": "776.54",
+      "unit_price": "5978.71",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4642707.4634",
+      "tax_amount": "835687.343412",
+      "line_total": "5478394.806812",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX983",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5208",
+      "uom": "ROL",
+      "quantity": "5.85",
+      "unit_price": "27673.07",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "161887.4595",
+      "tax_amount": "29139.742710",
+      "line_total": "191027.202210",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "864827.086122",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "4804594.9229",
+    "total_tax": "864827.086122",
+    "grand_total": "5669422.009022"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.688521"
+}

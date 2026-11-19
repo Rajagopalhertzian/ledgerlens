@@ -1,0 +1,125 @@
+{
+  "invoice_id": "cc318877-ba13-4087-854f-2e04dff26333",
+  "invoice_number": "INV000718",
+  "vendor_id": "f514abf0-fb19-44ab-99cf-b3b12373aba5",
+  "vendor_gstin": "27KGWZP1069JQZ3",
+  "header": {
+    "invoice_number": "INV000718",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "27KGWZP1069JQZ3",
+    "vendor_name": "Jai Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000149",
+    "grn_reference": "GRN000172",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET552",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "710.94",
+      "unit_price": "23090.98",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "16416301.3212",
+      "tax_amount": "4596564.369936",
+      "line_total": "21012865.691136",
+      "po_line_id": "972816ae-803d-4bd0-ad65-0552f85a303c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET977",
+      "item_description": "GI Sheets",
+      "hsn_code": "7302",
+      "uom": "KG",
+      "quantity": "971.71",
+      "unit_price": "24464.12",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "23772030.0452",
+      "tax_amount": "4278965.408136",
+      "line_total": "28050995.453336",
+      "po_line_id": "afb06c5b-54fa-407b-8ebb-3e19b4a42818"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET560",
+      "item_description": "Flat Bars",
+      "hsn_code": "7301",
+      "uom": "MTR",
+      "quantity": "441.39",
+      "unit_price": "25672.71",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "4.13",
+      "taxable_value": "10863679.18751703",
+      "tax_amount": "1955462.2537530654",
+      "line_total": "12819141.4412700954",
+      "po_line_id": "e5fb526c-8ac2-4a62-bb79-12ea89287645"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET573",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "376.45",
+      "unit_price": "28549.67",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10747523.2715",
+      "tax_amount": "537376.163575",
+      "line_total": "11284899.435075",
+      "po_line_id": "655ebaa4-b03f-4f49-a1eb-080d8c723be6"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET506",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7302",
+      "uom": "PCS",
+      "quantity": "466.41",
+      "unit_price": "32159.98",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "7.32",
+      "taxable_value": "13901755.57670424",
+      "tax_amount": "3892491.5614771872",
+      "line_total": "17794247.1381814272",
+      "po_line_id": "ec7de9a9-8fbb-4617-9179-cd2e054c271a"
+    }
+  ],
+  "taxes": {
+    "cgst": "4429867.7250521872",
+    "sgst": "10830992.0318250654",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "75701289.40212127",
+    "total_tax": "15260859.7568772526",
+    "grand_total": "90962149.1589985226"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c4830e55-5542-48cf-8623-b19cc7887508",
+  "grn_id": "5ce1f430-9d4c-4618-ab97-d75966224330",
+  "generated_at": "2026-11-18T15:45:20.794494"
+}

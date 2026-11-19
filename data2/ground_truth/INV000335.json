@@ -1,0 +1,61 @@
+{
+  "invoice_id": "c1db97b9-4c1e-4e6f-9934-c8fd953f1e60",
+  "invoice_number": "INV000335",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000335",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC386",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "106.54",
+      "unit_price": "22235.30",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2368948.8620",
+      "tax_amount": "663305.681360",
+      "line_total": "3032254.543360",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "663305.681360",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2368948.8620",
+    "total_tax": "663305.681360",
+    "grand_total": "3032254.543360"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.679193"
+}

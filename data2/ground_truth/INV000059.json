@@ -1,0 +1,109 @@
+{
+  "invoice_id": "e9e827d6-a6bd-42a4-8f62-d4e1cfa163c4",
+  "invoice_number": "INV000059",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000059",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000086",
+    "grn_reference": "GRN000099",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC563",
+      "item_description": "Packing Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "594.61",
+      "unit_price": "389.69",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "231713.5709",
+      "tax_amount": "11585.678545",
+      "line_total": "243299.249445",
+      "po_line_id": "fce2286c-973f-442d-951a-6d3604c2f60c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC861",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "212.16",
+      "unit_price": "2529.24",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "536603.5584",
+      "tax_amount": "96588.640512",
+      "line_total": "633192.198912",
+      "po_line_id": "d52fb9be-d2ed-43ca-81dd-215afe14b4f5"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC266",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "93.46",
+      "unit_price": "12832.68",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "8.52",
+      "taxable_value": "1097158.31115744",
+      "tax_amount": "131658.9973388928",
+      "line_total": "1228817.3084963328",
+      "po_line_id": "c6e91910-b78b-4c8a-9e4a-cb63a8bb5c48"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC853",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "647.52",
+      "unit_price": "47726.18",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "8.01",
+      "taxable_value": "28428273.22210464",
+      "tax_amount": "3411392.7866525568",
+      "line_total": "31839666.0087571968",
+      "po_line_id": "a38d7713-fd84-42b0-ab9e-a63d5b89daa5"
+    }
+  ],
+  "taxes": {
+    "cgst": "3411392.7866525568",
+    "sgst": "228247.6378508928",
+    "igst": "11585.678545",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30293748.66256208",
+    "total_tax": "3651226.1030484496",
+    "grand_total": "33944974.7656105296"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3882a6b5-0888-4d0f-9c5a-44cad958455e",
+  "grn_id": "9fe51061-4ea0-4e0c-95ac-18a80ed0d430",
+  "generated_at": "2026-11-18T15:45:20.595217"
+}

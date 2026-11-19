@@ -1,0 +1,109 @@
+{
+  "invoice_id": "e57f9939-1842-4cd2-b9bd-219fc50f5331",
+  "invoice_number": "INV000113",
+  "vendor_id": "561147d5-1ace-4358-9ced-d61872dc4ddd",
+  "vendor_gstin": "24YRUIK1374HKZP",
+  "header": {
+    "invoice_number": "INV000113",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "24YRUIK1374HKZP",
+    "vendor_name": "Imperial Pharmaceuticals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC337",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "347.37",
+      "unit_price": "43102.13",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "14972386.8981",
+      "tax_amount": "2695029.641658",
+      "line_total": "17667416.539758",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC664",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "708.94",
+      "unit_price": "14892.94",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10558200.8836",
+      "tax_amount": "527910.044180",
+      "line_total": "11086110.927780",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC653",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "339.25",
+      "unit_price": "3893.72",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1320944.5100",
+      "tax_amount": "158513.341200",
+      "line_total": "1479457.851200",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC831",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "911.42",
+      "unit_price": "15873.33",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "14467270.4286",
+      "tax_amount": "2604108.677148",
+      "line_total": "17071379.105748",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "527910.044180",
+    "sgst": "2604108.677148",
+    "igst": "2853542.982858",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "41318802.7203",
+    "total_tax": "5985561.704186",
+    "grand_total": "47304364.424486"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.614004"
+}

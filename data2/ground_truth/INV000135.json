@@ -1,0 +1,141 @@
+{
+  "invoice_id": "514b7048-b97c-4c28-8ed2-0f9de015f2a4",
+  "invoice_number": "INV000135",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000135",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000321",
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO699",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1701",
+      "uom": "BOX",
+      "quantity": "666.87",
+      "unit_price": "6303.74",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "6.55",
+      "taxable_value": "3928427.82515610",
+      "tax_amount": "707117.0085280980",
+      "line_total": "4635544.8336841980",
+      "po_line_id": "27bc3cf7-023a-413a-9e88-cab5852b6707"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO824",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1006",
+      "uom": "PKT",
+      "quantity": "68.88",
+      "unit_price": "35773.65",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "2.49",
+      "taxable_value": "2402733.19560120",
+      "tax_amount": "432491.9752082160",
+      "line_total": "2835225.1708094160",
+      "po_line_id": "65d90a68-be66-415d-bf30-15e12f761b92"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO941",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1001",
+      "uom": "LTR",
+      "quantity": "43.25",
+      "unit_price": "30566.86",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.30",
+      "taxable_value": "1212289.3093150",
+      "tax_amount": "60614.465465750",
+      "line_total": "1272903.774780750",
+      "po_line_id": "52d118b8-7caa-45f8-99fb-c5c653c59fb3"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO549",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1701",
+      "uom": "PKT",
+      "quantity": "529.66",
+      "unit_price": "24691.94",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "4.63",
+      "taxable_value": "12472806.12525948",
+      "tax_amount": "1496736.7350311376",
+      "line_total": "13969542.8602906176",
+      "po_line_id": "df976087-bb36-4b62-b927-6b5ea2623986"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO491",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "2106",
+      "uom": "BOX",
+      "quantity": "382.84",
+      "unit_price": "27871.45",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10670305.9180",
+      "tax_amount": "1920655.065240",
+      "line_total": "12590960.983240",
+      "po_line_id": "47a2518e-1cee-46a8-b627-47eb4bb0d890"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO354",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1001",
+      "uom": "LTR",
+      "quantity": "485.47",
+      "unit_price": "47632.06",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "23123936.1682",
+      "tax_amount": "6474702.127096",
+      "line_total": "29598638.295296",
+      "po_line_id": "932f2cfa-a276-4707-828f-af440e369a7a"
+    }
+  ],
+  "taxes": {
+    "cgst": "2627772.0737680980",
+    "sgst": "6474702.127096",
+    "igst": "1989843.1757051036",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "53810498.54153178",
+    "total_tax": "11092317.3765692016",
+    "grand_total": "64902815.9181009816"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "014ea12f-0236-489e-a1fe-ce6cb3b687cf",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.620593"
+}

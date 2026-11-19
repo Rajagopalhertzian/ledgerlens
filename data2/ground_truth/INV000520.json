@@ -1,0 +1,125 @@
+{
+  "invoice_id": "56e6cdbc-b5b1-47ce-b35e-a1929a3f648d",
+  "invoice_number": "INV000520",
+  "vendor_id": "8cf75f68-1976-4b66-aa30-774c44f4bb15",
+  "vendor_gstin": "19MWPYB8583JRZJ",
+  "header": {
+    "invoice_number": "INV000520",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "19MWPYB8583JRZJ",
+    "vendor_name": "Hindustan Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE384",
+      "item_description": "RAM 16GB DDR4",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "706.06",
+      "unit_price": "24895.95",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17578034.4570",
+      "tax_amount": "3164046.202260",
+      "line_total": "20742080.659260",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE912",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "855.63",
+      "unit_price": "45604.19",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "39020313.0897",
+      "tax_amount": "1951015.654485",
+      "line_total": "40971328.744185",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE496",
+      "item_description": "Router WiFi",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "802.07",
+      "unit_price": "33903.76",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "27193188.7832",
+      "tax_amount": "7614092.859296",
+      "line_total": "34807281.642496",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE979",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "181.86",
+      "unit_price": "20567.99",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "2.64",
+      "taxable_value": "3641745.60233904",
+      "tax_amount": "655514.2084210272",
+      "line_total": "4297259.8107600672",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE588",
+      "item_description": "Router WiFi",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "449.80",
+      "unit_price": "45654.21",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20535263.6580",
+      "tax_amount": "2464231.638960",
+      "line_total": "22999495.296960",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "655514.2084210272",
+    "sgst": "5628277.841220",
+    "igst": "9565108.513781",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "107968545.59023904",
+    "total_tax": "15848900.5634220272",
+    "grand_total": "123817446.1536610672"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.736990"
+}

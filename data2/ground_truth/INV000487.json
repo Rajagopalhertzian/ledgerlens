@@ -1,0 +1,109 @@
+{
+  "invoice_id": "64c791fe-2003-4dbf-84be-e5a14ce1fc4d",
+  "invoice_number": "INV000487",
+  "vendor_id": "96cfe961-e311-45c9-9ebc-4cf4a2fff87d",
+  "vendor_gstin": "27RMZIK3134FKZN",
+  "header": {
+    "invoice_number": "INV000487",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "27RMZIK3134FKZN",
+    "vendor_name": "Universal Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000100",
+    "grn_reference": "GRN000117",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE603",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "85.56",
+      "unit_price": "26723.84",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2286491.7504",
+      "tax_amount": "411568.515072",
+      "line_total": "2698060.265472",
+      "po_line_id": "bcea5526-9656-42fd-ae7f-a1c7f4c02108"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE201",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "181.33",
+      "unit_price": "1300.44",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.15",
+      "taxable_value": "233096.98417020",
+      "tax_amount": "41957.4571506360",
+      "line_total": "275054.4413208360",
+      "po_line_id": "40606cd0-df97-4cf8-ae04-c549df2ff602"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE517",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "144.89",
+      "unit_price": "12852.17",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1862150.9113",
+      "tax_amount": "93107.545565",
+      "line_total": "1955258.456865",
+      "po_line_id": "8f580e5b-9f93-4a7e-b73f-5af70693c948"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE427",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "614.86",
+      "unit_price": "16332.01",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "3.90",
+      "taxable_value": "9650265.5815246",
+      "tax_amount": "482513.279076230",
+      "line_total": "10132778.860600830",
+      "po_line_id": "c0e23e0b-a571-43f6-85e6-6abcb38e9845"
+    }
+  ],
+  "taxes": {
+    "cgst": "93107.545565",
+    "sgst": "453525.9722226360",
+    "igst": "482513.279076230",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "14032005.22739480",
+    "total_tax": "1029146.7968638660",
+    "grand_total": "15061152.0242586660"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1d3571c6-fb86-4594-b576-eaacb91e522b",
+  "grn_id": "9c88e5b2-a67b-436e-8178-cb27b24f7123",
+  "generated_at": "2026-11-18T15:45:20.727127"
+}

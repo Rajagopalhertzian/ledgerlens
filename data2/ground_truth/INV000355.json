@@ -1,0 +1,109 @@
+{
+  "invoice_id": "058d53ad-f783-40f7-91f7-efe404ae80dc",
+  "invoice_number": "INV000355",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000355",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE998",
+      "item_description": "Router WiFi",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "68.64",
+      "unit_price": "9766.13",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "670347.1632",
+      "tax_amount": "120662.489376",
+      "line_total": "791009.652576",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE169",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "971.28",
+      "unit_price": "46329.59",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "44999004.1752",
+      "tax_amount": "8099820.751536",
+      "line_total": "53098824.926736",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE672",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "476.93",
+      "unit_price": "5658.80",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "5.60",
+      "taxable_value": "2547715.8008960",
+      "tax_amount": "127385.790044800",
+      "line_total": "2675101.590940800",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE314",
+      "item_description": "Desktop PC",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "222.76",
+      "unit_price": "33296.76",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7417186.2576",
+      "tax_amount": "1335093.526368",
+      "line_total": "8752279.783968",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "9434914.277904",
+    "sgst": "127385.790044800",
+    "igst": "120662.489376",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "55634253.3968960",
+    "total_tax": "9682962.557324800",
+    "grand_total": "65317215.954220800"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.684978"
+}

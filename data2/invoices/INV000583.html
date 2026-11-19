@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000583</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: #2c3e50; color: white; padding: 20px; margin: -15px -15px 20px -15px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company h1 { margin: 0; font-size: 20pt; }
+        .company p { margin: 2px 0; font-size: 9pt; opacity: 0.9; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 18pt; }
+        .invoice-title .meta { font-size: 9pt; opacity: 0.9; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; }
+        .party h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; }
+        .party .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party .detail { font-size: 9pt; margin: 3px 0; }
+        .party .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #dee2e6; padding: 10px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-details { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; margin: 15px 0; }
+        .bank-details h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-details .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .date-formats-box { background: #e8f5e9; border: 1px solid #4caf50; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+        .date-formats-box h4 { margin: 0 0 8px 0; color: #2e7d32; }
+        .date-formats-box .row { display: flex; justify-content: space-between; margin: 3px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div class="company">
+                    <h1>Indian Solutions</h1>
+                    <p>GSTIN: 09SNTVB9646L9Z2</p>
+                    <p>754 Gandhi Road, Next to Bank, Bengaluru, 09, 560001</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000583</div>
+                        <div>Date: 10/11/2026 | November 10, 2026 | 2026-11-10</div>
+                        <div>PO: PO000197</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="date-formats-box">
+            <h4>Date Formats Used in This Invoice</h4>
+            <div class="row"><span>Invoice Date (DD/MM/YYYY):</span><span>10/11/2026</span></div>
+            <div class="row"><span>Invoice Date (MM/DD/YYYY):</span><span>11/10/2026</span></div>
+            <div class="row"><span>Invoice Date (YYYY-MM-DD):</span><span>2026-11-10</span></div>
+            <div class="row"><span>Invoice Date (DD-MMM-YYYY):</span><span>10-Nov-2026</span></div>
+            <div class="row"><span>Invoice Date (Full):</span><span>10 November 2026</span></div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State Code:</span> 09</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="name">Indian Solutions</div>
+                <div class="detail"><span class="label">GSTIN:</span> 09SNTVB9646L9Z2</div>
+                <div class="detail"><span class="label">State Code:</span> 09</div>
+                <div class="detail">754 Gandhi Road, Next to Bank, Bengaluru, 09, 560001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>4802</td>
+                    <td>Label Stickers</td>
+                    <td class="text-center">PKT</td>
+                    <td class="text-right">372.91</td>
+                    <td class="text-right">18,957.72</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">70,69,523.37</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">3,53,476.17</td>
+                    <td class="text-right">74,22,999.53</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>4803</td>
+                    <td>A4 Paper Rim</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right">421.99</td>
+                    <td class="text-right">16,802.15</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">70,90,339.28</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">3,54,516.96</td>
+                    <td class="text-right">74,44,856.24</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>4802</td>
+                    <td>Label Stickers</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right">752.29</td>
+                    <td class="text-right">22,006.53</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,65,55,292.45</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">46,35,481.89</td>
+                    <td class="text-right">2,11,90,774.34</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>3,54,516.96</span></div>
+            <div class="row"><span>SGST</span><span>3,53,476.17</span></div>
+            <div class="row"><span>IGST</span><span>46,35,481.89</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">3,07,15,155.10</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">53,43,475.02</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">3,60,58,630.12</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Three Crore Sixty Lakh Fifty Eight Thousand Six Hundred Thirty Only Rupees Only</p>
+
+            <div class="bank-details">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXXXXX8484</span></div>
+                <div class="row"><span>IFSC:</span><span>HDFC0389YZT</span></div>
+                <div class="row"><span>Bank:</span><span>Bank of India, Industrial Area Branch</span></div>
+                <div class="row"><span>Holder:</span><span>Indian Solutions</span></div>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

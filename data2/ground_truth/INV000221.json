@@ -1,0 +1,125 @@
+{
+  "invoice_id": "5599ed58-0790-445d-a0cc-b152dc407e0e",
+  "invoice_number": "INV000221",
+  "vendor_id": "f514abf0-fb19-44ab-99cf-b3b12373aba5",
+  "vendor_gstin": "27KGWZP1069JQZ3",
+  "header": {
+    "invoice_number": "INV000221",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "27KGWZP1069JQZ3",
+    "vendor_name": "Jai Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000160",
+    "grn_reference": "GRN000184",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR610",
+      "item_description": "Locker Steel",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "682.45",
+      "unit_price": "21816.76",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "8.03",
+      "taxable_value": "13693273.37868140",
+      "tax_amount": "2464789.2081626520",
+      "line_total": "16158062.5868440520",
+      "po_line_id": "e6eea323-fa7b-4625-aed7-e1db9eb4c907"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR690",
+      "item_description": "Storage Rack",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "120.14",
+      "unit_price": "22693.98",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2726454.7572",
+      "tax_amount": "490761.856296",
+      "line_total": "3217216.613496",
+      "po_line_id": "f18a252e-146f-4dcd-b6d9-16f71f62fe9a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR512",
+      "item_description": "Storage Rack",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "644.02",
+      "unit_price": "42819.54",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.42",
+      "taxable_value": "25254687.05010264",
+      "tax_amount": "1262734.3525051320",
+      "line_total": "26517421.4026077720",
+      "po_line_id": "8e8b6fb6-7090-4953-8ec0-3d7732b59a8d"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR525",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "338.05",
+      "unit_price": "911.99",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "308298.2195",
+      "tax_amount": "86323.501460",
+      "line_total": "394621.720960",
+      "po_line_id": "91b6614d-e2b0-4ec9-88df-2aff4566940a"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR502",
+      "item_description": "Storage Rack",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "753.94",
+      "unit_price": "20077.18",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15136989.0892",
+      "tax_amount": "2724658.036056",
+      "line_total": "17861647.125256",
+      "po_line_id": "e5cec728-ac66-440c-a8d3-27c89922317f"
+    }
+  ],
+  "taxes": {
+    "cgst": "2551112.7096226520",
+    "sgst": "3987392.3885611320",
+    "igst": "490761.856296",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "57119702.49468404",
+    "total_tax": "7029266.9544797840",
+    "grand_total": "64148969.4491638240"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d462f712-d055-4e8c-a2d5-c9044d888412",
+  "grn_id": "c912ca1a-c2a0-4184-9bda-00309fa9abb0",
+  "generated_at": "2026-11-18T15:45:20.645605"
+}

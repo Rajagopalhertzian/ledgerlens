@@ -1,0 +1,125 @@
+{
+  "invoice_id": "5c62523f-cf85-4c61-8bc4-aff82a14c222",
+  "invoice_number": "INV000428",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000428",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000142",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC258",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "759.91",
+      "unit_price": "44630.28",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "33914996.0748",
+      "tax_amount": "4069799.528976",
+      "line_total": "37984795.603776",
+      "po_line_id": "27a4e31e-50c1-450b-b76d-367dbb254772"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC461",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "2.21",
+      "unit_price": "11293.21",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "24957.9941",
+      "tax_amount": "2994.959292",
+      "line_total": "27952.953392",
+      "po_line_id": "a6eb3975-b76d-4143-858c-80cd0012ceb3"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC204",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "921.77",
+      "unit_price": "34252.43",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "1.10",
+      "taxable_value": "31225560.9146879",
+      "tax_amount": "1561278.045734395",
+      "line_total": "32786838.960422295",
+      "po_line_id": "26b71bbf-5773-4686-ba7a-8cc0fc96e7d5"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC282",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "616.08",
+      "unit_price": "6005.71",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3699997.8168",
+      "tax_amount": "184999.890840",
+      "line_total": "3884997.707640",
+      "po_line_id": "62f7463f-7f1e-4810-9542-ca177f4079c4"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC739",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "600.01",
+      "unit_price": "34003.72",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20402572.0372",
+      "tax_amount": "2448308.644464",
+      "line_total": "22850880.681664",
+      "po_line_id": "b5332a82-cb1e-4445-9634-cf2557d1c392"
+    }
+  ],
+  "taxes": {
+    "cgst": "184999.890840",
+    "sgst": "5634072.534002395",
+    "igst": "2448308.644464",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "89268084.8375879",
+    "total_tax": "8267381.069306395",
+    "grand_total": "97535465.906894295"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "26fe517e-a0b9-4327-bb88-55cb46b9c5fc",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.706627"
+}

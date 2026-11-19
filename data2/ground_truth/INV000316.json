@@ -1,0 +1,77 @@
+{
+  "invoice_id": "de0a426d-80cd-4eb0-81cf-d7f550cdf50f",
+  "invoice_number": "INV000316",
+  "vendor_id": "0031f3f1-0b79-45ed-afb6-ec6cf3a22995",
+  "vendor_gstin": "07GNUTT9593FCZZ",
+  "header": {
+    "invoice_number": "INV000316",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "07GNUTT9593FCZZ",
+    "vendor_name": "Select Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000230",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET890",
+      "item_description": "Flat Bars",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "600.12",
+      "unit_price": "28741.85",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "17248559.0220",
+      "tax_amount": "4829596.526160",
+      "line_total": "22078155.548160",
+      "po_line_id": "6d55007c-05f1-4b5f-9289-157124e4196b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET717",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "108.67",
+      "unit_price": "34183.30",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3714699.2110",
+      "tax_amount": "445763.905320",
+      "line_total": "4160463.116320",
+      "po_line_id": "cb66c659-f7ec-4b33-9c82-ac1582772a92"
+    }
+  ],
+  "taxes": {
+    "cgst": "445763.905320",
+    "sgst": "0",
+    "igst": "4829596.526160",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "20963258.2330",
+    "total_tax": "5275360.431480",
+    "grand_total": "26238618.664480"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c988987c-93a7-479f-a0c7-633557abfe77",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.673346"
+}

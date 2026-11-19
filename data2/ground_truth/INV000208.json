@@ -1,0 +1,63 @@
+{
+  "invoice_id": "7ce8e5a1-ea02-4821-99c5-c02aaa96da79",
+  "invoice_number": "INV000208",
+  "vendor_id": "dff757f9-8f9e-4d16-8753-3d068eee286f",
+  "vendor_gstin": "29SUJVG5714NAZA",
+  "header": {
+    "invoice_number": "INV000208",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "29SUJVG5714NAZA",
+    "vendor_name": "Jai Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX240",
+      "item_description": "Curtains Window",
+      "hsn_code": "6109",
+      "uom": "ROL",
+      "quantity": "609.14",
+      "unit_price": "22354.92",
+      "tax_rate": "0.15",
+      "tax_type": "CGST",
+      "discount_percent": "3.90",
+      "taxable_value": "13086202.2060168",
+      "tax_amount": "1962930.330902520",
+      "line_total": "15049132.536919320",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3664136.617684704",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "13086202.2060168",
+    "total_tax": "3664136.617684704",
+    "grand_total": "16750338.823701504"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.642161"
+}

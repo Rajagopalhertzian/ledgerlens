@@ -1,0 +1,79 @@
+{
+  "invoice_id": "172c250b-3ab1-41e4-b077-a379b8cc96bb",
+  "invoice_number": "INV000569",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000569",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000247",
+    "grn_reference": "GRN000288",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA938",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "523.98",
+      "unit_price": "33201.84",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17397100.1232",
+      "tax_amount": "2087652.014784",
+      "line_total": "19484752.137984",
+      "po_line_id": "9b5d8303-f18c-4783-b478-7785b1eb7b27"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA531",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3901",
+      "uom": "BOX",
+      "quantity": "205.04",
+      "unit_price": "14875.56",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3050084.8224",
+      "tax_amount": "152504.241120",
+      "line_total": "3202589.063520",
+      "po_line_id": "ff84f64f-0961-4365-a72c-e35c897bf66b"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2087652.014784",
+    "igst": "152504.241120",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "20447184.9456",
+    "total_tax": "2240156.255904",
+    "grand_total": "22687341.201504"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 25256.05, Invoice price 33201.84 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "277fd9fe-5759-452c-a60c-92d390bb69b0",
+  "grn_id": "e88a78ba-7dbc-443b-9ab5-c42a230de316",
+  "generated_at": "2026-11-18T15:45:20.750776"
+}

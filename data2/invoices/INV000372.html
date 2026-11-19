@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000372</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'Noto Sans Kannada', 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: linear-gradient(90deg, #2c3e50 0%, #1a1a2e 100%); color: white; padding: 20px; margin: -15px -15px 20px -15px; border-radius: 0 0 10px 10px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company h1 { margin: 0; font-size: 20pt; }
+        .company .kn { font-size: 14pt; margin: 4px 0; opacity: 0.95; }
+        .company p { margin: 2px 0; font-size: 9pt; opacity: 0.9; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 18pt; }
+        .invoice-title .kn { font-size: 12pt; margin: 4px 0; opacity: 0.95; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; opacity: 0.9; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; }
+        .party h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; }
+        .party .kn-label { font-size: 9pt; color: #6c757d; margin-bottom: 4px; }
+        .party .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party .kn-name { font-size: 11pt; color: #2c3e50; margin-bottom: 8px; }
+        .party .detail { font-size: 9pt; margin: 3px 0; }
+        .party .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #dee2e6; padding: 10px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-details { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; margin: 15px 0; }
+        .bank-details h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-details .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .declaration { margin-top: 15px; font-style: italic; }
+        .kn-text { color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div class="company">
+                    <h1>Indian Solutions</h1>
+                    <div class="kn kn-text">ವಿಕ್ರೇತರ ಹೆಸರು</div>
+                    <p>GSTIN: 09SNTVB9646L9Z2</p>
+                    <p>754 Gandhi Road, Next to Bank, Bengaluru, 09, 560001</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="kn kn-text">ತೆರಿಗೆ ビル</div>
+                    <div class="invoice-meta">
+                        <div>Invoice No: INV000372</div>
+                        <div class="kn-text">ಚಾಲು ಸಂಖ್ಯೆ: INV000372</div>
+                        <div>Date: 02/11/2026</div>
+                        <div class="kn-text">ತاریಕೆ: 02/11/2026</div>
+                        <div>PO Ref: PO000041</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To / ಬಿಲ್ ಗೆ</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="kn-name kn-text">ಕ್ರেতാവನ ಹೆಸರು</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State Code:</span> 09</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To / ಕಳುಹಿಸುವ ಸ್ಥಳ</h3>
+                <div class="name">Indian Solutions</div>
+                <div class="kn-name kn-text">ವಿಕ್ರೇತರ ಹೆಸರು</div>
+                <div class="detail"><span class="label">GSTIN:</span> 09SNTVB9646L9Z2</div>
+                <div class="detail"><span class="label">State Code:</span> 09</div>
+                <div class="detail">754 Gandhi Road, Next to Bank, Bengaluru, 09, 560001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">Sl.No<br>ಅ.ಸಂ</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 25%">Description<br>ವಿವರಣೆ</th>
+                    <th style="width: 7%">UoM<br>ಒಕ್ಕ</th>
+                    <th style="width: 8%" class="text-right">Qty<br>ಪ್ರಮಾಣ</th>
+                    <th style="width: 10%" class="text-right">Rate<br>ಹaddr</th>
+                    <th style="width: 7%" class="text-right">Disc%<br>ಛೂ%</th>
+                    <th style="width: 10%" class="text-right">Taxable<br>ತೆರಿಗೆérték</th>
+                    <th style="width: 6%" class="text-center">Tax<br>ತೆರಿಗೆ</th>
+                    <th style="width: 6%" class="text-right">Tax Amt<br>ತೆರಿಗೆ ರಾಶಿ</th>
+                    <th style="width: 10%" class="text-right">Total<br>ಒಟ್ಟು</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>8415</td>
+                    <td>Packing Machine</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">23.73</td>
+                    <td class="text-right">10,529.58</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,49,866.93</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">29,984.03</td>
+                    <td class="text-right">2,79,850.97</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>8415</td>
+                    <td>CNC Lathe</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">623.42</td>
+                    <td class="text-right">49,615.88</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">3,09,31,531.91</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">15,46,576.60</td>
+                    <td class="text-right">3,24,78,108.51</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>8421</td>
+                    <td>Water Pump 1HP</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">171.15</td>
+                    <td class="text-right">14,272.28</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">24,42,700.72</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">4,39,686.13</td>
+                    <td class="text-right">28,82,386.85</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>8413</td>
+                    <td>Industrial Mixer</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">663.32</td>
+                    <td class="text-right">45,652.15</td>
+                    <td class="text-right">8.67%</td>
+                    <td class="text-right">2,76,56,536.11</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">49,78,176.50</td>
+                    <td class="text-right">3,26,34,712.61</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>8418</td>
+                    <td>Centrifugal Fan</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">509.03</td>
+                    <td class="text-right">35,513.47</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,80,77,421.63</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">32,53,935.89</td>
+                    <td class="text-right">2,13,31,357.53</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>8413</td>
+                    <td>Refrigeration Unit</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">501.15</td>
+                    <td class="text-right">22,953.51</td>
+                    <td class="text-right">5.29%</td>
+                    <td class="text-right">1,08,94,634.82</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5,44,731.74</td>
+                    <td class="text-right">1,14,39,366.56</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><strong>Tax Breakdown / ತೆರಿಗೆ ವಿಭಜನೆ</strong></div>
+            <div class="row"><span>CGST</span><span>59,92,578.40</span></div>
+            <div class="row"><span>SGST</span><span>48,00,512.49</span></div>
+            <div class="row"><span>IGST</span><span>0.00</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal / ಉಪಯೋಗ</th><td class="text-right">9,02,52,692.13</td></tr>
+            <tr><th>Total Tax / ಒಟ್ಟು ತೆರಿಗೆ</th><td class="text-right">1,07,93,090.89</td></tr>
+            <tr class="grand"><th>Grand Total / ಆಧಾರ ಒಟ್ಟು</th><td class="text-right">10,10,45,783.03</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Ten Crore Ten Lakh Forty Five Thousand Seven Hundred Eighty Three Only Rupees Only</p>
+            <p class="kn-text"><strong>ಪದಗಳಲ್ಲಿ ರಾಶಿ:</strong> ₹10,10,45,783.03 ರೂಪಾಯಿಗಳೇ</p>
+
+            <div class="bank-details">
+                <h4>Bank Details / ಬ್ಯಾಂಕ್ ವಿವರಣೆಗಳು</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXXXXX8484</span></div>
+                <div class="row"><span>IFSC:</span><span>HDFC0389YZT</span></div>
+                <div class="row"><span>Bank:</span><span>Bank of India, Industrial Area Branch</span></div>
+                <div class="row"><span>Holder:</span><span>Indian Solutions</span></div>
+            </div>
+
+            <div class="declaration">
+                <p>We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+                <p class="kn-text"> ನಾವು ಈ ಚಾಲುವನು ವಿವರಿಸಲಾದ ವಸ್ತು/ಸೇವೆಯ ವಾಸ્તವ ಬೆಲೆಯನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ ಮತ್ತು ಎಲ್ಲಾ ವಿವರಗಳು ಸತ್ಯ ಮತ್ತು ಸರಿ ಎಂದು ಘೋಷಿಸುತ್ತೇವೆ.</p>
+            </div>
+
+            <p style="margin-top: 20px;">Authorized Signatory / ಪ್ರಾಧಿಕೃತ ಸಹಿಮtır</p>
+        </div>
+    </div>
+</body>
+</html>

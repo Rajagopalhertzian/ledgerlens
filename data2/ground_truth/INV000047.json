@@ -1,0 +1,61 @@
+{
+  "invoice_id": "36b7b01d-77ca-4836-a0bf-d345ba2e1988",
+  "invoice_number": "INV000047",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000047",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC356",
+      "item_description": "Welding Set",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "361.26",
+      "unit_price": "344.64",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "124504.6464",
+      "tax_amount": "14940.557568",
+      "line_total": "139445.203968",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "14940.557568",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "124504.6464",
+    "total_tax": "14940.557568",
+    "grand_total": "139445.203968"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.591755"
+}

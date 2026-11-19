@@ -1,0 +1,61 @@
+{
+  "invoice_id": "5d5306ea-e31f-42fc-81f6-be1002b6472a",
+  "invoice_number": "INV747614",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV747614",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000095",
+    "grn_reference": "GRN000112",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB452",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4009",
+      "uom": "SET",
+      "quantity": "885.90",
+      "unit_price": "35069.44",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "31068016.8960",
+      "tax_amount": "5592243.041280",
+      "line_total": "36660259.937280",
+      "po_line_id": "bfe2b821-83e4-48d9-b1ef-33b0decdbb45"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "5592243.041280",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "31068016.8960",
+    "total_tax": "5592243.041280",
+    "grand_total": "36660259.937280"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "44cf44e9-c18f-4046-ae94-e5470fd75b72",
+  "grn_id": "97f7496f-f189-4bab-aaa7-49bbed2f9c37",
+  "generated_at": "2026-11-18T15:45:20.775800"
+}

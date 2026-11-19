@@ -1,0 +1,93 @@
+{
+  "invoice_id": "3fb9132b-35dd-43f5-8752-54bb03544685",
+  "invoice_number": "INV000040",
+  "vendor_id": "9dde547a-ae26-4cfe-a08e-d43b1365dd8f",
+  "vendor_gstin": "36BKULC9505HAZG",
+  "header": {
+    "invoice_number": "INV000040",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "36BKULC9505HAZG",
+    "vendor_name": "Select Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB112",
+      "item_description": "Seals Kit",
+      "hsn_code": "4011",
+      "uom": "KG",
+      "quantity": "876.94",
+      "unit_price": "18990.69",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0.69",
+      "taxable_value": "16538785.18834866",
+      "tax_amount": "2976981.3339027588",
+      "line_total": "19515766.5222514188",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB597",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4002",
+      "uom": "PCS",
+      "quantity": "26.33",
+      "unit_price": "2772.51",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0.72",
+      "taxable_value": "72474.58694424",
+      "tax_amount": "20292.8843443872",
+      "line_total": "92767.4712886272",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB137",
+      "item_description": "Rubber Gloves",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "313.89",
+      "unit_price": "45381.91",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14244927.7299",
+      "tax_amount": "1709391.327588",
+      "line_total": "15954319.057488",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1709391.327588",
+    "sgst": "20292.8843443872",
+    "igst": "2976981.3339027588",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30856187.50519290",
+    "total_tax": "4706665.5458351460",
+    "grand_total": "35562853.0510280460"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.589600"
+}

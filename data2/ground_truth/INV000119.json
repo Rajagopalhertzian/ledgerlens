@@ -1,0 +1,109 @@
+{
+  "invoice_id": "ff931e6b-e812-405d-aa2b-e453efd5c1c9",
+  "invoice_number": "INV000119",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000119",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP698",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "56.88",
+      "unit_price": "16596.52",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "944010.0576",
+      "tax_amount": "169921.810368",
+      "line_total": "1113931.867968",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP944",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4810",
+      "uom": "PCS",
+      "quantity": "941.58",
+      "unit_price": "38819.86",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "36552003.7788",
+      "tax_amount": "4386240.453456",
+      "line_total": "40938244.232256",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP907",
+      "item_description": "Printing Paper",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "816.00",
+      "unit_price": "40524.32",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "33067845.1200",
+      "tax_amount": "1653392.256000",
+      "line_total": "34721237.376000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP908",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "331.74",
+      "unit_price": "16953.78",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5624246.9772",
+      "tax_amount": "1574789.153616",
+      "line_total": "7199036.130816",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "1653392.256000",
+    "igst": "6130951.417440",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "76188105.9336",
+    "total_tax": "7784343.673440",
+    "grand_total": "83972449.607040"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.615820"
+}

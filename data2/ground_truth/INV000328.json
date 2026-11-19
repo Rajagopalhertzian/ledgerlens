@@ -1,0 +1,127 @@
+{
+  "invoice_id": "29529fe9-f034-4265-bffa-453149c1063d",
+  "invoice_number": "INV000328",
+  "vendor_id": "18cf81e2-ba6a-4e97-9a88-5b1dbb4034eb",
+  "vendor_gstin": "06JOCHF4576V2ZO",
+  "header": {
+    "invoice_number": "INV000328",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "06JOCHF4576V2ZO",
+    "vendor_name": "Standard Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000191",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB864",
+      "item_description": "Expansion Joints",
+      "hsn_code": "4002",
+      "uom": "KG",
+      "quantity": "519.86",
+      "unit_price": "12636.84",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6569387.6424",
+      "tax_amount": "1839428.539872",
+      "line_total": "8408816.182272",
+      "po_line_id": "6585c9ec-7685-4c2e-a8e0-acb4af9187fa"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB419",
+      "item_description": "Conveyor Belt Rubber",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "10.81",
+      "unit_price": "20873.52",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "9.77",
+      "taxable_value": "203597.45440776",
+      "tax_amount": "24431.6945289312",
+      "line_total": "228029.1489366912",
+      "po_line_id": "b19ac0e4-db68-46ef-8f4d-c039663d3798"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB260",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4002",
+      "uom": "PCS",
+      "quantity": "538.19",
+      "unit_price": "16618.65",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8943991.2435",
+      "tax_amount": "447199.562175",
+      "line_total": "9391190.805675",
+      "po_line_id": "098da511-7303-4fae-bf85-5f052180794d"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB536",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "345.61",
+      "unit_price": "805.06",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "9.12",
+      "taxable_value": "252861.59166208",
+      "tax_amount": "30343.3909994496",
+      "line_total": "283204.9826615296",
+      "po_line_id": "03372994-5e0d-40c6-a34b-46da3c82be6c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB775",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4016",
+      "uom": "KG",
+      "quantity": "367.91",
+      "unit_price": "38372.74",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "14117714.7734",
+      "tax_amount": "2541188.659212",
+      "line_total": "16658903.432612",
+      "po_line_id": "49ef9e1c-9b68-463c-b407-8664e6d45239"
+    }
+  ],
+  "taxes": {
+    "cgst": "1839428.539872",
+    "sgst": "54775.0855283808",
+    "igst": "2988388.221387",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "30087552.70536984",
+    "total_tax": "4882591.8467873808",
+    "grand_total": "34970144.5521572208"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "80cf6543-634e-4b92-ab75-7da7a9869929",
+  "grn_id": "df031682-3cfc-4585-97c3-810ab05643f3",
+  "generated_at": "2026-11-18T15:45:20.676763"
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_id": "63f3a9bc-7fe9-4bfb-b748-fe671247db51",
+  "invoice_number": "INV000212",
+  "vendor_id": "b2374d8f-a73e-4b64-91fd-1b629f088473",
+  "vendor_gstin": "27YUFPE3617WQZX",
+  "header": {
+    "invoice_number": "INV000212",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "27YUFPE3617WQZX",
+    "vendor_name": "Indian Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000358",
+    "grn_reference": "GRN000415",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET146",
+      "item_description": "Iron Castings",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "25.56",
+      "unit_price": "46808.94",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1196436.5064",
+      "tax_amount": "215358.571152",
+      "line_total": "1411795.077552",
+      "po_line_id": "f0be2075-9fe7-4a0c-b439-2083f91f85f6"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "215358.571152",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1196436.5064",
+    "total_tax": "215358.571152",
+    "grand_total": "1411795.077552"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "aad1d53b-c7fe-4f3e-835c-4c3e24f9f657",
+  "grn_id": "5615f2d9-1e6b-429c-8cb1-23c8516c287c",
+  "generated_at": "2026-11-18T15:45:20.643332"
+}

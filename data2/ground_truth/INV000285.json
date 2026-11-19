@@ -1,0 +1,93 @@
+{
+  "invoice_id": "31f6193e-0eec-4586-add7-3bd34b54cb91",
+  "invoice_number": "INV000285",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000285",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000271",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC805",
+      "item_description": "Milling Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "158.24",
+      "unit_price": "38826.15",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6143849.9760",
+      "tax_amount": "307192.498800",
+      "line_total": "6451042.474800",
+      "po_line_id": "57d35059-39a7-431c-ac80-8797e63c2ce5"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC621",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "852.30",
+      "unit_price": "33283.93",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28367893.5390",
+      "tax_amount": "7943010.190920",
+      "line_total": "36310903.729920",
+      "po_line_id": "4917f739-3447-4f8b-9baa-0f54b7fd22f5"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC346",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "418.55",
+      "unit_price": "46531.81",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "19475889.0755",
+      "tax_amount": "3505660.033590",
+      "line_total": "22981549.109090",
+      "po_line_id": "fae79da5-cbae-43dd-b55f-17f1f28a8be3"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "8250202.689720",
+    "igst": "3505660.033590",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "53987632.5905",
+    "total_tax": "11755862.723310",
+    "grand_total": "65743495.313810"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "555fa004-294d-45ec-936a-e39cbc9d8436",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.664342"
+}

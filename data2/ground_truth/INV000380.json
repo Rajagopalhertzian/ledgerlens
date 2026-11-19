@@ -1,0 +1,141 @@
+{
+  "invoice_id": "a162c4d6-c4f0-4541-8275-e9b559b47e2a",
+  "invoice_number": "INV000380",
+  "vendor_id": "8cf75f68-1976-4b66-aa30-774c44f4bb15",
+  "vendor_gstin": "19MWPYB8583JRZJ",
+  "header": {
+    "invoice_number": "INV000380",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "19MWPYB8583JRZJ",
+    "vendor_name": "Hindustan Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000261",
+    "grn_reference": "GRN000303",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA242",
+      "item_description": "Cable Ties",
+      "hsn_code": "3902",
+      "uom": "PKT",
+      "quantity": "279.24",
+      "unit_price": "29928.25",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8357164.5300",
+      "tax_amount": "1002859.743600",
+      "line_total": "9360024.273600",
+      "po_line_id": "1f2d9ea5-0603-41ad-afb4-bd8b1a5993fe"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA695",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "687.42",
+      "unit_price": "18138.20",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "12468561.4440",
+      "tax_amount": "2244341.059920",
+      "line_total": "14712902.503920",
+      "po_line_id": "1d8ffc33-ab21-452c-8844-0833fa891a31"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA748",
+      "item_description": "PP Bags",
+      "hsn_code": "3917",
+      "uom": "KG",
+      "quantity": "724.87",
+      "unit_price": "43819.67",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "31763564.1929",
+      "tax_amount": "3811627.703148",
+      "line_total": "35575191.896048",
+      "po_line_id": "8ac977e0-26c4-43fe-9c1f-fce2d58020fd"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA449",
+      "item_description": "PP Bags",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "375.62",
+      "unit_price": "19642.35",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7378059.5070",
+      "tax_amount": "1328050.711260",
+      "line_total": "8706110.218260",
+      "po_line_id": "88d44817-16b6-4b33-afb1-1fbe79020b5e"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA360",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3902",
+      "uom": "KG",
+      "quantity": "253.28",
+      "unit_price": "48329.03",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "8.12",
+      "taxable_value": "11246825.64886592",
+      "tax_amount": "3149111.1816824576",
+      "line_total": "14395936.8305483776",
+      "po_line_id": "04898ae3-94c3-40b8-8ae6-830083861250"
+    },
+    {
+      "line_number": 6,
+      "item_code": "PLA743",
+      "item_description": "Stretch Film",
+      "hsn_code": "3904",
+      "uom": "BOX",
+      "quantity": "511.61",
+      "unit_price": "21082.61",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10786074.1021",
+      "tax_amount": "1941493.338378",
+      "line_total": "12727567.440478",
+      "po_line_id": "b6df32b6-7ec0-4277-9975-1cb2c9859ab4"
+    }
+  ],
+  "taxes": {
+    "cgst": "11146573.2831284576",
+    "sgst": "0",
+    "igst": "2330910.454860",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "82000249.42486592",
+    "total_tax": "13477483.7379884576",
+    "grand_total": "95477733.1628543776"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "844d218b-5828-4d3b-8a81-66b05a142b0f",
+  "grn_id": "3bd634d2-7ddb-49d6-9f42-941c632ae27b",
+  "generated_at": "2026-11-18T15:45:20.692144"
+}

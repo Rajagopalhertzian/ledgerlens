@@ -1,0 +1,109 @@
+{
+  "invoice_id": "b34afe8d-a39e-4987-840e-55de9637812b",
+  "invoice_number": "INV000158",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000158",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000278",
+    "grn_reference": "GRN000325",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR691",
+      "item_description": "Conference Table",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "277.24",
+      "unit_price": "42089.21",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11668812.5804",
+      "tax_amount": "583440.629020",
+      "line_total": "12252253.209420",
+      "po_line_id": "2450c9f9-892d-42f5-9f5c-e96a2e84166a"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR530",
+      "item_description": "Storage Rack",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "101.34",
+      "unit_price": "20242.12",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2051336.4408",
+      "tax_amount": "102566.822040",
+      "line_total": "2153903.262840",
+      "po_line_id": "cdf23cf8-d9d1-453c-9011-3325c98a9601"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR702",
+      "item_description": "Partition Screen",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "269.78",
+      "unit_price": "2697.47",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "727723.4566",
+      "tax_amount": "36386.172830",
+      "line_total": "764109.629430",
+      "po_line_id": "b6e4e250-3c49-4224-9fb2-5949e6820c07"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR674",
+      "item_description": "Executive Desk",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "43.48",
+      "unit_price": "40494.08",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "1.59",
+      "taxable_value": "1732687.74508544",
+      "tax_amount": "485152.5686239232",
+      "line_total": "2217840.3137093632",
+      "po_line_id": "e1d39953-fb19-425a-8695-1536d92209e5"
+    }
+  ],
+  "taxes": {
+    "cgst": "36386.172830",
+    "sgst": "102566.822040",
+    "igst": "1068593.1976439232",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "16180560.22288544",
+    "total_tax": "1207546.1925139232",
+    "grand_total": "17388106.4153993632"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3cfb906c-a5f7-4c62-a0b5-1d6823604a37",
+  "grn_id": "faec2581-cf32-491f-9c69-68b57ff4e31d",
+  "generated_at": "2026-11-18T15:45:20.627543"
+}

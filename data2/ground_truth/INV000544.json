@@ -1,0 +1,111 @@
+{
+  "invoice_id": "3e90dca1-919a-4edf-9f4b-d272ba1de95d",
+  "invoice_number": "INV000544",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000544",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000036",
+    "grn_reference": "GRN000042",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE429",
+      "item_description": "Graphics Card",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "190.68",
+      "unit_price": "34192.89",
+      "tax_rate": "0.08",
+      "tax_type": "IGST",
+      "discount_percent": "4.10",
+      "taxable_value": "6252584.3543268",
+      "tax_amount": "500206.748346144",
+      "line_total": "6752791.102672944",
+      "po_line_id": "a7270f92-7a0f-474d-9398-6f77663aa683"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE720",
+      "item_description": "Server Rack",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "658.26",
+      "unit_price": "26338.49",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "17337574.4274",
+      "tax_amount": "3120763.396932",
+      "line_total": "20458337.824332",
+      "po_line_id": "38caea1c-4930-48f4-abf8-1382a95cd2d8"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE297",
+      "item_description": "Desktop PC",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "960.63",
+      "unit_price": "4946.25",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4751516.1375",
+      "tax_amount": "570181.936500",
+      "line_total": "5321698.074000",
+      "po_line_id": "c5b3ad8f-d048-43c0-8437-75f47a8069e8"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE466",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "570.46",
+      "unit_price": "47380.42",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "6.39",
+      "taxable_value": "25301504.65547452",
+      "tax_amount": "7084421.3035328656",
+      "line_total": "32385925.9590073856",
+      "po_line_id": "822570f2-848e-4722-8fdc-f3f135c8f9dc"
+    }
+  ],
+  "taxes": {
+    "cgst": "3120763.396932",
+    "sgst": "0",
+    "igst": "8404913.3625520816",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "53643179.57470132",
+    "total_tax": "11525676.7594840816",
+    "grand_total": "65168856.3341854016"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": "835aa8e3-895d-429d-93ae-5e35631fd3c0",
+  "grn_id": "8503dcb2-534b-4b9a-b99a-84dbb1a59b9e",
+  "generated_at": "2026-11-18T15:45:20.743940"
+}

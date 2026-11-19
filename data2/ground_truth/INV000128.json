@@ -1,0 +1,125 @@
+{
+  "invoice_id": "3ca31010-d421-4708-97a7-12f69b57e534",
+  "invoice_number": "INV000128",
+  "vendor_id": "bcf62784-0118-48c8-8a43-ae202815c60d",
+  "vendor_gstin": "36TRMPG4468CQZR",
+  "header": {
+    "invoice_number": "INV000128",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "36TRMPG4468CQZR",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000379",
+    "grn_reference": "GRN000440",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO348",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1101",
+      "uom": "PKT",
+      "quantity": "194.35",
+      "unit_price": "30452.30",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5918404.5050",
+      "tax_amount": "1065312.810900",
+      "line_total": "6983717.315900",
+      "po_line_id": "3567b4a3-71af-4749-96b5-317ba4ebfd7f"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO927",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1101",
+      "uom": "PKT",
+      "quantity": "943.78",
+      "unit_price": "17233.80",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "16264915.7640",
+      "tax_amount": "4554176.413920",
+      "line_total": "20819092.177920",
+      "po_line_id": "6a7610fb-2dd6-4590-8431-873218457aab"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO719",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1901",
+      "uom": "BOX",
+      "quantity": "293.67",
+      "unit_price": "29255.57",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0.10",
+      "taxable_value": "8582891.7586581",
+      "tax_amount": "429144.587932905",
+      "line_total": "9012036.346591005",
+      "po_line_id": "3e3c73de-461c-4fa0-93d9-cd7222c964a8"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO132",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1006",
+      "uom": "PKT",
+      "quantity": "806.40",
+      "unit_price": "43804.33",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "8.88",
+      "taxable_value": "32187057.23197440",
+      "tax_amount": "5793670.3017553920",
+      "line_total": "37980727.5337297920",
+      "po_line_id": "c9946fe7-583e-45dc-8746-e1812115a7a0"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO162",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1006",
+      "uom": "LTR",
+      "quantity": "961.22",
+      "unit_price": "2050.32",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1970808.5904",
+      "tax_amount": "551826.405312",
+      "line_total": "2522634.995712",
+      "po_line_id": "2c96c857-405a-4f4b-828d-403226a5368f"
+    }
+  ],
+  "taxes": {
+    "cgst": "6858983.1126553920",
+    "sgst": "980970.993244905",
+    "igst": "4554176.413920",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "64924077.85003250",
+    "total_tax": "12394130.5198202970",
+    "grand_total": "77318208.3698527970"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6a9b687a-3e36-4856-ade2-67ea625a9699",
+  "grn_id": "299777ab-4da2-40d6-b22c-e90171a5ff4d",
+  "generated_at": "2026-11-18T15:45:20.618455"
+}

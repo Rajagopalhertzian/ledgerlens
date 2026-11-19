@@ -1,0 +1,77 @@
+{
+  "invoice_id": "1864007d-2418-4884-8ec3-19f4832c8b56",
+  "invoice_number": "INV000533",
+  "vendor_id": "d2b0fd7e-beb8-4e55-abb9-dd0e9a07dbe7",
+  "vendor_gstin": "08YADLJ4013KIZ9",
+  "header": {
+    "invoice_number": "INV000533",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "08YADLJ4013KIZ9",
+    "vendor_name": "Royal Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB631",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "550.60",
+      "unit_price": "700.13",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "385491.5780",
+      "tax_amount": "19274.578900",
+      "line_total": "404766.156900",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB875",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "225.13",
+      "unit_price": "5875.65",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1322785.0845",
+      "tax_amount": "370379.823660",
+      "line_total": "1693164.908160",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "19274.578900",
+    "sgst": "370379.823660",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1708276.6625",
+    "total_tax": "389654.402560",
+    "grand_total": "2097931.065060"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.740698"
+}

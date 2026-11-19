@@ -1,0 +1,109 @@
+{
+  "invoice_id": "708ed912-e7ae-4824-adf7-c99f66c827af",
+  "invoice_number": "INV000713",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000713",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000296",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR402",
+      "item_description": "Reception Counter",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "830.45",
+      "unit_price": "32123.29",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "26676786.1805",
+      "tax_amount": "7469500.130540",
+      "line_total": "34146286.311040",
+      "po_line_id": "611bab84-bc62-470a-a5f3-72a012f134f3"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR210",
+      "item_description": "Office Chair",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "569.91",
+      "unit_price": "39635.70",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "22588781.7870",
+      "tax_amount": "2710653.814440",
+      "line_total": "25299435.601440",
+      "po_line_id": "ffad348f-db95-46cb-b540-80e740202e97"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR131",
+      "item_description": "Locker Steel",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "990.03",
+      "unit_price": "23701.58",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "7.64",
+      "taxable_value": "21672528.21849864",
+      "tax_amount": "6068307.9011796192",
+      "line_total": "27740836.1196782592",
+      "po_line_id": "c797d481-ca08-410f-a7db-78d82e738aa0"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR452",
+      "item_description": "Workstation",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "898.62",
+      "unit_price": "26058.41",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "23416608.3942",
+      "tax_amount": "1170830.419710",
+      "line_total": "24587438.813910",
+      "po_line_id": "b216f068-aca8-4093-a7d0-7cd2dcdf1cc4"
+    }
+  ],
+  "taxes": {
+    "cgst": "10180153.944980",
+    "sgst": "1170830.419710",
+    "igst": "6068307.9011796192",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "94354704.58019864",
+    "total_tax": "17419292.2658696192",
+    "grand_total": "111773996.8460682592"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e77c6528-a0aa-4544-a353-39bb886d6c09",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.793038"
+}

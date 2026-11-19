@@ -1,0 +1,127 @@
+{
+  "invoice_id": "3af21336-1304-4651-b553-ff4b3db55970",
+  "invoice_number": "INV000473",
+  "vendor_id": "96cfe961-e311-45c9-9ebc-4cf4a2fff87d",
+  "vendor_gstin": "27RMZIK3134FKZN",
+  "header": {
+    "invoice_number": "INV000473",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "27RMZIK3134FKZN",
+    "vendor_name": "Universal Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000289",
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX233",
+      "item_description": "Protective Clothing",
+      "hsn_code": "5513",
+      "uom": "PCS",
+      "quantity": "408.23",
+      "unit_price": "8013.78",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3271465.4094",
+      "tax_amount": "392575.849128",
+      "line_total": "3664041.258528",
+      "po_line_id": "977a3c82-8632-47e3-abc5-8db16f32cc8d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX141",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5407",
+      "uom": "SET",
+      "quantity": "214.66",
+      "unit_price": "15548.29",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3337595.9314",
+      "tax_amount": "600767.267652",
+      "line_total": "3938363.199052",
+      "po_line_id": "f3965e7b-5fda-41d0-8036-698c4074d86c"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX143",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "157.52",
+      "unit_price": "66669.13",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10501721.3576",
+      "tax_amount": "1890309.844368",
+      "line_total": "12392031.201968",
+      "po_line_id": "156c7016-5bda-4c8c-a16a-e16f14da1156"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX846",
+      "item_description": "Curtains Window",
+      "hsn_code": "5209",
+      "uom": "ROL",
+      "quantity": "721.40",
+      "unit_price": "18515.48",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "8.65",
+      "taxable_value": "12201680.95297200",
+      "tax_amount": "1464201.7143566400",
+      "line_total": "13665882.6673286400",
+      "po_line_id": "4311ac5d-7919-44a0-a7ca-351087716bec"
+    },
+    {
+      "line_number": 5,
+      "item_code": "TEX934",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5208",
+      "uom": "MTR",
+      "quantity": "470.36",
+      "unit_price": "15455.70",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7269743.0520",
+      "tax_amount": "1308553.749360",
+      "line_total": "8578296.801360",
+      "po_line_id": "2905a3e9-88f9-47ac-b5c2-3ddb606d0639"
+    }
+  ],
+  "taxes": {
+    "cgst": "600767.267652",
+    "sgst": "5055641.1572126400",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36582206.70337200",
+    "total_tax": "5656408.4248646400",
+    "grand_total": "42238615.1282366400"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 3: PO price 47312.47, Invoice price 66669.13 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "2454922a-e4e3-4810-b6ff-27a1c65b5c77",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.722755"
+}

@@ -1,0 +1,141 @@
+{
+  "invoice_id": "82045c2f-8434-4e8b-a211-2b440b7b3d95",
+  "invoice_number": "INV932514",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV932514",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE999",
+      "item_description": "RAM 16GB DDR4",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "513.91",
+      "unit_price": "5144.93",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2644030.9763",
+      "tax_amount": "740328.673364",
+      "line_total": "3384359.649664",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE389",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "261.86",
+      "unit_price": "42089.90",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "11021661.2140",
+      "tax_amount": "1322599.345680",
+      "line_total": "12344260.559680",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE886",
+      "item_description": "Desktop PC",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "929.16",
+      "unit_price": "34036.35",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "31625214.9660",
+      "tax_amount": "1581260.748300",
+      "line_total": "33206475.714300",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE480",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "248.21",
+      "unit_price": "40722.17",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10107649.8157",
+      "tax_amount": "1819376.966826",
+      "line_total": "11927026.782526",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE347",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "166.89",
+      "unit_price": "18423.47",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "2.46",
+      "taxable_value": "2999055.46275582",
+      "tax_amount": "149952.7731377910",
+      "line_total": "3149008.2358936110",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "ELE129",
+      "item_description": "Mouse Optical",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "729.11",
+      "unit_price": "7812.40",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5696098.9640",
+      "tax_amount": "1594907.709920",
+      "line_total": "7291006.673920",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1581260.748300",
+    "sgst": "2212880.7921817910",
+    "igst": "3414284.676746",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "64093711.39875582",
+    "total_tax": "7208426.2172277910",
+    "grand_total": "71302137.6159836110"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.680396"
+}

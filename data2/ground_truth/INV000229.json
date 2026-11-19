@@ -1,0 +1,93 @@
+{
+  "invoice_id": "05d2f130-5a02-4c41-a797-ae1e9cd829db",
+  "invoice_number": "INV000229",
+  "vendor_id": "79532d76-885d-47bf-b329-f9b8cf4cd524",
+  "vendor_gstin": "33UXFRO4775NBZK",
+  "header": {
+    "invoice_number": "INV000229",
+    "invoice_date": "2026-11-01",
+    "vendor_gstin": "33UXFRO4775NBZK",
+    "vendor_name": "Jai Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000218",
+    "grn_reference": "GRN000250",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX575",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5208",
+      "uom": "PCS",
+      "quantity": "897.29",
+      "unit_price": "4696.98",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4214553.1842",
+      "tax_amount": "210727.659210",
+      "line_total": "4425280.843410",
+      "po_line_id": "b291c80a-95aa-4ea3-99ea-0e55d8bbeacb"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX363",
+      "item_description": "Safety Vest",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "135.27",
+      "unit_price": "30203.23",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4085590.9221",
+      "tax_amount": "204279.546105",
+      "line_total": "4289870.468205",
+      "po_line_id": "7911d70a-56be-4cb9-8374-1ad0faa9eb84"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX951",
+      "item_description": "Towels Bath",
+      "hsn_code": "5209",
+      "uom": "PCS",
+      "quantity": "956.95",
+      "unit_price": "33454.75",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "32014523.0125",
+      "tax_amount": "1600726.150625",
+      "line_total": "33615249.163125",
+      "po_line_id": "c4cf3875-759e-433f-9e2e-ce8f4eb8c32f"
+    }
+  ],
+  "taxes": {
+    "cgst": "210727.659210",
+    "sgst": "1805005.696730",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "40314667.1188",
+    "total_tax": "2015733.355940",
+    "grand_total": "42330400.474740"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "5e0ac969-802b-40ad-9f34-e6a982709ae3",
+  "grn_id": "e7f07f06-8e51-40b6-aa0d-775532407c9f",
+  "generated_at": "2026-11-18T15:45:20.647841"
+}

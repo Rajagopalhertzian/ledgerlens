@@ -1,0 +1,111 @@
+{
+  "invoice_id": "f210397e-2fdd-40c8-9f59-ba59323c24dd",
+  "invoice_number": "INV000388",
+  "vendor_id": "e92a6f25-a45e-4223-9947-113e1eeb6b03",
+  "vendor_gstin": "33OUMNO2595Y3ZM",
+  "header": {
+    "invoice_number": "INV000388",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "33OUMNO2595Y3ZM",
+    "vendor_name": "Major Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO317783",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE388",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "998.41",
+      "unit_price": "37643.93",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37584076.1513",
+      "tax_amount": "6765133.707234",
+      "line_total": "44349209.858534",
+      "po_line_id": "a54f62e5-bebb-489e-9708-b04ddbea777a"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE879",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2901",
+      "uom": "LTR",
+      "quantity": "822.04",
+      "unit_price": "37914.52",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "31167252.0208",
+      "tax_amount": "1558362.601040",
+      "line_total": "32725614.621840",
+      "po_line_id": "5b970d7a-f8f7-438b-ad02-5954d52c0d09"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE904",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2802",
+      "uom": "KG",
+      "quantity": "227.70",
+      "unit_price": "37481.94",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8534637.7380",
+      "tax_amount": "2389698.566640",
+      "line_total": "10924336.304640",
+      "po_line_id": "91fc2f0d-e270-4e11-bb1f-80b7643a1a0f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE412",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "439.24",
+      "unit_price": "42661.91",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.74",
+      "taxable_value": "17101044.71214984",
+      "tax_amount": "855052.2356074920",
+      "line_total": "17956096.9477573320",
+      "po_line_id": "afb986d0-b883-41a1-a722-64cb25df3890"
+    }
+  ],
+  "taxes": {
+    "cgst": "9154832.273874",
+    "sgst": "2413414.8366474920",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "94387010.62224984",
+    "total_tax": "11568247.1105214920",
+    "grand_total": "105955257.7327713320"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "857b81d4-631d-4391-833b-38d13c0b97be",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.694364"
+}

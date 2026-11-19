@@ -1,0 +1,61 @@
+{
+  "invoice_id": "d47f5895-1550-4759-ac61-dfebb1568db1",
+  "invoice_number": "INV000081",
+  "vendor_id": "d414d131-eef7-4646-83b3-8a8880a5f208",
+  "vendor_gstin": "06VHHSP3893PNZT",
+  "header": {
+    "invoice_number": "INV000081",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "06VHHSP3893PNZT",
+    "vendor_name": "Sri Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000119",
+    "grn_reference": "GRN000142",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX536",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "174.50",
+      "unit_price": "27487.47",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4796563.5150",
+      "tax_amount": "575587.621800",
+      "line_total": "5372151.136800",
+      "po_line_id": "4f6cf322-59d1-4f23-bbc5-8eeeb958c66c"
+    }
+  ],
+  "taxes": {
+    "cgst": "575587.621800",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "4796563.5150",
+    "total_tax": "575587.621800",
+    "grand_total": "5372151.136800"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6592eebd-8ee8-42cc-9c05-ed127468d7ab",
+  "grn_id": "8eca1f4f-48ec-4643-a92b-62455eecbb9f",
+  "generated_at": "2026-11-18T15:45:20.602011"
+}

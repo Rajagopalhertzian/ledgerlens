@@ -1,0 +1,141 @@
+{
+  "invoice_id": "a8199ff5-8a96-4013-93e4-63e6babf510a",
+  "invoice_number": "INV000154",
+  "vendor_id": "d414d131-eef7-4646-83b3-8a8880a5f208",
+  "vendor_gstin": "06VHHSP3893PNZT",
+  "header": {
+    "invoice_number": "INV000154",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "06VHHSP3893PNZT",
+    "vendor_name": "Sri Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000368",
+    "grn_reference": "GRN000426",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB663",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4009",
+      "uom": "KG",
+      "quantity": "696.07",
+      "unit_price": "19887.78",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "9.35",
+      "taxable_value": "12548939.68779990",
+      "tax_amount": "1505872.7625359880",
+      "line_total": "14054812.4503358880",
+      "po_line_id": "04740e89-80f4-4fb3-9dc9-036a503cc8e7"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB858",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4009",
+      "uom": "MTR",
+      "quantity": "297.33",
+      "unit_price": "9260.00",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2753275.8000",
+      "tax_amount": "770917.224000",
+      "line_total": "3524193.024000",
+      "po_line_id": "7cd67fb3-0662-4698-b6a6-2fa12aabf71b"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB771",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4002",
+      "uom": "MTR",
+      "quantity": "195.71",
+      "unit_price": "22930.21",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4487671.3991",
+      "tax_amount": "538520.567892",
+      "line_total": "5026191.966992",
+      "po_line_id": "90086da9-e684-45b9-94a1-6eb4c96137f0"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB790",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4001",
+      "uom": "KG",
+      "quantity": "232.76",
+      "unit_price": "22593.04",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5258755.9904",
+      "tax_amount": "1472451.677312",
+      "line_total": "6731207.667712",
+      "po_line_id": "fc8b4603-ac7b-44f5-92f8-351f89bfd931"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB244",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "33.64",
+      "unit_price": "39594.34",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1331953.5976",
+      "tax_amount": "239751.647568",
+      "line_total": "1571705.245168",
+      "po_line_id": "689afc4f-35e4-4360-b555-e3496d6471e8"
+    },
+    {
+      "line_number": 6,
+      "item_code": "RUB598",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "753.51",
+      "unit_price": "47967.24",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "6.63",
+      "taxable_value": "33747461.40307788",
+      "tax_amount": "4049695.3683693456",
+      "line_total": "37797156.7714472256",
+      "po_line_id": "b358f611-c907-4ff4-9201-8bff204ff222"
+    }
+  ],
+  "taxes": {
+    "cgst": "2276789.9865359880",
+    "sgst": "538520.567892",
+    "igst": "5761898.6932493456",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60128057.87797778",
+    "total_tax": "8577209.2476773336",
+    "grand_total": "68705267.1256551136"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dc59b6cc-a182-4705-9976-cab59325cd3c",
+  "grn_id": "0400819c-181c-4365-8e33-083495369bb2",
+  "generated_at": "2026-11-18T15:45:20.626448"
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_id": "2fc9aee2-6c7d-4e77-a570-c6a962e7cd53",
+  "invoice_number": "INV000710",
+  "vendor_id": "6a5502ab-d546-4424-b112-2bf7a6beb06b",
+  "vendor_gstin": "29OROYM7426ZRZP",
+  "header": {
+    "invoice_number": "INV000710",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "29OROYM7426ZRZP",
+    "vendor_name": "Bharat Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000200",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO493",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "803.75",
+      "unit_price": "710.00",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "570662.5000",
+      "tax_amount": "102719.250000",
+      "line_total": "673381.750000",
+      "po_line_id": "1efb9a26-6bb5-470f-9b63-d4409b105daa"
+    }
+  ],
+  "taxes": {
+    "cgst": "102719.250000",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "570662.5000",
+    "total_tax": "102719.250000",
+    "grand_total": "673381.750000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "bda8a914-7140-4e7e-903f-b55b30a1ae28",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.792404"
+}

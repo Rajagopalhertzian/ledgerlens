@@ -1,0 +1,141 @@
+{
+  "invoice_id": "93b8cb98-a2da-4a64-abfd-2181c9b2b7f8",
+  "invoice_number": "INV000329",
+  "vendor_id": "1ed0ced2-32c2-469b-a617-8125bf1b6b68",
+  "vendor_gstin": "08SZZUJ7054VHZD",
+  "header": {
+    "invoice_number": "INV000329",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "08SZZUJ7054VHZD",
+    "vendor_name": "National Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE121",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "568.30",
+      "unit_price": "28739.72",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "16332782.8760",
+      "tax_amount": "816639.143800",
+      "line_total": "17149422.019800",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE206",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "2901",
+      "uom": "PCS",
+      "quantity": "312.08",
+      "unit_price": "24829.22",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "3.05",
+      "taxable_value": "7512367.53678320",
+      "tax_amount": "901484.1044139840",
+      "line_total": "8413851.6411971840",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE101",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "67.28",
+      "unit_price": "2344.73",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "157753.4344",
+      "tax_amount": "7887.671720",
+      "line_total": "165641.106120",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE863",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "293.00",
+      "unit_price": "10043.96",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2942880.2800",
+      "tax_amount": "353145.633600",
+      "line_total": "3296025.913600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE795",
+      "item_description": "Rust Remover",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "134.02",
+      "unit_price": "36065.51",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4833499.6502",
+      "tax_amount": "580019.958024",
+      "line_total": "5413519.608224",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "CHE600",
+      "item_description": "Rust Remover",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "423.84",
+      "unit_price": "43045.20",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "18244277.5680",
+      "tax_amount": "5108397.719040",
+      "line_total": "23352675.287040",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "5925036.862840",
+    "sgst": "361033.305320",
+    "igst": "1481504.0624379840",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "50023561.34538320",
+    "total_tax": "7767574.2305979840",
+    "grand_total": "57791135.5759811840"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.677096"
+}

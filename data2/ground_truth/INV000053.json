@@ -1,0 +1,143 @@
+{
+  "invoice_id": "96143e4d-5ceb-4597-91cf-6f1f30d05711",
+  "invoice_number": "INV000053",
+  "vendor_id": "8b8e2732-1662-45a9-9535-a1e42d9e33b4",
+  "vendor_gstin": "24FKMGO5929VQZJ",
+  "header": {
+    "invoice_number": "INV000053",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "24FKMGO5929VQZJ",
+    "vendor_name": "Fine Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB327",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "872.24",
+      "unit_price": "44201.31",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "38554150.6344",
+      "tax_amount": "1927707.531720",
+      "line_total": "40481858.166120",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB590",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "258.25",
+      "unit_price": "30289.49",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7822260.7925",
+      "tax_amount": "391113.039625",
+      "line_total": "8213373.832125",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB815",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4001",
+      "uom": "KG",
+      "quantity": "702.78",
+      "unit_price": "29732.23",
+      "tax_rate": "0.13",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20895216.5994",
+      "tax_amount": "2716378.157922",
+      "line_total": "23611594.757322",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB830",
+      "item_description": "Seals Kit",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "929.14",
+      "unit_price": "2701.31",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "1.52",
+      "taxable_value": "2471744.76676432",
+      "tax_amount": "444914.0580175776",
+      "line_total": "2916658.8247818976",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB504",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4009",
+      "uom": "MTR",
+      "quantity": "468.49",
+      "unit_price": "5899.87",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2764030.0963",
+      "tax_amount": "331683.611556",
+      "line_total": "3095713.707856",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "RUB279",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "191.07",
+      "unit_price": "25485.12",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4869441.8784",
+      "tax_amount": "243472.093920",
+      "line_total": "5112913.972320",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2318820.571345",
+    "igst": "2064830.5934635776",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "77376844.76776432",
+    "total_tax": "4383651.1648085776",
+    "grand_total": "81760495.9325728976"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.593759"
+}

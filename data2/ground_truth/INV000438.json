@@ -1,0 +1,61 @@
+{
+  "invoice_id": "9046ad5c-9618-46e4-bba9-d8839f2c279a",
+  "invoice_number": "INV000438",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000438",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000166",
+    "grn_reference": "GRN000191",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR443",
+      "item_description": "Conference Table",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "755.24",
+      "unit_price": "38785.30",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "29292209.9720",
+      "tax_amount": "1464610.498600",
+      "line_total": "30756820.470600",
+      "po_line_id": "74a4a05d-07ac-42bf-a07f-c46e595c83ce"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "1464610.498600",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "29292209.9720",
+    "total_tax": "1464610.498600",
+    "grand_total": "30756820.470600"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ea83b0de-f2da-4e8a-97b1-c40d6b91f13c",
+  "grn_id": "ec67d4e4-98a6-4852-ab0d-34557bd83d9e",
+  "generated_at": "2026-11-18T15:45:20.709320"
+}

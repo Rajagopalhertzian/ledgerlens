@@ -1,0 +1,127 @@
+{
+  "invoice_id": "ee3eb43d-88ca-4bc4-ab4e-c3adc7878030",
+  "invoice_number": "INV000104",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000104",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000102",
+    "grn_reference": "GRN000122",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE351",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "884.05",
+      "unit_price": "47275.88",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "41794241.7140",
+      "tax_amount": "7522963.508520",
+      "line_total": "49317205.222520",
+      "po_line_id": "f24f5d95-098b-4e65-8d73-aae16c6cc20b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE236",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "211.41",
+      "unit_price": "47953.73",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10137898.0593",
+      "tax_amount": "1824821.650674",
+      "line_total": "11962719.709974",
+      "po_line_id": "39d898da-2cc5-4d21-9446-90205f1476f4"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE813",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "477.05",
+      "unit_price": "56522.93",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "26964263.7565",
+      "tax_amount": "3235711.650780",
+      "line_total": "30199975.407280",
+      "po_line_id": "869fc4c6-48f2-42fd-a5c2-a8e3b9cba021"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE813",
+      "item_description": "Degreaser",
+      "hsn_code": "2902",
+      "uom": "KG",
+      "quantity": "353.64",
+      "unit_price": "40657.78",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "7.68",
+      "taxable_value": "13273970.22908544",
+      "tax_amount": "2389314.6412353792",
+      "line_total": "15663284.8703208192",
+      "po_line_id": "7d740ae7-9367-4aff-b0d0-ec70ed97f6e2"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE471",
+      "item_description": "Degreaser",
+      "hsn_code": "2901",
+      "uom": "PCS",
+      "quantity": "358.46",
+      "unit_price": "4589.33",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "9.80",
+      "taxable_value": "1483872.2910836",
+      "tax_amount": "267097.012395048",
+      "line_total": "1750969.303478648",
+      "po_line_id": "65d29f74-8a85-4ceb-8895-c86217341124"
+    }
+  ],
+  "taxes": {
+    "cgst": "1824821.650674",
+    "sgst": "5625026.2920153792",
+    "igst": "7790060.520915048",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "93654246.04996904",
+    "total_tax": "15239908.4636044272",
+    "grand_total": "108894154.5135734672"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 3: PO price 45082.11, Invoice price 56522.93 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "3f9dfd40-4cd6-4878-90fa-1a3445d30e7d",
+  "grn_id": "8a78b4fb-c527-43b0-9f88-1de8f2e67640",
+  "generated_at": "2026-11-18T15:45:20.611115"
+}

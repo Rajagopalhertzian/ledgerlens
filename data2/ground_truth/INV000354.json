@@ -1,0 +1,141 @@
+{
+  "invoice_id": "dd6c65d9-928a-47d8-a641-971243bfe051",
+  "invoice_number": "INV000354",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000354",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000163",
+    "grn_reference": "GRN000187",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX601",
+      "item_description": "Curtains Window",
+      "hsn_code": "5513",
+      "uom": "SET",
+      "quantity": "668.57",
+      "unit_price": "26136.01",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "17473752.2057",
+      "tax_amount": "2096850.264684",
+      "line_total": "19570602.470384",
+      "po_line_id": "dd657d38-26eb-4178-bfb2-59ccf5a846ef"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX993",
+      "item_description": "Towels Bath",
+      "hsn_code": "5407",
+      "uom": "SET",
+      "quantity": "226.60",
+      "unit_price": "13264.22",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "5.59",
+      "taxable_value": "2837655.17311320",
+      "tax_amount": "510777.9311603760",
+      "line_total": "3348433.1042735760",
+      "po_line_id": "17a19095-68ea-4136-a1ce-b82c71b416b6"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX579",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5209",
+      "uom": "ROL",
+      "quantity": "695.27",
+      "unit_price": "3849.71",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "6.70",
+      "taxable_value": "2497256.4842961",
+      "tax_amount": "699231.815602908",
+      "line_total": "3196488.299899008",
+      "po_line_id": "087d1a53-beb7-4c97-ab1f-48b11d380e88"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX771",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "105.43",
+      "unit_price": "10512.21",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1108302.3003",
+      "tax_amount": "199494.414054",
+      "line_total": "1307796.714354",
+      "po_line_id": "41236fd0-7a88-45da-8d4c-d198fea2c96a"
+    },
+    {
+      "line_number": 5,
+      "item_code": "TEX988",
+      "item_description": "Safety Vest",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "914.21",
+      "unit_price": "11017.36",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10072180.6856",
+      "tax_amount": "1812992.523408",
+      "line_total": "11885173.209008",
+      "po_line_id": "4f72faf6-15e8-4045-b608-71e0c42335bd"
+    },
+    {
+      "line_number": 6,
+      "item_code": "TEX990",
+      "item_description": "Safety Vest",
+      "hsn_code": "5513",
+      "uom": "ROL",
+      "quantity": "780.24",
+      "unit_price": "9478.88",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "3.07",
+      "taxable_value": "7168750.23033216",
+      "tax_amount": "1290375.0414597888",
+      "line_total": "8459125.2717919488",
+      "po_line_id": "75bd0103-765c-4302-8f89-0d15386fec85"
+    }
+  ],
+  "taxes": {
+    "cgst": "699231.815602908",
+    "sgst": "3302861.9789217888",
+    "igst": "2607628.1958443760",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "41157897.07934146",
+    "total_tax": "6609721.9903690728",
+    "grand_total": "47767619.0697105328"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1e369abb-630e-4437-be66-8e4d7fc3add7",
+  "grn_id": "be12adf2-5958-4392-8c90-93fde9522761",
+  "generated_at": "2026-11-18T15:45:20.684718"
+}

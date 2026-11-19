@@ -1,0 +1,61 @@
+{
+  "invoice_id": "73afdc1f-ef79-4352-a576-2808bbd5e6cd",
+  "invoice_number": "INV000363",
+  "vendor_id": "5b1319e8-9083-4e25-8e5d-5a41049e25c6",
+  "vendor_gstin": "09PHRMI2326UKZ7",
+  "header": {
+    "invoice_number": "INV000363",
+    "invoice_date": "2026-11-09",
+    "vendor_gstin": "09PHRMI2326UKZ7",
+    "vendor_name": "Prime Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000212",
+    "grn_reference": "GRN000239",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE724",
+      "item_description": "Rust Remover",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "155.44",
+      "unit_price": "7903.75",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1228558.9000",
+      "tax_amount": "343996.492000",
+      "line_total": "1572555.392000",
+      "po_line_id": "7b18d122-b0e3-4a90-a121-3281aa7e6257"
+    }
+  ],
+  "taxes": {
+    "cgst": "343996.492000",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1228558.9000",
+    "total_tax": "343996.492000",
+    "grand_total": "1572555.392000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e9e09451-3eb6-4422-ad5a-84a5e8b26567",
+  "grn_id": "10330553-afdf-4b19-8543-691f951d3194",
+  "generated_at": "2026-11-18T15:45:20.687432"
+}

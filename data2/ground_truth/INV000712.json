@@ -1,0 +1,63 @@
+{
+  "invoice_id": "c7a32cec-cd1c-4cc9-8f8c-2f9062691959",
+  "invoice_number": "INV000712",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000712",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000146",
+    "grn_reference": "GRN000169",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET843",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7201",
+      "uom": "KG",
+      "quantity": "980.56",
+      "unit_price": "37608.80",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "7.52",
+      "taxable_value": "34104483.02141440",
+      "tax_amount": "9549255.2459960320",
+      "line_total": "43653738.2674104320",
+      "po_line_id": "2ace00b3-7c00-4424-828f-c6ccb08cc37e"
+    }
+  ],
+  "taxes": {
+    "cgst": "9549255.2459960320",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "34104483.02141440",
+    "total_tax": "9549255.2459960320",
+    "grand_total": "43653738.2674104320"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "977daf50-406d-4319-bd17-17d46f4ea1d1",
+  "grn_id": "9545afd8-63a6-41c4-ab6a-a721a5c38ebf",
+  "generated_at": "2026-11-18T15:45:20.792751"
+}

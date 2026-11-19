@@ -1,0 +1,109 @@
+{
+  "invoice_id": "529a77e3-1f73-4205-a7ff-1527913db201",
+  "invoice_number": "INV000365",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000365",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000340",
+    "grn_reference": "GRN000392",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB372",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "54.34",
+      "unit_price": "35385.93",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1922871.4362",
+      "tax_amount": "346116.858516",
+      "line_total": "2268988.294716",
+      "po_line_id": "2d61e8e1-7fe9-44e5-8312-5d4488e0cc3b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB118",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4002",
+      "uom": "MTR",
+      "quantity": "127.20",
+      "unit_price": "43495.21",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5532590.7120",
+      "tax_amount": "1549125.399360",
+      "line_total": "7081716.111360",
+      "po_line_id": "45c99518-e3ae-4dbb-bb2c-3dbf5b96844a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB275",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "220.34",
+      "unit_price": "35235.92",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0.53",
+      "taxable_value": "7722734.03495216",
+      "tax_amount": "1390092.1262913888",
+      "line_total": "9112826.1612435488",
+      "po_line_id": "59127a40-e913-40e2-844b-6a97b3dc00f5"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB435",
+      "item_description": "Conveyor Belt Rubber",
+      "hsn_code": "4002",
+      "uom": "KG",
+      "quantity": "847.77",
+      "unit_price": "23553.13",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "5.60",
+      "taxable_value": "18849449.3469744",
+      "tax_amount": "2261933.921636928",
+      "line_total": "21111383.268611328",
+      "po_line_id": "4abb4341-7b80-4d53-8b87-4b435c5d916c"
+    }
+  ],
+  "taxes": {
+    "cgst": "1549125.399360",
+    "sgst": "1390092.1262913888",
+    "igst": "2608050.780152928",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "34027645.53012656",
+    "total_tax": "5547268.3058043168",
+    "grand_total": "39574913.8359308768"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "2b323ba6-7bf8-454b-beb4-a6bb682180c9",
+  "grn_id": "cba93732-36f9-4765-bb98-16f012a835fb",
+  "generated_at": "2026-11-18T15:45:20.687980"
+}

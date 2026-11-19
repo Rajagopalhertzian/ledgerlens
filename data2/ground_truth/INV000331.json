@@ -1,0 +1,125 @@
+{
+  "invoice_id": "3a902b1e-2db9-4ef5-8447-3e315f64940c",
+  "invoice_number": "INV000331",
+  "vendor_id": "00956546-27f0-45cc-ba10-d0f215862a04",
+  "vendor_gstin": "33SIAKF8196EWZR",
+  "header": {
+    "invoice_number": "INV000331",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "33SIAKF8196EWZR",
+    "vendor_name": "Premium Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000044",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP731",
+      "item_description": "Register Books",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "152.81",
+      "unit_price": "9477.89",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "9.86",
+      "taxable_value": "1305512.37672926",
+      "tax_amount": "156661.4852075112",
+      "line_total": "1462173.8619367712",
+      "po_line_id": "545c9366-6d48-4d43-bb3e-fe148d88f66c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP237",
+      "item_description": "File Folders",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "596.76",
+      "unit_price": "11622.53",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "7.80",
+      "taxable_value": "6394863.8445816",
+      "tax_amount": "319743.192229080",
+      "line_total": "6714607.036810680",
+      "po_line_id": "69ea415a-17fa-45f0-8493-c0bdd023a359"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP267",
+      "item_description": "File Folders",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "712.31",
+      "unit_price": "18760.57",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13363341.6167",
+      "tax_amount": "3741735.652676",
+      "line_total": "17105077.269376",
+      "po_line_id": "6c887679-cc5c-4314-9bf6-36d89e523fb3"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP307",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4802",
+      "uom": "PCS",
+      "quantity": "409.18",
+      "unit_price": "48443.87",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "6.71",
+      "taxable_value": "18492188.89764514",
+      "tax_amount": "3328594.0015761252",
+      "line_total": "21820782.8992212652",
+      "po_line_id": "71ed587b-fa6c-4351-ab00-7f0164c091aa"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP568",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "927.18",
+      "unit_price": "49282.82",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "45694045.0476",
+      "tax_amount": "12794332.613328",
+      "line_total": "58488377.660928",
+      "po_line_id": "7c32cb2c-3da2-45bb-a1da-38a17ec7d4cc"
+    }
+  ],
+  "taxes": {
+    "cgst": "156661.4852075112",
+    "sgst": "7390072.8464812052",
+    "igst": "12794332.613328",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "85249951.78325600",
+    "total_tax": "20341066.9450167164",
+    "grand_total": "105591018.7282727164"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "cb146c41-835f-4680-8e4f-e8d9bf30382d",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.677942"
+}

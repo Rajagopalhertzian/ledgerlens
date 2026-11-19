@@ -1,0 +1,125 @@
+{
+  "invoice_id": "8cce06b1-85bf-4d21-8226-ff0cfce8d508",
+  "invoice_number": "INV000390",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000390",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC454",
+      "item_description": "Milling Machine",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "221.83",
+      "unit_price": "45956.05",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10194430.5715",
+      "tax_amount": "509721.528575",
+      "line_total": "10704152.100075",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC186",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "315.74",
+      "unit_price": "33431.08",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10555529.1992",
+      "tax_amount": "527776.459960",
+      "line_total": "11083305.659160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC823",
+      "item_description": "Air Compressor",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "940.47",
+      "unit_price": "9429.96",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8868594.4812",
+      "tax_amount": "1064231.337744",
+      "line_total": "9932825.818944",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC320",
+      "item_description": "Welding Set",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "598.44",
+      "unit_price": "2388.32",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.51",
+      "taxable_value": "1393391.63865792",
+      "tax_amount": "250810.4949584256",
+      "line_total": "1644202.1336163456",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC806",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "251.73",
+      "unit_price": "41203.24",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "1.47",
+      "taxable_value": "10219621.85860356",
+      "tax_amount": "2861494.1204089968",
+      "line_total": "13081115.9790125568",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1573952.866319",
+    "sgst": "778586.9549184256",
+    "igst": "2861494.1204089968",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "41231567.74916148",
+    "total_tax": "5214033.9416464224",
+    "grand_total": "46445601.6908079024"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.694962"
+}

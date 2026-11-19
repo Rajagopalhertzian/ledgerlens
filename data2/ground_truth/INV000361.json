@@ -1,0 +1,111 @@
+{
+  "invoice_id": "d0933306-b17f-43de-9682-b388fda56ac6",
+  "invoice_number": "INV000361",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000361",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000063",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP906",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4810",
+      "uom": "PKT",
+      "quantity": "500.18",
+      "unit_price": "48251.20",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0.56",
+      "taxable_value": "23999133.21879040",
+      "tax_amount": "6719757.3012613120",
+      "line_total": "30718890.5200517120",
+      "po_line_id": "e360f1b2-6561-4c05-b0be-71e58b836571"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP649",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "119.07",
+      "unit_price": "40374.47",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4807388.1429",
+      "tax_amount": "1346068.680012",
+      "line_total": "6153456.822912",
+      "po_line_id": "8a746972-ab6b-4c39-957f-889fbe1ec389"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP582",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "924.89",
+      "unit_price": "2462.57",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2277606.3673",
+      "tax_amount": "273312.764076",
+      "line_total": "2550919.131376",
+      "po_line_id": "a8f8ba8c-1f76-43af-94ff-c16cddcdaa2d"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP912",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4811",
+      "uom": "BOX",
+      "quantity": "701.60",
+      "unit_price": "6613.83",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "3.07",
+      "taxable_value": "4497807.04997040",
+      "tax_amount": "539736.8459964480",
+      "line_total": "5037543.8959668480",
+      "po_line_id": "5c7ebcfc-6808-4229-8c85-efcd8abd5aa8"
+    }
+  ],
+  "taxes": {
+    "cgst": "6719757.3012613120",
+    "sgst": "273312.764076",
+    "igst": "1885805.5260084480",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "35581934.77896080",
+    "total_tax": "8878875.5913457600",
+    "grand_total": "44460810.3703065600"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 3: PO price 1940.20, Invoice price 2462.57 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "148f7c88-1ee5-4693-8d2e-c30d467d9b36",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.686871"
+}

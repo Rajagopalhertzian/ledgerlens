@@ -1,0 +1,109 @@
+{
+  "invoice_id": "712ed16d-a505-46d2-adfc-96658a247497",
+  "invoice_number": "INV000558",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000558",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000245",
+    "grn_reference": "GRN000285",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX842",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "684.37",
+      "unit_price": "21506.97",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "2.82",
+      "taxable_value": "14303657.01223902",
+      "tax_amount": "715182.8506119510",
+      "line_total": "15018839.8628509710",
+      "po_line_id": "4c32149e-6947-4b86-a579-d9808f97c27c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX527",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5407",
+      "uom": "ROL",
+      "quantity": "370.20",
+      "unit_price": "48524.49",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "17963766.1980",
+      "tax_amount": "898188.309900",
+      "line_total": "18861954.507900",
+      "po_line_id": "53a62359-06ac-4ecf-8c97-9f87fa76b143"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX900",
+      "item_description": "Safety Vest",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "577.64",
+      "unit_price": "16619.93",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9600336.3652",
+      "tax_amount": "1152040.363824",
+      "line_total": "10752376.729024",
+      "po_line_id": "1a520e81-e59d-4754-9067-e8a8b7d2b61f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX119",
+      "item_description": "Protective Clothing",
+      "hsn_code": "6109",
+      "uom": "ROL",
+      "quantity": "708.40",
+      "unit_price": "30508.42",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "21612164.7280",
+      "tax_amount": "2593459.767360",
+      "line_total": "24205624.495360",
+      "po_line_id": "c8a53acd-3658-4ddc-90cb-bed1ce093196"
+    }
+  ],
+  "taxes": {
+    "cgst": "2050228.673724",
+    "sgst": "2593459.767360",
+    "igst": "715182.8506119510",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "63479924.30343902",
+    "total_tax": "5358871.2916959510",
+    "grand_total": "68838795.5951349710"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "394f48ed-910f-4176-8ffd-e7383542165b",
+  "grn_id": "019f7aa0-78ee-421f-a68e-edac81a29b4a",
+  "generated_at": "2026-11-18T15:45:20.747842"
+}

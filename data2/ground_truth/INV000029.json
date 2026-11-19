@@ -1,0 +1,77 @@
+{
+  "invoice_id": "c774c598-76b6-47d1-8c5d-460cf71b22eb",
+  "invoice_number": "INV000029",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000029",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000366",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC522",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "327.50",
+      "unit_price": "44971.97",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "7.10",
+      "taxable_value": "13682609.4425750",
+      "tax_amount": "2462869.699663500",
+      "line_total": "16145479.142238500",
+      "po_line_id": "e67c9634-0033-42ed-8c18-c986319dcfcb"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC854",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "382.12",
+      "unit_price": "3298.01",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0.27",
+      "taxable_value": "1256832.94513076",
+      "tax_amount": "150819.9534156912",
+      "line_total": "1407652.8985464512",
+      "po_line_id": "b6a8f0f3-a8d8-4631-a723-4f92c7cc955a"
+    }
+  ],
+  "taxes": {
+    "cgst": "2462869.699663500",
+    "sgst": "0",
+    "igst": "150819.9534156912",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "14939442.38770576",
+    "total_tax": "2613689.6530791912",
+    "grand_total": "17553132.0407849512"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "0a55a706-6e0a-4cbc-96e9-0e721b9f40ba",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.585944"
+}

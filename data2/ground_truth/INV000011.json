@@ -1,0 +1,109 @@
+{
+  "invoice_id": "8610ce2e-9885-46a7-b606-6cad27683f08",
+  "invoice_number": "INV000011",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000011",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000183",
+    "grn_reference": "GRN000210",
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX872",
+      "item_description": "Polyester Yarn",
+      "hsn_code": "5513",
+      "uom": "ROL",
+      "quantity": "666.77",
+      "unit_price": "7136.06",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4758110.7262",
+      "tax_amount": "570973.287144",
+      "line_total": "5329084.013344",
+      "po_line_id": "10c9f3f0-fe61-491b-b23f-c8b854af5870"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX942",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "959.90",
+      "unit_price": "27037.50",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "25953296.2500",
+      "tax_amount": "3114395.550000",
+      "line_total": "29067691.800000",
+      "po_line_id": "ba732b02-fb3c-4bd3-a862-135bde20999c"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX229",
+      "item_description": "Towels Bath",
+      "hsn_code": "5208",
+      "uom": "ROL",
+      "quantity": "282.56",
+      "unit_price": "47399.20",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13393117.9520",
+      "tax_amount": "3750073.026560",
+      "line_total": "17143190.978560",
+      "po_line_id": "82b72908-c613-47fa-accc-db38c4935e48"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX605",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5512",
+      "uom": "MTR",
+      "quantity": "716.53",
+      "unit_price": "45967.27",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "32936927.9731",
+      "tax_amount": "1646846.398655",
+      "line_total": "34583774.371755",
+      "po_line_id": "7570423f-e0db-4dd6-ab54-c9ab34e27612"
+    }
+  ],
+  "taxes": {
+    "cgst": "3114395.550000",
+    "sgst": "1646846.398655",
+    "igst": "4321046.313704",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "77041452.9013",
+    "total_tax": "9082288.262359",
+    "grand_total": "86123741.163659"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "21303bc0-fe50-41e6-bdf4-c7673115fc9d",
+  "grn_id": "4d280924-9692-41a7-88b9-bc725e789237",
+  "generated_at": "2026-11-18T15:45:20.580730"
+}

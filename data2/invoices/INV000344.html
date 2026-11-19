@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000344</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 15mm 25mm 15mm;
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                font-size: 8pt;
+                color: #666;
+            }
+        }
+        @page :first {
+            @bottom-center { content: none; }
+        }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-row { display: flex; justify-content: space-between; }
+        .company-info h1 { margin: 0; font-size: 18pt; color: #2c3e50; }
+        .company-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 16pt; color: #2c3e50; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 80px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 6px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .page-break { page-break-before: always; }
+        .totals { width: 380px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-breakdown { font-size: 9pt; margin-bottom: 15px; }
+        .tax-breakdown .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-details { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .terms { margin-top: 15px; font-size: 8pt; }
+        .terms h4 { margin: 0 0 8px 0; font-size: 9pt; }
+        .terms ul { margin: 0; padding-left: 20px; }
+        .terms li { margin: 4px 0; }
+        .watermark-bg { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 120pt; color: rgba(44,62,80,0.02); pointer-events: none; z-index: -1; white-space: nowrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watermark-bg">INDIAN TEXTILES</div>
+
+        <div class="header">
+            <div class="header-row">
+                <div class="company-info">
+                    <h1>Indian Textiles</h1>
+                    <p>GSTIN: 27YUFPE3617WQZX | PAN: AAAAA0000A</p>
+                    <p>936 Main Road, Behind Temple, Nagpur, 27, 440001</p>
+                    <p>Email: indiantextiles750@company.com | Phone: +91-95947-93789</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>Invoice No:</strong> INV000344</div>
+                        <div><strong>Date:</strong> 10/11/2026</div>
+                        <div><strong>PO Reference:</strong> PO000108</div>
+                        <div><strong>GRN Reference:</strong> GRN000129</div>
+                        <div><strong>Place of Supply:</strong> 27</div>
+                        <div><strong>Place of Delivery:</strong> 27</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">Name:</span>LedgerLens Technologies Pvt Ltd</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>27</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Name:</span>Indian Textiles</div>
+                <div class="row"><span class="label">GSTIN:</span>27YUFPE3617WQZX</div>
+                <div class="row"><span class="label">State:</span>27</div>
+                <div class="row">936 Main Road, Behind Temple, Nagpur, 27, 440001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 4%">S.No</th>
+                    <th style="width: 8%">HSN</th>
+                    <th style="width: 28%">Description of Goods/Services</th>
+                    <th style="width: 6%">UoM</th>
+                    <th style="width: 7%" class="text-right">Quantity</th>
+                    <th style="width: 10%" class="text-right">Unit Price</th>
+                    <th style="width: 7%" class="text-right">Disc %</th>
+                    <th style="width: 10%" class="text-right">Taxable Value</th>
+                    <th style="width: 6%" class="text-center">Tax Type</th>
+                    <th style="width: 6%" class="text-right">Tax Rate</th>
+                    <th style="width: 7%" class="text-right">Tax Amount</th>
+                    <th style="width: 10%" class="text-right">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>2801</td>
+                    <td>Cleaning Agent</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">668.19</td>
+                    <td class="text-right">34,769.60</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,32,32,699.02</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">28%</td>
+                    <td class="text-right">65,05,155.73</td>
+                    <td class="text-right">2,97,37,854.75</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>3801</td>
+                    <td>Rust Remover</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">616.49</td>
+                    <td class="text-right">20,992.89</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,29,41,906.76</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">12%</td>
+                    <td class="text-right">15,53,028.81</td>
+                    <td class="text-right">1,44,94,935.57</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>2801</td>
+                    <td>Lubricant Oil</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">920.03</td>
+                    <td class="text-right">31,974.48</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,94,17,480.83</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">12%</td>
+                    <td class="text-right">35,30,097.70</td>
+                    <td class="text-right">3,29,47,578.53</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>2902</td>
+                    <td>pH Buffer Solution</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">807.46</td>
+                    <td class="text-right">18,858.00</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,52,27,080.68</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">28%</td>
+                    <td class="text-right">42,63,582.59</td>
+                    <td class="text-right">1,94,90,663.27</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-breakdown">
+            <div class="row"><strong>Tax Breakdown</strong></div>
+            <div class="row"><span>CGST @ 9%</span><span>58,16,611.40</span></div>
+            <div class="row"><span>SGST @ 9%</span><span>35,30,097.70</span></div>
+            <div class="row"><span>IGST @ 18%</span><span>65,05,155.73</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">8,08,19,167.29</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">1,58,51,864.83</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">9,66,71,032.12</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Nine Crore Sixty Six Lakh Seventy One Thousand Thirty Two Only Rupees Only</p>
+
+            <div class="bank-details">
+                <strong>Bank Details for Payment</strong>
+                <div class="row"><span class="label">A/c No:</span>XXXXXXXXXX2509</div>
+                <div class="row"><span class="label">IFSC:</span>UTIB03MG25C</div>
+                <div class="row"><span class="label">Bank:</span>ICICI Bank, City Branch</div>
+                <div class="row"><span class="label">Holder:</span>Indian Textiles</div>
+            </div>
+
+            <div class="terms">
+                <h4>Payment Terms & Conditions</h4>
+                <ul>
+                    <li>Net 30 days</li>
+                    <li>Payment due within 30 days from invoice date</li>
+                    <li>Late payment attracts interest @ 18% p.a.</li>
+                    <li>All disputes subject to Nagpur jurisdiction</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 25px;">Authorized Signatory<br><br>Satish Chopra</p>
+
+        </div>
+    </div>
+</body>
+</html>

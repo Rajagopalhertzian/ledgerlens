@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000515</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 20px; margin: -15px -15px 20px -15px; border-radius: 0 0 10px 10px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company-name { font-size: 22pt; margin: 0; font-weight: 700; }
+        .company-gstin { font-size: 10pt; opacity: 0.9; margin-top: 4px; }
+        .invoice-badge { background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; text-align: right; }
+        .invoice-badge h2 { margin: 0; font-size: 18pt; }
+        .invoice-badge .meta { font-size: 9pt; opacity: 0.9; margin-top: 4px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .party-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; }
+        .party-card h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+        .party-card .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party-card .detail { font-size: 9pt; margin: 3px 0; color: #495057; }
+        .party-card .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals-card { width: 350px; margin-left: auto; background: white; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; }
+        .totals-card .row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #dee2e6; }
+        .totals-card .row:last-child { border-bottom: none; background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .bank-card h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-card .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .declaration { margin-top: 20px; font-style: italic; text-align: center; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .no-po-notice { background: #fff3cd; border: 1px solid #ffc107; color: #856404; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div>
+                    <h1 class="company-name">Select Suppliers</h1>
+                    <div class="company-gstin">GSTIN: 36BKULC9505HAZG</div>
+                    <div class="company-gstin">142 MG Road, Near Metro Station, Ghaziabad, 36, 201001</div>
+                </div>
+                <div class="invoice-badge">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000515</div>
+                        <div>Date: 11/11/2026</div>
+                        <div style="color: #ffc107;">No Purchase Order Reference</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-po-notice">
+            <strong>Notice:</strong> This invoice does not reference a Purchase Order. Please verify authorization before processing.
+        </div>
+
+        <div class="parties">
+            <div class="party-card">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State:</span> 36</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party-card">
+                <h3>Ship To</h3>
+                <div class="name">Select Suppliers</div>
+                <div class="detail"><span class="label">GSTIN:</span> 36BKULC9505HAZG</div>
+                <div class="detail"><span class="label">State:</span> 36</div>
+                <div class="detail">142 MG Road, Near Metro Station, Ghaziabad, 36, 201001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>8528</td>
+                    <td>Graphics Card</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">264.05</td>
+                    <td class="text-right">7,484.19</td>
+                    <td class="text-right">4.36%</td>
+                    <td class="text-right">18,90,038.03</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">94,501.90</td>
+                    <td class="text-right">19,84,539.94</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>8517</td>
+                    <td>Switch 24 Port</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">356.23</td>
+                    <td class="text-right">42,893.63</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,52,79,997.81</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">27,50,399.61</td>
+                    <td class="text-right">1,80,30,397.42</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>8517</td>
+                    <td>RAM 16GB DDR4</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">117.85</td>
+                    <td class="text-right">1,008.91</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,18,900.04</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">33,292.01</td>
+                    <td class="text-right">1,52,192.06</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>8544</td>
+                    <td>Router WiFi</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">133.27</td>
+                    <td class="text-right">45,909.76</td>
+                    <td class="text-right">5.59%</td>
+                    <td class="text-right">57,76,375.51</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">16,17,385.14</td>
+                    <td class="text-right">73,93,760.65</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>8517</td>
+                    <td>UPS 1KVA</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">427.93</td>
+                    <td class="text-right">20,079.10</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">85,92,449.26</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">4,29,622.46</td>
+                    <td class="text-right">90,22,071.73</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>8536</td>
+                    <td>Desktop PC</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">338.96</td>
+                    <td class="text-right">24,425.49</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">82,79,264.09</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">14,90,267.54</td>
+                    <td class="text-right">97,69,531.63</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>42,40,667.14</span></div>
+            <div class="row"><span>SGST</span><span>4,29,622.46</span></div>
+            <div class="row"><span>IGST</span><span>17,45,179.06</span></div>
+        </div>
+
+        <div class="totals-card">
+            <div class="row"><span>Subtotal</span><span>3,99,37,024.75</span></div>
+            <div class="row"><span>Total Tax</span><span>64,15,468.66</span></div>
+            <div class="row"><span>Grand Total</span><span>4,63,52,493.41</span></div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Four Crore Sixty Three Lakh Fifty Two Thousand Four Hundred Ninety Three Only Rupees Only</p>
+
+            <div class="bank-card">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXXXXXX0988</span></div>
+                <div class="row"><span>IFSC:</span><span>SBIN0OONNCI</span></div>
+                <div class="row"><span>Bank:</span><span>Punjab National Bank, Main Branch</span></div>
+                <div class="row"><span>Holder:</span><span>Select Suppliers</span></div>
+            </div>
+
+            <div class="declaration">
+                We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.
+            </div>
+
+            <p style="margin-top: 20px; text-align: center;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

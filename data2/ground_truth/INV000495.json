@@ -1,0 +1,111 @@
+{
+  "invoice_id": "2b882e87-d5ce-47d7-8e46-530566acb0ef",
+  "invoice_number": "INV000495",
+  "vendor_id": "5b1319e8-9083-4e25-8e5d-5a41049e25c6",
+  "vendor_gstin": "09PHRMI2326UKZ7",
+  "header": {
+    "invoice_number": "INV000495",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "09PHRMI2326UKZ7",
+    "vendor_name": "Prime Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": "GRN000124",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE685",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "532.88",
+      "unit_price": "15880.47",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "8462384.8536",
+      "tax_amount": "2369467.759008",
+      "line_total": "10831852.612608",
+      "po_line_id": "1e732074-6d84-4738-88a0-9f5a618aa126"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE164",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "978.12",
+      "unit_price": "21248.63",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.29",
+      "taxable_value": "20099925.91740276",
+      "tax_amount": "1004996.2958701380",
+      "line_total": "21104922.2132728980",
+      "po_line_id": "452037b7-d348-4b56-9e2e-fa00de0dba53"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE448",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "432.52",
+      "unit_price": "1298.77",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "4.74",
+      "taxable_value": "535117.33478104",
+      "tax_amount": "96321.1202605872",
+      "line_total": "631438.4550416272",
+      "po_line_id": "388115b2-c986-4aac-b174-947708cf5589"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE882",
+      "item_description": "Graphics Card",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "520.16",
+      "unit_price": "11913.51",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6196931.3616",
+      "tax_amount": "309846.568080",
+      "line_total": "6506777.929680",
+      "po_line_id": "2dc4b234-2f0f-4a03-afbf-3a5ea691fc5e"
+    }
+  ],
+  "taxes": {
+    "cgst": "3374464.0548781380",
+    "sgst": "96321.1202605872",
+    "igst": "309846.568080",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "35294359.46738380",
+    "total_tax": "3780631.7432187252",
+    "grand_total": "39074991.2106025252"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "f8970e8b-de9b-4a9e-9153-554878023792",
+  "grn_id": "68ecddc6-d783-4596-aaa0-ce40182d9644",
+  "generated_at": "2026-11-18T15:45:20.729353"
+}

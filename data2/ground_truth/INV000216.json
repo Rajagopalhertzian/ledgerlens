@@ -1,0 +1,95 @@
+{
+  "invoice_id": "c50ed7b8-81e5-4296-b4d1-c2d8d066a3ef",
+  "invoice_number": "INV000216",
+  "vendor_id": "2bbf02cc-8f00-4189-b5fb-919fd208e8ac",
+  "vendor_gstin": "09SNTVB9646L9Z2",
+  "header": {
+    "invoice_number": "INV000216",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "09SNTVB9646L9Z2",
+    "vendor_name": "Indian Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET605",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "767.48",
+      "unit_price": "15095.33",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11585363.8684",
+      "tax_amount": "1390243.664208",
+      "line_total": "12975607.532608",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET434",
+      "item_description": "GI Sheets",
+      "hsn_code": "7302",
+      "uom": "PCS",
+      "quantity": "311.51",
+      "unit_price": "37417.82",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "11656025.1082",
+      "tax_amount": "1398723.012984",
+      "line_total": "13054748.121184",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET355",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "970.03",
+      "unit_price": "34010.21",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0.46",
+      "taxable_value": "32839165.75587102",
+      "tax_amount": "3940699.8907045224",
+      "line_total": "36779865.6465755424",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "5339422.9036885224",
+    "sgst": "0",
+    "igst": "1390243.664208",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "56080554.73247102",
+    "total_tax": "6729666.5678965224",
+    "grand_total": "62810221.3003675424"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.644093"
+}

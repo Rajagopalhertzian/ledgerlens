@@ -1,0 +1,93 @@
+{
+  "invoice_id": "287f51cf-a925-4dcd-bdfb-98ba0d6b0d6f",
+  "invoice_number": "INV000148",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000148",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE520",
+      "item_description": "Mouse Optical",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "632.25",
+      "unit_price": "15806.57",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9993703.8825",
+      "tax_amount": "1798866.698850",
+      "line_total": "11792570.581350",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE523",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "231.64",
+      "unit_price": "446.57",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "103443.4748",
+      "tax_amount": "5172.173740",
+      "line_total": "108615.648540",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE373",
+      "item_description": "Monitor 24 inch",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "775.66",
+      "unit_price": "47827.41",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "37097808.8406",
+      "tax_amount": "10387386.475368",
+      "line_total": "47485195.315968",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "5172.173740",
+    "sgst": "0",
+    "igst": "12186253.174218",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "47194956.1979",
+    "total_tax": "12191425.347958",
+    "grand_total": "59386381.545858"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.624675"
+}

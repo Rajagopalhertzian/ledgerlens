@@ -1,0 +1,127 @@
+{
+  "invoice_id": "74d59431-0df7-43ab-b9f9-0e2acbccbcc7",
+  "invoice_number": "INV000603",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "24YYOCH5343PVZJ",
+  "header": {
+    "invoice_number": "INV000603",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "24YYOCH5343PVZJ",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO782608",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET881",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "408.59",
+      "unit_price": "13114.13",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5358302.3767",
+      "tax_amount": "642996.285204",
+      "line_total": "6001298.661904",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET523",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7301",
+      "uom": "BOX",
+      "quantity": "443.60",
+      "unit_price": "10027.67",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4448274.4120",
+      "tax_amount": "1245516.835360",
+      "line_total": "5693791.247360",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET903",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "481.27",
+      "unit_price": "49784.55",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "23959810.3785",
+      "tax_amount": "4312765.868130",
+      "line_total": "28272576.246630",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET785",
+      "item_description": "Round Bars",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "291.32",
+      "unit_price": "40563.10",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11816842.2920",
+      "tax_amount": "2127031.612560",
+      "line_total": "13943873.904560",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET944",
+      "item_description": "Iron Castings",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "354.44",
+      "unit_price": "695.72",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "246590.9968",
+      "tax_amount": "12329.549840",
+      "line_total": "258920.546640",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "12329.549840",
+    "sgst": "1888513.120564",
+    "igst": "6439797.480690",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "45829820.4560",
+    "total_tax": "8340640.151094",
+    "grand_total": "54170460.607094"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.761311"
+}

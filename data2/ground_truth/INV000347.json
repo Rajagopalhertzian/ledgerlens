@@ -1,0 +1,93 @@
+{
+  "invoice_id": "980b6404-e7bb-44b2-bd70-86a0f0c5a2bd",
+  "invoice_number": "INV000347",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000347",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX380",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "704.04",
+      "unit_price": "23720.72",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.79",
+      "taxable_value": "15399379.55708448",
+      "tax_amount": "4311826.2759836544",
+      "line_total": "19711205.8330681344",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX545",
+      "item_description": "Curtains Window",
+      "hsn_code": "5513",
+      "uom": "PCS",
+      "quantity": "794.53",
+      "unit_price": "12339.57",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0.53",
+      "taxable_value": "9752196.51177387",
+      "tax_amount": "1755395.3721192966",
+      "line_total": "11507591.8838931666",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX472",
+      "item_description": "Curtains Window",
+      "hsn_code": "5208",
+      "uom": "ROL",
+      "quantity": "390.78",
+      "unit_price": "27362.20",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10692600.5160",
+      "tax_amount": "1283112.061920",
+      "line_total": "11975712.577920",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "6067221.6481029510",
+    "igst": "1283112.061920",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "35844176.58485835",
+    "total_tax": "7350333.7100229510",
+    "grand_total": "43194510.2948813010"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.682911"
+}

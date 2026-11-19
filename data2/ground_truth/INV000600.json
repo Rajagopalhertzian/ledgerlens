@@ -1,0 +1,61 @@
+{
+  "invoice_id": "f371793f-98ed-4818-956d-64359b00e500",
+  "invoice_number": "INV000600",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000600",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000358",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET146",
+      "item_description": "Iron Castings",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "25.56",
+      "unit_price": "46808.94",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1196436.5064",
+      "tax_amount": "215358.571152",
+      "line_total": "1411795.077552",
+      "po_line_id": "f0be2075-9fe7-4a0c-b439-2083f91f85f6"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "215358.571152",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1196436.5064",
+    "total_tax": "215358.571152",
+    "grand_total": "1411795.077552"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "aad1d53b-c7fe-4f3e-835c-4c3e24f9f657",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.760500"
+}

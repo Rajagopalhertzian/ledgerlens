@@ -1,0 +1,109 @@
+{
+  "invoice_id": "0bdb9bc7-3fc5-4298-9520-f5183046e70f",
+  "invoice_number": "INV000634",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000634",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE332",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "989.70",
+      "unit_price": "37187.73",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "36804696.3810",
+      "tax_amount": "4416563.565720",
+      "line_total": "41221259.946720",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE187",
+      "item_description": "Desktop PC",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "95.40",
+      "unit_price": "2719.00",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0.64",
+      "taxable_value": "257732.48736000",
+      "tax_amount": "30927.8984832000",
+      "line_total": "288660.3858432000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE212",
+      "item_description": "Desktop PC",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "317.12",
+      "unit_price": "46069.91",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14609689.8592",
+      "tax_amount": "2629744.174656",
+      "line_total": "17239434.033856",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE875",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "29.81",
+      "unit_price": "3772.78",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "112466.5718",
+      "tax_amount": "5623.328590",
+      "line_total": "118089.900390",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2666295.4017292000",
+    "sgst": "4416563.565720",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "51784585.29936000",
+    "total_tax": "7082858.9674492000",
+    "grand_total": "58867444.2668092000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.770612"
+}

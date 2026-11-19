@@ -1,0 +1,141 @@
+{
+  "invoice_id": "65e0423b-a14b-4093-a5f3-c5bd07dab646",
+  "invoice_number": "INV000301",
+  "vendor_id": "a82418f9-6ae0-4620-b973-25eeb0594fb8",
+  "vendor_gstin": "08JWMUS7323BFZ1",
+  "header": {
+    "invoice_number": "INV000301",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "08JWMUS7323BFZ1",
+    "vendor_name": "Fine Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000154",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO569",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1101",
+      "uom": "PKT",
+      "quantity": "426.42",
+      "unit_price": "48706.10",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "20769255.1620",
+      "tax_amount": "3738465.929160",
+      "line_total": "24507721.091160",
+      "po_line_id": "e9c7b56f-9e82-4fd9-8aa9-82c64a97c8ef"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO796",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1701",
+      "uom": "LTR",
+      "quantity": "553.20",
+      "unit_price": "8216.59",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "6.60",
+      "taxable_value": "4245420.0271920",
+      "tax_amount": "1188717.607613760",
+      "line_total": "5434137.634805760",
+      "po_line_id": "333d4568-a5ec-42a1-831e-61baf854b867"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO206",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1701",
+      "uom": "PCS",
+      "quantity": "702.39",
+      "unit_price": "46901.29",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "32942997.0831",
+      "tax_amount": "1647149.854155",
+      "line_total": "34590146.937255",
+      "po_line_id": "7ec7521b-338b-40b5-bc77-819601615b5a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO657",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1001",
+      "uom": "KG",
+      "quantity": "616.64",
+      "unit_price": "20622.86",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12716880.3904",
+      "tax_amount": "3560726.509312",
+      "line_total": "16277606.899712",
+      "po_line_id": "d4893474-1756-4a96-9893-083c06dc567f"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO940",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1701",
+      "uom": "LTR",
+      "quantity": "856.49",
+      "unit_price": "47532.52",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "40711128.0548",
+      "tax_amount": "7328003.049864",
+      "line_total": "48039131.104664",
+      "po_line_id": "e7f361d7-a547-416f-ae24-93d1274d4439"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO370",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "2106",
+      "uom": "BOX",
+      "quantity": "8.60",
+      "unit_price": "18794.73",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "8.80",
+      "taxable_value": "147410.8263360",
+      "tax_amount": "17689.299160320",
+      "line_total": "165100.125496320",
+      "po_line_id": "a2b48bad-d278-4620-8121-8999d941a2e6"
+    }
+  ],
+  "taxes": {
+    "cgst": "5385615.783315",
+    "sgst": "8516720.657477760",
+    "igst": "3578415.808472320",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "111533091.5438280",
+    "total_tax": "17480752.249265080",
+    "grand_total": "129013843.793093080"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "a820d894-dfb3-4376-99c3-179a2ed4268d",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.669131"
+}

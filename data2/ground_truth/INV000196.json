@@ -1,0 +1,159 @@
+{
+  "invoice_id": "c03dee57-c05d-4970-a65f-61da6780145f",
+  "invoice_number": "INV000196",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000196",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": "GRN000074",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE356",
+      "item_description": "Degreaser",
+      "hsn_code": "3801",
+      "uom": "KG",
+      "quantity": "912.70",
+      "unit_price": "35798.48",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "5.71",
+      "taxable_value": "30807628.82505840",
+      "tax_amount": "1540381.4412529200",
+      "line_total": "32348010.2663113200",
+      "po_line_id": "fe0b00eb-e6b7-4fb3-99bd-ad5a9b6fb07d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE255",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "149.71",
+      "unit_price": "32052.73",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4798614.2083",
+      "tax_amount": "239930.710415",
+      "line_total": "5038544.918715",
+      "po_line_id": "1260fb78-a59c-4515-b8f3-8d1cd4e1104f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE964",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "575.07",
+      "unit_price": "25817.61",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "14846932.9827",
+      "tax_amount": "4157141.235156",
+      "line_total": "19004074.217856",
+      "po_line_id": "39ddee90-4cd4-4626-b1c0-5abc148b99cc"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE467",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "226.62",
+      "unit_price": "19282.75",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4369856.8050",
+      "tax_amount": "1223559.905400",
+      "line_total": "5593416.710400",
+      "po_line_id": "60d77ef3-18b9-464a-9eba-66673063bf5b"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE448",
+      "item_description": "Degreaser",
+      "hsn_code": "2901",
+      "uom": "LTR",
+      "quantity": "401.21",
+      "unit_price": "31650.40",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12698456.9840",
+      "tax_amount": "634922.849200",
+      "line_total": "13333379.833200",
+      "po_line_id": "2b86ef5e-76fc-4b63-9e03-fe38a7a0f198"
+    },
+    {
+      "line_number": 6,
+      "item_code": "CHE406",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "648.14",
+      "unit_price": "8913.25",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5777033.8550",
+      "tax_amount": "288851.692750",
+      "line_total": "6065885.547750",
+      "po_line_id": "9ff21236-614a-4dab-a951-67322405d62a"
+    },
+    {
+      "line_number": 7,
+      "item_code": "CHE294",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "630.99",
+      "unit_price": "18027.13",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11374938.7587",
+      "tax_amount": "568746.937935",
+      "line_total": "11943685.696635",
+      "po_line_id": "e6c3db0c-40a6-40d8-8e28-52970b7e1dd4"
+    }
+  ],
+  "taxes": {
+    "cgst": "2763941.3466529200",
+    "sgst": "5080915.777106",
+    "igst": "808677.648350",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "84673462.41875840",
+    "total_tax": "8653534.7721089200",
+    "grand_total": "93326997.1908673200"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "ba35bc5f-0a6b-49c4-a0c8-26f6567be065",
+  "grn_id": "1b55dc24-5551-4082-b30c-18fdb837ac91",
+  "generated_at": "2026-11-18T15:45:20.638303"
+}

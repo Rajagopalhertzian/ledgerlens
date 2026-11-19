@@ -1,0 +1,125 @@
+{
+  "invoice_id": "2f777474-f94d-4cdd-98f4-683d6b014691",
+  "invoice_number": "INV490977",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV490977",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA360",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3901",
+      "uom": "KG",
+      "quantity": "41.16",
+      "unit_price": "14760.53",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "607543.4148",
+      "tax_amount": "30377.170740",
+      "line_total": "637920.585540",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA929",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "385.66",
+      "unit_price": "39617.55",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "15278904.3330",
+      "tax_amount": "2750202.779940",
+      "line_total": "18029107.112940",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA237",
+      "item_description": "Cable Ties",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "361.92",
+      "unit_price": "1044.44",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "378003.7248",
+      "tax_amount": "45360.446976",
+      "line_total": "423364.171776",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA439",
+      "item_description": "Stretch Film",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "61.46",
+      "unit_price": "48312.84",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2969307.1464",
+      "tax_amount": "148465.357320",
+      "line_total": "3117772.503720",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA797",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3926",
+      "uom": "KG",
+      "quantity": "987.75",
+      "unit_price": "5694.06",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5624307.7650",
+      "tax_amount": "281215.388250",
+      "line_total": "5905523.153250",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "356953.005966",
+    "igst": "2898668.137260",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "24858066.3840",
+    "total_tax": "3255621.143226",
+    "grand_total": "28113687.527226"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.781617"
+}

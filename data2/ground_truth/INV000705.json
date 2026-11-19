@@ -1,0 +1,125 @@
+{
+  "invoice_id": "2eba9765-7fda-42ad-88b5-b33965bb4c6c",
+  "invoice_number": "INV000705",
+  "vendor_id": "bcf62784-0118-48c8-8a43-ae202815c60d",
+  "vendor_gstin": "36TRMPG4468CQZR",
+  "header": {
+    "invoice_number": "INV000705",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "36TRMPG4468CQZR",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE567",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "912.68",
+      "unit_price": "27724.49",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "3.68",
+      "taxable_value": "24372415.51197824",
+      "tax_amount": "2924689.8614373888",
+      "line_total": "27297105.3734156288",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE234",
+      "item_description": "Desktop PC",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "921.06",
+      "unit_price": "24162.71",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "22255305.6726",
+      "tax_amount": "1112765.283630",
+      "line_total": "23368070.956230",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE220",
+      "item_description": "Server Rack",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "798.58",
+      "unit_price": "8926.14",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7128236.8812",
+      "tax_amount": "855388.425744",
+      "line_total": "7983625.306944",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE563",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "950.73",
+      "unit_price": "29634.31",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "28174227.5463",
+      "tax_amount": "3380907.305556",
+      "line_total": "31555134.851856",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE574",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "622.54",
+      "unit_price": "26783.34",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "16673700.4836",
+      "tax_amount": "2000844.058032",
+      "line_total": "18674544.541632",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3380907.305556",
+    "sgst": "3968997.767406",
+    "igst": "2924689.8614373888",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "98603886.09567824",
+    "total_tax": "10274594.9343993888",
+    "grand_total": "108878481.0300776288"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.790783"
+}

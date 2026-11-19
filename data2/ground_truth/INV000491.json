@@ -1,0 +1,77 @@
+{
+  "invoice_id": "236af7f2-0776-4e0c-aebf-447e23f461b1",
+  "invoice_number": "INV000491",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000491",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000137",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX201",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "6109",
+      "uom": "MTR",
+      "quantity": "42.00",
+      "unit_price": "48419.68",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2033626.5600",
+      "tax_amount": "244035.187200",
+      "line_total": "2277661.747200",
+      "po_line_id": "5dfd1fef-4c6b-46fa-bef5-dbe2df1adf4f"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX144",
+      "item_description": "Safety Vest",
+      "hsn_code": "5208",
+      "uom": "PCS",
+      "quantity": "302.17",
+      "unit_price": "23762.51",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7180317.6467",
+      "tax_amount": "861638.117604",
+      "line_total": "8041955.764304",
+      "po_line_id": "0edd19f8-43eb-42ac-b795-723711317c52"
+    }
+  ],
+  "taxes": {
+    "cgst": "244035.187200",
+    "sgst": "0",
+    "igst": "861638.117604",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "9213944.2067",
+    "total_tax": "1105673.304804",
+    "grand_total": "10319617.511504"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e1005454-16bf-4414-8f57-92ba76d28ae0",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.728103"
+}

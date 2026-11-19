@@ -18,13 +18,7 @@ from typing import Any
 import httpx
 import structlog
 from pydantic import BaseModel, Field, SecretStr
-from tenacity import (
-    before_sleep_log,
-    retry,
-    retry_if_exception_type,
-    stop_after_attempt,
-    wait_exponential_jitter,
-)
+from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_after_attempt, wait_exponential_jitter
 
 from .cache import CacheKey, DiskCache
 from .cost import CostTracker, TokenUsage
@@ -115,13 +109,7 @@ class LLMError(Exception):
 class LLMRateLimitError(LLMError):
     """Rate limit exceeded."""
 
-    def __init__(
-        self,
-        message: str,
-        provider: LLMProvider,
-        model: str,
-        retry_after: float | None = None,
-    ):
+    def __init__(self, message: str, provider: LLMProvider, model: str, retry_after: float | None = None):
         super().__init__(message, provider, model, retryable=True)
         self.retry_after = retry_after
 
@@ -206,10 +194,7 @@ class LLMAdapter:
         configs = {}
         for role, model_id in role_models.items():
             configs[role] = ModelConfig(
-                model_id=model_id,
-                provider=provider,
-                base_url=base_url,
-                api_key=SecretStr(api_key),
+                model_id=model_id, provider=provider, base_url=base_url, api_key=SecretStr(api_key)
             )
 
         cache = DiskCache(cache_dir)
@@ -235,9 +220,7 @@ class LLMAdapter:
         """Get or create circuit breaker for model."""
         if model_id not in self._circuit_breakers:
             self._circuit_breakers[model_id] = CircuitBreaker(
-                failure_threshold=5,
-                recovery_timeout=60.0,
-                expected_exception=LLMError,
+                failure_threshold=5, recovery_timeout=60.0, expected_exception=LLMError
             )
         return self._circuit_breakers[model_id]
 
@@ -302,12 +285,7 @@ class LLMAdapter:
         if use_cache:
             cached = await self.cache.get(cache_key)
             if cached:
-                logger.info(
-                    "LLM cache hit",
-                    role=role.value,
-                    model=config.model_id,
-                    request_id=request_id,
-                )
+                logger.info("LLM cache hit", role=role.value, model=config.model_id, request_id=request_id)
                 response = LLMResponse.model_validate(cached)
                 response.cached = True
                 return response
@@ -424,17 +402,13 @@ class LLMAdapter:
 
             return llm_response
 
-    async def _execute_with_retry(
-        self, config: ModelConfig, request: LLMRequest
-    ) -> "LLMResponse":
+    async def _execute_with_retry(self, config: ModelConfig, request: LLMRequest) -> "LLMResponse":
         """Execute request with provider-specific logic and retries."""
 
         @retry(
             wait=wait_exponential_jitter(initial=1, max=10),
             stop=stop_after_attempt(config.max_retries),
-            retry=retry_if_exception_type(
-                (LLMTimeoutError, LLMRateLimitError, httpx.TimeoutException)
-            ),
+            retry=retry_if_exception_type((LLMTimeoutError, LLMRateLimitError, httpx.TimeoutException)),
             before_sleep=before_sleep_log(logger, logging.WARNING),
         )
         async def _do_request() -> LLMResponse:
@@ -460,10 +434,7 @@ class LLMAdapter:
         self, client: httpx.AsyncClient, config: ModelConfig, request: LLMRequest
     ) -> LLMResponse:
         """Make request to OpenAI-compatible endpoint."""
-        headers = {
-            "Authorization": f"Bearer {config.api_key.get_secret_value()}",
-            "Content-Type": "application/json",
-        }
+        headers = {"Authorization": f"Bearer {config.api_key.get_secret_value()}", "Content-Type": "application/json"}
 
         payload = request.model_dump(exclude_none=True, exclude={"metadata"})
 
@@ -482,20 +453,12 @@ class LLMAdapter:
             retry_after = response.headers.get("Retry-After")
             msg = "Rate limit exceeded"
             raise LLMRateLimitError(
-                msg,
-                config.provider,
-                config.model_id,
-                retry_after=float(retry_after) if retry_after else None,
+                msg, config.provider, config.model_id, retry_after=float(retry_after) if retry_after else None
             )
 
         if response.status_code >= 400:
             msg = f"API error {response.status_code}: {response.text}"
-            raise LLMError(
-                msg,
-                config.provider,
-                config.model_id,
-                retryable=response.status_code >= 500,
-            )
+            raise LLMError(msg, config.provider, config.model_id, retryable=response.status_code >= 500)
 
         data = response.json()
 
@@ -564,20 +527,12 @@ class LLMAdapter:
             retry_after = response.headers.get("Retry-After")
             msg = "Rate limit exceeded"
             raise LLMRateLimitError(
-                msg,
-                config.provider,
-                config.model_id,
-                retry_after=float(retry_after) if retry_after else None,
+                msg, config.provider, config.model_id, retry_after=float(retry_after) if retry_after else None
             )
 
         if response.status_code >= 400:
             msg = f"API error {response.status_code}: {response.text}"
-            raise LLMError(
-                msg,
-                config.provider,
-                config.model_id,
-                retryable=response.status_code >= 500,
-            )
+            raise LLMError(msg, config.provider, config.model_id, retryable=response.status_code >= 500)
 
         data = response.json()
 
@@ -590,9 +545,7 @@ class LLMAdapter:
         )
 
         # Extract content
-        content = "".join(
-            block["text"] for block in data.get("content", []) if block["type"] == "text"
-        )
+        content = "".join(block["text"] for block in data.get("content", []) if block["type"] == "text")
 
         return LLMResponse(
             content=content,

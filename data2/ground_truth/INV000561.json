@@ -1,0 +1,77 @@
+{
+  "invoice_id": "9bed8fa4-9b83-4658-bd58-02a7a617f02b",
+  "invoice_number": "INV000561",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV000561",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000147",
+    "grn_reference": "GRN000170",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET588",
+      "item_description": "Round Bars",
+      "hsn_code": "7210",
+      "uom": "KG",
+      "quantity": "502.67",
+      "unit_price": "38775.50",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "19491280.5850",
+      "tax_amount": "974564.029250",
+      "line_total": "20465844.614250",
+      "po_line_id": "032a7c4e-18dd-4c7b-ae21-5df95de13c5b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET320",
+      "item_description": "Steel Bars 12mm",
+      "hsn_code": "7301",
+      "uom": "PCS",
+      "quantity": "162.06",
+      "unit_price": "34150.46",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "7.18",
+      "taxable_value": "5137051.93688232",
+      "tax_amount": "256852.5968441160",
+      "line_total": "5393904.5337264360",
+      "po_line_id": "d8b98ad9-3b1b-4e2e-bb4f-a181f82d7b80"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "1231416.6260941160",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "24628332.52188232",
+    "total_tax": "1231416.6260941160",
+    "grand_total": "25859749.1479764360"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d52b359f-633c-4b99-a5d8-571e1d439960",
+  "grn_id": "a89d5a2b-9d40-4a6a-9fe4-c9842c4e6782",
+  "generated_at": "2026-11-18T15:45:20.748469"
+}

@@ -1,0 +1,95 @@
+{
+  "invoice_id": "0ab5a24b-eda7-4308-9e0d-86d4c4fdf16e",
+  "invoice_number": "INV000296",
+  "vendor_id": "79532d76-885d-47bf-b329-f9b8cf4cd524",
+  "vendor_gstin": "33UXFRO4775NBZK",
+  "header": {
+    "invoice_number": "INV000296",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "33UXFRO4775NBZK",
+    "vendor_name": "Jai Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE136",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "387.24",
+      "unit_price": "28976.58",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.45",
+      "taxable_value": "11058187.92203160",
+      "tax_amount": "3096292.6181688480",
+      "line_total": "14154480.5402004480",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE226",
+      "item_description": "Rust Remover",
+      "hsn_code": "2801",
+      "uom": "KG",
+      "quantity": "62.52",
+      "unit_price": "19060.31",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1191650.5812",
+      "tax_amount": "214497.104616",
+      "line_total": "1406147.685816",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE315",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "112.82",
+      "unit_price": "4543.43",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "512589.7726",
+      "tax_amount": "143525.136328",
+      "line_total": "656114.908928",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3096292.6181688480",
+    "sgst": "214497.104616",
+    "igst": "143525.136328",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "12762428.27583160",
+    "total_tax": "3454314.8591128480",
+    "grand_total": "16216743.1349444480"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.667315"
+}

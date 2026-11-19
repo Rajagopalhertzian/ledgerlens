@@ -1,0 +1,109 @@
+{
+  "invoice_id": "270c154e-e658-43d3-96a0-9550c6cf49e4",
+  "invoice_number": "INV000669",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000669",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000355",
+    "grn_reference": "GRN000412",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA958",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3902",
+      "uom": "PCS",
+      "quantity": "343.91",
+      "unit_price": "18559.96",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6382955.8436",
+      "tax_amount": "319147.792180",
+      "line_total": "6702103.635780",
+      "po_line_id": "051d9318-cb81-463d-bace-32b6920c5e59"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA480",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3917",
+      "uom": "KG",
+      "quantity": "814.95",
+      "unit_price": "9349.70",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "7.87",
+      "taxable_value": "7019880.37321950",
+      "tax_amount": "1965566.5045014600",
+      "line_total": "8985446.8777209600",
+      "po_line_id": "d65abf13-34a1-42ea-ad01-237ec2e9b1ef"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA382",
+      "item_description": "Plastic Crates",
+      "hsn_code": "3917",
+      "uom": "PKT",
+      "quantity": "302.78",
+      "unit_price": "22389.55",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "8.70",
+      "taxable_value": "6189325.5574370",
+      "tax_amount": "309466.277871850",
+      "line_total": "6498791.835308850",
+      "po_line_id": "ae3d730d-5ac5-4de3-ae2a-3fa07ce9d669"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA933",
+      "item_description": "PET Bottles",
+      "hsn_code": "3902",
+      "uom": "BOX",
+      "quantity": "777.14",
+      "unit_price": "29466.22",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "1.23",
+      "taxable_value": "22617715.85880716",
+      "tax_amount": "1130885.7929403580",
+      "line_total": "23748601.6517475180",
+      "po_line_id": "c7873cbd-7773-4087-878c-48653757e7ce"
+    }
+  ],
+  "taxes": {
+    "cgst": "309466.277871850",
+    "sgst": "1130885.7929403580",
+    "igst": "2284714.2966814600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42209877.63306366",
+    "total_tax": "3725066.3674936680",
+    "grand_total": "45934944.0005573280"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ca26392e-f46e-42cb-ba8d-323e088c2297",
+  "grn_id": "39b0874d-c2c8-41a2-84d5-6a907e1a3511",
+  "generated_at": "2026-11-18T15:45:20.780245"
+}

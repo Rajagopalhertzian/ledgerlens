@@ -1,0 +1,71 @@
+{
+  "invoice_id": "c2a98216-b291-4d80-9b96-8ea1515848b9",
+  "invoice_number": "INV000358",
+  "vendor_id": "6a5502ab-d546-4424-b112-2bf7a6beb06b",
+  "vendor_gstin": "29OROYM7426ZRZP",
+  "header": {
+    "invoice_number": "INV000358",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "29OROYM7426ZRZP",
+    "vendor_name": "Bharat Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000081",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA839",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3902",
+      "uom": "BOX",
+      "quantity": "789.88",
+      "unit_price": "13960.82",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11027372.5016",
+      "tax_amount": "1323284.700192",
+      "line_total": "12350657.201792",
+      "po_line_id": "38f82c90-7269-40ec-8e7b-8e1e7ed739f8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA223",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3903",
+      "uom": "KG",
+      "quantity": "397.50",
+      "unit_price": "42006.54",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "7.34",
+      "taxable_value": "15471995.83569000",
+      "tax_amount": "1856639.5002828000",
+      "line_total": "17328635.3359728000",
+      "po_line_id": "5332f34c-aeae-4cd1-8c89-22ad9eb1504b"
+    }
+  ],
+  "taxes": {
+    "cgst": "1856639.5002828000",
+    "sgst": "0",
+    "igst": "1323284.700192",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "26499368.33729000",
+    "total_tax": "3179924.2004748000",
+    "grand_total": "29679292.5377648000"
+  },
+  "expected_decision": "investigate",
+  "defects": [],
+  "expected_actions": [],
+  "po_id": "6d5d9bb0-3642-419a-96da-56cb0f2f067b",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.685846"
+}

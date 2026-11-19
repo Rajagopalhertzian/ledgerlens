@@ -1,0 +1,93 @@
+{
+  "invoice_id": "935ad96f-ceb0-446e-91b6-e4a8606e827b",
+  "invoice_number": "INV000118",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000118",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000114",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA569",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3904",
+      "uom": "PKT",
+      "quantity": "159.62",
+      "unit_price": "28797.06",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "7.17",
+      "taxable_value": "4267011.44957676",
+      "tax_amount": "768062.0609238168",
+      "line_total": "5035073.5105005768",
+      "po_line_id": "0587147b-2ea0-4a19-892d-11487197fcd6"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA567",
+      "item_description": "Poly Bags",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "460.74",
+      "unit_price": "28849.02",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13291897.4748",
+      "tax_amount": "664594.873740",
+      "line_total": "13956492.348540",
+      "po_line_id": "2a0471be-9ad7-4b93-8049-67ea9196bb21"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA850",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "391.70",
+      "unit_price": "41189.14",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "9.00",
+      "taxable_value": "14681745.385580",
+      "tax_amount": "1761809.44626960",
+      "line_total": "16443554.83184960",
+      "po_line_id": "59d1b2af-5b52-4ad3-9912-47ebcbbbfe00"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2426404.32000960",
+    "igst": "768062.0609238168",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32240654.30995676",
+    "total_tax": "3194466.3809334168",
+    "grand_total": "35435120.6908901768"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "e0398c66-0775-4ee2-916b-d7e4fa3a52b1",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.615558"
+}

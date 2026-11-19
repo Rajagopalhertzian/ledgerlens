@@ -1,0 +1,141 @@
+{
+  "invoice_id": "4bd803a2-309f-44c3-a613-1ada0c350ffb",
+  "invoice_number": "INV000584",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV000584",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000118",
+    "grn_reference": "GRN000139",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC794",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "252.69",
+      "unit_price": "4827.75",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1219924.1475",
+      "tax_amount": "219586.346550",
+      "line_total": "1439510.494050",
+      "po_line_id": "e02ab6d6-a3d6-4b29-9b41-1810cbdef409"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC443",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "176.16",
+      "unit_price": "38109.64",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6713394.1824",
+      "tax_amount": "1208410.952832",
+      "line_total": "7921805.135232",
+      "po_line_id": "0c442e4e-16e6-4235-aa19-89564a159274"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC610",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "309.54",
+      "unit_price": "36921.87",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "1.38",
+      "taxable_value": "11271078.25997076",
+      "tax_amount": "1352529.3911964912",
+      "line_total": "12623607.6511672512",
+      "po_line_id": "f227863c-3537-4fb8-b6ad-59d55ecc8738"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC554",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "376.37",
+      "unit_price": "32137.74",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12095681.2038",
+      "tax_amount": "1451481.744456",
+      "line_total": "13547162.948256",
+      "po_line_id": "f380b24a-71c4-4000-a9ce-8581fff0d7d5"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC780",
+      "item_description": "Hydraulic Press",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "229.78",
+      "unit_price": "36670.37",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0.54",
+      "taxable_value": "8380616.58345956",
+      "tax_amount": "1508510.9850227208",
+      "line_total": "9889127.5684822808",
+      "po_line_id": "c650b681-5f9f-4c9a-88b8-fe622e72cf03"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC106",
+      "item_description": "Welding Set",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "608.46",
+      "unit_price": "19136.15",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "11643581.8290",
+      "tax_amount": "2095844.729220",
+      "line_total": "13739426.558220",
+      "po_line_id": "6dd705e4-7409-406a-b2ef-78ef5f4499ee"
+    }
+  ],
+  "taxes": {
+    "cgst": "3604355.7142427208",
+    "sgst": "0",
+    "igst": "4232008.4350344912",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "51324276.20613032",
+    "total_tax": "7836364.1492772120",
+    "grand_total": "59160640.3554075320"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4a335467-b2c6-43d9-b664-f5137d950642",
+  "grn_id": "2a55d041-d558-4354-b66b-80adf154abb5",
+  "generated_at": "2026-11-18T15:45:20.755541"
+}

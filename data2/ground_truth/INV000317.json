@@ -1,0 +1,109 @@
+{
+  "invoice_id": "79c6b147-eda9-4920-9c4b-00105107edec",
+  "invoice_number": "INV000317",
+  "vendor_id": "96cfe961-e311-45c9-9ebc-4cf4a2fff87d",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000317",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Universal Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000385",
+    "grn_reference": "GRN000448",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET984",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "812.36",
+      "unit_price": "39234.02",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "31872148.4872",
+      "tax_amount": "1593607.424360",
+      "line_total": "33465755.911560",
+      "po_line_id": "c197190e-7efd-4b30-938a-3e1a734eff99"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET852",
+      "item_description": "Copper Wire",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "685.87",
+      "unit_price": "9480.78",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6502582.5786",
+      "tax_amount": "1170464.864148",
+      "line_total": "7673047.442748",
+      "po_line_id": "3573bd06-af82-477e-a475-b20e6f9eb0d9"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET417",
+      "item_description": "Iron Castings",
+      "hsn_code": "7210",
+      "uom": "BOX",
+      "quantity": "933.58",
+      "unit_price": "29665.24",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "27694874.7592",
+      "tax_amount": "7754564.932576",
+      "line_total": "35449439.691776",
+      "po_line_id": "28990e6f-46b1-4b75-946d-c2721bc010e1"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET540",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "137.42",
+      "unit_price": "30269.60",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4159648.4320",
+      "tax_amount": "748736.717760",
+      "line_total": "4908385.149760",
+      "po_line_id": "977e26c4-aab7-47bd-abe9-6d5aae59bab9"
+    }
+  ],
+  "taxes": {
+    "cgst": "1593607.424360",
+    "sgst": "1919201.581908",
+    "igst": "7754564.932576",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "70229254.2570",
+    "total_tax": "11267373.938844",
+    "grand_total": "81496628.195844"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "7f5ccc84-22b4-4a2f-b734-ff3c6c2162c8",
+  "grn_id": "1753f9dc-3236-4f80-ac55-743c3b64f72d",
+  "generated_at": "2026-11-18T15:45:20.673638"
+}

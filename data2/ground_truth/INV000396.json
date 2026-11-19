@@ -1,0 +1,93 @@
+{
+  "invoice_id": "b5d06e8c-dac5-4013-9a8b-b55c54554688",
+  "invoice_number": "INV000396",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000396",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX230",
+      "item_description": "Protective Clothing",
+      "hsn_code": "5209",
+      "uom": "SET",
+      "quantity": "737.03",
+      "unit_price": "25840.27",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "1.60",
+      "taxable_value": "18740333.3309304",
+      "tax_amount": "2248839.999711648",
+      "line_total": "20989173.330642048",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX335",
+      "item_description": "Polyester Yarn",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "339.17",
+      "unit_price": "24049.86",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "6.41",
+      "taxable_value": "7634127.89206158",
+      "tax_amount": "1374143.0205710844",
+      "line_total": "9008270.9126326644",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX158",
+      "item_description": "Curtains Window",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "46.03",
+      "unit_price": "3597.33",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "165585.0999",
+      "tax_amount": "19870.211988",
+      "line_total": "185455.311888",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2248839.999711648",
+    "sgst": "19870.211988",
+    "igst": "1374143.0205710844",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "26540046.32289198",
+    "total_tax": "3642853.2322707324",
+    "grand_total": "30182899.5551627124"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.696812"
+}

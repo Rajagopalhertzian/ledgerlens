@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000139</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 20px; margin: -15px -15px 20px -15px; border-radius: 0 0 10px 10px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company-name { font-size: 22pt; margin: 0; font-weight: 700; }
+        .company-gstin { font-size: 10pt; opacity: 0.9; margin-top: 4px; }
+        .invoice-badge { background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; text-align: right; }
+        .invoice-badge h2 { margin: 0; font-size: 18pt; }
+        .invoice-badge .meta { font-size: 9pt; opacity: 0.9; margin-top: 4px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .party-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; }
+        .party-card h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+        .party-card .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party-card .detail { font-size: 9pt; margin: 3px 0; color: #495057; }
+        .party-card .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals-card { width: 350px; margin-left: auto; background: white; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; }
+        .totals-card .row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #dee2e6; }
+        .totals-card .row:last-child { border-bottom: none; background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .bank-card h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-card .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .declaration { margin-top: 20px; font-style: italic; text-align: center; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .no-po-notice { background: #fff3cd; border: 1px solid #ffc107; color: #856404; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div>
+                    <h1 class="company-name">Universal Metals</h1>
+                    <div class="company-gstin">GSTIN: 24ZOGTE3783DOZM</div>
+                    <div class="company-gstin">630 Brigade Road, Opposite Mall, Bengaluru, 24, 560001</div>
+                </div>
+                <div class="invoice-badge">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000139</div>
+                        <div>Date: 16/11/2026</div>
+                        <div style="color: #ffc107;">No Purchase Order Reference</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-po-notice">
+            <strong>Notice:</strong> This invoice does not reference a Purchase Order. Please verify authorization before processing.
+        </div>
+
+        <div class="parties">
+            <div class="party-card">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State:</span> 24</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party-card">
+                <h3>Ship To</h3>
+                <div class="name">Universal Metals</div>
+                <div class="detail"><span class="label">GSTIN:</span> 24ZOGTE3783DOZM</div>
+                <div class="detail"><span class="label">State:</span> 24</div>
+                <div class="detail">630 Brigade Road, Opposite Mall, Bengaluru, 24, 560001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>2902</td>
+                    <td>Industrial Solvent</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">966.53</td>
+                    <td class="text-right">3,034.75</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">29,33,176.92</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5,27,971.85</td>
+                    <td class="text-right">34,61,148.76</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>3802</td>
+                    <td>Calcium Carbonate</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">735.99</td>
+                    <td class="text-right">46,165.58</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">3,39,77,405.22</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">40,77,288.63</td>
+                    <td class="text-right">3,80,54,693.85</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>3802</td>
+                    <td>Sodium Hydroxide</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">548.39</td>
+                    <td class="text-right">16,936.77</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">92,87,955.30</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">26,00,627.48</td>
+                    <td class="text-right">1,18,88,582.78</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>2801</td>
+                    <td>Coolant Fluid</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">283.76</td>
+                    <td class="text-right">34,849.18</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">98,88,803.32</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">11,86,656.40</td>
+                    <td class="text-right">1,10,75,459.71</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>2801</td>
+                    <td>Sodium Hydroxide</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">752.51</td>
+                    <td class="text-right">29,061.15</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,18,68,805.99</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">10,93,440.30</td>
+                    <td class="text-right">2,29,62,246.29</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>2802</td>
+                    <td>Rust Remover</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">442.44</td>
+                    <td class="text-right">24,173.84</td>
+                    <td class="text-right">7.48%</td>
+                    <td class="text-right">98,95,452.33</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">11,87,454.28</td>
+                    <td class="text-right">1,10,82,906.61</td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td>3802</td>
+                    <td>Sulfuric Acid</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">726.23</td>
+                    <td class="text-right">28,826.54</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">2,09,34,698.14</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">25,12,163.78</td>
+                    <td class="text-right">2,34,46,861.92</td>
+                </tr>
+                <tr>
+                    <td class="text-center">8</td>
+                    <td>3802</td>
+                    <td>Sodium Hydroxide</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">96.95</td>
+                    <td class="text-right">48,710.52</td>
+                    <td class="text-right">5.15%</td>
+                    <td class="text-right">44,79,276.94</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5,37,513.23</td>
+                    <td class="text-right">50,16,790.17</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>22,52,939.36</span></div>
+            <div class="row"><span>SGST</span><span>91,90,079.89</span></div>
+            <div class="row"><span>IGST</span><span>22,80,096.70</span></div>
+        </div>
+
+        <div class="totals-card">
+            <div class="row"><span>Subtotal</span><span>11,32,65,574.16</span></div>
+            <div class="row"><span>Total Tax</span><span>1,37,23,115.94</span></div>
+            <div class="row"><span>Grand Total</span><span>12,69,88,690.11</span></div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Twelve Crore Sixty Nine Lakh Eighty Eight Thousand Six Hundred Ninety Only Rupees Only</p>
+
+            <div class="bank-card">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXXXXX4692</span></div>
+                <div class="row"><span>IFSC:</span><span>SBIN0MCIXDU</span></div>
+                <div class="row"><span>Bank:</span><span>Punjab National Bank, Corporate Branch</span></div>
+                <div class="row"><span>Holder:</span><span>Universal Metals</span></div>
+            </div>
+
+            <div class="declaration">
+                We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.
+            </div>
+
+            <p style="margin-top: 20px; text-align: center;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

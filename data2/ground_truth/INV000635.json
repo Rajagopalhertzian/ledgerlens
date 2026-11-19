@@ -1,0 +1,111 @@
+{
+  "invoice_id": "39db100e-4e8d-44f7-99f3-e170659aa28f",
+  "invoice_number": "INV000635",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000635",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000226",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE978",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "811.71",
+      "unit_price": "7354.30",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5969558.8530",
+      "tax_amount": "1074520.593540",
+      "line_total": "7044079.446540",
+      "po_line_id": "e04be9f0-59a6-4f27-84cc-aae19a5f54cc"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE509",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "415.11",
+      "unit_price": "27606.19",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "5.19",
+      "taxable_value": "10864852.00384629",
+      "tax_amount": "1303782.2404615548",
+      "line_total": "12168634.2443078448",
+      "po_line_id": "3830de41-fa9e-4798-a801-5ac6343ac8fe"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE473",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "747.05",
+      "unit_price": "35366.62",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "26420633.4710",
+      "tax_amount": "4755714.024780",
+      "line_total": "31176347.495780",
+      "po_line_id": "57f8f46d-8fec-4672-95aa-dcc035ee4ab4"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE819",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "357.72",
+      "unit_price": "47908.75",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17137918.0500",
+      "tax_amount": "2056550.166000",
+      "line_total": "19194468.216000",
+      "po_line_id": "9c85ab37-2409-4edf-a8c1-44bfb19d745a"
+    }
+  ],
+  "taxes": {
+    "cgst": "1074520.593540",
+    "sgst": "8116046.4312415548",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60392962.37784629",
+    "total_tax": "9190567.0247815548",
+    "grand_total": "69583529.4026278448"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "b54fdc37-22dc-4d5c-848d-2605769b1d43",
+  "grn_id": "4fc7e611-ff2d-4897-9a58-8f4c39f91477",
+  "generated_at": "2026-11-18T15:45:20.770907"
+}

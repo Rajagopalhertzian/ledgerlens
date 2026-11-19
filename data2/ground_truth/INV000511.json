@@ -1,0 +1,125 @@
+{
+  "invoice_id": "a8ded2b1-d37c-4e7a-9437-f92dfa17964f",
+  "invoice_number": "INV000511",
+  "vendor_id": "bc1349b3-3c4a-4ad5-baa4-580a1ac14c63",
+  "vendor_gstin": "36XADWZ0726M6Z1",
+  "header": {
+    "invoice_number": "INV000511",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "36XADWZ0726M6Z1",
+    "vendor_name": "Major Construction",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA598",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3902",
+      "uom": "PCS",
+      "quantity": "818.52",
+      "unit_price": "34431.16",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "7.56",
+      "taxable_value": "26051989.04611008",
+      "tax_amount": "3126238.6855332096",
+      "line_total": "29178227.7316432896",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA402",
+      "item_description": "Poly Bags",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "814.27",
+      "unit_price": "39437.53",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "9.60",
+      "taxable_value": "29029968.9880024",
+      "tax_amount": "3483596.278560288",
+      "line_total": "32513565.266562688",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA706",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3901",
+      "uom": "PCS",
+      "quantity": "482.35",
+      "unit_price": "19709.93",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9507084.7355",
+      "tax_amount": "1711275.252390",
+      "line_total": "11218359.987890",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA755",
+      "item_description": "PP Bags",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "737.64",
+      "unit_price": "1055.97",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "778925.7108",
+      "tax_amount": "93471.085296",
+      "line_total": "872396.796096",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA627",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "557.07",
+      "unit_price": "32802.50",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "18273288.6750",
+      "tax_amount": "2192794.641000",
+      "line_total": "20466083.316000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1804746.337686",
+    "sgst": "3126238.6855332096",
+    "igst": "5676390.919560288",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "83641257.15541248",
+    "total_tax": "10607375.9427794976",
+    "grand_total": "94248633.0981919776"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.734106"
+}

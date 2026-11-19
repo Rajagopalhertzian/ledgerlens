@@ -1,0 +1,63 @@
+{
+  "invoice_id": "a87717ab-5b70-40e5-9c94-3d70bd56ae9b",
+  "invoice_number": "INV000041",
+  "vendor_id": "2791a614-38ab-41f8-9dc3-88f6d103e8b5",
+  "vendor_gstin": "33OBONO1351GWZY",
+  "header": {
+    "invoice_number": "INV000041",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "33OBONO1351GWZY",
+    "vendor_name": "Select Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000038",
+    "grn_reference": "GRN000045",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE142",
+      "item_description": "Degreaser",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "928.72",
+      "unit_price": "39752.67",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "36919099.6824",
+      "tax_amount": "10337347.911072",
+      "line_total": "47256447.593472",
+      "po_line_id": "10a72366-34a0-4a21-956b-6299f2ae32c8"
+    }
+  ],
+  "taxes": {
+    "cgst": "10337347.911072",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36919099.6824",
+    "total_tax": "10337347.911072",
+    "grand_total": "47256447.593472"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 31730.97, Invoice price 39752.67 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "3f14f3d9-980f-40c9-9a7d-4ddc0145802b",
+  "grn_id": "a9470742-ad70-4808-a2e2-22bb99053c86",
+  "generated_at": "2026-11-18T15:45:20.589810"
+}

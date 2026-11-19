@@ -1,0 +1,109 @@
+{
+  "invoice_id": "b9e13fd1-8fd2-4ce3-b999-8f68e44cdde5",
+  "invoice_number": "INV000351",
+  "vendor_id": "c6159298-8314-4625-a421-82626ba44cd7",
+  "vendor_gstin": "24QSTLC0205QTZ2",
+  "header": {
+    "invoice_number": "INV000351",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "24QSTLC0205QTZ2",
+    "vendor_name": "Classic Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000234",
+    "grn_reference": "GRN000272",
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR519",
+      "item_description": "Storage Rack",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "144.22",
+      "unit_price": "48212.41",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6953193.7702",
+      "tax_amount": "347659.688510",
+      "line_total": "7300853.458710",
+      "po_line_id": "7ea19c6a-7d23-4584-ab61-d5b0cb907c2e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR800",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "618.97",
+      "unit_price": "8578.77",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "9.02",
+      "taxable_value": "4831039.15262562",
+      "tax_amount": "869587.0474726116",
+      "line_total": "5700626.2000982316",
+      "po_line_id": "dd261ce7-85a0-4a11-b3eb-1b96d7a8ce8c"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR743",
+      "item_description": "Office Chair",
+      "hsn_code": "9402",
+      "uom": "SET",
+      "quantity": "4.42",
+      "unit_price": "3015.04",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "2.25",
+      "taxable_value": "13026.63107200",
+      "tax_amount": "3647.4567001600",
+      "line_total": "16674.0877721600",
+      "po_line_id": "d636d0a4-ac47-4ef3-9940-2e3e0346a03b"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR389",
+      "item_description": "Locker Steel",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "20.77",
+      "unit_price": "41217.52",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "856087.8904",
+      "tax_amount": "239704.609312",
+      "line_total": "1095792.499712",
+      "po_line_id": "0292adb5-837e-4e77-8ac1-80a8ce2572d4"
+    }
+  ],
+  "taxes": {
+    "cgst": "347659.688510",
+    "sgst": "869587.0474726116",
+    "igst": "243352.0660121600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "12653347.44429762",
+    "total_tax": "1460598.8019947716",
+    "grand_total": "14113946.2462923916"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "a6afa028-6e59-422a-8b8f-f30a87f90e45",
+  "grn_id": "e83c9f87-75e3-4853-9a4f-5d1703c9c191",
+  "generated_at": "2026-11-18T15:45:20.683900"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "b8be5a62-0f54-4d27-95fe-1dd8c5cb35b4",
+  "invoice_number": "INV000304",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000304",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000003",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC362",
+      "item_description": "Welding Set",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "150.00",
+      "unit_price": "4595.13",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "689269.5000",
+      "tax_amount": "34463.475000",
+      "line_total": "723732.975000",
+      "po_line_id": "11829619-0c22-457f-bb00-06525710e549"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC140",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "988.68",
+      "unit_price": "14871.51",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.75",
+      "taxable_value": "14445859.12793100",
+      "tax_amount": "4044840.5558206800",
+      "line_total": "18490699.6837516800",
+      "po_line_id": "17581496-524b-4f2a-a969-388383acbf04"
+    }
+  ],
+  "taxes": {
+    "cgst": "4044840.5558206800",
+    "sgst": "0",
+    "igst": "34463.475000",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15135128.62793100",
+    "total_tax": "4079304.0308206800",
+    "grand_total": "19214432.6587516800"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c4dfbab3-77a5-422f-b9a4-3da3d9ebfee5",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.669935"
+}

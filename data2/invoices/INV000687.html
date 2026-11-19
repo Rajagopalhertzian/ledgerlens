@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000687</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #1a1a2e; padding-bottom: 12px; margin-bottom: 20px; }
+        .header-flex { display: flex; justify-content: space-between; }
+        .vendor-info h1 { margin: 0; font-size: 18pt; color: #1a1a2e; }
+        .vendor-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-head { text-align: right; }
+        .invoice-head h2 { margin: 0; font-size: 16pt; color: #1a1a2e; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f5f5f5; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 70px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background: #1a1a2e; color: white; }
+        tr:nth-child(even) { background: #fafafa; }
+        .text-right { text-align: right; font-variant-numeric: tabular-nums; }
+        .text-center { text-align: center; }
+        /* Indian numbering format: 12,34,567.00 */
+        .indian-num { font-family: 'DejaVu Sans Mono', monospace; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 10px 12px; }
+        .totals .grand { background: #1a1a2e; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-box { background: #f5f5f5; padding: 12px; border-radius: 4px; margin-bottom: 15px; font-size: 9pt; }
+        .tax-box .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-box { background: #f5f5f5; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .amt-words { font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-flex">
+                <div class="vendor-info">
+                    <h1>Jai Distributors</h1>
+                    <p>GSTIN: 19MXBCP0265KPZF</p>
+                    <p>850 Nehru Road, Delhi, 19, 110001</p>
+                </div>
+                <div class="invoice-head">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div>Invoice No: INV000687</div>
+                        <div>Date: 26-10-2026</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row">LedgerLens Technologies Pvt Ltd</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>19</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row">Jai Distributors</div>
+                <div class="row"><span class="label">GSTIN:</span>19MXBCP0265KPZF</div>
+                <div class="row"><span class="label">State:</span>19</div>
+                <div class="row">850 Nehru Road, Delhi, 19, 110001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">S.No</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 25%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 8%" class="text-right">Qty</th>
+                    <th style="width: 12%" class="text-right">Rate (₹)</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 12%" class="text-right">Taxable (₹)</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 12%" class="text-right">Total (₹)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>4802</td>
+                    <td>Corrugated Sheets</td>
+                    <td class="text-center">PKT</td>
+                    <td class="text-right indian-num">54.66</td>
+                    <td class="text-right indian-num">12,257.65</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">6,70,003.15</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right indian-num">80,400.38</td>
+                    <td class="text-right indian-num">7,50,403.53</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>4819</td>
+                    <td>Notebooks 200pg</td>
+                    <td class="text-center">ROL</td>
+                    <td class="text-right indian-num">575.88</td>
+                    <td class="text-right indian-num">40,719.66</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">2,34,49,637.80</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right indian-num">65,65,898.58</td>
+                    <td class="text-right indian-num">3,00,15,536.39</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>4803</td>
+                    <td>Paper Bags</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right indian-num">158.78</td>
+                    <td class="text-right indian-num">22,231.36</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">35,29,895.34</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right indian-num">4,23,587.44</td>
+                    <td class="text-right indian-num">39,53,482.78</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>4819</td>
+                    <td>Corrugated Sheets</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right indian-num">691.28</td>
+                    <td class="text-right indian-num">7,264.79</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right indian-num">50,22,004.03</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right indian-num">14,06,161.13</td>
+                    <td class="text-right indian-num">64,28,165.16</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-box">
+            <div class="row"><strong>Tax Breakdown (Indian Format)</strong></div>
+            <div class="row"><span>CGST</span><span class="indian-num">65,65,898.58</span></div>
+            <div class="row"><span>SGST</span><span class="indian-num">5,03,987.82</span></div>
+            <div class="row"><span>IGST</span><span class="indian-num">14,06,161.13</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right indian-num">3,26,71,540.32</td></tr>
+            <tr><th>Total Tax</th><td class="text-right indian-num">84,76,047.53</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right indian-num">4,11,47,587.85</td></tr>
+        </table>
+
+        <div class="footer">
+            <p class="amt-words"><strong>Amount in Words:</strong> Four Crore Eleven Lakh Forty Seven Thousand Five Hundred Eighty Seven Only Rupees Only</p>
+
+            <div class="bank-box">
+                <strong>Bank Details</strong>
+                <div class="row"><span class="label">A/c:</span>XXXXXXX9571</div>
+                <div class="row"><span class="label">IFSC:</span>SBIN0EM2VAJ</div>
+                <div class="row"><span class="label">Bank:</span>ICICI Bank, Commercial Branch</div>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

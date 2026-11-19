@@ -1,0 +1,77 @@
+{
+  "invoice_id": "3d5f3d69-9a53-419e-a6d6-4f53f6ebfbdc",
+  "invoice_number": "INV000640",
+  "vendor_id": "c6159298-8314-4625-a421-82626ba44cd7",
+  "vendor_gstin": "24QSTLC0205QTZ2",
+  "header": {
+    "invoice_number": "INV000640",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "24QSTLC0205QTZ2",
+    "vendor_name": "Classic Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000374",
+    "grn_reference": "GRN000433",
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO957",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1901",
+      "uom": "PCS",
+      "quantity": "556.72",
+      "unit_price": "3018.53",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1680476.0216",
+      "tax_amount": "302485.683888",
+      "line_total": "1982961.705488",
+      "po_line_id": "e11b3265-bf36-468f-b2e5-11bd0685157b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO591",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "2106",
+      "uom": "KG",
+      "quantity": "794.82",
+      "unit_price": "8965.30",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7125799.7460",
+      "tax_amount": "1995223.928880",
+      "line_total": "9121023.674880",
+      "po_line_id": "f42a5d39-59e9-4c31-bfdd-a0c82f2ad5a5"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2297709.612768",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "8806275.7676",
+    "total_tax": "2297709.612768",
+    "grand_total": "11103985.380368"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "7fd9a55d-8a79-47c5-802b-646aee72ab67",
+  "grn_id": "1f3b92a1-8473-4391-88eb-2eca8c5fe322",
+  "generated_at": "2026-11-18T15:45:20.772318"
+}

@@ -1,0 +1,125 @@
+{
+  "invoice_id": "b894f6e3-58b1-452b-a357-f8265c4b0cf1",
+  "invoice_number": "INV000102",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000102",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA627",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3917",
+      "uom": "PKT",
+      "quantity": "516.69",
+      "unit_price": "4034.16",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2084410.1304",
+      "tax_amount": "375193.823472",
+      "line_total": "2459603.953872",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA361",
+      "item_description": "PET Bottles",
+      "hsn_code": "3901",
+      "uom": "BOX",
+      "quantity": "503.81",
+      "unit_price": "8628.68",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4347215.2708",
+      "tax_amount": "217360.763540",
+      "line_total": "4564576.034340",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA349",
+      "item_description": "Cable Ties",
+      "hsn_code": "3903",
+      "uom": "KG",
+      "quantity": "565.37",
+      "unit_price": "28920.18",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "3.74",
+      "taxable_value": "15739089.64556916",
+      "tax_amount": "4406945.1007593648",
+      "line_total": "20146034.7463285248",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA158",
+      "item_description": "PP Bags",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "736.90",
+      "unit_price": "5553.09",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4092072.0210",
+      "tax_amount": "204603.601050",
+      "line_total": "4296675.622050",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA623",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3926",
+      "uom": "BOX",
+      "quantity": "800.88",
+      "unit_price": "43093.95",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "34513082.6760",
+      "tax_amount": "6212354.881680",
+      "line_total": "40725437.557680",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4611548.7018093648",
+    "sgst": "6212354.881680",
+    "igst": "592554.587012",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60775869.74376916",
+    "total_tax": "11416458.1705013648",
+    "grand_total": "72192327.9142705248"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.610422"
+}

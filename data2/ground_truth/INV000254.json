@@ -1,0 +1,159 @@
+{
+  "invoice_id": "f2450a99-3485-4e8c-9a31-f683e3f0e690",
+  "invoice_number": "INV000254",
+  "vendor_id": "8b8e2732-1662-45a9-9535-a1e42d9e33b4",
+  "vendor_gstin": "24FKMGO5929VQZJ",
+  "header": {
+    "invoice_number": "INV000254",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "24FKMGO5929VQZJ",
+    "vendor_name": "Fine Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000241",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC409",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "131.52",
+      "unit_price": "48914.61",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6433249.5072",
+      "tax_amount": "321662.475360",
+      "line_total": "6754911.982560",
+      "po_line_id": "1aede3a4-0d53-471e-9f13-370b99abfd9c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC475",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "380.64",
+      "unit_price": "1895.56",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "721525.9584",
+      "tax_amount": "129874.672512",
+      "line_total": "851400.630912",
+      "po_line_id": "638ce019-d794-4401-be1f-4af82c5581bf"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC388",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "707.57",
+      "unit_price": "9872.70",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "1.93",
+      "taxable_value": "6850803.75065730",
+      "tax_amount": "1233144.6751183140",
+      "line_total": "8083948.4257756140",
+      "po_line_id": "3383b35f-d8df-4be9-8255-fa29ab03a79a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC897",
+      "item_description": "Air Compressor",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "75.34",
+      "unit_price": "18732.08",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1411274.9072",
+      "tax_amount": "169352.988864",
+      "line_total": "1580627.896064",
+      "po_line_id": "be71ea95-50b8-4a03-a4c6-144e2ba51e34"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC992",
+      "item_description": "Air Compressor",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "723.38",
+      "unit_price": "36851.53",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "5.83",
+      "taxable_value": "25103518.20672738",
+      "tax_amount": "4518633.2772109284",
+      "line_total": "29622151.4839383084",
+      "po_line_id": "6dc5ef96-db6c-4c3e-a597-803606fb106e"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC304",
+      "item_description": "Welding Set",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "786.35",
+      "unit_price": "5381.05",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4231388.6675",
+      "tax_amount": "211569.433375",
+      "line_total": "4442958.100875",
+      "po_line_id": "0abd330d-dc1e-4ad5-a523-c702777d8cda"
+    },
+    {
+      "line_number": 7,
+      "item_code": "MAC338",
+      "item_description": "Air Compressor",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "92.61",
+      "unit_price": "47574.46",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4405870.7406",
+      "tax_amount": "220293.537030",
+      "line_total": "4626164.277630",
+      "po_line_id": "e3398fd1-338d-407d-aec0-2bd24dbd09d7"
+    }
+  ],
+  "taxes": {
+    "cgst": "211569.433375",
+    "sgst": "220293.537030",
+    "igst": "6372668.0890652424",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "49157631.73828468",
+    "total_tax": "6804531.0594702424",
+    "grand_total": "55962162.7977549224"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 3: PO price 6703.77, Invoice price 9872.70 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "91cbb0af-f60d-4214-b56f-0416eaa31fe9",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.655137"
+}

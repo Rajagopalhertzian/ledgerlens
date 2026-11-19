@@ -1,0 +1,95 @@
+{
+  "invoice_id": "d62d1dc5-9bc9-4212-a39b-973059cdb34c",
+  "invoice_number": "INV000217",
+  "vendor_id": "9d652f93-a682-47d2-a262-5a2f142f87a3",
+  "vendor_gstin": "07UMTTL9566ULZY",
+  "header": {
+    "invoice_number": "INV000217",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "07UMTTL9566ULZY",
+    "vendor_name": "M/s Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000284",
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE457",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "100.99",
+      "unit_price": "25234.65",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "4.27",
+      "taxable_value": "2439628.60364055",
+      "tax_amount": "292755.4324368660",
+      "line_total": "2732384.0360774160",
+      "po_line_id": "7ae62baa-facd-4c0d-b5dd-f0571dade683"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE783",
+      "item_description": "RAM 16GB DDR4",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "556.73",
+      "unit_price": "8298.29",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4619906.9917",
+      "tax_amount": "230995.349585",
+      "line_total": "4850902.341285",
+      "po_line_id": "7e171d79-e1df-4764-bc78-13fb80e8ccd4"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE302",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "PCS",
+      "quantity": "822.49",
+      "unit_price": "11787.56",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.27",
+      "taxable_value": "8893361.30084212",
+      "tax_amount": "444668.0650421060",
+      "line_total": "9338029.3658842260",
+      "po_line_id": "86aacd80-c5dc-480a-b868-167d2bce327c"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "968418.8470639720",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15952896.89618267",
+    "total_tax": "968418.8470639720",
+    "grand_total": "16921315.7432466420"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "d32da966-26f6-4baf-92b0-8bd5f084ccb4",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.644363"
+}

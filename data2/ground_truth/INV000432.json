@@ -1,0 +1,63 @@
+{
+  "invoice_id": "6075d0dd-e116-41bc-b8ad-4c0f0e41b538",
+  "invoice_number": "INV000432",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV000432",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000382",
+    "grn_reference": "GRN000442",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET498",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "440.14",
+      "unit_price": "1567.04",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "689716.9856",
+      "tax_amount": "193120.755968",
+      "line_total": "882837.741568",
+      "po_line_id": "2e8da970-d81e-406f-97f1-788e7bb085b9"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "193120.755968",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "689716.9856",
+    "total_tax": "193120.755968",
+    "grand_total": "1005155.53"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": "1e3e1d95-98a6-4532-a5cd-ba1d481d25b0",
+  "grn_id": "ce6a9ff9-c774-48b5-a320-7479bacaed82",
+  "generated_at": "2026-11-18T15:45:20.707781"
+}

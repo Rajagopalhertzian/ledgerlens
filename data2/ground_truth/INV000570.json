@@ -1,0 +1,95 @@
+{
+  "invoice_id": "7c72509e-de68-46fe-828e-565b529b92e9",
+  "invoice_number": "INV000570",
+  "vendor_id": "dff757f9-8f9e-4d16-8753-3d068eee286f",
+  "vendor_gstin": "29SUJVG5714NAZA",
+  "header": {
+    "invoice_number": "INV000570",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "29SUJVG5714NAZA",
+    "vendor_name": "Jai Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000352",
+    "grn_reference": "GRN000407",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB502",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "367.53",
+      "unit_price": "27903.28",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10255292.4984",
+      "tax_amount": "1845952.649712",
+      "line_total": "12101245.148112",
+      "po_line_id": "d7b9e959-de30-4196-b00a-33f174d28efa"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB923",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "234.63",
+      "unit_price": "19760.66",
+      "tax_rate": "0.25",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4636443.6558",
+      "tax_amount": "1159110.913950",
+      "line_total": "5795554.569750",
+      "po_line_id": "6f0eb01d-be32-43f7-b21f-3a23893c6ea7"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB551",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4011",
+      "uom": "KG",
+      "quantity": "61.38",
+      "unit_price": "29102.55",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1786314.5190",
+      "tax_amount": "321536.613420",
+      "line_total": "2107851.132420",
+      "po_line_id": "b673214b-2c0e-4cd0-a930-ceefb6d0f7f3"
+    }
+  ],
+  "taxes": {
+    "cgst": "556373.238696",
+    "sgst": "2167489.263132",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "16678050.6732",
+    "total_tax": "2723862.501828",
+    "grand_total": "19401913.175028"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": "f390e5c2-b97a-49ec-9713-c9103c5bbbc9",
+  "grn_id": "8cad667f-fd3f-4ec9-8835-7d76f7fff9e6",
+  "generated_at": "2026-11-18T15:45:20.751030"
+}

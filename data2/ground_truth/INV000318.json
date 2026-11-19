@@ -1,0 +1,63 @@
+{
+  "invoice_id": "539a4168-20b2-4729-a176-eace4f0369e4",
+  "invoice_number": "INV000318",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV000318",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000333",
+    "grn_reference": "GRN000382",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA268",
+      "item_description": "PP Bags",
+      "hsn_code": "3904",
+      "uom": "PKT",
+      "quantity": "792.74",
+      "unit_price": "61805.29",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.11",
+      "taxable_value": "48451675.26049994",
+      "tax_amount": "13566469.0729399832",
+      "line_total": "62018144.3334399232",
+      "po_line_id": "c3f4d509-f06f-49fc-8373-57b947f75f51"
+    }
+  ],
+  "taxes": {
+    "cgst": "13566469.0729399832",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48451675.26049994",
+    "total_tax": "13566469.0729399832",
+    "grand_total": "62018144.3334399232"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 42651.82, Invoice price 61805.29 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "c41fc82a-9962-414b-a40b-fd93a47b0494",
+  "grn_id": "d2664017-bc82-469b-9c77-dd391fd1fc69",
+  "generated_at": "2026-11-18T15:45:20.673831"
+}

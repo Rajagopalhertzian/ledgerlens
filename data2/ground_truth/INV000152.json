@@ -1,0 +1,63 @@
+{
+  "invoice_id": "3c4d7b0b-89a5-41aa-b559-949a0e8768f0",
+  "invoice_number": "INV000152",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV000152",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA400",
+      "item_description": "Poly Bags",
+      "hsn_code": "3902",
+      "uom": "BOX",
+      "quantity": "255.83",
+      "unit_price": "30691.53",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7851814.1199",
+      "tax_amount": "2198507.953572",
+      "line_total": "10050322.073472",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2198507.953572",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "7851814.1199",
+    "total_tax": "2198507.953572",
+    "grand_total": "10050322.073472"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.625804"
+}

@@ -1,0 +1,93 @@
+{
+  "invoice_id": "af3b6654-96ac-4bb6-b86c-ce93c0f87b7f",
+  "invoice_number": "INV000037",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000037",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000014",
+    "grn_reference": "GRN000011",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET187",
+      "item_description": "Steel Channels",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "124.11",
+      "unit_price": "350.99",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "43561.3689",
+      "tax_amount": "12197.183292",
+      "line_total": "55758.552192",
+      "po_line_id": "86d88b95-828e-4092-b408-1c04cd4186e8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET662",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7202",
+      "uom": "MTR",
+      "quantity": "671.31",
+      "unit_price": "28407.90",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "19070507.3490",
+      "tax_amount": "953525.367450",
+      "line_total": "20024032.716450",
+      "po_line_id": "174f3cf4-f007-40a5-976d-1f1f9eadc0b3"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET787",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7201",
+      "uom": "KG",
+      "quantity": "251.44",
+      "unit_price": "9951.14",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2502114.6416",
+      "tax_amount": "700592.099648",
+      "line_total": "3202706.741248",
+      "po_line_id": "0cb45129-22c9-484b-a8a9-0a45d57afc05"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "700592.099648",
+    "igst": "965722.550742",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "21616183.3595",
+    "total_tax": "1666314.650390",
+    "grand_total": "23282498.009890"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "2bc93e3c-57e1-4ac0-88f4-e7bfbc2fcd78",
+  "grn_id": "54fe79a3-047c-418e-b7e8-e91c73121085",
+  "generated_at": "2026-11-18T15:45:20.588457"
+}

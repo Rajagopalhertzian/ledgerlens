@@ -1,0 +1,93 @@
+{
+  "invoice_id": "5d9d72bc-b941-4bda-992a-894c5e40d738",
+  "invoice_number": "INV000173",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000173",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000096",
+    "grn_reference": "GRN000115",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO931",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1701",
+      "uom": "LTR",
+      "quantity": "887.69",
+      "unit_price": "31255.55",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "27745239.1795",
+      "tax_amount": "7768666.970260",
+      "line_total": "35513906.149760",
+      "po_line_id": "59c27fe5-ac46-4c38-98a5-353621d08f1e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO857",
+      "item_description": "Spices Mixed",
+      "hsn_code": "2106",
+      "uom": "LTR",
+      "quantity": "881.09",
+      "unit_price": "4305.62",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3793638.7258",
+      "tax_amount": "682854.970644",
+      "line_total": "4476493.696444",
+      "po_line_id": "927315a4-8090-4748-9937-0d81908bf1b9"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO750",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1006",
+      "uom": "PKT",
+      "quantity": "284.64",
+      "unit_price": "4731.70",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1346831.0880",
+      "tax_amount": "242429.595840",
+      "line_total": "1589260.683840",
+      "po_line_id": "eb886ee4-3fd4-4892-8500-0f448b3fada1"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "682854.970644",
+    "igst": "8011096.566100",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32885708.9933",
+    "total_tax": "8693951.536744",
+    "grand_total": "41579660.530044"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "f5d3cc4f-1e26-4687-8a8f-023305eaf590",
+  "grn_id": "174c0f69-a3f9-4283-9202-c6b7f47ccade",
+  "generated_at": "2026-11-18T15:45:20.632084"
+}

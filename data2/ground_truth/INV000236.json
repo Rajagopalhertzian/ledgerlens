@@ -1,0 +1,79 @@
+{
+  "invoice_id": "ede3b606-a8f7-4434-8002-80fa9f4462d1",
+  "invoice_number": "INV000236",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000236",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000239",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP828",
+      "item_description": "Printing Paper",
+      "hsn_code": "4810",
+      "uom": "PCS",
+      "quantity": "992.90",
+      "unit_price": "39569.28",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "39288338.1120",
+      "tax_amount": "4714600.573440",
+      "line_total": "44002938.685440",
+      "po_line_id": "20379f27-5a49-41b1-bb43-1232ac50d867"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP358",
+      "item_description": "Paper Bags",
+      "hsn_code": "4801",
+      "uom": "ROL",
+      "quantity": "16.94",
+      "unit_price": "44563.28",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "754901.9632",
+      "tax_amount": "211372.549696",
+      "line_total": "966274.512896",
+      "po_line_id": "25be8451-15a9-47eb-b7a5-696714572e71"
+    }
+  ],
+  "taxes": {
+    "cgst": "211372.549696",
+    "sgst": "0",
+    "igst": "4714600.573440",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "40043240.0752",
+    "total_tax": "4925973.123136",
+    "grand_total": "44969213.198336"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "5cdf09f2-e80c-4665-81eb-7a7b78ba1228",
+  "grn_id": "fd7441b9-1457-4c35-a47e-f531503cd894",
+  "generated_at": "2026-11-18T15:45:20.649475"
+}

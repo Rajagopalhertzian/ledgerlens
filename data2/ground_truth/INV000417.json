@@ -1,0 +1,143 @@
+{
+  "invoice_id": "574e343c-866f-4118-a333-12b2da2aa93f",
+  "invoice_number": "INV000417",
+  "vendor_id": "f60cf842-ab4e-4c7c-ab67-3d140627343e",
+  "vendor_gstin": "27NDFIP2206H5Z8",
+  "header": {
+    "invoice_number": "INV000417",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "27NDFIP2206H5Z8",
+    "vendor_name": "Imperial Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000262",
+    "grn_reference": "GRN000305",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO384",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1101",
+      "uom": "LTR",
+      "quantity": "181.92",
+      "unit_price": "21597.76",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3929064.4992",
+      "tax_amount": "196453.224960",
+      "line_total": "4125517.724160",
+      "po_line_id": "850783ba-ffa0-441d-b08b-61ad1b455d38"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO161",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "269.15",
+      "unit_price": "39215.14",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "6.60",
+      "taxable_value": "9858141.1055540",
+      "tax_amount": "2760279.509555120",
+      "line_total": "12618420.615109120",
+      "po_line_id": "d8116bf5-c514-4b81-bbdc-a6159bd1e96c"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO718",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "976.86",
+      "unit_price": "36006.64",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.20",
+      "taxable_value": "34399630.5306912",
+      "tax_amount": "6191933.495524416",
+      "line_total": "40591564.026215616",
+      "po_line_id": "94116835-062c-47bc-95aa-e1a48449c9c8"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO728",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "203.94",
+      "unit_price": "30853.20",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6292201.6080",
+      "tax_amount": "755064.192960",
+      "line_total": "7047265.800960",
+      "po_line_id": "a3711f3f-9d45-4d23-bf77-3cfabb3f224a"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO269",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1101",
+      "uom": "KG",
+      "quantity": "96.59",
+      "unit_price": "42284.58",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4084267.5822",
+      "tax_amount": "490112.109864",
+      "line_total": "4574379.692064",
+      "po_line_id": "bb761fee-8bc0-47cd-a0c9-2fe5e133963f"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO714",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "1006",
+      "uom": "PCS",
+      "quantity": "108.28",
+      "unit_price": "12014.66",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1300947.3848",
+      "tax_amount": "234170.529264",
+      "line_total": "1535117.914064",
+      "po_line_id": "009bd184-0852-432e-978b-1b5cb835eead"
+    }
+  ],
+  "taxes": {
+    "cgst": "4201909.037339120",
+    "sgst": "6426104.024788416",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "59864252.7104452",
+    "total_tax": "10628013.062127536",
+    "grand_total": "70492265.772572736"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 18130.61, Invoice price 21597.76 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "5a3685ae-c480-4e20-9505-bf6474b6a75a",
+  "grn_id": "d2c5c5ec-0201-4362-9448-003cc5bf089a",
+  "generated_at": "2026-11-18T15:45:20.703028"
+}

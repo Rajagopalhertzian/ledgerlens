@@ -1,0 +1,77 @@
+{
+  "invoice_id": "5be1a660-3466-4456-864f-c98f78e689c3",
+  "invoice_number": "INV000535",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV000535",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000192",
+    "grn_reference": "GRN000218",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE973",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "2901",
+      "uom": "LTR",
+      "quantity": "564.10",
+      "unit_price": "6422.53",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3622949.1730",
+      "tax_amount": "1014425.768440",
+      "line_total": "4637374.941440",
+      "po_line_id": "1d738dc6-9097-4e7b-a7fe-59f73926d239"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE321",
+      "item_description": "Rust Remover",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "966.69",
+      "unit_price": "36889.55",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "7.83",
+      "taxable_value": "32868521.65279215",
+      "tax_amount": "9203186.0627818020",
+      "line_total": "42071707.7155739520",
+      "po_line_id": "ba3d36d8-23d6-4e71-b134-bf6eae2fbd09"
+    }
+  ],
+  "taxes": {
+    "cgst": "9203186.0627818020",
+    "sgst": "1014425.768440",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36491470.82579215",
+    "total_tax": "10217611.8312218020",
+    "grand_total": "46709082.6570139520"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "9f4b6df1-e785-419d-bdc9-73f8b46ae367",
+  "grn_id": "5e24a9aa-26ac-4308-a51f-f2465badab5d",
+  "generated_at": "2026-11-18T15:45:20.741240"
+}

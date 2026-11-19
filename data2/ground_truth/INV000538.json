@@ -1,0 +1,79 @@
+{
+  "invoice_id": "61fa747c-3ba7-4bd7-9e7d-29f485b04c8b",
+  "invoice_number": "INV000538",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000538",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000302",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP926",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4810",
+      "uom": "PCS",
+      "quantity": "403.26",
+      "unit_price": "46915.90",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "18919305.8340",
+      "tax_amount": "2270316.700080",
+      "line_total": "21189622.534080",
+      "po_line_id": "9bc30e28-35c7-4c04-8a41-93bae1bf0d87"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP275",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "764.77",
+      "unit_price": "18868.23",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14429856.2571",
+      "tax_amount": "1731582.750852",
+      "line_total": "16161439.007952",
+      "po_line_id": "e91983e4-49ee-4763-83fe-800a321228da"
+    }
+  ],
+  "taxes": {
+    "cgst": "1731582.750852",
+    "sgst": "2270316.700080",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "33349162.0911",
+    "total_tax": "4001899.450932",
+    "grand_total": "37351061.542032"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "90903c70-2c48-4fb5-91fd-b8f44ed52152",
+  "grn_id": "883fc075-8f59-4b77-9883-ddf158d94fe8",
+  "generated_at": "2026-11-18T15:45:20.742000"
+}

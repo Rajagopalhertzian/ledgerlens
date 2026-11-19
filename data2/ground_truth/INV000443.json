@@ -1,0 +1,79 @@
+{
+  "invoice_id": "c8a88fcc-9ee3-40a0-a7fa-09b1663003ac",
+  "invoice_number": "INV000443",
+  "vendor_id": "d0af9338-e0a0-4c88-b56f-c4bcdd364694",
+  "vendor_gstin": "09ANHZA8689D7ZF",
+  "header": {
+    "invoice_number": "INV000443",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "09ANHZA8689D7ZF",
+    "vendor_name": "Top Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000229",
+    "grn_reference": "GRN000267",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB641",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4009",
+      "uom": "PCS",
+      "quantity": "982.03",
+      "unit_price": "3051.40",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "9.64",
+      "taxable_value": "2707697.34663120",
+      "tax_amount": "487385.5223936160",
+      "line_total": "3195082.8690248160",
+      "po_line_id": "887ddcb2-232e-4797-a04a-822f10065eaa"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB293",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4001",
+      "uom": "KG",
+      "quantity": "385.37",
+      "unit_price": "1479.91",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "570312.9167",
+      "tax_amount": "102656.325006",
+      "line_total": "672969.241706",
+      "po_line_id": "e63ee005-0fc2-4401-b05e-6dcc297675c0"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "590041.8473996160",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "3278010.26333120",
+    "total_tax": "590041.8473996160",
+    "grand_total": "3868052.1107308160"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "9c0ad9e4-69b4-4524-a466-090fec111888",
+  "grn_id": "ffffe3f9-b335-49ff-ae67-44add62441a4",
+  "generated_at": "2026-11-18T15:45:20.710575"
+}

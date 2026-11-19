@@ -1,0 +1,79 @@
+{
+  "invoice_id": "04794f32-e699-4f61-8ec4-214fa4e5ac2c",
+  "invoice_number": "INV000362",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000362",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC362",
+      "item_description": "Welding Set",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "150.00",
+      "unit_price": "4595.13",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "689269.5000",
+      "tax_amount": "34463.475000",
+      "line_total": "723732.975000",
+      "po_line_id": "11829619-0c22-457f-bb00-06525710e549"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC140",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "988.68",
+      "unit_price": "14871.51",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.75",
+      "taxable_value": "14445859.12793100",
+      "tax_amount": "4044840.5558206800",
+      "line_total": "18490699.6837516800",
+      "po_line_id": "17581496-524b-4f2a-a969-388383acbf04"
+    }
+  ],
+  "taxes": {
+    "cgst": "4044840.5558206800",
+    "sgst": "0",
+    "igst": "34463.475000",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15135128.62793100",
+    "total_tax": "4079304.0308206800",
+    "grand_total": "19214432.6587516800"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "c4dfbab3-77a5-422f-b9a4-3da3d9ebfee5",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.687110"
+}

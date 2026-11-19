@@ -1,0 +1,77 @@
+{
+  "invoice_id": "41f558a5-e01d-4077-88dd-1cd2cf98e08a",
+  "invoice_number": "INV000162",
+  "vendor_id": "18cf81e2-ba6a-4e97-9a88-5b1dbb4034eb",
+  "vendor_gstin": "06JOCHF4576V2ZO",
+  "header": {
+    "invoice_number": "INV000162",
+    "invoice_date": "2026-11-01",
+    "vendor_gstin": "06JOCHF4576V2ZO",
+    "vendor_name": "Standard Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE673",
+      "item_description": "pH Buffer Solution",
+      "hsn_code": "2902",
+      "uom": "PCS",
+      "quantity": "483.37",
+      "unit_price": "14690.35",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "4.69",
+      "taxable_value": "6767843.46641145",
+      "tax_amount": "1894996.1705952060",
+      "line_total": "8662839.6370066560",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE889",
+      "item_description": "Degreaser",
+      "hsn_code": "2801",
+      "uom": "KG",
+      "quantity": "341.30",
+      "unit_price": "8711.84",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "6.50",
+      "taxable_value": "2780083.1775200",
+      "tax_amount": "139004.158876000",
+      "line_total": "2919087.336396000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "139004.158876000",
+    "sgst": "1894996.1705952060",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "9547926.64393145",
+    "total_tax": "2034000.3294712060",
+    "grand_total": "11581926.9734026560"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.628661"
+}

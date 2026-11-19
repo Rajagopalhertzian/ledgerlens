@@ -1,0 +1,143 @@
+{
+  "invoice_id": "3ea9703c-ea34-4bdc-b585-853d31534e7d",
+  "invoice_number": "INV000680",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000680",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA966",
+      "item_description": "Stretch Film",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "966.01",
+      "unit_price": "45843.43",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.05",
+      "taxable_value": "40720252.26324885",
+      "tax_amount": "2036012.6131624425",
+      "line_total": "42756264.8764112925",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA388",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "969.29",
+      "unit_price": "49801.50",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "3.69",
+      "taxable_value": "46490855.59499850",
+      "tax_amount": "2324542.7797499250",
+      "line_total": "48815398.3747484250",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA235",
+      "item_description": "Poly Bags",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "36.75",
+      "unit_price": "41553.12",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1527077.1600",
+      "tax_amount": "274873.888800",
+      "line_total": "1801951.048800",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA465",
+      "item_description": "Plastic Crates",
+      "hsn_code": "3903",
+      "uom": "PCS",
+      "quantity": "491.12",
+      "unit_price": "47493.90",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "23325204.1680",
+      "tax_amount": "4198536.750240",
+      "line_total": "27523740.918240",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA347",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "709.81",
+      "unit_price": "32759.34",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "23252907.1254",
+      "tax_amount": "6510813.995112",
+      "line_total": "29763721.120512",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "PLA449",
+      "item_description": "Injection Molded Parts",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "971.59",
+      "unit_price": "260.88",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "253468.3992",
+      "tax_amount": "45624.311856",
+      "line_total": "299092.711056",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "45624.311856",
+    "sgst": "2310886.5019624425",
+    "igst": "13033893.5251019250",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "135569764.71084735",
+    "total_tax": "15390404.3389203675",
+    "grand_total": "163395126.82"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.783792"
+}

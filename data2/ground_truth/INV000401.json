@@ -1,0 +1,63 @@
+{
+  "invoice_id": "aae62d57-2c14-4a9a-9ed5-bd716625398a",
+  "invoice_number": "INV000401",
+  "vendor_id": "d2b0fd7e-beb8-4e55-abb9-dd0e9a07dbe7",
+  "vendor_gstin": "08YADLJ4013KIZ9",
+  "header": {
+    "invoice_number": "INV000401",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "08YADLJ4013KIZ9",
+    "vendor_name": "Royal Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA540",
+      "item_description": "PP Bags",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "781.18",
+      "unit_price": "34028.86",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "8.78",
+      "taxable_value": "24248706.88054856",
+      "tax_amount": "4364767.2384987408",
+      "line_total": "28613474.1190473008",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "4364767.2384987408",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "24248706.88054856",
+    "total_tax": "4364767.2384987408",
+    "grand_total": "28613474.1190473008"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.698215"
+}

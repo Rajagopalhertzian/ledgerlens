@@ -1,0 +1,125 @@
+{
+  "invoice_id": "08da201b-6ea6-40e6-bd83-504f1fd8d8a9",
+  "invoice_number": "INV000621",
+  "vendor_id": "c5bf8821-5033-4f4e-b117-393228cb4582",
+  "vendor_gstin": "19BBLMF6377LQZX",
+  "header": {
+    "invoice_number": "INV000621",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "19BBLMF6377LQZX",
+    "vendor_name": "Grand Printing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000080",
+    "grn_reference": "GRN000092",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE628",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "625.34",
+      "unit_price": "22716.11",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14205292.2274",
+      "tax_amount": "1704635.067288",
+      "line_total": "15909927.294688",
+      "po_line_id": "0a41a8ab-39bb-4e3d-8e09-f2ff30acc149"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE645",
+      "item_description": "Rust Remover",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "213.74",
+      "unit_price": "48109.64",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10282954.4536",
+      "tax_amount": "2879227.247008",
+      "line_total": "13162181.700608",
+      "po_line_id": "74a53a39-3c26-43ac-8641-404f01e6754a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE165",
+      "item_description": "pH Buffer Solution",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "765.76",
+      "unit_price": "42221.69",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "32331681.3344",
+      "tax_amount": "9052870.773632",
+      "line_total": "41384552.108032",
+      "po_line_id": "e2248ac3-4c61-4c3e-9d03-5d8984729a5d"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE341",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "267.67",
+      "unit_price": "14423.53",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "3860746.2751",
+      "tax_amount": "463289.553012",
+      "line_total": "4324035.828112",
+      "po_line_id": "5c242332-fe63-4d38-a877-31f93c54b887"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE546",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "2902",
+      "uom": "KG",
+      "quantity": "150.81",
+      "unit_price": "1482.44",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "223566.7764",
+      "tax_amount": "40242.019752",
+      "line_total": "263808.796152",
+      "po_line_id": "8d1508ff-bbed-4b83-bc6a-bf71f431b8b7"
+    }
+  ],
+  "taxes": {
+    "cgst": "1704635.067288",
+    "sgst": "12435629.593404",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60904241.0669",
+    "total_tax": "14140264.660692",
+    "grand_total": "75044505.727592"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "434eb9c6-5daa-405e-87a4-d92cb9473014",
+  "grn_id": "11e2d0d4-aa4e-4c40-9b5b-10d85ea07a1d",
+  "generated_at": "2026-11-18T15:45:20.767072"
+}

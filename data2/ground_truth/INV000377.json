@@ -1,0 +1,109 @@
+{
+  "invoice_id": "5cede1b3-9244-4f6b-bf02-b4288eec346e",
+  "invoice_number": "INV000377",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000377",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000238",
+    "grn_reference": "GRN000276",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA396",
+      "item_description": "Cable Ties",
+      "hsn_code": "3901",
+      "uom": "BOX",
+      "quantity": "583.87",
+      "unit_price": "41429.90",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "24189675.7130",
+      "tax_amount": "6773109.199640",
+      "line_total": "30962784.912640",
+      "po_line_id": "d112594e-674d-4db3-9e65-b37e5491477a"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA733",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3903",
+      "uom": "PCS",
+      "quantity": "900.92",
+      "unit_price": "7685.64",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6924146.7888",
+      "tax_amount": "1938761.100864",
+      "line_total": "8862907.889664",
+      "po_line_id": "e98a696c-c580-4d40-b044-5c11b00aba40"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA250",
+      "item_description": "PP Bags",
+      "hsn_code": "3904",
+      "uom": "PKT",
+      "quantity": "700.16",
+      "unit_price": "14133.61",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9895788.3776",
+      "tax_amount": "1187494.605312",
+      "line_total": "11083282.982912",
+      "po_line_id": "09c4e719-6fe2-44f6-af91-90d7214132cc"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA804",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3904",
+      "uom": "KG",
+      "quantity": "136.46",
+      "unit_price": "19109.36",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0.20",
+      "taxable_value": "2602447.9390688",
+      "tax_amount": "728685.422939264",
+      "line_total": "3331133.362008064",
+      "po_line_id": "5314f22c-6293-4d9e-982e-6162f6dcc141"
+    }
+  ],
+  "taxes": {
+    "cgst": "3126255.706176",
+    "sgst": "7501794.622579264",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "43612058.8184688",
+    "total_tax": "10628050.328755264",
+    "grand_total": "54240109.147224064"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ec601c46-e48e-4883-819a-790b0e4358a9",
+  "grn_id": "7a62b562-1ef9-4d26-878f-f3c609f8e08c",
+  "generated_at": "2026-11-18T15:45:20.691259"
+}

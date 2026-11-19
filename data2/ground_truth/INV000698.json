@@ -1,0 +1,111 @@
+{
+  "invoice_id": "5cbe9ab9-8e6e-4c2f-88d0-15549c8d729e",
+  "invoice_number": "INV000698",
+  "vendor_id": "3da39e2b-8543-4ab8-8e27-7b319584b425",
+  "vendor_gstin": "29TTHDM4152RNZS",
+  "header": {
+    "invoice_number": "INV000698",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "29TTHDM4152RNZS",
+    "vendor_name": "Standard Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000005",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP260",
+      "item_description": "Register Books",
+      "hsn_code": "4803",
+      "uom": "ROL",
+      "quantity": "149.51",
+      "unit_price": "41339.25",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6180631.2675",
+      "tax_amount": "309031.563375",
+      "line_total": "6489662.830875",
+      "po_line_id": "43c95eab-810b-4904-bc8e-e6c0e12003e1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP151",
+      "item_description": "Label Stickers",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "869.55",
+      "unit_price": "3835.78",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.70",
+      "taxable_value": "3011868.4565970",
+      "tax_amount": "843323.167847160",
+      "line_total": "3855191.624444160",
+      "po_line_id": "0df5e244-d50b-4fad-b460-a87a2559b1d7"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP558",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "403.87",
+      "unit_price": "11826.50",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4776368.5550",
+      "tax_amount": "1337383.195400",
+      "line_total": "6113751.750400",
+      "po_line_id": "2420e5fc-8c85-4bb8-8dd4-a01ef65c784e"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP136",
+      "item_description": "Label Stickers",
+      "hsn_code": "4801",
+      "uom": "ROL",
+      "quantity": "316.75",
+      "unit_price": "49035.47",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "15531985.1225",
+      "tax_amount": "776599.256125",
+      "line_total": "16308584.378625",
+      "po_line_id": "ab53183f-2b5c-4be9-9c8d-82d692e2da0a"
+    }
+  ],
+  "taxes": {
+    "cgst": "1085630.819500",
+    "sgst": "2180706.363247160",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "29500853.4015970",
+    "total_tax": "3266337.182747160",
+    "grand_total": "32767190.584344160"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "23c97646-45a2-4086-9df6-3977808dd77f",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.788771"
+}

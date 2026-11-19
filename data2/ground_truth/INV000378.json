@@ -1,0 +1,109 @@
+{
+  "invoice_id": "4dc469ab-6abd-4583-807e-1b935b356e29",
+  "invoice_number": "INV000378",
+  "vendor_id": "e92a6f25-a45e-4223-9947-113e1eeb6b03",
+  "vendor_gstin": "33OUMNO2595Y3ZM",
+  "header": {
+    "invoice_number": "INV000378",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "33OUMNO2595Y3ZM",
+    "vendor_name": "Major Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP147",
+      "item_description": "Paper Bags",
+      "hsn_code": "4810",
+      "uom": "ROL",
+      "quantity": "719.86",
+      "unit_price": "19304.86",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "13896796.5196",
+      "tax_amount": "2501423.373528",
+      "line_total": "16398219.893128",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP437",
+      "item_description": "Paper Bags",
+      "hsn_code": "4811",
+      "uom": "BOX",
+      "quantity": "9.41",
+      "unit_price": "33593.59",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.36",
+      "taxable_value": "302333.03816916",
+      "tax_amount": "54419.9468704488",
+      "line_total": "356752.9850396088",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP599",
+      "item_description": "Printing Paper",
+      "hsn_code": "4803",
+      "uom": "PCS",
+      "quantity": "491.52",
+      "unit_price": "3194.95",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "5.58",
+      "taxable_value": "1482754.51822080",
+      "tax_amount": "415171.2651018240",
+      "line_total": "1897925.7833226240",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP803",
+      "item_description": "Label Stickers",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "299.79",
+      "unit_price": "13866.11",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4156921.1169",
+      "tax_amount": "498830.534028",
+      "line_total": "4655751.650928",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "498830.534028",
+    "sgst": "2501423.373528",
+    "igst": "469591.2119722728",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "19838805.19288996",
+    "total_tax": "3469845.1195282728",
+    "grand_total": "23308650.3124182328"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.691522"
+}

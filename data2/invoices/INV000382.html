@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000382</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: #2c3e50; color: white; padding: 20px; margin: -15px -15px 20px -15px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company h1 { margin: 0; font-size: 20pt; }
+        .company p { margin: 2px 0; font-size: 9pt; opacity: 0.9; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 18pt; }
+        .invoice-title .meta { font-size: 9pt; opacity: 0.9; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; }
+        .party h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; }
+        .party .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party .detail { font-size: 9pt; margin: 3px 0; }
+        .party .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #dee2e6; padding: 10px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-details { background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #dee2e6; margin: 15px 0; }
+        .bank-details h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-details .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .date-formats-box { background: #e8f5e9; border: 1px solid #4caf50; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+        .date-formats-box h4 { margin: 0 0 8px 0; color: #2e7d32; }
+        .date-formats-box .row { display: flex; justify-content: space-between; margin: 3px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div class="company">
+                    <h1>M/s Logistics</h1>
+                    <p>GSTIN: 36DZVTZ4743HGZ4</p>
+                    <p>829 Main Road, Next to Bank, Bhopal, 36, 462001</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000382</div>
+                        <div>Date: 12/11/2026 | November 12, 2026 | 2026-11-12</div>
+                        <div>PO: PO000257</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="date-formats-box">
+            <h4>Date Formats Used in This Invoice</h4>
+            <div class="row"><span>Invoice Date (DD/MM/YYYY):</span><span>12/11/2026</span></div>
+            <div class="row"><span>Invoice Date (MM/DD/YYYY):</span><span>11/12/2026</span></div>
+            <div class="row"><span>Invoice Date (YYYY-MM-DD):</span><span>2026-11-12</span></div>
+            <div class="row"><span>Invoice Date (DD-MMM-YYYY):</span><span>12-Nov-2026</span></div>
+            <div class="row"><span>Invoice Date (Full):</span><span>12 November 2026</span></div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State Code:</span> 36</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="name">M/s Logistics</div>
+                <div class="detail"><span class="label">GSTIN:</span> 36DZVTZ4743HGZ4</div>
+                <div class="detail"><span class="label">State Code:</span> 36</div>
+                <div class="detail">829 Main Road, Next to Bank, Bhopal, 36, 462001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>7210</td>
+                    <td>Steel Channels</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">423.28</td>
+                    <td class="text-right">29,397.52</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,24,43,382.27</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">22,39,808.81</td>
+                    <td class="text-right">1,46,83,191.07</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>7210</td>
+                    <td>Steel Bars 12mm</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right">759.29</td>
+                    <td class="text-right">4,432.75</td>
+                    <td class="text-right">2.45%</td>
+                    <td class="text-right">32,83,282.05</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5,90,990.77</td>
+                    <td class="text-right">38,74,272.82</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>7302</td>
+                    <td>Flat Bars</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">455.23</td>
+                    <td class="text-right">37,477.71</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,70,60,977.92</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">20,47,317.35</td>
+                    <td class="text-right">1,91,08,295.27</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>48,78,116.93</span></div>
+            <div class="row"><span>SGST</span><span>0.00</span></div>
+            <div class="row"><span>IGST</span><span>0.00</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">3,27,87,642.24</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">48,78,116.93</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">3,76,65,759.17</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Three Crore Seventy Six Lakh Sixty Five Thousand Seven Hundred Fifty Nine Only Rupees Only</p>
+
+            <div class="bank-details">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXX8750</span></div>
+                <div class="row"><span>IFSC:</span><span>PUNB0ZTC69Q</span></div>
+                <div class="row"><span>Bank:</span><span>Bank of India, Commercial Branch</span></div>
+                <div class="row"><span>Holder:</span><span>M/s Logistics</span></div>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

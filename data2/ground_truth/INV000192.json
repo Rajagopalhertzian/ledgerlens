@@ -1,0 +1,125 @@
+{
+  "invoice_id": "f3e0a1fb-aac0-4e28-bcfd-a10a789f62f7",
+  "invoice_number": "INV000192",
+  "vendor_id": "f60cf842-ab4e-4c7c-ab67-3d140627343e",
+  "vendor_gstin": "27NDFIP2206H5Z8",
+  "header": {
+    "invoice_number": "INV000192",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "27NDFIP2206H5Z8",
+    "vendor_name": "Imperial Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE701",
+      "item_description": "Printer LaserJet",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "420.19",
+      "unit_price": "14607.80",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6138051.4820",
+      "tax_amount": "1718654.414960",
+      "line_total": "7856705.896960",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE696",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "402.96",
+      "unit_price": "22120.68",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "8913749.2128",
+      "tax_amount": "2495849.779584",
+      "line_total": "11409598.992384",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE844",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "426.60",
+      "unit_price": "9394.51",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "7.55",
+      "taxable_value": "3705116.76956700",
+      "tax_amount": "185255.8384783500",
+      "line_total": "3890372.6080453500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE818",
+      "item_description": "Graphics Card",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "699.05",
+      "unit_price": "48953.82",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "34221167.8710",
+      "tax_amount": "9581927.003880",
+      "line_total": "43803094.874880",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE326",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "43.36",
+      "unit_price": "41444.53",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1797034.8208",
+      "tax_amount": "89851.741040",
+      "line_total": "1886886.561840",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1718654.414960",
+    "sgst": "2770957.3591023500",
+    "igst": "9581927.003880",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "54775120.15616700",
+    "total_tax": "14071538.7779423500",
+    "grand_total": "68846658.9341093500"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.637196"
+}

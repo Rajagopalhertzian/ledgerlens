@@ -1,0 +1,93 @@
+{
+  "invoice_id": "061eb8f7-36fc-4952-b45d-414542655da2",
+  "invoice_number": "INV327091",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV327091",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000330",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA380",
+      "item_description": "Poly Bags",
+      "hsn_code": "3917",
+      "uom": "BOX",
+      "quantity": "179.75",
+      "unit_price": "14736.54",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2648893.0650",
+      "tax_amount": "741690.058200",
+      "line_total": "3390583.123200",
+      "po_line_id": "0b678102-f73b-4697-ac10-ef90ffd46eda"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA909",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3926",
+      "uom": "PKT",
+      "quantity": "431.91",
+      "unit_price": "20581.97",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0.14",
+      "taxable_value": "8877113.28057222",
+      "tax_amount": "1597880.3905029996",
+      "line_total": "10474993.6710752196",
+      "po_line_id": "c7e0d651-aa81-4881-b80a-1f2179da6e36"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA129",
+      "item_description": "Cable Ties",
+      "hsn_code": "3903",
+      "uom": "PKT",
+      "quantity": "865.31",
+      "unit_price": "24552.46",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "21245489.1626",
+      "tax_amount": "5948736.965528",
+      "line_total": "27194226.128128",
+      "po_line_id": "d71b7c77-26a8-488d-bdb8-33adeb1648f2"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "8288307.4142309996",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32771495.50817222",
+    "total_tax": "8288307.4142309996",
+    "grand_total": "41059802.9224032196"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d3a00167-689a-4d82-a04c-fad2476f6644",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.594433"
+}

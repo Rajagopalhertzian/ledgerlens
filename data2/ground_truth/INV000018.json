@@ -1,0 +1,77 @@
+{
+  "invoice_id": "e970fc9d-409e-42e8-ab3f-cf65d55667cf",
+  "invoice_number": "INV000018",
+  "vendor_id": "b2374d8f-a73e-4b64-91fd-1b629f088473",
+  "vendor_gstin": "27YUFPE3617WQZX",
+  "header": {
+    "invoice_number": "INV000018",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "27YUFPE3617WQZX",
+    "vendor_name": "Indian Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000216",
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC867",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "163.72",
+      "unit_price": "10560.93",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1729035.4596",
+      "tax_amount": "484129.928688",
+      "line_total": "2213165.388288",
+      "po_line_id": "9e7d2746-4d55-41d0-a0f9-fbcfacace4b6"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC567",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8415",
+      "uom": "PCS",
+      "quantity": "211.12",
+      "unit_price": "4630.47",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.12",
+      "taxable_value": "966635.87634432",
+      "tax_amount": "173994.4577419776",
+      "line_total": "1140630.3340862976",
+      "po_line_id": "931b6ced-fe81-4f7d-96f2-9317c2fca587"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "173994.4577419776",
+    "igst": "484129.928688",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2695671.33594432",
+    "total_tax": "658124.3864299776",
+    "grand_total": "3353795.7223742976"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ce955c1e-b707-4178-8ed2-f9419629ece9",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.582740"
+}

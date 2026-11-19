@@ -1,0 +1,143 @@
+{
+  "invoice_id": "e54faabe-de8e-4f3d-8d00-c494d06cb765",
+  "invoice_number": "INV000322",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000322",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX460",
+      "item_description": "Safety Vest",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "516.46",
+      "unit_price": "23957.39",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.76",
+      "taxable_value": "11289155.89258856",
+      "tax_amount": "564457.7946294280",
+      "line_total": "11853613.6872179880",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX842",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "79.99",
+      "unit_price": "30748.38",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "8.21",
+      "taxable_value": "2257632.80077998",
+      "tax_amount": "406373.9041403964",
+      "line_total": "2664006.7049203764",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX578",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "674.79",
+      "unit_price": "32574.95",
+      "tax_rate": "0.26",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "21981250.5105",
+      "tax_amount": "5715125.132730",
+      "line_total": "27696375.643230",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX106",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "6109",
+      "uom": "PCS",
+      "quantity": "7.83",
+      "unit_price": "23517.22",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "184139.8326",
+      "tax_amount": "9206.991630",
+      "line_total": "193346.824230",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "TEX567",
+      "item_description": "Safety Vest",
+      "hsn_code": "6109",
+      "uom": "PCS",
+      "quantity": "566.78",
+      "unit_price": "32965.26",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "18684050.0628",
+      "tax_amount": "5231534.017584",
+      "line_total": "23915584.080384",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "TEX111",
+      "item_description": "Safety Vest",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "704.65",
+      "unit_price": "20788.71",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14648764.5015",
+      "tax_amount": "732438.225075",
+      "line_total": "15381202.726575",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "9920597.334549",
+    "sgst": "573664.7862594280",
+    "igst": "406373.9041403964",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "69044993.60076854",
+    "total_tax": "10900636.0249488244",
+    "grand_total": "79945629.6257173644"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.674979"
+}

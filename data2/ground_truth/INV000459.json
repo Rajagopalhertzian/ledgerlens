@@ -1,0 +1,109 @@
+{
+  "invoice_id": "7e2dde5e-a29e-4afd-b5c3-103ecf7fbfd6",
+  "invoice_number": "INV000459",
+  "vendor_id": "c6159298-8314-4625-a421-82626ba44cd7",
+  "vendor_gstin": "24QSTLC0205QTZ2",
+  "header": {
+    "invoice_number": "INV000459",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "24QSTLC0205QTZ2",
+    "vendor_name": "Classic Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP500",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "920.51",
+      "unit_price": "47977.65",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "44163906.6015",
+      "tax_amount": "2208195.330075",
+      "line_total": "46372101.931575",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP955",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4811",
+      "uom": "PCS",
+      "quantity": "348.18",
+      "unit_price": "37161.51",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12938894.5518",
+      "tax_amount": "646944.727590",
+      "line_total": "13585839.279390",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP530",
+      "item_description": "Register Books",
+      "hsn_code": "4810",
+      "uom": "ROL",
+      "quantity": "81.87",
+      "unit_price": "21126.26",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1729606.9062",
+      "tax_amount": "311329.243116",
+      "line_total": "2040936.149316",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP421",
+      "item_description": "Cardboard Boxes",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "251.63",
+      "unit_price": "31997.41",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8051508.2783",
+      "tax_amount": "1449271.490094",
+      "line_total": "9500779.768394",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "311329.243116",
+    "sgst": "2208195.330075",
+    "igst": "2096216.217684",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "66883916.3378",
+    "total_tax": "4615740.790875",
+    "grand_total": "71499657.128675"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.717739"
+}

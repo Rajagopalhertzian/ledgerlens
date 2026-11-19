@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV128296</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'Noto Sans Devanagari', 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 3px double #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-row { display: flex; justify-content: space-between; }
+        .company h1 { margin: 0; font-size: 18pt; color: #2c3e50; }
+        .company .hindi { font-size: 14pt; color: #2c3e50; margin: 4px 0; }
+        .company p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 16pt; color: #2c3e50; }
+        .invoice-title .hindi { font-size: 12pt; color: #2c3e50; margin: 4px 0; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .hindi-label { font-size: 9pt; color: #666; margin-bottom: 4px; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 80px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background: #2c3e50; color: white; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals { width: 350px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-breakdown { font-size: 9pt; margin-bottom: 15px; }
+        .tax-breakdown .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-details { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .declaration { margin-top: 15px; font-style: italic; }
+        .hindi-text { color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div class="company">
+                    <h1>First Suppliers</h1>
+                    <div class="hindi hindi-text">विक्रेता नाम</div>
+                    <p>GSTIN: 06KVILG9171DBZS</p>
+                    <p>779 Nehru Road, Opposite Mall, Patna, 06, 800001</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="hindi hindi-text">कर चालान</div>
+                    <div class="invoice-meta">
+                        <div>Invoice No: INV128296</div>
+                        <div class="hindi-text">चालान संख्या: INV128296</div>
+                        <div>Date: 10/11/2026</div>
+                        <div class="hindi-text">दिनांक: 10/11/2026</div>
+                        <div>PO Ref: PO000227</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To / बिल प्राप्तकर्ता</h3>
+                <div class="row">LedgerLens Technologies Pvt Ltd</div>
+                <div class="row hindi-text">क्रेता नाम</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>06</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To / प्रेषण स्थान</h3>
+                <div class="row">First Suppliers</div>
+                <div class="row hindi-text">विक्रेता नाम</div>
+                <div class="row"><span class="label">GSTIN:</span>06KVILG9171DBZS</div>
+                <div class="row"><span class="label">State:</span>06</div>
+                <div class="row">779 Nehru Road, Opposite Mall, Patna, 06, 800001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">S.No<br>क्र.सं.</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 25%">Description<br>विवरण</th>
+                    <th style="width: 7%">UoM<br>इकाई</th>
+                    <th style="width: 8%" class="text-right">Qty<br>मात्रा</th>
+                    <th style="width: 10%" class="text-right">Rate<br>दर</th>
+                    <th style="width: 7%" class="text-right">Disc%<br>छूट%</th>
+                    <th style="width: 10%" class="text-right">Taxable<br>कर योग्य</th>
+                    <th style="width: 6%" class="text-center">Tax<br>कर</th>
+                    <th style="width: 6%" class="text-right">Tax Amt<br>कर राशि</th>
+                    <th style="width: 10%" class="text-right">Total<br>कुल</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>4011</td>
+                    <td>Vibration Mounts</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">105.70</td>
+                    <td class="text-right">41,332.06</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">43,68,798.74</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">5,24,255.85</td>
+                    <td class="text-right">48,93,054.59</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>4016</td>
+                    <td>O-Rings Set</td>
+                    <td class="text-center">SET</td>
+                    <td class="text-right">269.86</td>
+                    <td class="text-right">41,847.01</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,12,92,834.12</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">31,61,993.55</td>
+                    <td class="text-right">1,44,54,827.67</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-breakdown">
+            <div class="row"><strong>Tax Breakdown / कर विवरण</strong></div>
+            <div class="row"><span>CGST</span><span>0.00</span></div>
+            <div class="row"><span>SGST</span><span>0.00</span></div>
+            <div class="row"><span>IGST</span><span>36,86,249.40</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal / उप-योग</th><td class="text-right">1,56,61,632.86</td></tr>
+            <tr><th>Total Tax / कुल कर</th><td class="text-right">36,86,249.40</td></tr>
+            <tr class="grand"><th>Grand Total / कुल योग</th><td class="text-right">1,93,47,882.26</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> One Crore Ninety Three Lakh Forty Seven Thousand Eight Hundred Eighty Two Only Rupees Only</p>
+            <p class="hindi-text"><strong>शब्दों में राशि:</strong> ₹1,93,47,882.26 रुपये मात्र</p>
+
+            <div class="bank-details">
+                <strong>Bank Details / बैंक विवरण</strong>
+                <div class="row"><span class="label">A/c:</span>XXXXXX3737</div>
+                <div class="row"><span class="label">IFSC:</span>BKID0DTIRC9</div>
+                <div class="row"><span class="label">Bank:</span>Bank of India, Main Branch</div>
+                <div class="row"><span class="label">Holder:</span>First Suppliers</div>
+            </div>
+
+            <div class="declaration">
+                <p>We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+                <p class="hindi-text">हम घोषित करते हैं कि यह चालान वर्णित वस्तुओं/सेवाओं की वास्तविक कीमत दर्शाता है और सभी विवरण सत्य और सही हैं।</p>
+            </div>
+
+            <p style="margin-top: 20px;">Authorized Signatory / प्राधिकृत हस्ताक्षरकर्ता</p>
+        </div>
+    </div>
+</body>
+</html>

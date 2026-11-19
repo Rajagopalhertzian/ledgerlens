@@ -1,0 +1,77 @@
+{
+  "invoice_id": "862e9439-aabd-46eb-982b-2b13e7c15b2b",
+  "invoice_number": "INV557711",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV557711",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000047",
+    "grn_reference": "GRN000053",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX722",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5209",
+      "uom": "PCS",
+      "quantity": "13.20",
+      "unit_price": "24931.62",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "329097.3840",
+      "tax_amount": "92147.267520",
+      "line_total": "421244.651520",
+      "po_line_id": "47f48cbc-41a8-4f86-8d77-b93904bd1048"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX350",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "589.27",
+      "unit_price": "23838.03",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "6.00",
+      "taxable_value": "13204213.781814",
+      "tax_amount": "3697179.85890792",
+      "line_total": "16901393.64072192",
+      "po_line_id": "89a9d81e-f376-4e87-be68-babffaca50db"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "3697179.85890792",
+    "igst": "92147.267520",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "13533311.165814",
+    "total_tax": "3789327.12642792",
+    "grand_total": "17322638.29224192"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "142cd498-a431-48a1-bf88-9de5d997b3d5",
+  "grn_id": "7717a1b3-2f08-4f00-82ba-f6c98893df0f",
+  "generated_at": "2026-11-18T15:45:20.619333"
+}

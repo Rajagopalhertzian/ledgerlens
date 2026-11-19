@@ -36,17 +36,13 @@ class RetryPolicy:
     max_delay: float = 60.0  # seconds
     exponential_base: float = 2.0
     jitter: float = 0.1  # Jitter factor (0-1)
-    retryable_exceptions: tuple[type[Exception], ...] = (
-        ConnectionError,
-        TimeoutError,
-        IOError,
-    )
+    retryable_exceptions: tuple[type[Exception], ...] = (ConnectionError, TimeoutError, IOError)
 
     def get_delay(self, attempt: int) -> float:
         """Calculate delay for attempt with exponential backoff and jitter."""
         import random
 
-        delay = min(self.base_delay * (self.exponential_base ** attempt), self.max_delay)
+        delay = min(self.base_delay * (self.exponential_base**attempt), self.max_delay)
         jitter_amount = delay * self.jitter * random.random()
         return delay + jitter_amount
 
@@ -157,12 +153,7 @@ class CircuitBreaker:
             self._last_failure_time = None
 
 
-async def retry_with_policy[T](
-    func: Callable[..., Coroutine[Any, Any, T]],
-    policy: RetryPolicy,
-    *args,
-    **kwargs,
-) -> T:
+async def retry_with_policy[T](func: Callable[..., Coroutine[Any, Any, T]], policy: RetryPolicy, *args, **kwargs) -> T:
     """Execute function with retry policy.
 
     Args:
@@ -196,15 +187,9 @@ async def retry_with_policy[T](
                 )
                 await asyncio.sleep(delay)
             else:
-                logger.exception(
-                    "All retry attempts exhausted",
-                    attempts=policy.max_attempts,
-                    error=str(e),
-                )
+                logger.exception("All retry attempts exhausted", attempts=policy.max_attempts, error=str(e))
 
     if last_exception is None:
         msg = "Retry policy exhausted with no exception"
         raise RuntimeError(msg)
     raise last_exception
-
-

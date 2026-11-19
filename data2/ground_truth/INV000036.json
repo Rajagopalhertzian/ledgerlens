@@ -1,0 +1,143 @@
+{
+  "invoice_id": "9c852e95-27cb-45fe-a639-8c718be21ca3",
+  "invoice_number": "INV000036",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000036",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE628",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2901",
+      "uom": "KG",
+      "quantity": "221.22",
+      "unit_price": "4016.75",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "888585.4350",
+      "tax_amount": "44429.271750",
+      "line_total": "933014.706750",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE337",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "633.85",
+      "unit_price": "15671.32",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9933266.1820",
+      "tax_amount": "1787987.912760",
+      "line_total": "11721254.094760",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE139",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "116.73",
+      "unit_price": "43706.33",
+      "tax_rate": "0.23",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5101839.9009",
+      "tax_amount": "1173423.177207",
+      "line_total": "6275263.078107",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE403",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "2.36",
+      "unit_price": "37267.52",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "87951.3472",
+      "tax_amount": "4397.567360",
+      "line_total": "92348.914560",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE881",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "527.04",
+      "unit_price": "3553.53",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "8.07",
+      "taxable_value": "1721713.25838816",
+      "tax_amount": "206605.5910065792",
+      "line_total": "1928318.8493947392",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "CHE583",
+      "item_description": "Industrial Solvent",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "474.33",
+      "unit_price": "47323.66",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "22447031.6478",
+      "tax_amount": "2693643.797736",
+      "line_total": "25140675.445536",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2039022.7755165792",
+    "sgst": "2953133.360141",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "40180387.77128816",
+    "total_tax": "4992156.1356575792",
+    "grand_total": "45172543.9069457392"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.588177"
+}

@@ -1,0 +1,63 @@
+{
+  "invoice_id": "b553452c-e196-4571-80ed-edd8d21740f4",
+  "invoice_number": "INV000551",
+  "vendor_id": "1ed0ced2-32c2-469b-a617-8125bf1b6b68",
+  "vendor_gstin": "08SZZUJ7054VHZD",
+  "header": {
+    "invoice_number": "INV000551",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "08SZZUJ7054VHZD",
+    "vendor_name": "National Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000106",
+    "grn_reference": "GRN000127",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP901",
+      "item_description": "Label Stickers",
+      "hsn_code": "4810",
+      "uom": "ROL",
+      "quantity": "880.06",
+      "unit_price": "30999.60",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "27281507.9760",
+      "tax_amount": "4910671.435680",
+      "line_total": "32192179.411680",
+      "po_line_id": "4a88d5fa-9c67-4fc1-aabe-545b00edb2bc"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "4910671.435680",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "27281507.9760",
+    "total_tax": "4910671.435680",
+    "grand_total": "38393834.17"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D12",
+      "evidence": "Post-render edit detected: grand total inconsistent with line items",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "escalate_for_fraud_review"
+  ],
+  "po_id": "adf1f60f-18c2-4942-9b9c-d93be95f038b",
+  "grn_id": "980d0a84-fe78-4bdc-9aea-8af41101ba4e",
+  "generated_at": "2026-11-18T15:45:20.746029"
+}

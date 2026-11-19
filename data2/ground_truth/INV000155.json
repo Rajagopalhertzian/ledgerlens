@@ -1,0 +1,61 @@
+{
+  "invoice_id": "ec11e555-540c-4da2-b79f-04b4184ae0e7",
+  "invoice_number": "INV000155",
+  "vendor_id": "d2b0fd7e-beb8-4e55-abb9-dd0e9a07dbe7",
+  "vendor_gstin": "08YADLJ4013KIZ9",
+  "header": {
+    "invoice_number": "INV000155",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "08YADLJ4013KIZ9",
+    "vendor_name": "Royal Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000283",
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC726",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "121.16",
+      "unit_price": "14092.50",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "9.24",
+      "taxable_value": "1549679.16948000",
+      "tax_amount": "433910.1674544000",
+      "line_total": "1983589.3369344000",
+      "po_line_id": "83853c63-530d-49ac-99a0-7601176c9171"
+    }
+  ],
+  "taxes": {
+    "cgst": "433910.1674544000",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1549679.16948000",
+    "total_tax": "433910.1674544000",
+    "grand_total": "1983589.3369344000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dfd91916-c7be-494f-ae5b-15d378bed513",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.626637"
+}

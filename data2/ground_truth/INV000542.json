@@ -1,0 +1,125 @@
+{
+  "invoice_id": "d0bf6db5-6e16-4deb-9612-a01c52a47673",
+  "invoice_number": "INV000542",
+  "vendor_id": "f60cf842-ab4e-4c7c-ab67-3d140627343e",
+  "vendor_gstin": "27NDFIP2206H5Z8",
+  "header": {
+    "invoice_number": "INV000542",
+    "invoice_date": "2026-10-26",
+    "vendor_gstin": "27NDFIP2206H5Z8",
+    "vendor_name": "Imperial Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000138",
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB636",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4009",
+      "uom": "SET",
+      "quantity": "630.23",
+      "unit_price": "5959.70",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3755981.7310",
+      "tax_amount": "1051674.884680",
+      "line_total": "4807656.615680",
+      "po_line_id": "967b06b2-31d8-4a12-8d38-c05808c80a66"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB913",
+      "item_description": "Industrial Hose",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "599.55",
+      "unit_price": "34865.64",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "5.66",
+      "taxable_value": "19720545.35545080",
+      "tax_amount": "2366465.4426540960",
+      "line_total": "22087010.7981048960",
+      "po_line_id": "148dfa1f-2c7a-4c59-ac53-d340452d84d7"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB621",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "495.53",
+      "unit_price": "26670.25",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13215908.9825",
+      "tax_amount": "660795.449125",
+      "line_total": "13876704.431625",
+      "po_line_id": "2e4e3fd9-625c-40fb-989f-004cc3cbfb59"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB813",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "401.45",
+      "unit_price": "13647.56",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "2.18",
+      "taxable_value": "5359374.83942840",
+      "tax_amount": "643124.9807314080",
+      "line_total": "6002499.8201598080",
+      "po_line_id": "988b8716-9dd8-4dfe-a2ec-6dce0b9f10f3"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB403",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "504.31",
+      "unit_price": "36056.90",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "18183855.2390",
+      "tax_amount": "3273093.943020",
+      "line_total": "21456949.182020",
+      "po_line_id": "bb5f097e-fa7d-4d32-acce-e28ea8f7eaa2"
+    }
+  ],
+  "taxes": {
+    "cgst": "2355595.3145364080",
+    "sgst": "5639559.3856740960",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "60235666.14737920",
+    "total_tax": "7995154.7002105040",
+    "grand_total": "68230820.8475897040"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "5a8bc835-b4c8-4428-b474-16e5647f8b01",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.743412"
+}

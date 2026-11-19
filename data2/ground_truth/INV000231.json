@@ -1,0 +1,61 @@
+{
+  "invoice_id": "f06c42ee-af5d-4747-903b-c6e66eaf1a84",
+  "invoice_number": "INV000231",
+  "vendor_id": "b2374d8f-a73e-4b64-91fd-1b629f088473",
+  "vendor_gstin": "27YUFPE3617WQZX",
+  "header": {
+    "invoice_number": "INV000231",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "27YUFPE3617WQZX",
+    "vendor_name": "Indian Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA127",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3926",
+      "uom": "KG",
+      "quantity": "343.28",
+      "unit_price": "45296.24",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "15549293.2672",
+      "tax_amount": "1865915.192064",
+      "line_total": "17415208.459264",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "1865915.192064",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15549293.2672",
+    "total_tax": "1865915.192064",
+    "grand_total": "17415208.459264"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.648248"
+}

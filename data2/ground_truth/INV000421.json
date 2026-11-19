@@ -1,0 +1,125 @@
+{
+  "invoice_id": "6feeac9b-04fb-4cff-b5a9-0516d4fe7180",
+  "invoice_number": "INV000421",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000421",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000131",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE882",
+      "item_description": "Degreaser",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "684.39",
+      "unit_price": "2213.56",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1514938.3284",
+      "tax_amount": "424182.731952",
+      "line_total": "1939121.060352",
+      "po_line_id": "b73c1857-0ae5-4fb4-a152-ab959a1758fd"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE488",
+      "item_description": "Calcium Carbonate",
+      "hsn_code": "3801",
+      "uom": "KG",
+      "quantity": "76.05",
+      "unit_price": "41986.51",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3193074.0855",
+      "tax_amount": "574753.335390",
+      "line_total": "3767827.420890",
+      "po_line_id": "a969adfb-f716-42fa-a6fa-0a5ef7478365"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE136",
+      "item_description": "pH Buffer Solution",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "569.27",
+      "unit_price": "10951.41",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6234309.1707",
+      "tax_amount": "1122175.650726",
+      "line_total": "7356484.821426",
+      "po_line_id": "5bb68fca-a23d-47c8-afc4-296a06cc167b"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE458",
+      "item_description": "Rust Remover",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "58.44",
+      "unit_price": "393.97",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "1.07",
+      "taxable_value": "22777.25420724",
+      "tax_amount": "6377.6311780272",
+      "line_total": "29154.8853852672",
+      "po_line_id": "7ee4d8cf-9b3e-4cef-99dc-db4707fd3b6f"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE257",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "355.18",
+      "unit_price": "5156.76",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "5.14",
+      "taxable_value": "1737434.90673648",
+      "tax_amount": "486481.7738862144",
+      "line_total": "2223916.6806226944",
+      "po_line_id": "da3277f7-7498-4703-9763-8aedd5797d69"
+    }
+  ],
+  "taxes": {
+    "cgst": "1485417.8412282144",
+    "sgst": "6377.6311780272",
+    "igst": "1122175.650726",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "12702533.74554372",
+    "total_tax": "2613971.1231322416",
+    "grand_total": "15316504.8686759616"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ac9ae559-1be7-42ec-8664-f0ce2f4650c1",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.704398"
+}

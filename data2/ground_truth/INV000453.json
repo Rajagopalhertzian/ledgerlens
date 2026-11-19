@@ -1,0 +1,125 @@
+{
+  "invoice_id": "52c61504-5662-47b5-8987-3e9f7b9ec3c6",
+  "invoice_number": "INV000453",
+  "vendor_id": "d0af9338-e0a0-4c88-b56f-c4bcdd364694",
+  "vendor_gstin": "09ANHZA8689D7ZF",
+  "header": {
+    "invoice_number": "INV000453",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "09ANHZA8689D7ZF",
+    "vendor_name": "Top Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000362",
+    "grn_reference": "GRN000420",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO470",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "657.19",
+      "unit_price": "19367.20",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.76",
+      "taxable_value": "12122080.69200320",
+      "tax_amount": "2181974.5245605760",
+      "line_total": "14304055.2165637760",
+      "po_line_id": "0fa751f4-7fe3-457d-be4b-6f5aa7ea3d85"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO374",
+      "item_description": "Tea Powder 1kg",
+      "hsn_code": "1101",
+      "uom": "PKT",
+      "quantity": "73.65",
+      "unit_price": "8796.57",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "9.77",
+      "taxable_value": "584570.73742515",
+      "tax_amount": "29228.5368712575",
+      "line_total": "613799.2742964075",
+      "po_line_id": "2a0f8241-e92f-4d47-b89a-ec94d9788604"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO786",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "766.66",
+      "unit_price": "33694.20",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "5.70",
+      "taxable_value": "24359571.6357960",
+      "tax_amount": "4384722.894443280",
+      "line_total": "28744294.530239280",
+      "po_line_id": "f1d24697-accb-4d6d-81a1-fd4424151bee"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO466",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "592.83",
+      "unit_price": "10654.85",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6316514.7255",
+      "tax_amount": "1136972.650590",
+      "line_total": "7453487.376090",
+      "po_line_id": "654adb4b-504a-461c-9223-a33942ef27ec"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO782",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "803.62",
+      "unit_price": "40579.05",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "9.76",
+      "taxable_value": "29427386.87168640",
+      "tax_amount": "1471369.3435843200",
+      "line_total": "30898756.2152707200",
+      "po_line_id": "c730ec69-44ce-43d3-ad8d-970601e5796c"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "7022293.4254888575",
+    "igst": "2181974.5245605760",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "72810124.66241075",
+    "total_tax": "9204267.9500494335",
+    "grand_total": "82014392.6124601835"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "95427a87-4e19-4da0-bf76-c1b049d0af5c",
+  "grn_id": "37aa669e-c4e9-4d7e-835b-3442b971778e",
+  "generated_at": "2026-11-18T15:45:20.713693"
+}

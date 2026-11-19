@@ -1,0 +1,93 @@
+{
+  "invoice_id": "0eaf694a-43bf-47cd-86a9-577421827a11",
+  "invoice_number": "INV000617",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "29INVALIDGSTIN1",
+  "header": {
+    "invoice_number": "INV000617",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "29INVALIDGSTIN1",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX223",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5407",
+      "uom": "SET",
+      "quantity": "670.45",
+      "unit_price": "221.29",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "148363.8805",
+      "tax_amount": "41541.886540",
+      "line_total": "189905.767040",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX226",
+      "item_description": "Curtains Window",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "845.01",
+      "unit_price": "44687.98",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37761789.9798",
+      "tax_amount": "1888089.498990",
+      "line_total": "39649879.478790",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX936",
+      "item_description": "Towels Bath",
+      "hsn_code": "5209",
+      "uom": "ROL",
+      "quantity": "283.13",
+      "unit_price": "16344.95",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "1.97",
+      "taxable_value": "4536579.10333805",
+      "tax_amount": "816584.2386008490",
+      "line_total": "5353163.3419388990",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1888089.498990",
+    "sgst": "858126.1251408490",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42446732.96363805",
+    "total_tax": "2746215.6241308490",
+    "grand_total": "45192948.5877688990"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D09",
+      "evidence": "GSTIN checksum fails or mismatches vendor master: 29INVALIDGSTIN1",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.765344"
+}

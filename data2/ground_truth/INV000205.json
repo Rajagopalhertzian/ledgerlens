@@ -1,0 +1,125 @@
+{
+  "invoice_id": "ec470f08-4ae8-4f02-bc15-b9735b2e3bfb",
+  "invoice_number": "INV000205",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000205",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000204",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC946",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "709.30",
+      "unit_price": "11130.78",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7895062.2540",
+      "tax_amount": "1421111.205720",
+      "line_total": "9316173.459720",
+      "po_line_id": "3987a3cf-9f62-4a4a-b316-7b5d745e877b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC645",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "347.02",
+      "unit_price": "22274.71",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7729769.8642",
+      "tax_amount": "2164335.561976",
+      "line_total": "9894105.426176",
+      "po_line_id": "9102a38b-e0a8-4ce4-a63c-00366b6c216a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC453",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "256.44",
+      "unit_price": "1710.10",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "438538.0440",
+      "tax_amount": "21926.902200",
+      "line_total": "460464.946200",
+      "po_line_id": "82889b53-678c-4f14-a408-408349e8ca2e"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC259",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "304.73",
+      "unit_price": "37567.79",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "11448032.6467",
+      "tax_amount": "3205449.141076",
+      "line_total": "14653481.787776",
+      "po_line_id": "346d8829-2356-434d-9fde-43d8504dae98"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC390",
+      "item_description": "Milling Machine",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "624.64",
+      "unit_price": "28288.13",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "17669897.5232",
+      "tax_amount": "4947571.306496",
+      "line_total": "22617468.829696",
+      "po_line_id": "ff56a4be-3c09-471a-860f-9c6834c807b4"
+    }
+  ],
+  "taxes": {
+    "cgst": "4947571.306496",
+    "sgst": "0",
+    "igst": "6812822.810972",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "45181300.3321",
+    "total_tax": "11760394.117468",
+    "grand_total": "56941694.449568"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "a9f97a64-8e3b-4ff8-acbf-6632bbb82c12",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.641366"
+}

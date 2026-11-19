@@ -1,0 +1,109 @@
+{
+  "invoice_id": "3ca81ec2-ff7b-4bde-a1e8-8151f8161089",
+  "invoice_number": "INV000020",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000020",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000001",
+    "grn_reference": "GRN000001",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX226",
+      "item_description": "Cotton Fabric Roll",
+      "hsn_code": "5512",
+      "uom": "ROL",
+      "quantity": "225.10",
+      "unit_price": "49245.49",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "5.05",
+      "taxable_value": "10525359.22915050",
+      "tax_amount": "1263043.1074980600",
+      "line_total": "11788402.3366485600",
+      "po_line_id": "3a81aa26-7c7e-4055-a6cc-c105080a0b7c"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX777",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5407",
+      "uom": "MTR",
+      "quantity": "375.82",
+      "unit_price": "32052.02",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12045790.1564",
+      "tax_amount": "602289.507820",
+      "line_total": "12648079.664220",
+      "po_line_id": "41080e72-955d-4ea7-9f80-e01c58034a47"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX818",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5208",
+      "uom": "MTR",
+      "quantity": "49.19",
+      "unit_price": "5877.91",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "2.53",
+      "taxable_value": "281819.29275963",
+      "tax_amount": "78909.4019726964",
+      "line_total": "360728.6947323264",
+      "po_line_id": "e689449e-ba12-4d57-872f-7cfd5461b401"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX240",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "301.82",
+      "unit_price": "33117.06",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9995391.0492",
+      "tax_amount": "1799170.388856",
+      "line_total": "11794561.438056",
+      "po_line_id": "67dc42c0-c180-4a63-99d2-e3e84cadfbb7"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "78909.4019726964",
+    "igst": "3664503.0041740600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "32848359.72751013",
+    "total_tax": "3743412.4061467564",
+    "grand_total": "36591772.1336568864"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "b3a11438-ce24-4cad-90f2-3b6d8f0b5472",
+  "grn_id": "87aa0b73-7b2d-43d8-a827-4c9982c544fc",
+  "generated_at": "2026-11-18T15:45:20.583229"
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_id": "978925e4-173f-4f02-b530-cce0660fc969",
+  "invoice_number": "INV000552",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV000552",
+    "invoice_date": "2026-11-14",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC118",
+      "item_description": "Packing Machine",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "678.27",
+      "unit_price": "1434.11",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "8.68",
+      "taxable_value": "888282.23275404",
+      "tax_amount": "106593.8679304848",
+      "line_total": "994876.1006845248",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "106593.8679304848",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "888282.23275404",
+    "total_tax": "106593.8679304848",
+    "grand_total": "994876.1006845248"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.746185"
+}

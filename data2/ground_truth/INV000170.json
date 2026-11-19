@@ -1,0 +1,61 @@
+{
+  "invoice_id": "a6a1b9fd-504b-44ef-9f46-42b50d43324a",
+  "invoice_number": "INV000170",
+  "vendor_id": "f60cf842-ab4e-4c7c-ab67-3d140627343e",
+  "vendor_gstin": "27NDFIP2206H5Z8",
+  "header": {
+    "invoice_number": "INV000170",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "27NDFIP2206H5Z8",
+    "vendor_name": "Imperial Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO862",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "433.25",
+      "unit_price": "17207.20",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7455019.4000",
+      "tax_amount": "894602.328000",
+      "line_total": "8349621.728000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "894602.328000",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "7455019.4000",
+    "total_tax": "894602.328000",
+    "grand_total": "8349621.728000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.631059"
+}

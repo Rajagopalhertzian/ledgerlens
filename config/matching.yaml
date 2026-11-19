@@ -1,0 +1,71 @@
+# Matching Configuration
+# Version: 1.0
+
+# Price tolerance percentage (invoice vs PO)
+price_tolerance_pct: 2.0
+
+# Quantity tolerance absolute (invoice vs GRN)
+quantity_tolerance_abs: 0.01
+
+# UoM Conversion factors
+# Format: from_uom -> to_uom -> factor
+uom_conversions:
+  # Weight conversions
+  "KG":
+    "G": 1000
+    "PCS": 1000  # 1 KG = 1000 PCS for certain items
+  "G":
+    "KG": 0.001
+    "PCS": 1
+  "MT":
+    "KG": 1000
+    "PCS": 1000000
+
+  # Volume conversions
+  "LTR":
+    "ML": 1000
+    "PCS": 1000
+  "ML":
+    "LTR": 0.001
+
+  # Length conversions
+  "MTR":
+    "CM": 100
+    "MM": 1000
+  "CM":
+    "MTR": 0.01
+    "MM": 10
+
+  # Count conversions
+  "BOX":
+    "PCS": 1
+  "PCS":
+    "BOX": 1
+  "PKT":
+    "PCS": 1
+  "SET":
+    "PCS": 1
+
+# Per-HSN overrides for specific categories
+hsn_overrides:
+  # For services (no quantity matching)
+  "998713":  # IT Services
+    price_tolerance_pct: 5.0
+    quantity_tolerance_abs: 0
+    require_grn: false
+
+  # For construction materials
+  "252329":  # Cement
+    price_tolerance_pct: 1.0
+    quantity_tolerance_abs: 0.5  # 500g tolerance
+
+  # For fuel
+  "271019":  # Diesel/Petrol
+    price_tolerance_pct: 0.5
+    quantity_tolerance_abs: 1.0  # 1 liter tolerance
+
+# Whether GRN is required for matching
+require_grn: true
+
+# Whether PO is required for matching
+require_po: true

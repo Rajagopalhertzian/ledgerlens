@@ -1,0 +1,77 @@
+{
+  "invoice_id": "0d2e3471-fa74-4e44-b3be-5b0658c0e832",
+  "invoice_number": "INV000371",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000371",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP390",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4801",
+      "uom": "PKT",
+      "quantity": "733.52",
+      "unit_price": "4059.31",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2977585.0712",
+      "tax_amount": "833723.819936",
+      "line_total": "3811308.891136",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP819",
+      "item_description": "Tissue Rolls",
+      "hsn_code": "4802",
+      "uom": "ROL",
+      "quantity": "83.37",
+      "unit_price": "36437.62",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3037804.3794",
+      "tax_amount": "850585.226232",
+      "line_total": "3888389.605632",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "850585.226232",
+    "sgst": "833723.819936",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "6015389.4506",
+    "total_tax": "1684309.046168",
+    "grand_total": "7699698.496768"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.689441"
+}

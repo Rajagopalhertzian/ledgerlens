@@ -1,0 +1,61 @@
+{
+  "invoice_id": "07d76603-ccc8-4ad0-8974-ef0dbbf00434",
+  "invoice_number": "INV000633",
+  "vendor_id": "1ed0ced2-32c2-469b-a617-8125bf1b6b68",
+  "vendor_gstin": "08SZZUJ7054VHZD",
+  "header": {
+    "invoice_number": "INV000633",
+    "invoice_date": "2026-11-18",
+    "vendor_gstin": "08SZZUJ7054VHZD",
+    "vendor_name": "National Enterprises",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000025",
+    "grn_reference": "GRN000029",
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC155",
+      "item_description": "Milling Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "491.31",
+      "unit_price": "49221.29",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "5.77",
+      "taxable_value": "22787557.96808277",
+      "tax_amount": "4101760.4342548986",
+      "line_total": "26889318.4023376686",
+      "po_line_id": "b5e59fe8-ad8d-46ef-9acf-e8c2e70b935c"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "4101760.4342548986",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "22787557.96808277",
+    "total_tax": "4101760.4342548986",
+    "grand_total": "26889318.4023376686"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "a1694b52-8f52-4b79-9bb4-2e9d15cc413e",
+  "grn_id": "bb8012c4-3e8a-4bb9-80dd-151385b24b3a",
+  "generated_at": "2026-11-18T15:45:20.770350"
+}

@@ -1,0 +1,127 @@
+{
+  "invoice_id": "adb2eed5-21a6-4244-9b57-74a06004bd6a",
+  "invoice_number": "INV000129",
+  "vendor_id": "1c9f5b2a-98c2-44e0-a272-2780b5e5d688",
+  "vendor_gstin": "24ZOGTE3783DOZM",
+  "header": {
+    "invoice_number": "INV000129",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "24ZOGTE3783DOZM",
+    "vendor_name": "Universal Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000050",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB985",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4001",
+      "uom": "SET",
+      "quantity": "626.88",
+      "unit_price": "42136.05",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "26414247.0240",
+      "tax_amount": "7395989.166720",
+      "line_total": "33810236.190720",
+      "po_line_id": "a9b56852-2d46-4929-b5f9-abac5783c24a"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB480",
+      "item_description": "Hose Clamps",
+      "hsn_code": "4009",
+      "uom": "KG",
+      "quantity": "710.13",
+      "unit_price": "13647.72",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "9691655.4036",
+      "tax_amount": "484582.770180",
+      "line_total": "10176238.173780",
+      "po_line_id": "b5f446f4-cff6-4dfc-9fe7-d6dc3b6f43ef"
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB194",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4011",
+      "uom": "MTR",
+      "quantity": "525.58",
+      "unit_price": "8833.14",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4642521.7212",
+      "tax_amount": "835653.909816",
+      "line_total": "5478175.631016",
+      "po_line_id": "3449f1e7-f264-41b1-8901-8d17ded65dfe"
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB595",
+      "item_description": "Vibration Mounts",
+      "hsn_code": "4011",
+      "uom": "PCS",
+      "quantity": "799.23",
+      "unit_price": "45257.29",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "36170983.8867",
+      "tax_amount": "4340518.066404",
+      "line_total": "40511501.953104",
+      "po_line_id": "311c811c-38cd-47de-a3d9-c4ed5b65658c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB570",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4016",
+      "uom": "KG",
+      "quantity": "144.15",
+      "unit_price": "43602.77",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "6285339.2955",
+      "tax_amount": "754240.715460",
+      "line_total": "7039580.010960",
+      "po_line_id": "306608ad-a28d-4b6f-b4f9-9c5e15140cbc"
+    }
+  ],
+  "taxes": {
+    "cgst": "13326401.858400",
+    "sgst": "484582.770180",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "83204747.3310",
+    "total_tax": "13810984.628580",
+    "grand_total": "97015731.959580"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "a6ee2c9a-1cbc-40f1-b786-a46ae65cb566",
+  "grn_id": "80800c0f-5d85-44d1-a95d-c3dbbca22926",
+  "generated_at": "2026-11-18T15:45:20.618775"
+}

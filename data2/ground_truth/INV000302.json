@@ -1,0 +1,93 @@
+{
+  "invoice_id": "5332ed86-387c-43ab-986d-98fecd4f2a16",
+  "invoice_number": "INV000302",
+  "vendor_id": "f514abf0-fb19-44ab-99cf-b3b12373aba5",
+  "vendor_gstin": "27KGWZP1069JQZ3",
+  "header": {
+    "invoice_number": "INV000302",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "27KGWZP1069JQZ3",
+    "vendor_name": "Jai Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000301",
+    "grn_reference": "GRN000352",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC852",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "519.91",
+      "unit_price": "48686.55",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "25312624.2105",
+      "tax_amount": "3037514.905260",
+      "line_total": "28350139.115760",
+      "po_line_id": "368fc31e-4881-4a6e-8f9d-9e44b9fcd894"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC627",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "234.63",
+      "unit_price": "21358.42",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "1.15",
+      "taxable_value": "4953695.83462710",
+      "tax_amount": "594443.5001552520",
+      "line_total": "5548139.3347823520",
+      "po_line_id": "823f9def-b034-4626-a82c-55d3eb9e73b5"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC702",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "409.02",
+      "unit_price": "16989.72",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "7.86",
+      "taxable_value": "6402933.24183216",
+      "tax_amount": "1792821.3077130048",
+      "line_total": "8195754.5495451648",
+      "po_line_id": "2ed4b243-1275-41ea-b066-12ddfbe58bd1"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "5424779.7131282568",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "36669253.28695926",
+    "total_tax": "5424779.7131282568",
+    "grand_total": "42094033.0000875168"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d7f02c91-5ba7-4e2b-b35d-7eaec4e42885",
+  "grn_id": "0bab23b8-48d3-46b1-bb52-65d82aac2006",
+  "generated_at": "2026-11-18T15:45:20.669394"
+}

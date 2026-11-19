@@ -1,0 +1,141 @@
+{
+  "invoice_id": "8c6088f2-5e49-4dfe-85ce-49e7fe0a3856",
+  "invoice_number": "INV000537",
+  "vendor_id": "3da39e2b-8543-4ab8-8e27-7b319584b425",
+  "vendor_gstin": "29TTHDM4152RNZS",
+  "header": {
+    "invoice_number": "INV000537",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "29TTHDM4152RNZS",
+    "vendor_name": "Standard Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000018",
+    "grn_reference": "GRN000017",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET630",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "232.52",
+      "unit_price": "13291.42",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3090520.9784",
+      "tax_amount": "370862.517408",
+      "line_total": "3461383.495808",
+      "po_line_id": "27a21a84-217d-4305-b0d2-626bbab71a9d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET820",
+      "item_description": "Brass Fittings",
+      "hsn_code": "7208",
+      "uom": "BOX",
+      "quantity": "917.98",
+      "unit_price": "44089.44",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "40473224.1312",
+      "tax_amount": "2023661.206560",
+      "line_total": "42496885.337760",
+      "po_line_id": "9eeff078-5c55-4f7c-abb6-16116c627dd8"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET936",
+      "item_description": "Flat Bars",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "517.15",
+      "unit_price": "18878.81",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9763176.5915",
+      "tax_amount": "1171581.190980",
+      "line_total": "10934757.782480",
+      "po_line_id": "5cdb02bd-75ff-41c3-8475-b98543099b57"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET758",
+      "item_description": "Iron Castings",
+      "hsn_code": "7208",
+      "uom": "BOX",
+      "quantity": "887.28",
+      "unit_price": "429.22",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0.77",
+      "taxable_value": "377905.86652368",
+      "tax_amount": "45348.7039828416",
+      "line_total": "423254.5705065216",
+      "po_line_id": "4dd8efdd-37e8-4d0a-bf7c-06244b03782c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET706",
+      "item_description": "Iron Castings",
+      "hsn_code": "7201",
+      "uom": "BOX",
+      "quantity": "479.54",
+      "unit_price": "29580.47",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.28",
+      "taxable_value": "14003450.34592736",
+      "tax_amount": "3920966.0968596608",
+      "line_total": "17924416.4427870208",
+      "po_line_id": "dff7fc8b-519d-44f5-9d2b-7db72f27a0fb"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET629",
+      "item_description": "GI Sheets",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "890.91",
+      "unit_price": "7428.57",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6618187.2987",
+      "tax_amount": "794182.475844",
+      "line_total": "7412369.774544",
+      "po_line_id": "40a5e2c0-a505-4fde-8112-490e15be2399"
+    }
+  ],
+  "taxes": {
+    "cgst": "4291828.6142676608",
+    "sgst": "839531.1798268416",
+    "igst": "3195242.397540",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "74326465.21225104",
+    "total_tax": "8326602.1916345024",
+    "grand_total": "82653067.4038855424"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "7ab1ecae-e10d-44c8-b3a4-c0cce401b863",
+  "grn_id": "b5b872cf-c105-4896-9ffa-3e25cf7d26b4",
+  "generated_at": "2026-11-18T15:45:20.741780"
+}

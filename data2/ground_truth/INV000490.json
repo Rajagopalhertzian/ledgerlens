@@ -1,0 +1,77 @@
+{
+  "invoice_id": "de68a0bf-521e-4ecb-9897-87082c21084a",
+  "invoice_number": "INV000490",
+  "vendor_id": "db508056-9501-4228-a6a9-93764a0eb5fa",
+  "vendor_gstin": "19AIRKE4160M2ZS",
+  "header": {
+    "invoice_number": "INV000490",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "19AIRKE4160M2ZS",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE870",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "320.27",
+      "unit_price": "21948.88",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7029567.7976",
+      "tax_amount": "351478.389880",
+      "line_total": "7381046.187480",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE213",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "210.00",
+      "unit_price": "746.68",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "156802.8000",
+      "tax_amount": "43904.784000",
+      "line_total": "200707.584000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "395383.173880",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "7186370.5976",
+    "total_tax": "395383.173880",
+    "grand_total": "7581753.771480"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.727876"
+}

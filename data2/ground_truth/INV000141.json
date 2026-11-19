@@ -1,0 +1,77 @@
+{
+  "invoice_id": "b0bb4015-dd70-4f0d-8b63-549ff3a4ca21",
+  "invoice_number": "INV000141",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000141",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000283",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC137",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "718.71",
+      "unit_price": "11114.53",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7988123.8563",
+      "tax_amount": "958574.862756",
+      "line_total": "8946698.719056",
+      "po_line_id": "34d094ba-8b12-44a7-a2f8-bcdda76eff83"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC726",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8415",
+      "uom": "SET",
+      "quantity": "121.16",
+      "unit_price": "14092.50",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "9.24",
+      "taxable_value": "1549679.16948000",
+      "tax_amount": "433910.1674544000",
+      "line_total": "1983589.3369344000",
+      "po_line_id": "83853c63-530d-49ac-99a0-7601176c9171"
+    }
+  ],
+  "taxes": {
+    "cgst": "1392485.0302104000",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "9537803.02578000",
+    "total_tax": "1392485.0302104000",
+    "grand_total": "10930288.0559904000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dfd91916-c7be-494f-ae5b-15d378bed513",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.622566"
+}

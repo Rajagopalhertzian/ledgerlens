@@ -1,0 +1,143 @@
+{
+  "invoice_id": "658ccda7-201e-4680-842f-1cee79d5ad23",
+  "invoice_number": "INV000424",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "24YYOCH5343PVZJ",
+  "header": {
+    "invoice_number": "INV000424",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "24YYOCH5343PVZJ",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE994",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "3801",
+      "uom": "LTR",
+      "quantity": "704.26",
+      "unit_price": "17565.34",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12370566.3484",
+      "tax_amount": "1484467.961808",
+      "line_total": "13855034.310208",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE461",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "657.46",
+      "unit_price": "16197.51",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "6.17",
+      "taxable_value": "9992158.36375218",
+      "tax_amount": "1199059.0036502616",
+      "line_total": "11191217.3674024416",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE614",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "690.03",
+      "unit_price": "26652.56",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "18391065.9768",
+      "tax_amount": "5149498.473504",
+      "line_total": "23540564.450304",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE447",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "957.36",
+      "unit_price": "38355.73",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "36720241.6728",
+      "tax_amount": "4406429.000736",
+      "line_total": "41126670.673536",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE727",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "627.39",
+      "unit_price": "8254.11",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5178546.0729",
+      "tax_amount": "932138.293122",
+      "line_total": "6110684.366022",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "CHE238",
+      "item_description": "Rust Remover",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "401.48",
+      "unit_price": "21242.03",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "2.86",
+      "taxable_value": "8284342.24855416",
+      "tax_amount": "1491181.6047397488",
+      "line_total": "9775523.8532939088",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "10488065.767362",
+    "sgst": "2975649.5665477488",
+    "igst": "1199059.0036502616",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "90936920.68320634",
+    "total_tax": "14662774.3375600104",
+    "grand_total": "105599695.0207663504"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 4: PO price 31008.02, Invoice price 38355.73 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.705295"
+}

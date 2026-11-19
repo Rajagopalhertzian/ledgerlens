@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000500</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 15mm 25mm 15mm;
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                font-size: 8pt;
+                color: #666;
+            }
+        }
+        @page :first {
+            @bottom-center { content: none; }
+        }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-row { display: flex; justify-content: space-between; }
+        .company-info h1 { margin: 0; font-size: 18pt; color: #2c3e50; }
+        .company-info p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-title { text-align: right; }
+        .invoice-title h2 { margin: 0; font-size: 16pt; color: #2c3e50; }
+        .invoice-meta { font-size: 9pt; margin-top: 8px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party .row { margin: 3px 0; font-size: 9pt; }
+        .party .label { color: #666; display: inline-block; width: 80px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 6px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .page-break { page-break-before: always; }
+        .totals { width: 380px; margin-left: auto; }
+        .totals th, .totals td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals .grand { background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-breakdown { font-size: 9pt; margin-bottom: 15px; }
+        .tax-breakdown .row { display: flex; justify-content: space-between; padding: 3px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-details { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+        .terms { margin-top: 15px; font-size: 8pt; }
+        .terms h4 { margin: 0 0 8px 0; font-size: 9pt; }
+        .terms ul { margin: 0; padding-left: 20px; }
+        .terms li { margin: 4px 0; }
+        .watermark-bg { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 120pt; color: rgba(44,62,80,0.02); pointer-events: none; z-index: -1; white-space: nowrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watermark-bg">NATIONAL PRODUCTS</div>
+
+        <div class="header">
+            <div class="header-row">
+                <div class="company-info">
+                    <h1>National Products</h1>
+                    <p>GSTIN: 08XQRDX5636R9ZP | PAN: AAAAA0000A</p>
+                    <p>392 Main Road, Next to Bank, Chennai, 08, 600001</p>
+                    <p>Email: nationalproducts261@gmail.com | Phone: +91-93225-67154</p>
+                </div>
+                <div class="invoice-title">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>Invoice No:</strong> INV000500</div>
+                        <div><strong>Date:</strong> 27/10/2026</div>
+                        <div><strong>PO Reference:</strong> PO000097</div>
+                        <div><strong>Place of Supply:</strong> 08</div>
+                        <div><strong>Place of Delivery:</strong> 08</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">Name:</span>LedgerLens Technologies Pvt Ltd</div>
+                <div class="row"><span class="label">GSTIN:</span>29AAAAA0000A1Z5</div>
+                <div class="row"><span class="label">State:</span>08</div>
+                <div class="row">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Name:</span>National Products</div>
+                <div class="row"><span class="label">GSTIN:</span>08XQRDX5636R9ZP</div>
+                <div class="row"><span class="label">State:</span>08</div>
+                <div class="row">392 Main Road, Next to Bank, Chennai, 08, 600001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 4%">S.No</th>
+                    <th style="width: 8%">HSN</th>
+                    <th style="width: 28%">Description of Goods/Services</th>
+                    <th style="width: 6%">UoM</th>
+                    <th style="width: 7%" class="text-right">Quantity</th>
+                    <th style="width: 10%" class="text-right">Unit Price</th>
+                    <th style="width: 7%" class="text-right">Disc %</th>
+                    <th style="width: 10%" class="text-right">Taxable Value</th>
+                    <th style="width: 6%" class="text-center">Tax Type</th>
+                    <th style="width: 6%" class="text-right">Tax Rate</th>
+                    <th style="width: 7%" class="text-right">Tax Amount</th>
+                    <th style="width: 10%" class="text-right">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>2801</td>
+                    <td>Degreaser</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">449.29</td>
+                    <td class="text-right">28,664.52</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,28,78,682.19</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">5%</td>
+                    <td class="text-right">6,43,934.11</td>
+                    <td class="text-right">1,35,22,616.30</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>3802</td>
+                    <td>Rust Remover</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">714.93</td>
+                    <td class="text-right">46,883.22</td>
+                    <td class="text-right">6.67%</td>
+                    <td class="text-right">3,12,82,555.17</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">12%</td>
+                    <td class="text-right">37,53,906.62</td>
+                    <td class="text-right">3,50,36,461.79</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-breakdown">
+            <div class="row"><strong>Tax Breakdown</strong></div>
+            <div class="row"><span>CGST @ 9%</span><span>0.00</span></div>
+            <div class="row"><span>SGST @ 9%</span><span>43,97,840.73</span></div>
+            <div class="row"><span>IGST @ 18%</span><span>0.00</span></div>
+        </div>
+
+        <table class="totals">
+            <tr><th>Subtotal</th><td class="text-right">4,41,61,237.36</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">43,97,840.73</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">4,85,59,078.09</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Four Crore Eighty Five Lakh Fifty Nine Thousand Seventy Eight Only Rupees Only</p>
+
+            <div class="bank-details">
+                <strong>Bank Details for Payment</strong>
+                <div class="row"><span class="label">A/c No:</span>XXXXXXX3207</div>
+                <div class="row"><span class="label">IFSC:</span>PUNB0XO9T7E</div>
+                <div class="row"><span class="label">Bank:</span>Bank of India, Corporate Branch</div>
+                <div class="row"><span class="label">Holder:</span>National Products</div>
+            </div>
+
+            <div class="terms">
+                <h4>Payment Terms & Conditions</h4>
+                <ul>
+                    <li>Net 30 days</li>
+                    <li>Payment due within 30 days from invoice date</li>
+                    <li>Late payment attracts interest @ 18% p.a.</li>
+                    <li>All disputes subject to Chennai jurisdiction</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 15px; font-style: italic;">We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 25px;">Authorized Signatory<br><br>Rajesh Desai</p>
+
+        </div>
+    </div>
+</body>
+</html>

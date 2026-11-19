@@ -1,0 +1,61 @@
+{
+  "invoice_id": "eb3b65e1-d0dc-4ff3-9c45-899c69fd3a6b",
+  "invoice_number": "INV000054",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000054",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000251",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB335",
+      "item_description": "Seals Kit",
+      "hsn_code": "4009",
+      "uom": "PCS",
+      "quantity": "669.97",
+      "unit_price": "34886.52",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0.36",
+      "taxable_value": "23288779.28590416",
+      "tax_amount": "1164438.9642952080",
+      "line_total": "24453218.2501993680",
+      "po_line_id": "06885718-d186-4692-afb1-865cfa074be5"
+    }
+  ],
+  "taxes": {
+    "cgst": "1164438.9642952080",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "23288779.28590416",
+    "total_tax": "1164438.9642952080",
+    "grand_total": "24453218.2501993680"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "2d9ad049-5928-4339-bc68-7d5bba9c50fd",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.593957"
+}

@@ -1,0 +1,109 @@
+{
+  "invoice_id": "d8eeb10e-ff86-4e39-8964-096aef6d6186",
+  "invoice_number": "INV000207",
+  "vendor_id": "1c9f5b2a-98c2-44e0-a272-2780b5e5d688",
+  "vendor_gstin": "24ZOGTE3783DOZM",
+  "header": {
+    "invoice_number": "INV000207",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "24ZOGTE3783DOZM",
+    "vendor_name": "Universal Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000310",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC668",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8414",
+      "uom": "SET",
+      "quantity": "340.59",
+      "unit_price": "1786.09",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "608324.3931",
+      "tax_amount": "72998.927172",
+      "line_total": "681323.320272",
+      "po_line_id": "70182775-e4a5-4898-96f8-ab2fd25b27c0"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC627",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "643.50",
+      "unit_price": "7570.26",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4871462.3100",
+      "tax_amount": "243573.115500",
+      "line_total": "5115035.425500",
+      "po_line_id": "d7bc95e9-0597-4336-9425-99da0fed1675"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC824",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "919.32",
+      "unit_price": "14466.87",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.14",
+      "taxable_value": "12217088.73802824",
+      "tax_amount": "610854.4369014120",
+      "line_total": "12827943.1749296520",
+      "po_line_id": "f1c58437-c52d-4034-a8e6-63195f6c9865"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC107",
+      "item_description": "Air Compressor",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "191.23",
+      "unit_price": "3239.49",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "8.41",
+      "taxable_value": "567388.75942593",
+      "tax_amount": "68086.6511311116",
+      "line_total": "635475.4105570416",
+      "po_line_id": "fe1cf787-bc82-449d-b096-a9753b003174"
+    }
+  ],
+  "taxes": {
+    "cgst": "243573.115500",
+    "sgst": "0",
+    "igst": "751940.0152045236",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "18264264.20055417",
+    "total_tax": "995513.1307045236",
+    "grand_total": "19259777.3312586936"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "86b088a6-6612-4416-af6e-1a958bc4ca96",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.642011"
+}

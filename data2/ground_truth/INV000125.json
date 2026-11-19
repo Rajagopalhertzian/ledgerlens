@@ -1,0 +1,93 @@
+{
+  "invoice_id": "0eb15250-b84f-4831-82b8-8250e06b3bae",
+  "invoice_number": "INV000125",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000125",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE560",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "837.87",
+      "unit_price": "9966.59",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "6.36",
+      "taxable_value": "7819601.81315412",
+      "tax_amount": "2189488.5076831536",
+      "line_total": "10009090.3208372736",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE541",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "2902",
+      "uom": "PCS",
+      "quantity": "767.18",
+      "unit_price": "3636.80",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2790080.2240",
+      "tax_amount": "502214.440320",
+      "line_total": "3292294.664320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE448",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "463.22",
+      "unit_price": "45834.29",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "21231359.8138",
+      "tax_amount": "3821644.766484",
+      "line_total": "25053004.580284",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "6513347.7144871536",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "31841041.85095412",
+    "total_tax": "6513347.7144871536",
+    "grand_total": "38354389.5654412736"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.617600"
+}

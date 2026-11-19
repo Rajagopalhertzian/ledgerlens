@@ -1,0 +1,127 @@
+{
+  "invoice_id": "d57f0d48-be4e-4550-9fc1-3492ccf56935",
+  "invoice_number": "INV000273",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV000273",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000257",
+    "grn_reference": "GRN000299",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET142",
+      "item_description": "Copper Wire",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "304.48",
+      "unit_price": "31000.96",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9439172.3008",
+      "tax_amount": "2642968.244224",
+      "line_total": "12082140.545024",
+      "po_line_id": "441ea819-2a21-47d4-a090-f45f3449a773"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET916",
+      "item_description": "Iron Castings",
+      "hsn_code": "7302",
+      "uom": "KG",
+      "quantity": "500.49",
+      "unit_price": "17639.70",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8828493.4530",
+      "tax_amount": "1589128.821540",
+      "line_total": "10417622.274540",
+      "po_line_id": "c1e40d7c-dbd3-4314-b1e1-a3096b8d6789"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET127",
+      "item_description": "Steel Channels",
+      "hsn_code": "7210",
+      "uom": "KG",
+      "quantity": "423.28",
+      "unit_price": "29397.52",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12443382.2656",
+      "tax_amount": "2239808.807808",
+      "line_total": "14683191.073408",
+      "po_line_id": "60ca0089-ffa1-4735-85c9-de1b7fd85c25"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET950",
+      "item_description": "Steel Bars 12mm",
+      "hsn_code": "7210",
+      "uom": "BOX",
+      "quantity": "759.29",
+      "unit_price": "4432.75",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "2.45",
+      "taxable_value": "3283282.05018625",
+      "tax_amount": "590990.7690335250",
+      "line_total": "3874272.8192197750",
+      "po_line_id": "7dba0334-9b12-4bd9-ae0b-54ede483f5ac"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET135",
+      "item_description": "Flat Bars",
+      "hsn_code": "7302",
+      "uom": "KG",
+      "quantity": "455.23",
+      "unit_price": "37477.71",
+      "tax_rate": "0.07",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "17060977.9233",
+      "tax_amount": "1194268.454631",
+      "line_total": "18255246.377931",
+      "po_line_id": "7ec56e62-2091-42a0-b1c4-d8bbae3451b8"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "9110213.9934015250",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "51055307.99288625",
+    "total_tax": "9110213.9934015250",
+    "grand_total": "60165521.9862877750"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D08",
+      "evidence": "Tax arithmetic error: taxes/totals do not add up correctly",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_tax_calculation"
+  ],
+  "po_id": "da19bc6d-512a-4611-b09d-087618329528",
+  "grn_id": "5f8083a1-b237-4e40-8b66-1d2ec32e3914",
+  "generated_at": "2026-11-18T15:45:20.660899"
+}

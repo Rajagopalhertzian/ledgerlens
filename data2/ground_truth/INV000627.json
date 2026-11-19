@@ -1,0 +1,143 @@
+{
+  "invoice_id": "b70c9810-b9dc-407c-8fa2-1549f249c43e",
+  "invoice_number": "INV000627",
+  "vendor_id": "897397a6-dd52-4414-a8b9-13b3c323089b",
+  "vendor_gstin": "07PNIAC4919ENZW",
+  "header": {
+    "invoice_number": "INV000627",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "07PNIAC4919ENZW",
+    "vendor_name": "Superior Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000217",
+    "grn_reference": "GRN000248",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO818",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1001",
+      "uom": "PCS",
+      "quantity": "945.79",
+      "unit_price": "41843.08",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "39574766.6332",
+      "tax_amount": "11080934.657296",
+      "line_total": "50655701.290496",
+      "po_line_id": "a856d8ed-0f1c-45e8-b50b-35b2ef831df3"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO431",
+      "item_description": "Noodles Pack",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "876.07",
+      "unit_price": "890.92",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "780508.2844",
+      "tax_amount": "140491.491192",
+      "line_total": "920999.775592",
+      "po_line_id": "c9118c25-5ad7-4e9e-8659-fba4324a671f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO943",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "802.58",
+      "unit_price": "43330.62",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "34776288.9996",
+      "tax_amount": "6259732.019928",
+      "line_total": "41036021.019528",
+      "po_line_id": "46cff0fc-37ed-4536-b74d-e85c28c3dfb5"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO784",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1006",
+      "uom": "LTR",
+      "quantity": "175.46",
+      "unit_price": "38836.60",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "6814269.8360",
+      "tax_amount": "817712.380320",
+      "line_total": "7631982.216320",
+      "po_line_id": "2618d33a-3ef6-4b60-ba56-704ff1b731eb"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO482",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1006",
+      "uom": "KG",
+      "quantity": "786.77",
+      "unit_price": "1596.01",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1255692.7877",
+      "tax_amount": "150683.134524",
+      "line_total": "1406375.922224",
+      "po_line_id": "ccbb3d47-1223-4945-a502-e44fd8a6a874"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO517",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1101",
+      "uom": "PCS",
+      "quantity": "29.45",
+      "unit_price": "1388.92",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.72",
+      "taxable_value": "37336.89188320",
+      "tax_amount": "1866.8445941600",
+      "line_total": "39203.7364773600",
+      "po_line_id": "98e9eaa7-0699-453e-805b-b2c7eafcca7f"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "6412281.9990461600",
+    "igst": "12039138.528808",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "83238863.43278320",
+    "total_tax": "18451420.5278541600",
+    "grand_total": "101690283.9606373600"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 4: PO price 25978.12, Invoice price 38836.60 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "4fe4dfa4-d81d-4bd2-bcb2-f49edca6955a",
+  "grn_id": "3561733c-dcaf-4bfd-b6c5-05e9f5aafa01",
+  "generated_at": "2026-11-18T15:45:20.768764"
+}

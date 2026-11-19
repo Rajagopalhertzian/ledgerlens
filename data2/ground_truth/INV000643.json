@@ -1,0 +1,77 @@
+{
+  "invoice_id": "3149b457-fce2-498b-b358-9886b68ff3a8",
+  "invoice_number": "INV000643",
+  "vendor_id": "897397a6-dd52-4414-a8b9-13b3c323089b",
+  "vendor_gstin": "07PNIAC4919ENZW",
+  "header": {
+    "invoice_number": "INV000643",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "07PNIAC4919ENZW",
+    "vendor_name": "Superior Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000181",
+    "grn_reference": "GRN000209",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB617",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4002",
+      "uom": "MTR",
+      "quantity": "605.94",
+      "unit_price": "39813.21",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "4.09",
+      "taxable_value": "23137727.83388334",
+      "tax_amount": "4164791.0100990012",
+      "line_total": "27302518.8439823412",
+      "po_line_id": "432f43cc-13ca-4a50-93fa-513f3541dd96"
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB369",
+      "item_description": "Expansion Joints",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "633.00",
+      "unit_price": "38654.98",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.21",
+      "taxable_value": "24172532.25168600",
+      "tax_amount": "2900703.8702023200",
+      "line_total": "27073236.1218883200",
+      "po_line_id": "39d78138-7c36-4898-b259-9906d0e39c68"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "7065494.8803013212",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "47310260.08556934",
+    "total_tax": "7065494.8803013212",
+    "grand_total": "54375754.9658706612"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "27fdd8ef-1289-4918-b765-c222f44dffa0",
+  "grn_id": "8b0a5e7b-9ee7-4b56-be32-be5b5a61277f",
+  "generated_at": "2026-11-18T15:45:20.773128"
+}

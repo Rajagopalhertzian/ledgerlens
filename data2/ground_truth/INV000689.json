@@ -1,0 +1,61 @@
+{
+  "invoice_id": "95b59f69-9775-49c8-966b-75cc3e244de1",
+  "invoice_number": "INV000689",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000689",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000151",
+    "grn_reference": "GRN000174",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE405",
+      "item_description": "Degreaser",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "270.58",
+      "unit_price": "31820.80",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "4.05",
+      "taxable_value": "8261364.14540800",
+      "tax_amount": "413068.2072704000",
+      "line_total": "8674432.3526784000",
+      "po_line_id": "35a2508a-022f-4a6d-b544-15ca22a12053"
+    }
+  ],
+  "taxes": {
+    "cgst": "413068.2072704000",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "8261364.14540800",
+    "total_tax": "413068.2072704000",
+    "grand_total": "8674432.3526784000"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "cb34289c-0f90-4836-bd61-8ab5e600ea61",
+  "grn_id": "5fa1d13e-0326-4a27-823c-01a55d3d5424",
+  "generated_at": "2026-11-18T15:45:20.786173"
+}

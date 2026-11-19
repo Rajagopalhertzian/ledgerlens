@@ -1,0 +1,141 @@
+{
+  "invoice_id": "3c39b706-6e6d-410b-9ef0-030de3094b87",
+  "invoice_number": "INV000210",
+  "vendor_id": "5b1319e8-9083-4e25-8e5d-5a41049e25c6",
+  "vendor_gstin": "09PHRMI2326UKZ7",
+  "header": {
+    "invoice_number": "INV000210",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "09PHRMI2326UKZ7",
+    "vendor_name": "Prime Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000255",
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO145",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1001",
+      "uom": "BOX",
+      "quantity": "433.06",
+      "unit_price": "23338.51",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10106975.1406",
+      "tax_amount": "1212837.016872",
+      "line_total": "11319812.157472",
+      "po_line_id": "2882b546-41d9-4e45-b789-1add4aba903b"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO545",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "1006",
+      "uom": "BOX",
+      "quantity": "810.54",
+      "unit_price": "49792.29",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "40358642.7366",
+      "tax_amount": "2017932.136830",
+      "line_total": "42376574.873430",
+      "po_line_id": "bdfdf635-8d5e-44d1-b554-6b39b926ac72"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO712",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "1901",
+      "uom": "BOX",
+      "quantity": "792.17",
+      "unit_price": "35806.91",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28365159.8947",
+      "tax_amount": "1418257.994735",
+      "line_total": "29783417.889435",
+      "po_line_id": "e27844fc-6bfe-49ba-b0e1-dda13924084f"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO249",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1101",
+      "uom": "BOX",
+      "quantity": "545.05",
+      "unit_price": "18726.05",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10206633.5525",
+      "tax_amount": "1837194.039450",
+      "line_total": "12043827.591950",
+      "po_line_id": "877b622c-a48e-4e44-b347-5c953a471819"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO885",
+      "item_description": "Sauce Bottles",
+      "hsn_code": "1101",
+      "uom": "PCS",
+      "quantity": "407.59",
+      "unit_price": "29052.57",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "11841537.0063",
+      "tax_amount": "2131476.661134",
+      "line_total": "13973013.667434",
+      "po_line_id": "6ea20fc1-0147-4e5b-92cc-48a2e6e68067"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO240",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1101",
+      "uom": "BOX",
+      "quantity": "676.03",
+      "unit_price": "20450.51",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13825158.2753",
+      "tax_amount": "3871044.317084",
+      "line_total": "17696202.592384",
+      "po_line_id": "4b676574-2454-4f2e-9255-1fb5bb0d20d1"
+    }
+  ],
+  "taxes": {
+    "cgst": "5083881.333956",
+    "sgst": "3549734.655869",
+    "igst": "3855126.176280",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "114704106.6060",
+    "total_tax": "12488742.166105",
+    "grand_total": "127192848.772105"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "2c3131c1-ed26-49fe-8f24-3642f1f4d3a9",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.642862"
+}

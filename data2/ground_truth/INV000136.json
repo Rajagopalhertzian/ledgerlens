@@ -1,0 +1,109 @@
+{
+  "invoice_id": "01c13c90-df86-4a59-853c-ac86854d33f2",
+  "invoice_number": "INV000136",
+  "vendor_id": "561147d5-1ace-4358-9ced-d61872dc4ddd",
+  "vendor_gstin": "24YRUIK1374HKZP",
+  "header": {
+    "invoice_number": "INV000136",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "24YRUIK1374HKZP",
+    "vendor_name": "Imperial Pharmaceuticals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA354",
+      "item_description": "Cable Ties",
+      "hsn_code": "3901",
+      "uom": "KG",
+      "quantity": "112.90",
+      "unit_price": "36136.63",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4079825.5270",
+      "tax_amount": "489579.063240",
+      "line_total": "4569404.590240",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA586",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "430.43",
+      "unit_price": "47911.67",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20622620.1181",
+      "tax_amount": "1031131.005905",
+      "line_total": "21653751.124005",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA768",
+      "item_description": "Cable Ties",
+      "hsn_code": "3904",
+      "uom": "KG",
+      "quantity": "826.55",
+      "unit_price": "24846.98",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "7.07",
+      "taxable_value": "19085286.23674670",
+      "tax_amount": "3435351.5226144060",
+      "line_total": "22520637.7593611060",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA955",
+      "item_description": "PP Bags",
+      "hsn_code": "3904",
+      "uom": "PCS",
+      "quantity": "76.17",
+      "unit_price": "18928.48",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1441782.3216",
+      "tax_amount": "173013.878592",
+      "line_total": "1614796.200192",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "662592.941832",
+    "sgst": "1031131.005905",
+    "igst": "3435351.5226144060",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "45229514.20344670",
+    "total_tax": "5129075.4703514060",
+    "grand_total": "50358589.6737981060"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.620853"
+}

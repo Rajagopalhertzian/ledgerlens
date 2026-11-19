@@ -1,0 +1,61 @@
+{
+  "invoice_id": "573071e1-93eb-4a68-abbe-fe5589a7d5ac",
+  "invoice_number": "INV000608",
+  "vendor_id": "18cf81e2-ba6a-4e97-9a88-5b1dbb4034eb",
+  "vendor_gstin": "06JOCHF4576V2ZO",
+  "header": {
+    "invoice_number": "INV000608",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "06JOCHF4576V2ZO",
+    "vendor_name": "Standard Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000155",
+    "grn_reference": "GRN000177",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO540",
+      "item_description": "Basmati Rice 25kg",
+      "hsn_code": "1001",
+      "uom": "KG",
+      "quantity": "154.22",
+      "unit_price": "18782.85",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "5.72",
+      "taxable_value": "2731000.39453560",
+      "tax_amount": "491580.0710164080",
+      "line_total": "3222580.4655520080",
+      "po_line_id": "3d498f31-2dcb-487a-8d63-5b5e9c38156f"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "491580.0710164080",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2731000.39453560",
+    "total_tax": "491580.0710164080",
+    "grand_total": "3222580.4655520080"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6a4dc3f2-0371-44c2-adeb-67c612f1f7db",
+  "grn_id": "9616057f-bd28-4b42-a163-f3eddfe3dda2",
+  "generated_at": "2026-11-18T15:45:20.762515"
+}

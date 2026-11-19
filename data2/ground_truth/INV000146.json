@@ -1,0 +1,79 @@
+{
+  "invoice_id": "550a3523-a4fe-43d6-aa1d-93530df78c1e",
+  "invoice_number": "INV000146",
+  "vendor_id": "c5bf8821-5033-4f4e-b117-393228cb4582",
+  "vendor_gstin": "19BBLMF6377LQZX",
+  "header": {
+    "invoice_number": "INV000146",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "19BBLMF6377LQZX",
+    "vendor_name": "Grand Printing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000058",
+    "grn_reference": "GRN000071",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE897",
+      "item_description": "Degreaser",
+      "hsn_code": "2902",
+      "uom": "PCS",
+      "quantity": "1079.25",
+      "unit_price": "33468.99",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "3.44",
+      "taxable_value": "34878831.04096200",
+      "tax_amount": "6278189.5873731600",
+      "line_total": "41157020.6283351600",
+      "po_line_id": "f6b07130-893c-4d48-821c-9183b14c2ecd"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE917",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "513.15",
+      "unit_price": "23514.70",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12066568.3050",
+      "tax_amount": "2171982.294900",
+      "line_total": "14238550.599900",
+      "po_line_id": "f84f4adc-56a8-4be6-8b90-9f146fda7e77"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "2171982.294900",
+    "igst": "6278189.5873731600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "46945399.34596200",
+    "total_tax": "8450171.8822731600",
+    "grand_total": "55395571.2282351600"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D03",
+      "evidence": "Line 1: Invoiced qty 1079.25 > GRN accepted 743.81",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "partial_approve_or_reject"
+  ],
+  "po_id": "a55a85fe-f1f3-4917-9abc-eae94a0d5095",
+  "grn_id": "21e3ea2a-5ba3-4199-ad44-b02c6541aeae",
+  "generated_at": "2026-11-18T15:45:20.624106"
+}

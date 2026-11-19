@@ -1,0 +1,141 @@
+{
+  "invoice_id": "46c80834-23a3-4d49-82b4-59794123545f",
+  "invoice_number": "INV000140",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000140",
+    "invoice_date": "2026-10-27",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000287",
+    "grn_reference": "GRN000335",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP893",
+      "item_description": "Register Books",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "992.76",
+      "unit_price": "16950.31",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "16827589.7556",
+      "tax_amount": "841379.487780",
+      "line_total": "17668969.243380",
+      "po_line_id": "7965aedc-15c6-42c9-904f-44e0e0faf4ea"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP752",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "863.02",
+      "unit_price": "36182.19",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "7.42",
+      "taxable_value": "28908987.85565604",
+      "tax_amount": "1445449.3927828020",
+      "line_total": "30354437.2484388420",
+      "po_line_id": "ad71cc1f-e958-4544-8cea-26922da4447a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP651",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4811",
+      "uom": "PCS",
+      "quantity": "688.27",
+      "unit_price": "24090.92",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "16581057.5084",
+      "tax_amount": "829052.875420",
+      "line_total": "17410110.383820",
+      "po_line_id": "ee48b746-fc3d-432d-b83f-11e36ea12480"
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP488",
+      "item_description": "Paper Bags",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "787.68",
+      "unit_price": "37448.74",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "3.53",
+      "taxable_value": "28456357.41283104",
+      "tax_amount": "1422817.8706415520",
+      "line_total": "29879175.2834725920",
+      "po_line_id": "b3b24e09-53f0-4666-b545-c74bdffb402f"
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP714",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "752.78",
+      "unit_price": "13114.12",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9872047.2536",
+      "tax_amount": "493602.362680",
+      "line_total": "10365649.616280",
+      "po_line_id": "f74e33d7-2660-4570-ac9c-aba5d58e29b8"
+    },
+    {
+      "line_number": 6,
+      "item_code": "PAP613",
+      "item_description": "File Folders",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "287.90",
+      "unit_price": "26158.89",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "7.63",
+      "taxable_value": "6956518.11091470",
+      "tax_amount": "347825.9055457350",
+      "line_total": "7304344.0164604350",
+      "po_line_id": "6bd3652c-e4ea-46e9-b838-599d27ca4610"
+    }
+  ],
+  "taxes": {
+    "cgst": "1189205.3933257350",
+    "sgst": "2274502.2682028020",
+    "igst": "1916420.2333215520",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "107602557.89700178",
+    "total_tax": "5380127.8948500890",
+    "grand_total": "112982685.7918518690"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "dcc1db4c-863f-4a1c-a94e-37937a97a3d4",
+  "grn_id": "cb05a908-1d52-426d-8ac3-b9a8c69556fa",
+  "generated_at": "2026-11-18T15:45:20.622274"
+}

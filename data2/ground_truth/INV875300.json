@@ -1,0 +1,125 @@
+{
+  "invoice_id": "c72f539a-09bc-4baf-9190-dc0cac80da3d",
+  "invoice_number": "INV875300",
+  "vendor_id": "f514abf0-fb19-44ab-99cf-b3b12373aba5",
+  "vendor_gstin": "27KGWZP1069JQZ3",
+  "header": {
+    "invoice_number": "INV875300",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "27KGWZP1069JQZ3",
+    "vendor_name": "Jai Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000225",
+    "grn_reference": "GRN000263",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR736",
+      "item_description": "Whiteboard",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "317.22",
+      "unit_price": "15361.17",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4872870.3474",
+      "tax_amount": "243643.517370",
+      "line_total": "5116513.864770",
+      "po_line_id": "bcb99b84-3935-4e21-a2b5-0ac47e3d917a"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR548",
+      "item_description": "Partition Screen",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "756.81",
+      "unit_price": "10187.24",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7709805.1044",
+      "tax_amount": "2158745.429232",
+      "line_total": "9868550.533632",
+      "po_line_id": "2088bf37-b049-4b4d-8ffe-6bd0f86ca3cf"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR673",
+      "item_description": "Filing Cabinet",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "323.44",
+      "unit_price": "5662.88",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1831601.9072",
+      "tax_amount": "329688.343296",
+      "line_total": "2161290.250496",
+      "po_line_id": "41a4ee0e-6156-4046-abef-c83b6f88f709"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR206",
+      "item_description": "Storage Rack",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "716.17",
+      "unit_price": "26688.10",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "19113216.5770",
+      "tax_amount": "5351700.641560",
+      "line_total": "24464917.218560",
+      "po_line_id": "9c525a7a-15b6-4e99-af76-c6e4e95b4a6a"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR783",
+      "item_description": "Locker Steel",
+      "hsn_code": "9403",
+      "uom": "PCS",
+      "quantity": "324.51",
+      "unit_price": "11318.76",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3673050.8076",
+      "tax_amount": "183652.540380",
+      "line_total": "3856703.347980",
+      "po_line_id": "a2aa8905-fbe1-4f00-b681-b369e45a7f74"
+    }
+  ],
+  "taxes": {
+    "cgst": "5535353.181940",
+    "sgst": "2158745.429232",
+    "igst": "573331.860666",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "37200544.7436",
+    "total_tax": "8267430.471838",
+    "grand_total": "45467975.215438"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "6e111f75-86ed-48d6-a2da-7cdcd63c17cb",
+  "grn_id": "1d2126e5-d91f-4a97-8807-831b1c8c9272",
+  "generated_at": "2026-11-18T15:45:20.758032"
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000348</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 20px; margin: -15px -15px 20px -15px; border-radius: 0 0 10px 10px; }
+        .header-row { display: flex; justify-content: space-between; align-items: center; }
+        .company-name { font-size: 22pt; margin: 0; font-weight: 700; }
+        .company-gstin { font-size: 10pt; opacity: 0.9; margin-top: 4px; }
+        .invoice-badge { background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; text-align: right; }
+        .invoice-badge h2 { margin: 0; font-size: 18pt; }
+        .invoice-badge .meta { font-size: 9pt; opacity: 0.9; margin-top: 4px; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .party-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; }
+        .party-card h3 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+        .party-card .name { font-size: 11pt; font-weight: 600; color: #2c3e50; margin-bottom: 8px; }
+        .party-card .detail { font-size: 9pt; margin: 3px 0; color: #495057; }
+        .party-card .detail .label { color: #6c757d; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 8px; }
+        th { background: #2c3e50; color: white; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .totals-card { width: 350px; margin-left: auto; background: white; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; }
+        .totals-card .row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #dee2e6; }
+        .totals-card .row:last-child { border-bottom: none; background: #2c3e50; color: white; font-weight: bold; font-size: 11pt; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #dee2e6; padding-top: 15px; font-size: 8pt; color: #6c757d; }
+        .bank-card { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .bank-card h4 { margin: 0 0 10px 0; font-size: 9pt; color: #6c757d; }
+        .bank-card .row { display: flex; justify-content: space-between; font-size: 9pt; margin: 4px 0; }
+        .declaration { margin-top: 20px; font-style: italic; text-align: center; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .no-po-notice { background: #fff3cd; border: 1px solid #ffc107; color: #856404; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 9pt; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <div>
+                    <h1 class="company-name">Jai Associates</h1>
+                    <div class="company-gstin">GSTIN: 33UXFRO4775NBZK</div>
+                    <div class="company-gstin">573 Residency Road, Behind Temple, Lucknow, 33, 226001</div>
+                </div>
+                <div class="invoice-badge">
+                    <h2>TAX INVOICE</h2>
+                    <div class="meta">
+                        <div>No: INV000348</div>
+                        <div>Date: 02/11/2026</div>
+                        <div style="color: #ffc107;">No Purchase Order Reference</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-po-notice">
+            <strong>Notice:</strong> This invoice does not reference a Purchase Order. Please verify authorization before processing.
+        </div>
+
+        <div class="parties">
+            <div class="party-card">
+                <h3>Bill To</h3>
+                <div class="name">LedgerLens Technologies Pvt Ltd</div>
+                <div class="detail"><span class="label">GSTIN:</span> 29AAAAA0000A1Z5</div>
+                <div class="detail"><span class="label">State:</span> 33</div>
+                <div class="detail">123 Tech Park, Bengaluru, 29, 560100</div>
+            </div>
+            <div class="party-card">
+                <h3>Ship To</h3>
+                <div class="name">Jai Associates</div>
+                <div class="detail"><span class="label">GSTIN:</span> 33UXFRO4775NBZK</div>
+                <div class="detail"><span class="label">State:</span> 33</div>
+                <div class="detail">573 Residency Road, Behind Temple, Lucknow, 33, 226001</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 10%">HSN</th>
+                    <th style="width: 28%">Description</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 6%" class="text-center">Tax</th>
+                    <th style="width: 6%" class="text-right">Tax Amt</th>
+                    <th style="width: 10%" class="text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>7302</td>
+                    <td>Aluminum Angles</td>
+                    <td class="text-center">BOX</td>
+                    <td class="text-right">21.68</td>
+                    <td class="text-right">5,123.72</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,11,082.25</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">5,554.11</td>
+                    <td class="text-right">1,16,636.36</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>7201</td>
+                    <td>Iron Castings</td>
+                    <td class="text-center">MTR</td>
+                    <td class="text-right">859.85</td>
+                    <td class="text-right">12,738.73</td>
+                    <td class="text-right">4.35%</td>
+                    <td class="text-right">1,04,76,924.22</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">18,85,846.36</td>
+                    <td class="text-right">1,23,62,770.58</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>7210</td>
+                    <td>Steel Bars 12mm</td>
+                    <td class="text-center">MTR</td>
+                    <td class="text-right">142.19</td>
+                    <td class="text-right">31,648.44</td>
+                    <td class="text-right">5.64%</td>
+                    <td class="text-right">42,46,286.51</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">7,64,331.57</td>
+                    <td class="text-right">50,10,618.08</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>7202</td>
+                    <td>Copper Wire</td>
+                    <td class="text-center">KG</td>
+                    <td class="text-right">706.95</td>
+                    <td class="text-right">14,902.77</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,05,35,513.25</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">5,26,775.66</td>
+                    <td class="text-right">1,10,62,288.91</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>7202</td>
+                    <td>GI Sheets</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">59.66</td>
+                    <td class="text-right">41,279.07</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">24,62,709.32</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">4,43,287.68</td>
+                    <td class="text-right">29,05,996.99</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>4,48,841.79</span></div>
+            <div class="row"><span>SGST</span><span>7,64,331.57</span></div>
+            <div class="row"><span>IGST</span><span>24,12,622.02</span></div>
+        </div>
+
+        <div class="totals-card">
+            <div class="row"><span>Subtotal</span><span>2,78,32,515.55</span></div>
+            <div class="row"><span>Total Tax</span><span>36,25,795.38</span></div>
+            <div class="row"><span>Grand Total</span><span>3,14,58,310.94</span></div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Three Crore Fourteen Lakh Fifty Eight Thousand Three Hundred Ten Only Rupees Only</p>
+
+            <div class="bank-card">
+                <h4>Bank Details</h4>
+                <div class="row"><span>A/c No:</span><span>XXXXXXXXXXXX7191</span></div>
+                <div class="row"><span>IFSC:</span><span>BKID04D145B</span></div>
+                <div class="row"><span>Bank:</span><span>Punjab National Bank, City Branch</span></div>
+                <div class="row"><span>Holder:</span><span>Jai Associates</span></div>
+            </div>
+
+            <div class="declaration">
+                We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.
+            </div>
+
+            <p style="margin-top: 20px; text-align: center;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

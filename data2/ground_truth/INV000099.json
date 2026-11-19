@@ -1,0 +1,109 @@
+{
+  "invoice_id": "6e7a7276-af3f-4387-ac87-51467a97ad3b",
+  "invoice_number": "INV000099",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV000099",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000321",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO151",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1701",
+      "uom": "PCS",
+      "quantity": "965.12",
+      "unit_price": "31379.20",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "30284693.5040",
+      "tax_amount": "1514234.675200",
+      "line_total": "31798928.179200",
+      "po_line_id": "658f93b2-4c02-4e28-82b3-66bd0199f0ff"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO699",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1701",
+      "uom": "BOX",
+      "quantity": "666.87",
+      "unit_price": "6303.74",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "6.55",
+      "taxable_value": "3928427.82515610",
+      "tax_amount": "707117.0085280980",
+      "line_total": "4635544.8336841980",
+      "po_line_id": "27bc3cf7-023a-413a-9e88-cab5852b6707"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO941",
+      "item_description": "Coffee Beans",
+      "hsn_code": "1001",
+      "uom": "LTR",
+      "quantity": "43.25",
+      "unit_price": "30566.86",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.30",
+      "taxable_value": "1212289.3093150",
+      "tax_amount": "60614.465465750",
+      "line_total": "1272903.774780750",
+      "po_line_id": "52d118b8-7caa-45f8-99fb-c5c653c59fb3"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO491",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "2106",
+      "uom": "BOX",
+      "quantity": "382.84",
+      "unit_price": "27871.45",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10670305.9180",
+      "tax_amount": "1920655.065240",
+      "line_total": "12590960.983240",
+      "po_line_id": "47a2518e-1cee-46a8-b627-47eb4bb0d890"
+    }
+  ],
+  "taxes": {
+    "cgst": "4142006.7489680980",
+    "sgst": "0",
+    "igst": "60614.465465750",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "46095716.55647110",
+    "total_tax": "4202621.2144338480",
+    "grand_total": "50298337.7709049480"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "014ea12f-0236-489e-a1fe-ce6cb3b687cf",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.609658"
+}

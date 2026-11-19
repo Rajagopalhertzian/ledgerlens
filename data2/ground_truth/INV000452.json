@@ -1,0 +1,109 @@
+{
+  "invoice_id": "009ff210-4b26-46cf-9609-3fdaa7737573",
+  "invoice_number": "INV000452",
+  "vendor_id": "d2b0fd7e-beb8-4e55-abb9-dd0e9a07dbe7",
+  "vendor_gstin": "08YADLJ4013KIZ9",
+  "header": {
+    "invoice_number": "INV000452",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "08YADLJ4013KIZ9",
+    "vendor_name": "Royal Automobiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR589",
+      "item_description": "Conference Table",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "175.09",
+      "unit_price": "14165.49",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "2480235.6441",
+      "tax_amount": "694465.980348",
+      "line_total": "3174701.624448",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR564",
+      "item_description": "Workstation",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "667.03",
+      "unit_price": "7968.39",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5315155.1817",
+      "tax_amount": "956727.932706",
+      "line_total": "6271883.114406",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR672",
+      "item_description": "Executive Desk",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "374.87",
+      "unit_price": "9118.76",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3418349.5612",
+      "tax_amount": "615302.921016",
+      "line_total": "4033652.482216",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR441",
+      "item_description": "Executive Desk",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "830.32",
+      "unit_price": "17976.00",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "14925832.3200",
+      "tax_amount": "746291.616000",
+      "line_total": "15672123.936000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "746291.616000",
+    "igst": "2266496.834070",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "26139572.7070",
+    "total_tax": "3012788.450070",
+    "grand_total": "29152361.157070"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.713365"
+}

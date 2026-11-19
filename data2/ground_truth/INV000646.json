@@ -1,0 +1,141 @@
+{
+  "invoice_id": "50621aad-0849-484d-bbcc-b9578f02f2d9",
+  "invoice_number": "INV000646",
+  "vendor_id": "bcf62784-0118-48c8-8a43-ae202815c60d",
+  "vendor_gstin": "36TRMPG4468CQZR",
+  "header": {
+    "invoice_number": "INV000646",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "36TRMPG4468CQZR",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA968",
+      "item_description": "Plastic Crates",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "633.10",
+      "unit_price": "37870.02",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "23975509.6620",
+      "tax_amount": "1198775.483100",
+      "line_total": "25174285.145100",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA154",
+      "item_description": "PVC Pipes 2 inch",
+      "hsn_code": "3926",
+      "uom": "PKT",
+      "quantity": "535.99",
+      "unit_price": "28872.47",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15475355.1953",
+      "tax_amount": "2785563.935154",
+      "line_total": "18260919.130454",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA384",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3901",
+      "uom": "PCS",
+      "quantity": "983.94",
+      "unit_price": "13787.05",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13565629.9770",
+      "tax_amount": "2441813.395860",
+      "line_total": "16007443.372860",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PLA480",
+      "item_description": "Plastic Pallets",
+      "hsn_code": "3926",
+      "uom": "PKT",
+      "quantity": "307.14",
+      "unit_price": "24965.63",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "7667943.5982",
+      "tax_amount": "920153.231784",
+      "line_total": "8588096.829984",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PLA890",
+      "item_description": "Plastic Sheets",
+      "hsn_code": "3926",
+      "uom": "PKT",
+      "quantity": "249.36",
+      "unit_price": "37976.92",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "4.27",
+      "taxable_value": "9065558.98346976",
+      "tax_amount": "2538356.5153715328",
+      "line_total": "11603915.4988412928",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "PLA914",
+      "item_description": "PP Bags",
+      "hsn_code": "3903",
+      "uom": "BOX",
+      "quantity": "836.85",
+      "unit_price": "3917.51",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "9.83",
+      "taxable_value": "2956104.64516395",
+      "tax_amount": "827709.3006459060",
+      "line_total": "3783813.9458098560",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2538356.5153715328",
+    "sgst": "5732201.9506839060",
+    "igst": "2441813.395860",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "72706102.06113371",
+    "total_tax": "10712371.8619154388",
+    "grand_total": "83418473.9230491488"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.774094"
+}

@@ -1,0 +1,109 @@
+{
+  "invoice_id": "5a26239e-3647-46e1-80f7-8467689ea553",
+  "invoice_number": "INV000694",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "27PXTPA2685AIZ4",
+  "header": {
+    "invoice_number": "INV000694",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "27PXTPA2685AIZ4",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000231",
+    "grn_reference": "GRN000268",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX775",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5209",
+      "uom": "ROL",
+      "quantity": "794.26",
+      "unit_price": "2175.36",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1727801.4336",
+      "tax_amount": "86390.071680",
+      "line_total": "1814191.505280",
+      "po_line_id": "11de1fd9-743e-444f-b1f8-13b386a04ea1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX724",
+      "item_description": "Curtains Window",
+      "hsn_code": "6109",
+      "uom": "SET",
+      "quantity": "435.70",
+      "unit_price": "4211.21",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "5.61",
+      "taxable_value": "1731890.55954830",
+      "tax_amount": "86594.5279774150",
+      "line_total": "1818485.0875257150",
+      "po_line_id": "275c3444-13cb-4ffd-9ffe-9ef129d2b45a"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX292",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "992.30",
+      "unit_price": "38559.96",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "38263048.3080",
+      "tax_amount": "1913152.415400",
+      "line_total": "40176200.723400",
+      "po_line_id": "cc5ea211-e68c-4f57-9c3c-2f78930fd697"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX494",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5208",
+      "uom": "ROL",
+      "quantity": "641.29",
+      "unit_price": "36988.93",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "23720630.9197",
+      "tax_amount": "1186031.545985",
+      "line_total": "24906662.465685",
+      "po_line_id": "ffe26025-9775-428b-9c90-a9071f7e282d"
+    }
+  ],
+  "taxes": {
+    "cgst": "1186031.545985",
+    "sgst": "172984.5996574150",
+    "igst": "1913152.415400",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "65443371.22084830",
+    "total_tax": "3272168.5610424150",
+    "grand_total": "68715539.7818907150"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "0af7dbb1-7dd1-4d63-90bf-f4a96129095e",
+  "grn_id": "e47d8eca-2930-424b-b2cf-a11979d4fdf0",
+  "generated_at": "2026-11-18T15:45:20.787601"
+}

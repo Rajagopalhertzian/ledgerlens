@@ -1,0 +1,93 @@
+{
+  "invoice_id": "36ce440f-b619-4faf-a7b9-36686adc53d1",
+  "invoice_number": "INV000143",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000143",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB300",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4002",
+      "uom": "SET",
+      "quantity": "496.11",
+      "unit_price": "28083.61",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13932559.7571",
+      "tax_amount": "1671907.170852",
+      "line_total": "15604466.927952",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB361",
+      "item_description": "Expansion Joints",
+      "hsn_code": "4011",
+      "uom": "MTR",
+      "quantity": "146.22",
+      "unit_price": "12101.98",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "2.35",
+      "taxable_value": "1727967.05498340",
+      "tax_amount": "86398.3527491700",
+      "line_total": "1814365.4077325700",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB591",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4011",
+      "uom": "KG",
+      "quantity": "413.88",
+      "unit_price": "44939.44",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "18599535.4272",
+      "tax_amount": "3347916.376896",
+      "line_total": "21947451.804096",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "86398.3527491700",
+    "sgst": "0",
+    "igst": "5019823.547748",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "34260062.23928340",
+    "total_tax": "5106221.9004971700",
+    "grand_total": "39366284.1397805700"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.623341"
+}

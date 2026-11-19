@@ -1,0 +1,125 @@
+{
+  "invoice_id": "037c55bd-29ad-47c2-bd5f-501085594170",
+  "invoice_number": "INV000472",
+  "vendor_id": "b2374d8f-a73e-4b64-91fd-1b629f088473",
+  "vendor_gstin": "27YUFPE3617WQZX",
+  "header": {
+    "invoice_number": "INV000472",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "27YUFPE3617WQZX",
+    "vendor_name": "Indian Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP737",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4811",
+      "uom": "ROL",
+      "quantity": "789.90",
+      "unit_price": "6377.50",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "8.49",
+      "taxable_value": "4609896.09247500",
+      "tax_amount": "1290770.9058930000",
+      "line_total": "5900666.9983680000",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP273",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4803",
+      "uom": "PCS",
+      "quantity": "501.00",
+      "unit_price": "8082.68",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4049422.6800",
+      "tax_amount": "485930.721600",
+      "line_total": "4535353.401600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP374",
+      "item_description": "Carbon Paper",
+      "hsn_code": "4801",
+      "uom": "PCS",
+      "quantity": "328.68",
+      "unit_price": "13899.20",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4568389.0560",
+      "tax_amount": "1279148.935680",
+      "line_total": "5847537.991680",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP454",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4811",
+      "uom": "BOX",
+      "quantity": "400.56",
+      "unit_price": "4336.42",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "1736996.3952",
+      "tax_amount": "312659.351136",
+      "line_total": "2049655.746336",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP771",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4802",
+      "uom": "BOX",
+      "quantity": "958.85",
+      "unit_price": "35186.60",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "33738671.4100",
+      "tax_amount": "9446827.994800",
+      "line_total": "43185499.404800",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "9446827.994800",
+    "sgst": "2882579.1927090000",
+    "igst": "485930.721600",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48703375.63367500",
+    "total_tax": "12815337.9091090000",
+    "grand_total": "61518713.5427840000"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.722417"
+}

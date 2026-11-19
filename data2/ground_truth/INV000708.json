@@ -1,0 +1,141 @@
+{
+  "invoice_id": "a07d283c-9751-4fab-a2e4-6430a9e67fd6",
+  "invoice_number": "INV000708",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000708",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE835",
+      "item_description": "Graphics Card",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "875.12",
+      "unit_price": "8503.29",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7441399.1448",
+      "tax_amount": "372069.957240",
+      "line_total": "7813469.102040",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE737",
+      "item_description": "Router WiFi",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "227.26",
+      "unit_price": "18645.91",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4237469.5066",
+      "tax_amount": "762744.511188",
+      "line_total": "5000214.017788",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE255",
+      "item_description": "Printer LaserJet",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "392.03",
+      "unit_price": "44960.64",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17625919.6992",
+      "tax_amount": "881295.984960",
+      "line_total": "18507215.684160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE155",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8536",
+      "uom": "SET",
+      "quantity": "542.15",
+      "unit_price": "19888.72",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10782669.5480",
+      "tax_amount": "1293920.345760",
+      "line_total": "12076589.893760",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE928",
+      "item_description": "RAM 16GB DDR4",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "244.23",
+      "unit_price": "43100.10",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "10526337.4230",
+      "tax_amount": "2947374.478440",
+      "line_total": "13473711.901440",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "ELE120",
+      "item_description": "Server Rack",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "178.61",
+      "unit_price": "43667.28",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7799412.8808",
+      "tax_amount": "1403894.318544",
+      "line_total": "9203307.199344",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4351268.796984",
+    "sgst": "2175216.330720",
+    "igst": "1134814.468428",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58413208.2024",
+    "total_tax": "7661299.596132",
+    "grand_total": "66074507.798532"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.791846"
+}

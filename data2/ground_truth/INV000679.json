@@ -1,0 +1,109 @@
+{
+  "invoice_id": "c2a87824-a7be-45f0-a4f4-28c82a694e4e",
+  "invoice_number": "INV000679",
+  "vendor_id": "47f6dcad-61d1-4ca1-8832-0b14c30cf8f5",
+  "vendor_gstin": "09HZYVC2690KGZN",
+  "header": {
+    "invoice_number": "INV000679",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "09HZYVC2690KGZN",
+    "vendor_name": "Premium Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC509",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "307.30",
+      "unit_price": "21817.33",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "6704465.5090",
+      "tax_amount": "1877250.342520",
+      "line_total": "8581715.851520",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC359",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "588.74",
+      "unit_price": "30109.28",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "17726537.5072",
+      "tax_amount": "3190776.751296",
+      "line_total": "20917314.258496",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC463",
+      "item_description": "Conveyor Belt",
+      "hsn_code": "8414",
+      "uom": "PCS",
+      "quantity": "114.11",
+      "unit_price": "21817.90",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2489640.5690",
+      "tax_amount": "697099.359320",
+      "line_total": "3186739.928320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC905",
+      "item_description": "Packing Machine",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "575.59",
+      "unit_price": "1405.28",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "808865.1152",
+      "tax_amount": "145595.720736",
+      "line_total": "954460.835936",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "3887876.110616",
+    "sgst": "1877250.342520",
+    "igst": "145595.720736",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "27729508.7004",
+    "total_tax": "5910722.173872",
+    "grand_total": "33640230.874272"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.783473"
+}

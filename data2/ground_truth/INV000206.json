@@ -1,0 +1,143 @@
+{
+  "invoice_id": "a715b638-ef25-47f5-9ac7-6438ba7056da",
+  "invoice_number": "INV000206",
+  "vendor_id": "9c2b4695-ce9d-44a1-bb22-c33b6c6469c8",
+  "vendor_gstin": "24ZVWAT3988ZGZ2",
+  "header": {
+    "invoice_number": "INV000206",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "24ZVWAT3988ZGZ2",
+    "vendor_name": "Major Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000341",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC871",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "7.24",
+      "unit_price": "3388.96",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "24536.0704",
+      "tax_amount": "4416.492672",
+      "line_total": "28952.563072",
+      "po_line_id": "98fd59b3-0a7b-491f-8160-8a97214c5aa1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC211",
+      "item_description": "Air Compressor",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "574.79",
+      "unit_price": "48738.76",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28014551.8604",
+      "tax_amount": "3361746.223248",
+      "line_total": "31376298.083648",
+      "po_line_id": "21d1c697-eb3a-41ff-b2b8-db5bd35eb2aa"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC936",
+      "item_description": "Air Compressor",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "186.74",
+      "unit_price": "4135.45",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "772253.9330",
+      "tax_amount": "38612.696650",
+      "line_total": "810866.629650",
+      "po_line_id": "6602dd0c-9057-42cc-a887-a4dbd8a0d77a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC419",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "257.17",
+      "unit_price": "35062.99",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9017149.1383",
+      "tax_amount": "450857.456915",
+      "line_total": "9468006.595215",
+      "po_line_id": "cf0c494b-dd84-4ea3-8e7d-9f9c8f3a39e3"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC523",
+      "item_description": "Generator 10KVA",
+      "hsn_code": "8421",
+      "uom": "SET",
+      "quantity": "699.43",
+      "unit_price": "14292.10",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9996323.5030",
+      "tax_amount": "1199558.820360",
+      "line_total": "11195882.323360",
+      "po_line_id": "a85e9c7c-f6e0-449d-bc6c-ddb42b135e51"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC884",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "865.34",
+      "unit_price": "20665.04",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "9.57",
+      "taxable_value": "16170950.97080848",
+      "tax_amount": "1940514.1164970176",
+      "line_total": "18111465.0873054976",
+      "po_line_id": "73a5f07c-5ed4-4b81-9cd6-7c88312281c2"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "3361746.223248",
+    "igst": "3633959.5830940176",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "63995765.47590848",
+    "total_tax": "6995705.8063420176",
+    "grand_total": "70991471.2822504976"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 5: PO price 11427.47, Invoice price 14292.10 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": "7b73e15d-3fc9-4665-89b7-e26b2c03b7b0",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.641723"
+}

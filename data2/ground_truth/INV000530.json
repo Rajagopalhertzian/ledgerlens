@@ -1,0 +1,93 @@
+{
+  "invoice_id": "10b84e98-0d50-48b1-ac6f-436103c7e220",
+  "invoice_number": "INV000530",
+  "vendor_id": "c6861c18-8d4a-4cc7-9353-588ba7452474",
+  "vendor_gstin": "29GMSLA2426LVZS",
+  "header": {
+    "invoice_number": "INV000530",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "29GMSLA2426LVZS",
+    "vendor_name": "Prime Packaging",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE531",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "984.04",
+      "unit_price": "11683.51",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "11497041.1804",
+      "tax_amount": "574852.059020",
+      "line_total": "12071893.239420",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE624",
+      "item_description": "Lubricant Oil",
+      "hsn_code": "2901",
+      "uom": "KG",
+      "quantity": "336.13",
+      "unit_price": "2803.53",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "942350.5389",
+      "tax_amount": "169623.097002",
+      "line_total": "1111973.635902",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE210",
+      "item_description": "Degreaser",
+      "hsn_code": "2802",
+      "uom": "KG",
+      "quantity": "682.37",
+      "unit_price": "21848.26",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "14908597.1762",
+      "tax_amount": "745429.858810",
+      "line_total": "15654027.035010",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "1489905.014832",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "27347988.8955",
+    "total_tax": "1489905.014832",
+    "grand_total": "28837893.910332"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.739869"
+}

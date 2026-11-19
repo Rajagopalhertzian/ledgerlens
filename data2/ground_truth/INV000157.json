@@ -1,0 +1,95 @@
+{
+  "invoice_id": "1d249758-2eac-4090-b220-07e761ad493a",
+  "invoice_number": "INV000157",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV000157",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000021",
+    "grn_reference": "GRN000023",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA908",
+      "item_description": "PET Bottles",
+      "hsn_code": "3904",
+      "uom": "KG",
+      "quantity": "283.98",
+      "unit_price": "43850.64",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "7.09",
+      "taxable_value": "11569807.98062352",
+      "tax_amount": "3239546.2345745856",
+      "line_total": "14809354.2151981056",
+      "po_line_id": "6905005f-a5b6-4cff-b726-090029a5e4b0"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA518",
+      "item_description": "Poly Bags",
+      "hsn_code": "3901",
+      "uom": "KG",
+      "quantity": "521.37",
+      "unit_price": "18813.99",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9809049.9663",
+      "tax_amount": "1177085.995956",
+      "line_total": "10986135.962256",
+      "po_line_id": "456b19b9-b595-4bd5-bc39-2d9ca2383daf"
+    },
+    {
+      "line_number": 3,
+      "item_code": "PLA474",
+      "item_description": "HDPE Containers",
+      "hsn_code": "3903",
+      "uom": "PCS",
+      "quantity": "426.65",
+      "unit_price": "29309.97",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12505098.7005",
+      "tax_amount": "2250917.766090",
+      "line_total": "14756016.466590",
+      "po_line_id": "2fdc37d2-8e70-447b-8ad3-d5ad5cfa7a04"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "3239546.2345745856",
+    "igst": "3428003.762046",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "33883956.64742352",
+    "total_tax": "6667549.9966205856",
+    "grand_total": "40551506.6440441056"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D03",
+      "evidence": "Line 2: Invoiced qty 521.37 > GRN accepted 420.38",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "partial_approve_or_reject"
+  ],
+  "po_id": "fb9d4497-8a6b-4bbe-aee3-f5d239d9c44a",
+  "grn_id": "8512fdc3-b6d9-4955-8851-d3a9fce4702f",
+  "generated_at": "2026-11-18T15:45:20.627261"
+}

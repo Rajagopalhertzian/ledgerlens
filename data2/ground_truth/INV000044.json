@@ -1,0 +1,125 @@
+{
+  "invoice_id": "2ce29c1d-e40e-44b7-80a6-62b03d881e9b",
+  "invoice_number": "INV000044",
+  "vendor_id": "dd8df30f-cf62-47a1-adce-4773e99e537a",
+  "vendor_gstin": "08GLXSH8561AGZM",
+  "header": {
+    "invoice_number": "INV000044",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "08GLXSH8561AGZM",
+    "vendor_name": "Sri Manufacturers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "08",
+    "place_of_delivery": "08",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR589",
+      "item_description": "Reception Counter",
+      "hsn_code": "9402",
+      "uom": "SET",
+      "quantity": "979.97",
+      "unit_price": "10800.67",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "7.40",
+      "taxable_value": "9801091.9689874",
+      "tax_amount": "2744305.751316472",
+      "line_total": "12545397.720303872",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR258",
+      "item_description": "Conference Table",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "994.46",
+      "unit_price": "10901.15",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "10840757.6290",
+      "tax_amount": "1951336.373220",
+      "line_total": "12792094.002220",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR942",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "717.94",
+      "unit_price": "7696.60",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5525697.0040",
+      "tax_amount": "663083.640480",
+      "line_total": "6188780.644480",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR931",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "857.96",
+      "unit_price": "48490.47",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "4.79",
+      "taxable_value": "39610105.51478652",
+      "tax_amount": "4753212.6617743824",
+      "line_total": "44363318.1765609024",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR227",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "664.12",
+      "unit_price": "13112.65",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "2.01",
+      "taxable_value": "8533334.81832820",
+      "tax_amount": "426666.7409164100",
+      "line_total": "8960001.5592446100",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "426666.7409164100",
+    "sgst": "1951336.373220",
+    "igst": "8160602.0535708544",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "74310986.93510212",
+    "total_tax": "10538605.1677072644",
+    "grand_total": "84849592.1028093844"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.590890"
+}

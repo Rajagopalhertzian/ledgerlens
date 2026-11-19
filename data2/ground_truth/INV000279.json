@@ -1,0 +1,61 @@
+{
+  "invoice_id": "21d84109-874a-4d0a-add2-088d6fa5e998",
+  "invoice_number": "INV000279",
+  "vendor_id": "f4124b40-7167-4f77-8c94-c67d46a2e529",
+  "vendor_gstin": "19MXBCP0265KPZF",
+  "header": {
+    "invoice_number": "INV000279",
+    "invoice_date": "2026-11-12",
+    "vendor_gstin": "19MXBCP0265KPZF",
+    "vendor_name": "Jai Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000045",
+    "grn_reference": "GRN000051",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR998",
+      "item_description": "Whiteboard",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "394.76",
+      "unit_price": "46963.04",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "4.57",
+      "taxable_value": "17691891.44446272",
+      "tax_amount": "884594.5722231360",
+      "line_total": "18576486.0166858560",
+      "po_line_id": "01d40e55-00a4-473b-8b63-11ea2a58adcc"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "884594.5722231360",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "17691891.44446272",
+    "total_tax": "884594.5722231360",
+    "grand_total": "18576486.0166858560"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "fcb81443-b411-45a2-acab-29b1af18f7ed",
+  "grn_id": "fa7f12c4-6f91-47b1-a417-2a2d816ba78a",
+  "generated_at": "2026-11-18T15:45:20.662584"
+}

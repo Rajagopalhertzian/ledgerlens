@@ -1,0 +1,93 @@
+{
+  "invoice_id": "7397953c-03ff-4a7a-8637-92853b69f257",
+  "invoice_number": "INV000386",
+  "vendor_id": "3da39e2b-8543-4ab8-8e27-7b319584b425",
+  "vendor_gstin": "29TTHDM4152RNZS",
+  "header": {
+    "invoice_number": "INV000386",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "29TTHDM4152RNZS",
+    "vendor_name": "Standard Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX477",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5208",
+      "uom": "PCS",
+      "quantity": "529.69",
+      "unit_price": "9562.36",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5065086.4684",
+      "tax_amount": "911715.564312",
+      "line_total": "5976802.032712",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX678",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5208",
+      "uom": "ROL",
+      "quantity": "737.76",
+      "unit_price": "12412.92",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "5.84",
+      "taxable_value": "8622942.91702272",
+      "tax_amount": "1034753.1500427264",
+      "line_total": "9657696.0670654464",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX112",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5513",
+      "uom": "MTR",
+      "quantity": "140.57",
+      "unit_price": "13564.50",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "9.07",
+      "taxable_value": "1733818.47291450",
+      "tax_amount": "312087.3251246100",
+      "line_total": "2045905.7980391100",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "1223802.8894366100",
+    "sgst": "0",
+    "igst": "1034753.1500427264",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "15421847.85833722",
+    "total_tax": "2258556.0394793364",
+    "grand_total": "17680403.8978165564"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.693873"
+}

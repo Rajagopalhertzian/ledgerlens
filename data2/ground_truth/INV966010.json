@@ -1,0 +1,125 @@
+{
+  "invoice_id": "9cc9768a-8b69-40ae-bc8a-03361b9825b7",
+  "invoice_number": "INV966010",
+  "vendor_id": "7945014f-f848-4ea2-b359-6e56d24d4260",
+  "vendor_gstin": "07VYCGO4567MTZK",
+  "header": {
+    "invoice_number": "INV966010",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "07VYCGO4567MTZK",
+    "vendor_name": "Elite Warehousing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP683",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4802",
+      "uom": "ROL",
+      "quantity": "728.71",
+      "unit_price": "16228.11",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "11825586.0381",
+      "tax_amount": "3311164.090668",
+      "line_total": "15136750.128768",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP766",
+      "item_description": "Paper Bags",
+      "hsn_code": "4801",
+      "uom": "BOX",
+      "quantity": "854.21",
+      "unit_price": "3151.65",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "9.82",
+      "taxable_value": "2427799.75955370",
+      "tax_amount": "437003.9567196660",
+      "line_total": "2864803.7162733660",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP149",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4801",
+      "uom": "BOX",
+      "quantity": "856.78",
+      "unit_price": "24057.34",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20611847.7652",
+      "tax_amount": "2473421.731824",
+      "line_total": "23085269.497024",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP193",
+      "item_description": "Label Stickers",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "260.82",
+      "unit_price": "37033.50",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9659077.4700",
+      "tax_amount": "482953.873500",
+      "line_total": "10142031.343500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "PAP755",
+      "item_description": "Corrugated Sheets",
+      "hsn_code": "4802",
+      "uom": "ROL",
+      "quantity": "979.71",
+      "unit_price": "45214.04",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "44296647.1284",
+      "tax_amount": "5315597.655408",
+      "line_total": "49612244.783808",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "919957.8302196660",
+    "sgst": "3311164.090668",
+    "igst": "7789019.387232",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "88820958.16125370",
+    "total_tax": "12020141.3081196660",
+    "grand_total": "100841099.4693733660"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.707588"
+}

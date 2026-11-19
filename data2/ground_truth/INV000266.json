@@ -1,0 +1,77 @@
+{
+  "invoice_id": "15c3afb0-fea5-43ea-882d-8d4840c00a0e",
+  "invoice_number": "INV000266",
+  "vendor_id": "4900ab42-4bf3-46a4-a41c-8725db3cde20",
+  "vendor_gstin": "33EJTOX0564ASZL",
+  "header": {
+    "invoice_number": "INV000266",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "33EJTOX0564ASZL",
+    "vendor_name": "Fine Trading Co.",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000075",
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET184",
+      "item_description": "Iron Castings",
+      "hsn_code": "7201",
+      "uom": "KG",
+      "quantity": "520.21",
+      "unit_price": "24841.22",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "7.22",
+      "taxable_value": "11989635.64994236",
+      "tax_amount": "2158134.4169896248",
+      "line_total": "14147770.0669319848",
+      "po_line_id": "3cd4e764-0cf3-4031-98b7-e49e5e0fa847"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET554",
+      "item_description": "Iron Castings",
+      "hsn_code": "7208",
+      "uom": "KG",
+      "quantity": "385.40",
+      "unit_price": "22901.59",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8826272.7860",
+      "tax_amount": "1588729.101480",
+      "line_total": "10415001.887480",
+      "po_line_id": "817c819e-0c04-400d-b053-f7c3d6c5d473"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "3746863.5184696248",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "20815908.43594236",
+    "total_tax": "3746863.5184696248",
+    "grand_total": "24562771.9544119848"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3fa1d66b-002b-43a4-9a34-69ea71b776b1",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.658816"
+}

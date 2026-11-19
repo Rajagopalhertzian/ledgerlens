@@ -1,0 +1,61 @@
+{
+  "invoice_id": "94a6162d-5dc4-49b8-b299-30d8fc5994c6",
+  "invoice_number": "INV000703",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "24YYOCH5343PVZJ",
+  "header": {
+    "invoice_number": "INV000703",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "24YYOCH5343PVZJ",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP690",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "429.74",
+      "unit_price": "3982.67",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1711512.6058",
+      "tax_amount": "308072.269044",
+      "line_total": "2019584.874844",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "308072.269044",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "1711512.6058",
+    "total_tax": "308072.269044",
+    "grand_total": "2019584.874844"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.790040"
+}

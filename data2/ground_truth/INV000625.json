@@ -1,0 +1,77 @@
+{
+  "invoice_id": "49dfad5f-3492-49ce-bbeb-02b625c2d3f5",
+  "invoice_number": "INV000625",
+  "vendor_id": "96cfe961-e311-45c9-9ebc-4cf4a2fff87d",
+  "vendor_gstin": "27RMZIK3134FKZN",
+  "header": {
+    "invoice_number": "INV000625",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "27RMZIK3134FKZN",
+    "vendor_name": "Universal Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA966",
+      "item_description": "Cable Ties",
+      "hsn_code": "3901",
+      "uom": "KG",
+      "quantity": "22.47",
+      "unit_price": "18941.24",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "425609.6628",
+      "tax_amount": "119170.705584",
+      "line_total": "544780.368384",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA768",
+      "item_description": "PET Bottles",
+      "hsn_code": "3902",
+      "uom": "PKT",
+      "quantity": "353.86",
+      "unit_price": "14556.22",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5150864.0092",
+      "tax_amount": "257543.200460",
+      "line_total": "5408407.209660",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "376713.906044",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "5576473.6720",
+    "total_tax": "376713.906044",
+    "grand_total": "5953187.578044"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.768061"
+}

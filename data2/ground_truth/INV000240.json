@@ -1,0 +1,109 @@
+{
+  "invoice_id": "18067b4d-1887-4965-abee-6e334cce11f1",
+  "invoice_number": "INV000240",
+  "vendor_id": "c5bf8821-5033-4f4e-b117-393228cb4582",
+  "vendor_gstin": "19BBLMF6377LQZX",
+  "header": {
+    "invoice_number": "INV000240",
+    "invoice_date": "2026-11-05",
+    "vendor_gstin": "19BBLMF6377LQZX",
+    "vendor_name": "Grand Printing",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB291",
+      "item_description": "Tyre Retread",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "532.56",
+      "unit_price": "10016.21",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5334232.7976",
+      "tax_amount": "960161.903568",
+      "line_total": "6294394.701168",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB930",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4016",
+      "uom": "MTR",
+      "quantity": "407.67",
+      "unit_price": "19050.77",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7766427.4059",
+      "tax_amount": "388321.370295",
+      "line_total": "8154748.776195",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB839",
+      "item_description": "Seals Kit",
+      "hsn_code": "4001",
+      "uom": "MTR",
+      "quantity": "459.14",
+      "unit_price": "2862.59",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1314329.5726",
+      "tax_amount": "236579.323068",
+      "line_total": "1550908.895668",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB244",
+      "item_description": "O-Rings Set",
+      "hsn_code": "4011",
+      "uom": "MTR",
+      "quantity": "810.99",
+      "unit_price": "35355.54",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "8.02",
+      "taxable_value": "26373415.63595508",
+      "tax_amount": "1318670.7817977540",
+      "line_total": "27692086.4177528340",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "236579.323068",
+    "sgst": "2278832.6853657540",
+    "igst": "388321.370295",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "40788405.41205508",
+    "total_tax": "2903733.3787287540",
+    "grand_total": "43692138.7907838340"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.650528"
+}

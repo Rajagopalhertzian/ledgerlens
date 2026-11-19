@@ -1,0 +1,141 @@
+{
+  "invoice_id": "d03daaad-a64f-4999-bb33-1df96385f919",
+  "invoice_number": "INV000614",
+  "vendor_id": "a46ac8e9-ccb5-4a54-960a-3c41851b2d60",
+  "vendor_gstin": "36DZVTZ4743HGZ4",
+  "header": {
+    "invoice_number": "INV000614",
+    "invoice_date": "2026-11-04",
+    "vendor_gstin": "36DZVTZ4743HGZ4",
+    "vendor_name": "M/s Logistics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB367",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4009",
+      "uom": "PCS",
+      "quantity": "679.68",
+      "unit_price": "27520.84",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "2.52",
+      "taxable_value": "18233989.34501376",
+      "tax_amount": "3282118.0821024768",
+      "line_total": "21516107.4271162368",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "RUB551",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4011",
+      "uom": "MTR",
+      "quantity": "370.32",
+      "unit_price": "11658.54",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.08",
+      "taxable_value": "4270762.71504576",
+      "tax_amount": "512491.5258054912",
+      "line_total": "4783254.2408512512",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "RUB610",
+      "item_description": "Expansion Joints",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "395.27",
+      "unit_price": "38536.82",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "15232448.8414",
+      "tax_amount": "1827893.860968",
+      "line_total": "17060342.702368",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "RUB617",
+      "item_description": "Rubber Mats",
+      "hsn_code": "4016",
+      "uom": "SET",
+      "quantity": "280.82",
+      "unit_price": "1952.53",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "548309.4746",
+      "tax_amount": "27415.473730",
+      "line_total": "575724.948330",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "RUB892",
+      "item_description": "Seals Kit",
+      "hsn_code": "4016",
+      "uom": "PCS",
+      "quantity": "466.78",
+      "unit_price": "11653.85",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5439784.1030",
+      "tax_amount": "652774.092360",
+      "line_total": "6092558.195360",
+      "po_line_id": null
+    },
+    {
+      "line_number": 6,
+      "item_code": "RUB358",
+      "item_description": "Rubber Gaskets",
+      "hsn_code": "4011",
+      "uom": "SET",
+      "quantity": "37.79",
+      "unit_price": "13959.48",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "9.08",
+      "taxable_value": "479629.13877264",
+      "tax_amount": "134296.1588563392",
+      "line_total": "613925.2976289792",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4069188.3333188160",
+    "sgst": "512491.5258054912",
+    "igst": "1855309.334698",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "44204923.61783216",
+    "total_tax": "6436989.1938223072",
+    "grand_total": "50641912.8116544672"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.764613"
+}

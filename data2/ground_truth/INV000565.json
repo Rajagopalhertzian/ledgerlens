@@ -1,0 +1,125 @@
+{
+  "invoice_id": "397bca18-4164-4d63-8282-45a1261de150",
+  "invoice_number": "INV000565",
+  "vendor_id": "1e14ef2e-c386-4ef7-b045-41995840634b",
+  "vendor_gstin": "27TQSAI2616UQZB",
+  "header": {
+    "invoice_number": "INV000565",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "27TQSAI2616UQZB",
+    "vendor_name": "Sri Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR760",
+      "item_description": "Partition Screen",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "570.62",
+      "unit_price": "35429.20",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "5.50",
+      "taxable_value": "19104696.5482800",
+      "tax_amount": "2292563.585793600",
+      "line_total": "21397260.134073600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR159",
+      "item_description": "Office Chair",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "98.32",
+      "unit_price": "12850.58",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1263469.0256",
+      "tax_amount": "353771.327168",
+      "line_total": "1617240.352768",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR872",
+      "item_description": "Filing Cabinet",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "86.72",
+      "unit_price": "24473.29",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "5.83",
+      "taxable_value": "1998592.23657696",
+      "tax_amount": "359746.6025838528",
+      "line_total": "2358338.8391608128",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR101",
+      "item_description": "Locker Steel",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "445.86",
+      "unit_price": "31660.08",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "14115963.2688",
+      "tax_amount": "705798.163440",
+      "line_total": "14821761.432240",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR978",
+      "item_description": "Partition Screen",
+      "hsn_code": "9403",
+      "uom": "SET",
+      "quantity": "515.33",
+      "unit_price": "24239.00",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.74",
+      "taxable_value": "12273739.01066200",
+      "tax_amount": "1472848.6812794400",
+      "line_total": "13746587.6919414400",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2652310.1883774528",
+    "sgst": "1472848.6812794400",
+    "igst": "1059569.490608",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48756460.08991896",
+    "total_tax": "5184728.3602648928",
+    "grand_total": "53941188.4501838528"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.749652"
+}

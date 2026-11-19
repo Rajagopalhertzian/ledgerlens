@@ -1,0 +1,77 @@
+{
+  "invoice_id": "dcaa1943-42dd-495f-88f5-16ec9ed17966",
+  "invoice_number": "INV976365",
+  "vendor_id": "2791a614-38ab-41f8-9dc3-88f6d103e8b5",
+  "vendor_gstin": "33OBONO1351GWZY",
+  "header": {
+    "invoice_number": "INV976365",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "33OBONO1351GWZY",
+    "vendor_name": "Select Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000178",
+    "grn_reference": "GRN000206",
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA332",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3917",
+      "uom": "BOX",
+      "quantity": "953.34",
+      "unit_price": "22077.93",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "4.95",
+      "taxable_value": "20005908.98378310",
+      "tax_amount": "3601063.6170809580",
+      "line_total": "23606972.6008640580",
+      "po_line_id": "0e41af91-c47a-477a-a166-a8bb541e7b2f"
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA288",
+      "item_description": "PP Bags",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "871.37",
+      "unit_price": "32833.31",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "28609961.3347",
+      "tax_amount": "3433195.360164",
+      "line_total": "32043156.694864",
+      "po_line_id": "825d4027-cd31-45e5-8c77-a3a0ed353f4d"
+    }
+  ],
+  "taxes": {
+    "cgst": "3433195.360164",
+    "sgst": "3601063.6170809580",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "48615870.31848310",
+    "total_tax": "7034258.9772449580",
+    "grand_total": "55650129.2957280580"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "76c0c6cf-3679-4c76-a9b7-05200b55f2e4",
+  "grn_id": "efc02034-89fd-4124-9d98-ea137841cad3",
+  "generated_at": "2026-11-18T15:45:20.736039"
+}

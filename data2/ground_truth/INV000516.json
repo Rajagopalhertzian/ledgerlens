@@ -1,0 +1,77 @@
+{
+  "invoice_id": "d7d424dc-e1e9-4e6a-a966-8858beae7f9c",
+  "invoice_number": "INV000516",
+  "vendor_id": "b5e5e4c4-216b-457f-96c5-d9c33960f0b3",
+  "vendor_gstin": "19UICLJ2772LWZ7",
+  "header": {
+    "invoice_number": "INV000516",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "19UICLJ2772LWZ7",
+    "vendor_name": "Top Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000006",
+    "grn_reference": "GRN000005",
+    "place_of_supply": "19",
+    "place_of_delivery": "19",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR155",
+      "item_description": "Partition Screen",
+      "hsn_code": "9405",
+      "uom": "SET",
+      "quantity": "890.22",
+      "unit_price": "28160.40",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "25068951.2880",
+      "tax_amount": "7019306.360640",
+      "line_total": "32088257.648640",
+      "po_line_id": "f9fe998f-4578-4b87-8479-e51ca35361f1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR833",
+      "item_description": "Bookshelf",
+      "hsn_code": "9402",
+      "uom": "SET",
+      "quantity": "560.59",
+      "unit_price": "31025.92",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "17392820.4928",
+      "tax_amount": "4869989.737984",
+      "line_total": "22262810.230784",
+      "po_line_id": "d93c0b42-3ede-4637-a9c2-d68a3b225c11"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "7019306.360640",
+    "igst": "4869989.737984",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42461771.7808",
+    "total_tax": "11889296.098624",
+    "grand_total": "54351067.879424"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "f77f3132-9e67-4502-ae9a-fdca16779638",
+  "grn_id": "227780db-f774-49d3-968d-fc3212de6a37",
+  "generated_at": "2026-11-18T15:45:20.735800"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "e2584483-3caf-4ec5-b3f8-d66b27d076d1",
+  "invoice_number": "INV000016",
+  "vendor_id": "191dcfb9-bd8f-41cd-9a14-73b75aed0807",
+  "vendor_gstin": "07ZWASR5261NBZI",
+  "header": {
+    "invoice_number": "INV000016",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "07ZWASR5261NBZI",
+    "vendor_name": "Best Group",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC100",
+      "item_description": "Welding Set",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "891.89",
+      "unit_price": "35834.34",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "8.74",
+      "taxable_value": "29166960.20007276",
+      "tax_amount": "3500035.2240087312",
+      "line_total": "32666995.4240814912",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC775",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "313.35",
+      "unit_price": "14529.17",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "4552715.4195",
+      "tax_amount": "227635.770975",
+      "line_total": "4780351.190475",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "3727670.9949837312",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "33719675.61957276",
+    "total_tax": "3727670.9949837312",
+    "grand_total": "37447346.6145564912"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.582241"
+}

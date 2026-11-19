@@ -1,0 +1,103 @@
+{
+  "invoice_id": "dd886717-0444-43f1-9bbf-22cf2ff7f67f",
+  "invoice_number": "INV000413",
+  "vendor_id": "897397a6-dd52-4414-a8b9-13b3c323089b",
+  "vendor_gstin": "07PNIAC4919ENZW",
+  "header": {
+    "invoice_number": "INV000413",
+    "invoice_date": "2026-11-17",
+    "vendor_gstin": "07PNIAC4919ENZW",
+    "vendor_name": "Superior Energy",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP605",
+      "item_description": "Paper Bags",
+      "hsn_code": "4811",
+      "uom": "PKT",
+      "quantity": "166.46",
+      "unit_price": "47732.96",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7945628.5216",
+      "tax_amount": "953475.422592",
+      "line_total": "8899103.944192",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP579",
+      "item_description": "A4 Paper Rim",
+      "hsn_code": "4819",
+      "uom": "PCS",
+      "quantity": "749.55",
+      "unit_price": "4263.72",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "8.03",
+      "taxable_value": "2939242.85852220",
+      "tax_amount": "822988.0003862160",
+      "line_total": "3762230.8589084160",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP441",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4819",
+      "uom": "ROL",
+      "quantity": "737.12",
+      "unit_price": "47658.94",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "35130357.8528",
+      "tax_amount": "1756517.892640",
+      "line_total": "36886875.745440",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "PAP275",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4802",
+      "uom": "ROL",
+      "quantity": "874.80",
+      "unit_price": "37725.22",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0.16",
+      "taxable_value": "32949219.22007040",
+      "tax_amount": "9225781.3816197120",
+      "line_total": "42175000.6016901120",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "2709993.315232",
+    "sgst": "9225781.3816197120",
+    "igst": "822988.0003862160",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "78964448.45299260",
+    "total_tax": "12758762.6972379280",
+    "grand_total": "91723211.1502305280"
+  },
+  "expected_decision": "investigate",
+  "defects": [],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.701592"
+}

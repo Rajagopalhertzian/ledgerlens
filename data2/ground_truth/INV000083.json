@@ -1,0 +1,61 @@
+{
+  "invoice_id": "d5588559-e896-414d-8f87-2135f7c3c1fb",
+  "invoice_number": "INV000083",
+  "vendor_id": "d414d131-eef7-4646-83b3-8a8880a5f208",
+  "vendor_gstin": "06VHHSP3893PNZT",
+  "header": {
+    "invoice_number": "INV000083",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "06VHHSP3893PNZT",
+    "vendor_name": "Sri Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000095",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "RUB452",
+      "item_description": "Rubber Sheets",
+      "hsn_code": "4009",
+      "uom": "SET",
+      "quantity": "885.90",
+      "unit_price": "35069.44",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "31068016.8960",
+      "tax_amount": "5592243.041280",
+      "line_total": "36660259.937280",
+      "po_line_id": "bfe2b821-83e4-48d9-b1ef-33b0decdbb45"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "5592243.041280",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "31068016.8960",
+    "total_tax": "5592243.041280",
+    "grand_total": "36660259.937280"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "44cf44e9-c18f-4046-ae94-e5470fd75b72",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.602583"
+}

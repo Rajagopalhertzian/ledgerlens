@@ -1,0 +1,141 @@
+{
+  "invoice_id": "5adcc5ee-1db5-4333-855d-2d9069c0b909",
+  "invoice_number": "INV000004",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV000004",
+    "invoice_date": "2026-10-23",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000065",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX727",
+      "item_description": "Towels Bath",
+      "hsn_code": "6109",
+      "uom": "ROL",
+      "quantity": "439.22",
+      "unit_price": "46291.21",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "8.47",
+      "taxable_value": "18609902.71699986",
+      "tax_amount": "930495.1358499930",
+      "line_total": "19540397.8528498530",
+      "po_line_id": "32600c41-dd25-462e-ba96-90a7267b9ee3"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX377",
+      "item_description": "Protective Clothing",
+      "hsn_code": "6109",
+      "uom": "PCS",
+      "quantity": "416.81",
+      "unit_price": "40389.85",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "1.43",
+      "taxable_value": "16594154.40318745",
+      "tax_amount": "4646363.2328924860",
+      "line_total": "21240517.6360799360",
+      "po_line_id": "cef8f0d9-1819-45a2-b92c-a0624fa49872"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX190",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5513",
+      "uom": "SET",
+      "quantity": "240.01",
+      "unit_price": "8809.99",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "5.00",
+      "taxable_value": "2008761.414905",
+      "tax_amount": "100438.07074525",
+      "line_total": "2109199.48565025",
+      "po_line_id": "1fc34baa-ef77-4796-9189-4fb9f15b3909"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX197",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "6109",
+      "uom": "PCS",
+      "quantity": "419.37",
+      "unit_price": "27929.75",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "11712899.2575",
+      "tax_amount": "1405547.910900",
+      "line_total": "13118447.168400",
+      "po_line_id": "fe058d49-e204-4e46-9609-a3cf70d8d7af"
+    },
+    {
+      "line_number": 5,
+      "item_code": "TEX252",
+      "item_description": "Towels Bath",
+      "hsn_code": "5513",
+      "uom": "ROL",
+      "quantity": "464.75",
+      "unit_price": "31360.57",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "1.13",
+      "taxable_value": "14410129.38604525",
+      "tax_amount": "1729215.5263254300",
+      "line_total": "16139344.9123706800",
+      "po_line_id": "eaf88c0d-aa03-411a-89e0-0cb9ac66ab12"
+    },
+    {
+      "line_number": 6,
+      "item_code": "TEX391",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "6109",
+      "uom": "SET",
+      "quantity": "177.15",
+      "unit_price": "33540.12",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5941632.2580",
+      "tax_amount": "297081.612900",
+      "line_total": "6238713.870900",
+      "po_line_id": "c644d6ab-0e63-4611-aaab-46d3764a235e"
+    }
+  ],
+  "taxes": {
+    "cgst": "2633124.6596499930",
+    "sgst": "1729215.5263254300",
+    "igst": "4746801.3036377360",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "69277479.43663756",
+    "total_tax": "9109141.4896131590",
+    "grand_total": "78386620.9262507190"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4ced0d61-64ff-49cc-bd14-e76aee334430",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.578513"
+}

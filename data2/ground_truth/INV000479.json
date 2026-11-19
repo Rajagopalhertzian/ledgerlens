@@ -1,0 +1,77 @@
+{
+  "invoice_id": "58d34e5f-d247-4570-aca3-e860cc7d8428",
+  "invoice_number": "INV000479",
+  "vendor_id": "96cfe961-e311-45c9-9ebc-4cf4a2fff87d",
+  "vendor_gstin": "27RMZIK3134FKZN",
+  "header": {
+    "invoice_number": "INV000479",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "27RMZIK3134FKZN",
+    "vendor_name": "Universal Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR177",
+      "item_description": "Bookshelf",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "34.93",
+      "unit_price": "13105.93",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "457790.1349",
+      "tax_amount": "128181.237772",
+      "line_total": "585971.372672",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR662",
+      "item_description": "Storage Rack",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "590.75",
+      "unit_price": "37160.50",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "21952565.3750",
+      "tax_amount": "3951461.767500",
+      "line_total": "25904027.142500",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "128181.237772",
+    "sgst": "3951461.767500",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "22410355.5099",
+    "total_tax": "4079643.005272",
+    "grand_total": "26489998.515172"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.724474"
+}

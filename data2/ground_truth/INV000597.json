@@ -1,0 +1,93 @@
+{
+  "invoice_id": "a5a1097f-5c43-4103-98cd-75c0b5c8d425",
+  "invoice_number": "INV000597",
+  "vendor_id": "869d2730-e771-4d64-b087-91a7e2e66587",
+  "vendor_gstin": "29BXLDX8304FSZH",
+  "header": {
+    "invoice_number": "INV000597",
+    "invoice_date": "2026-11-15",
+    "vendor_gstin": "29BXLDX8304FSZH",
+    "vendor_name": "Imperial Cement",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE726",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8544",
+      "uom": "PCS",
+      "quantity": "601.00",
+      "unit_price": "7938.19",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "9.29",
+      "taxable_value": "4327640.02154900",
+      "tax_amount": "216382.0010774500",
+      "line_total": "4544022.0226264500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE262",
+      "item_description": "Hard Drive 1TB",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "690.05",
+      "unit_price": "7463.50",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "5150188.1750",
+      "tax_amount": "927033.871500",
+      "line_total": "6077222.046500",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE611",
+      "item_description": "Mouse Optical",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "238.36",
+      "unit_price": "16695.06",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "3.51",
+      "taxable_value": "3839756.35059384",
+      "tax_amount": "691156.1431068912",
+      "line_total": "4530912.4937007312",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "927033.871500",
+    "sgst": "0",
+    "igst": "907538.1441843412",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "13317584.54714284",
+    "total_tax": "1834572.0156843412",
+    "grand_total": "15152156.5628271812"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.759536"
+}

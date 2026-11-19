@@ -1,0 +1,77 @@
+{
+  "invoice_id": "9e298730-e692-4f56-9459-ec448af450de",
+  "invoice_number": "INV000169",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000169",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX498",
+      "item_description": "Denim Jeans",
+      "hsn_code": "5208",
+      "uom": "SET",
+      "quantity": "974.99",
+      "unit_price": "19920.38",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "8.45",
+      "taxable_value": "17780997.82167110",
+      "tax_amount": "2133719.7386005320",
+      "line_total": "19914717.5602716320",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX832",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "6109",
+      "uom": "PCS",
+      "quantity": "172.66",
+      "unit_price": "46327.62",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "6.12",
+      "taxable_value": "7509392.54480496",
+      "tax_amount": "2102629.9125453888",
+      "line_total": "9612022.4573503488",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "4236349.6511459208",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "25290390.36647606",
+    "total_tax": "4236349.6511459208",
+    "grand_total": "29526740.0176219808"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D05",
+      "evidence": "Exact duplicate of existing invoice (same GSTIN + FY + type + number)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.630905"
+}

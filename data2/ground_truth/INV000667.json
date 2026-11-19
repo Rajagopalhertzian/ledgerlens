@@ -1,0 +1,141 @@
+{
+  "invoice_id": "8d6b1331-1b13-4311-b352-6ac9db416569",
+  "invoice_number": "INV000667",
+  "vendor_id": "bc1349b3-3c4a-4ad5-baa4-580a1ac14c63",
+  "vendor_gstin": "36XADWZ0726M6Z1",
+  "header": {
+    "invoice_number": "INV000667",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "36XADWZ0726M6Z1",
+    "vendor_name": "Major Construction",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000319",
+    "grn_reference": "GRN000375",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO352",
+      "item_description": "Biscuits Carton",
+      "hsn_code": "1101",
+      "uom": "KG",
+      "quantity": "371.52",
+      "unit_price": "29547.13",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "8.44",
+      "taxable_value": "10050861.41974656",
+      "tax_amount": "1809155.0555543808",
+      "line_total": "11860016.4753009408",
+      "po_line_id": "24102685-030a-4e2d-a735-7a2863365d5d"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO160",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1101",
+      "uom": "KG",
+      "quantity": "137.72",
+      "unit_price": "40523.38",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0.44",
+      "taxable_value": "5556324.02206816",
+      "tax_amount": "1555770.7261790848",
+      "line_total": "7112094.7482472448",
+      "po_line_id": "ad4476c1-c505-47eb-938e-e94cf6920c97"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FOO382",
+      "item_description": "Salt Iodized",
+      "hsn_code": "1001",
+      "uom": "KG",
+      "quantity": "39.69",
+      "unit_price": "1429.61",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "4.49",
+      "taxable_value": "54193.54008159",
+      "tax_amount": "15174.1912228452",
+      "line_total": "69367.7313044352",
+      "po_line_id": "507b634a-91ed-4589-b45c-ea44ee0e1872"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FOO475",
+      "item_description": "Dal Toor 30kg",
+      "hsn_code": "1001",
+      "uom": "LTR",
+      "quantity": "424.38",
+      "unit_price": "2226.91",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "7.27",
+      "taxable_value": "876350.48981634",
+      "tax_amount": "43817.5244908170",
+      "line_total": "920168.0143071570",
+      "po_line_id": "f1965f1f-c676-44d8-a0e5-3cfbe826f977"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FOO574",
+      "item_description": "Wheat Flour 50kg",
+      "hsn_code": "1701",
+      "uom": "LTR",
+      "quantity": "593.15",
+      "unit_price": "43434.79",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "25763345.6885",
+      "tax_amount": "1288167.284425",
+      "line_total": "27051512.972925",
+      "po_line_id": "fe69fb58-042f-4e9f-b37b-ae0dffaaab74"
+    },
+    {
+      "line_number": 6,
+      "item_code": "FOO334",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "1001",
+      "uom": "PKT",
+      "quantity": "43.41",
+      "unit_price": "22702.86",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "985531.1526",
+      "tax_amount": "118263.738312",
+      "line_total": "1103794.890912",
+      "po_line_id": "110e23da-1453-4478-8b68-bc8c9455971b"
+    }
+  ],
+  "taxes": {
+    "cgst": "118263.738312",
+    "sgst": "4653093.0661584656",
+    "igst": "58991.7157136622",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "43286606.31281265",
+    "total_tax": "4830348.5201841278",
+    "grand_total": "48116954.8329967778"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "c7604c0c-4a03-4827-944a-030ff5e5a9bc",
+  "grn_id": "4b3f9336-00ed-4437-9c7d-a8feed24e92b",
+  "generated_at": "2026-11-18T15:45:20.779741"
+}

@@ -1,0 +1,77 @@
+{
+  "invoice_id": "9366c6cb-74d8-4f9f-b462-deb5e82c9d0a",
+  "invoice_number": "INV000523",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000523",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000032",
+    "grn_reference": "GRN000038",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO644",
+      "item_description": "Edible Oil 15L",
+      "hsn_code": "2106",
+      "uom": "PKT",
+      "quantity": "764.77",
+      "unit_price": "45506.72",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "34802174.2544",
+      "tax_amount": "6264391.365792",
+      "line_total": "41066565.620192",
+      "po_line_id": "9d88d834-ed22-4918-a6c7-525642dc2845"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FOO732",
+      "item_description": "Spices Mixed",
+      "hsn_code": "1101",
+      "uom": "LTR",
+      "quantity": "853.63",
+      "unit_price": "9202.12",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "7855205.6956",
+      "tax_amount": "1413937.025208",
+      "line_total": "9269142.720808",
+      "po_line_id": "7216d4be-90d8-4f17-bf10-c543fd3b55d7"
+    }
+  ],
+  "taxes": {
+    "cgst": "1413937.025208",
+    "sgst": "6264391.365792",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "42657379.9500",
+    "total_tax": "7678328.391000",
+    "grand_total": "50335708.341000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "3b4b9098-0e1e-4fc9-bf00-5626a40fb8bf",
+  "grn_id": "658a62e3-7760-4726-93d0-a61eb0246642",
+  "generated_at": "2026-11-18T15:45:20.737803"
+}

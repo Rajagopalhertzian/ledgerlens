@@ -1,0 +1,77 @@
+{
+  "invoice_id": "ae6d270e-c9e9-48aa-bba2-8ae8f0054ff0",
+  "invoice_number": "INV000174",
+  "vendor_id": "c6159298-8314-4625-a421-82626ba44cd7",
+  "vendor_gstin": "24QSTLC0205QTZ2",
+  "header": {
+    "invoice_number": "INV000174",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "24QSTLC0205QTZ2",
+    "vendor_name": "Classic Engineering",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PLA747",
+      "item_description": "PET Bottles",
+      "hsn_code": "3901",
+      "uom": "PKT",
+      "quantity": "12.13",
+      "unit_price": "9955.93",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "120765.4309",
+      "tax_amount": "14491.851708",
+      "line_total": "135257.282608",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PLA598",
+      "item_description": "Bubble Wrap",
+      "hsn_code": "3926",
+      "uom": "PCS",
+      "quantity": "533.84",
+      "unit_price": "18420.00",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "9833332.8000",
+      "tax_amount": "491666.640000",
+      "line_total": "10324999.440000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "506158.491708",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "9954098.2309",
+    "total_tax": "506158.491708",
+    "grand_total": "10460256.722608"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.632273"
+}

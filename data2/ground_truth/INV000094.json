@@ -1,0 +1,109 @@
+{
+  "invoice_id": "6722105d-22d1-4992-ab30-cc67581995f2",
+  "invoice_number": "INV000094",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "27PXTPA2685AIZ4",
+  "header": {
+    "invoice_number": "INV000094",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "27PXTPA2685AIZ4",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE756",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "543.21",
+      "unit_price": "627.67",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "340956.6207",
+      "tax_amount": "40914.794484",
+      "line_total": "381871.415184",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE636",
+      "item_description": "Scanner Flatbed",
+      "hsn_code": "8544",
+      "uom": "SET",
+      "quantity": "999.46",
+      "unit_price": "48473.76",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.66",
+      "taxable_value": "46189926.74729664",
+      "tax_amount": "8314186.8145133952",
+      "line_total": "54504113.5618100352",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE469",
+      "item_description": "Motherboard ATX",
+      "hsn_code": "8517",
+      "uom": "PCS",
+      "quantity": "880.24",
+      "unit_price": "38072.38",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "33512831.7712",
+      "tax_amount": "6032309.718816",
+      "line_total": "39545141.490016",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE187",
+      "item_description": "Printer LaserJet",
+      "hsn_code": "8517",
+      "uom": "SET",
+      "quantity": "84.12",
+      "unit_price": "20005.59",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1682870.2308",
+      "tax_amount": "84143.511540",
+      "line_total": "1767013.742340",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "6157368.024840",
+    "sgst": "0",
+    "igst": "8314186.8145133952",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "81726585.36999664",
+    "total_tax": "14471554.8393533952",
+    "grand_total": "96198140.2093500352"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.608226"
+}

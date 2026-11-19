@@ -1,0 +1,61 @@
+{
+  "invoice_id": "44a9e18b-b7b2-46a4-b560-b92ea7569f1a",
+  "invoice_number": "INV000232",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000232",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000294",
+    "grn_reference": "GRN000343",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE807",
+      "item_description": "Degreaser",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "614.89",
+      "unit_price": "6294.44",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "3870388.2116",
+      "tax_amount": "193519.410580",
+      "line_total": "4063907.622180",
+      "po_line_id": "f90c6daf-bc78-48d7-ab7f-46dba138df65"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "193519.410580",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "3870388.2116",
+    "total_tax": "193519.410580",
+    "grand_total": "4063907.622180"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "b435275a-3111-47a0-bfe6-af88d6021d63",
+  "grn_id": "2f638fc7-0a8d-4ea3-8b49-5f55b924f4e1",
+  "generated_at": "2026-11-18T15:45:20.648448"
+}

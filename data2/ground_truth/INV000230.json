@@ -1,0 +1,109 @@
+{
+  "invoice_id": "173e48a5-b8d4-47d9-8baa-beb0ba625058",
+  "invoice_number": "INV000230",
+  "vendor_id": "191dcfb9-bd8f-41cd-9a14-73b75aed0807",
+  "vendor_gstin": "07ZWASR5261NBZI",
+  "header": {
+    "invoice_number": "INV000230",
+    "invoice_date": "2026-10-25",
+    "vendor_gstin": "07ZWASR5261NBZI",
+    "vendor_name": "Best Group",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX128",
+      "item_description": "T-Shirts Bulk",
+      "hsn_code": "5209",
+      "uom": "MTR",
+      "quantity": "679.90",
+      "unit_price": "24551.42",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "16692510.4580",
+      "tax_amount": "4673902.928240",
+      "line_total": "21366413.386240",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX100",
+      "item_description": "Polyester Yarn",
+      "hsn_code": "5208",
+      "uom": "MTR",
+      "quantity": "82.92",
+      "unit_price": "30528.50",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2531423.2200",
+      "tax_amount": "455656.179600",
+      "line_total": "2987079.399600",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX876",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5407",
+      "uom": "ROL",
+      "quantity": "749.63",
+      "unit_price": "20693.64",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15512573.3532",
+      "tax_amount": "2792263.203576",
+      "line_total": "18304836.556776",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX493",
+      "item_description": "Bedsheets Set",
+      "hsn_code": "5208",
+      "uom": "MTR",
+      "quantity": "87.94",
+      "unit_price": "43213.94",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3800233.8836",
+      "tax_amount": "1064065.487408",
+      "line_total": "4864299.371008",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "5737968.415648",
+    "sgst": "3247919.383176",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "38536740.9148",
+    "total_tax": "8985887.798824",
+    "grand_total": "47522628.713624"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.648097"
+}

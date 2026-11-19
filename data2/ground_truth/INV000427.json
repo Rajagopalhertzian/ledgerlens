@@ -1,0 +1,125 @@
+{
+  "invoice_id": "3668a456-bc13-4af8-b739-3b2e34cddb22",
+  "invoice_number": "INV000427",
+  "vendor_id": "86c7e8f1-f7fc-4444-b4e3-26e012b09e40",
+  "vendor_gstin": "27PXTPA2685AIZ4",
+  "header": {
+    "invoice_number": "INV000427",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "27PXTPA2685AIZ4",
+    "vendor_name": "Major Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000353",
+    "grn_reference": null,
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR271",
+      "item_description": "Whiteboard",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "567.99",
+      "unit_price": "17255.12",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9800735.6088",
+      "tax_amount": "1764132.409584",
+      "line_total": "11564868.018384",
+      "po_line_id": "13497f2e-ba1f-4a67-bb31-66d04fdebe11"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR361",
+      "item_description": "Conference Table",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "846.66",
+      "unit_price": "19328.48",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "9.69",
+      "taxable_value": "14778916.20683808",
+      "tax_amount": "4138096.5379146624",
+      "line_total": "18917012.7447527424",
+      "po_line_id": "26a28666-18b5-4c95-b6f2-155e9413cf84"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR203",
+      "item_description": "Reception Counter",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "919.72",
+      "unit_price": "36968.31",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "34000494.0732",
+      "tax_amount": "6120088.933176",
+      "line_total": "40120583.006376",
+      "po_line_id": "e2d61bbf-9f3b-42e4-83dd-219a1ce0717c"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR517",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "534.27",
+      "unit_price": "24700.32",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13196639.9664",
+      "tax_amount": "659831.998320",
+      "line_total": "13856471.964720",
+      "po_line_id": "db892e47-d7dd-4b81-a75f-0d9ea97474e7"
+    },
+    {
+      "line_number": 5,
+      "item_code": "FUR799",
+      "item_description": "Partition Screen",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "724.63",
+      "unit_price": "45381.25",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "32884615.1875",
+      "tax_amount": "1644230.759375",
+      "line_total": "34528845.946875",
+      "po_line_id": "13bc8079-d7ab-406c-93a1-2e5ccce8a93c"
+    }
+  ],
+  "taxes": {
+    "cgst": "4138096.5379146624",
+    "sgst": "6120088.933176",
+    "igst": "4068195.167279",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "104661401.04273808",
+    "total_tax": "14326380.6383696624",
+    "grand_total": "118987781.6811077424"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ccd173d4-7cc1-4fe1-8f25-3aa99469ac1d",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.706306"
+}

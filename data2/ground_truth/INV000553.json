@@ -1,0 +1,93 @@
+{
+  "invoice_id": "c372d957-b8e2-455f-a7db-d34b64535ea0",
+  "invoice_number": "INV000553",
+  "vendor_id": "13003e7d-d2f8-40fa-8848-b1af57fa797b",
+  "vendor_gstin": "09SSEYN7711YIZ8",
+  "header": {
+    "invoice_number": "INV000553",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "09SSEYN7711YIZ8",
+    "vendor_name": "Major Textiles",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000389",
+    "grn_reference": "GRN000450",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET866",
+      "item_description": "Flat Bars",
+      "hsn_code": "7201",
+      "uom": "PCS",
+      "quantity": "744.77",
+      "unit_price": "26969.21",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20085858.5317",
+      "tax_amount": "1004292.926585",
+      "line_total": "21090151.458285",
+      "po_line_id": "6fd6c958-9bad-46e3-bb2b-9989cf7c2451"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET414",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7301",
+      "uom": "KG",
+      "quantity": "11.42",
+      "unit_price": "47930.44",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "547365.6248",
+      "tax_amount": "65683.874976",
+      "line_total": "613049.499776",
+      "po_line_id": "0f0ef430-451a-4f13-8ca6-b79da0fc7d84"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET806",
+      "item_description": "Flat Bars",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "350.21",
+      "unit_price": "12243.13",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "4287666.5573",
+      "tax_amount": "1200546.636044",
+      "line_total": "5488213.193344",
+      "po_line_id": "c7862907-3de7-4ad8-bf7f-37022b160f8e"
+    }
+  ],
+  "taxes": {
+    "cgst": "1200546.636044",
+    "sgst": "0",
+    "igst": "1069976.801561",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "24920890.7138",
+    "total_tax": "2270523.437605",
+    "grand_total": "27191414.151405"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ba1c8af5-f024-46fc-bc5c-c58aecdc0558",
+  "grn_id": "eef68d63-9cf9-4521-ab9a-d18135c16ac9",
+  "generated_at": "2026-11-18T15:45:20.746445"
+}

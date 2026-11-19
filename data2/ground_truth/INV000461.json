@@ -1,0 +1,109 @@
+{
+  "invoice_id": "e6a0c8da-7ecf-4eab-bfce-0d935309b47c",
+  "invoice_number": "INV000461",
+  "vendor_id": "919a7102-35d3-4a1b-ae99-14efdcff5487",
+  "vendor_gstin": "06SBRQC7861S3ZN",
+  "header": {
+    "invoice_number": "INV000461",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "06SBRQC7861S3ZN",
+    "vendor_name": "M/s Metals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000220",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX936",
+      "item_description": "Towels Bath",
+      "hsn_code": "5512",
+      "uom": "MTR",
+      "quantity": "572.51",
+      "unit_price": "24243.86",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13879852.2886",
+      "tax_amount": "2498373.411948",
+      "line_total": "16378225.700548",
+      "po_line_id": "cbee95bd-6cdb-4b22-8e7c-67a79a8daaeb"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX862",
+      "item_description": "Curtains Window",
+      "hsn_code": "5513",
+      "uom": "SET",
+      "quantity": "992.71",
+      "unit_price": "22714.36",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "22548772.3156",
+      "tax_amount": "4058779.016808",
+      "line_total": "26607551.332408",
+      "po_line_id": "a4d14cb9-8613-4fb6-89b5-8d20e528e1b0"
+    },
+    {
+      "line_number": 3,
+      "item_code": "TEX599",
+      "item_description": "Socks Cotton",
+      "hsn_code": "5407",
+      "uom": "PCS",
+      "quantity": "337.92",
+      "unit_price": "44637.09",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15083765.4528",
+      "tax_amount": "2715077.781504",
+      "line_total": "17798843.234304",
+      "po_line_id": "c8b55e5d-f7b1-4d01-8de8-ea37b5b53cdc"
+    },
+    {
+      "line_number": 4,
+      "item_code": "TEX536",
+      "item_description": "Uniform Fabric",
+      "hsn_code": "5513",
+      "uom": "MTR",
+      "quantity": "668.34",
+      "unit_price": "17184.51",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "11485095.4134",
+      "tax_amount": "2067317.174412",
+      "line_total": "13552412.587812",
+      "po_line_id": "51d948fa-c860-46a6-8be4-bbc049f26d44"
+    }
+  ],
+  "taxes": {
+    "cgst": "4565690.586360",
+    "sgst": "2715077.781504",
+    "igst": "4058779.016808",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "62997485.4704",
+    "total_tax": "11339547.384672",
+    "grand_total": "74337032.855072"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "963fb757-a3dd-424f-b046-bd472c4dc7b3",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.718583"
+}

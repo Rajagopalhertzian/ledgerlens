@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice INV000587</title>
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'DejaVu Sans', 'Arial', sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
+        .container { max-width: 210mm; margin: 0 auto; }
+        .header { border-bottom: 3px double #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+        .header-top { display: flex; justify-content: space-between; align-items: flex-start; }
+        .company-block h1 { margin: 0; font-size: 20pt; color: #2c3e50; }
+        .company-block p { margin: 2px 0; font-size: 9pt; color: #666; }
+        .invoice-header { text-align: right; }
+        .invoice-header h2 { margin: 0; font-size: 16pt; color: #2c3e50; background: #ecf0f1; padding: 8px 12px; display: inline-block; }
+        .invoice-meta { margin-top: 8px; font-size: 9pt; }
+        .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .party-box { background: #f8f9fa; padding: 12px; border-radius: 4px; }
+        .party-box h3 { margin: 0 0 8px 0; font-size: 9pt; color: #666; text-transform: uppercase; }
+        .party-box .row { display: flex; justify-content: space-between; margin: 4px 0; font-size: 9pt; }
+        .party-box .label { color: #666; }
+        .party-box .value { font-weight: 500; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 9pt; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background: #34495e; color: white; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        /* Column order swapped: Description first, then HSN, UoM, etc. */
+        .totals-table { width: 350px; margin-left: auto; border: 1px solid #ddd; }
+        .totals-table th, .totals-table td { border: 1px solid #ddd; padding: 8px 12px; }
+        .totals-table .grand { background: #2c3e50; color: white; font-weight: bold; }
+        .tax-summary { font-size: 9pt; margin-bottom: 15px; }
+        .tax-summary .row { display: flex; justify-content: space-between; padding: 4px 0; }
+        .footer { border-top: 1px solid #ddd; padding-top: 15px; font-size: 8pt; color: #666; }
+        .bank-box { background: #f8f9fa; padding: 12px; border-radius: 4px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="company-block">
+                    <h1>Select Suppliers</h1>
+                    <p>GSTIN: 36BKULC9505HAZG</p>
+                    <p>142 MG Road, Near Metro Station, Ghaziabad, 36, 201001</p>
+                </div>
+                <div class="invoice-header">
+                    <h2>TAX INVOICE</h2>
+                    <div class="invoice-meta">
+                        <div><strong>No:</strong> INV000587</div>
+                        <div><strong>Date:</strong> 04/11/2026</div>
+                        <div><strong>PO:</strong> PO630542</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parties">
+            <div class="party-box">
+                <h3>Bill To</h3>
+                <div class="row"><span class="label">LedgerLens Technologies Pvt Ltd</span></div>
+                <div class="row"><span class="label">GSTIN:</span><span class="value">29AAAAA0000A1Z5</span></div>
+                <div class="row"><span class="label">State:</span><span class="value">36</span></div>
+                <div class="row"><span class="label">123 Tech Park, Bengaluru, 29, 560100</span></div>
+            </div>
+            <div class="party-box">
+                <h3>Ship To</h3>
+                <div class="row"><span class="label">Select Suppliers</span></div>
+                <div class="row"><span class="label">GSTIN:</span><span class="value">36BKULC9505HAZG</span></div>
+                <div class="row"><span class="label">State:</span><span class="value">36</span></div>
+                <div class="row"><span class="label">142 MG Road, Near Metro Station, Ghaziabad, 36, 201001</span></div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 5%">#</th>
+                    <th style="width: 30%">Item Description</th>
+                    <th style="width: 10%">HSN Code</th>
+                    <th style="width: 7%">UoM</th>
+                    <th style="width: 7%" class="text-right">Qty</th>
+                    <th style="width: 10%" class="text-right">Rate</th>
+                    <th style="width: 7%" class="text-right">Disc%</th>
+                    <th style="width: 10%" class="text-right">Taxable</th>
+                    <th style="width: 7%" class="text-center">Tax</th>
+                    <th style="width: 7%" class="text-right">Tax Amt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Wheat Flour 50kg</td>
+                    <td>1701</td>
+                    <td class="text-center">PKT</td>
+                    <td class="text-right">729.65</td>
+                    <td class="text-right">15,197.05</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,10,88,527.53</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">13,30,623.30</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>Sauce Bottles</td>
+                    <td>1701</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">450.16</td>
+                    <td class="text-right">40,807.48</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">1,83,69,895.20</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">51,43,570.66</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Sauce Bottles</td>
+                    <td>1901</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">8.43</td>
+                    <td class="text-right">39,182.01</td>
+                    <td class="text-right">8.76%</td>
+                    <td class="text-right">3,01,369.68</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">54,246.54</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>Basmati Rice 25kg</td>
+                    <td>1006</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">240.78</td>
+                    <td class="text-right">30,235.70</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">72,80,151.85</td>
+                    <td class="text-center">CGST</td>
+                    <td class="text-right">13,10,427.33</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>Basmati Rice 25kg</td>
+                    <td>1001</td>
+                    <td class="text-center">PCS</td>
+                    <td class="text-right">711.65</td>
+                    <td class="text-right">40,030.41</td>
+                    <td class="text-right">4.83%</td>
+                    <td class="text-right">2,71,11,688.20</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">48,80,103.88</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>Edible Oil 15L</td>
+                    <td>1901</td>
+                    <td class="text-center">LTR</td>
+                    <td class="text-right">148.66</td>
+                    <td class="text-right">34,049.75</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">50,61,835.83</td>
+                    <td class="text-center">IGST</td>
+                    <td class="text-right">9,11,130.45</td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td>Biscuits Carton</td>
+                    <td>1901</td>
+                    <td class="text-center">PKT</td>
+                    <td class="text-right">197.46</td>
+                    <td class="text-right">38,508.62</td>
+                    <td class="text-right">0.00%</td>
+                    <td class="text-right">76,03,912.11</td>
+                    <td class="text-center">SGST</td>
+                    <td class="text-right">3,80,195.61</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tax-summary">
+            <div class="row"><span>CGST</span><span>13,10,427.33</span></div>
+            <div class="row"><span>SGST</span><span>66,45,169.33</span></div>
+            <div class="row"><span>IGST</span><span>60,54,701.11</span></div>
+        </div>
+
+        <table class="totals-table">
+            <tr><th>Subtotal</th><td class="text-right">7,68,17,380.40</td></tr>
+            <tr><th>Total Tax</th><td class="text-right">1,40,10,297.77</td></tr>
+            <tr class="grand"><th>Grand Total</th><td class="text-right">9,08,27,678.17</td></tr>
+        </table>
+
+        <div class="footer">
+            <p><strong>Amount in Words:</strong> Nine Crore Eight Lakh Twenty Seven Thousand Six Hundred Seventy Eight Only Rupees Only</p>
+            <div class="bank-box">
+                <strong>Bank Details</strong>
+                <div class="row"><span class="label">A/c:</span><span class="value">XXXXXXXXXXX0988</span></div>
+                <div class="row"><span class="label">IFSC:</span><span class="value">SBIN0OONNCI</span></div>
+                <div class="row"><span class="label">Bank:</span><span class="value">Punjab National Bank</span></div>
+            </div>
+            <p style="margin-top: 15px; font-style: italic;">Declaration: We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</p>
+            <p style="margin-top: 20px;">Authorized Signatory</p>
+        </div>
+    </div>
+</body>
+</html>

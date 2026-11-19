@@ -1,0 +1,95 @@
+{
+  "invoice_id": "7e679a5e-2d56-4c81-9db6-bea63479b563",
+  "invoice_number": "INV000150",
+  "vendor_id": "d0af9338-e0a0-4c88-b56f-c4bcdd364694",
+  "vendor_gstin": "09ANHZA8689D7ZF",
+  "header": {
+    "invoice_number": "INV000150",
+    "invoice_date": "2026-10-28",
+    "vendor_gstin": "09ANHZA8689D7ZF",
+    "vendor_name": "Top Technologies",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO478233",
+    "grn_reference": "GRN000403",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE531",
+      "item_description": "Industrial Solvent",
+      "hsn_code": "2802",
+      "uom": "LTR",
+      "quantity": "856.16",
+      "unit_price": "3580.23",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "8.95",
+      "taxable_value": "2790909.86714640",
+      "tax_amount": "139545.4933573200",
+      "line_total": "2930455.3605037200",
+      "po_line_id": "a3b79913-8036-4a58-9dc3-1d1c27fb3cb9"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE219",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "245.04",
+      "unit_price": "31896.62",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0.14",
+      "taxable_value": "7805005.43792928",
+      "tax_amount": "2185401.5226201984",
+      "line_total": "9990406.9605494784",
+      "po_line_id": "7958ea90-149b-4ec5-ba97-499356cd89f1"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE442",
+      "item_description": "Adhesive Industrial",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "444.63",
+      "unit_price": "39749.46",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "17673802.3998",
+      "tax_amount": "883690.119990",
+      "line_total": "18557492.519790",
+      "po_line_id": "7fcb6f6b-ca75-4217-ace3-7cbcd4ce8f1d"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "883690.119990",
+    "igst": "2324947.0159775184",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "28269717.70487568",
+    "total_tax": "3208637.1359675184",
+    "grand_total": "31478354.8408431984"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D11",
+      "evidence": "PO reference missing or points to non-existent PO",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "fuzzy_resolve_po_or_escalate"
+  ],
+  "po_id": "4fba8c7d-8b07-4971-9ac6-fdf1cbbcf9b8",
+  "grn_id": "cb1d4c43-ee0d-4617-a845-15380f213331",
+  "generated_at": "2026-11-18T15:45:20.625239"
+}

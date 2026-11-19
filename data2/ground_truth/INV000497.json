@@ -1,0 +1,61 @@
+{
+  "invoice_id": "7b5ccfa6-3caf-42fc-88a0-5162448820d6",
+  "invoice_number": "INV000497",
+  "vendor_id": "1f22bb62-4d6b-4b3a-a532-55286e9f93b9",
+  "vendor_gstin": "06JKOFO0572T8Z8",
+  "header": {
+    "invoice_number": "INV000497",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "06JKOFO0572T8Z8",
+    "vendor_name": "Jai Foods",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000057",
+    "grn_reference": "GRN000070",
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR639",
+      "item_description": "Whiteboard",
+      "hsn_code": "9404",
+      "uom": "SET",
+      "quantity": "114.05",
+      "unit_price": "24128.49",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2751854.2845",
+      "tax_amount": "137592.714225",
+      "line_total": "2889446.998725",
+      "po_line_id": "c45779fe-a3dc-4368-bc31-df5414d9a7e2"
+    }
+  ],
+  "taxes": {
+    "cgst": "137592.714225",
+    "sgst": "0",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2751854.2845",
+    "total_tax": "137592.714225",
+    "grand_total": "2889446.998725"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "550b1974-9af5-40bb-b5a7-59ec8efc15ff",
+  "grn_id": "b7f5200d-5f3e-40ca-b26a-31d88662abc4",
+  "generated_at": "2026-11-18T15:45:20.729866"
+}

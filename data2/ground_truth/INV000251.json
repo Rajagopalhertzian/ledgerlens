@@ -1,0 +1,93 @@
+{
+  "invoice_id": "a1e9f322-24ae-4162-986d-932d11047fdc",
+  "invoice_number": "INV000251",
+  "vendor_id": "8b8e2732-1662-45a9-9535-a1e42d9e33b4",
+  "vendor_gstin": "24FKMGO5929VQZJ",
+  "header": {
+    "invoice_number": "INV000251",
+    "invoice_date": "2026-10-20",
+    "vendor_gstin": "24FKMGO5929VQZJ",
+    "vendor_name": "Fine Chemicals",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP638",
+      "item_description": "Envelopes Pack",
+      "hsn_code": "4802",
+      "uom": "PKT",
+      "quantity": "444.02",
+      "unit_price": "41245.27",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "18313724.7854",
+      "tax_amount": "5127842.939912",
+      "line_total": "23441567.725312",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "PAP207",
+      "item_description": "Printing Paper",
+      "hsn_code": "4819",
+      "uom": "PKT",
+      "quantity": "831.20",
+      "unit_price": "16542.46",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "13750092.7520",
+      "tax_amount": "2475016.695360",
+      "line_total": "16225109.447360",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "PAP547",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4803",
+      "uom": "BOX",
+      "quantity": "486.53",
+      "unit_price": "42992.19",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20916990.2007",
+      "tax_amount": "2510038.824084",
+      "line_total": "23427029.024784",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "7602859.635272",
+    "sgst": "0",
+    "igst": "2510038.824084",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "52980807.7381",
+    "total_tax": "10112898.459356",
+    "grand_total": "63093706.197456"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.653706"
+}

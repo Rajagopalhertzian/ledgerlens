@@ -1,0 +1,111 @@
+{
+  "invoice_id": "fcc07492-7d39-4e79-8ef1-6e4cebb15763",
+  "invoice_number": "INV000451",
+  "vendor_id": "59b1c154-03c3-46fa-9c5e-e4f03a97887f",
+  "vendor_gstin": "29FHCGC2633GIZO",
+  "header": {
+    "invoice_number": "INV000451",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "29FHCGC2633GIZO",
+    "vendor_name": "Quality Solutions",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000145",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR228",
+      "item_description": "Storage Rack",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "424.25",
+      "unit_price": "7924.35",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "3361905.4875",
+      "tax_amount": "168095.274375",
+      "line_total": "3530000.761875",
+      "po_line_id": "81535a73-1c37-4ce7-8d5b-67de37d3d818"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR420",
+      "item_description": "Reception Counter",
+      "hsn_code": "9402",
+      "uom": "PCS",
+      "quantity": "219.69",
+      "unit_price": "9266.32",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2035717.8408",
+      "tax_amount": "101785.892040",
+      "line_total": "2137503.732840",
+      "po_line_id": "01124055-150a-4263-9036-f120703bd2d3"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR471",
+      "item_description": "Reception Counter",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "55.62",
+      "unit_price": "18636.76",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "1.04",
+      "taxable_value": "1025796.19465152",
+      "tax_amount": "287222.9345024256",
+      "line_total": "1313019.1291539456",
+      "po_line_id": "3f12dc42-4f3f-4f42-9cd7-1b8c8c52b5ac"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR416",
+      "item_description": "Workstation",
+      "hsn_code": "9405",
+      "uom": "PCS",
+      "quantity": "240.29",
+      "unit_price": "8221.74",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0.11",
+      "taxable_value": "1973428.74250494",
+      "tax_amount": "98671.4371252470",
+      "line_total": "2072100.1796301870",
+      "po_line_id": "f713e0cb-e0ac-4b05-899d-f7e2b3747346"
+    }
+  ],
+  "taxes": {
+    "cgst": "269881.166415",
+    "sgst": "0",
+    "igst": "385894.3716276726",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "8396848.26545646",
+    "total_tax": "655775.5380426726",
+    "grand_total": "9052623.8034991326"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "1c30261a-cae7-4d81-8256-b0c23a9022b1",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.713111"
+}

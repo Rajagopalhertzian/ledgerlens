@@ -1,0 +1,61 @@
+{
+  "invoice_id": "f75856d3-0644-415b-82fc-96c17bf8506b",
+  "invoice_number": "INV000498",
+  "vendor_id": "6a5502ab-d546-4424-b112-2bf7a6beb06b",
+  "vendor_gstin": "29OROYM7426ZRZP",
+  "header": {
+    "invoice_number": "INV000498",
+    "invoice_date": "2026-10-21",
+    "vendor_gstin": "29OROYM7426ZRZP",
+    "vendor_name": "Bharat Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000237",
+    "grn_reference": null,
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC420",
+      "item_description": "Air Compressor",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "9.66",
+      "unit_price": "43126.24",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "416599.4784",
+      "tax_amount": "20829.973920",
+      "line_total": "437429.452320",
+      "po_line_id": "89d72f12-cb94-4468-b687-043a6b3b35cd"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "20829.973920",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "416599.4784",
+    "total_tax": "20829.973920",
+    "grand_total": "437429.452320"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "ed70ec99-bc53-4926-938b-4d7a2f150865",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.730051"
+}

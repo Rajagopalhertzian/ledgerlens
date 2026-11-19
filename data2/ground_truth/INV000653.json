@@ -1,0 +1,127 @@
+{
+  "invoice_id": "8048a39c-e06c-4ccb-ac04-1001361d7608",
+  "invoice_number": "INV000653",
+  "vendor_id": "8ec5ee73-40de-4b86-9383-af7cb0f21b37",
+  "vendor_gstin": "06CPIKH3099HYZP",
+  "header": {
+    "invoice_number": "INV000653",
+    "invoice_date": "2026-10-22",
+    "vendor_gstin": "06CPIKH3099HYZP",
+    "vendor_name": "Global Beverages",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000176",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE426",
+      "item_description": "pH Buffer Solution",
+      "hsn_code": "2902",
+      "uom": "LTR",
+      "quantity": "941.49",
+      "unit_price": "39032.40",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "8.93",
+      "taxable_value": "33466963.02115320",
+      "tax_amount": "6024053.3438075760",
+      "line_total": "39491016.3649607760",
+      "po_line_id": "740d5bdc-52c9-4536-8459-272a27f82777"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE597",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "3802",
+      "uom": "PCS",
+      "quantity": "105.27",
+      "unit_price": "17397.11",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "1831393.7697",
+      "tax_amount": "512790.255516",
+      "line_total": "2344184.025216",
+      "po_line_id": "e7c36d0f-c43f-457c-8c61-10ab7b717303"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE882",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "2801",
+      "uom": "PCS",
+      "quantity": "816.56",
+      "unit_price": "7183.87",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "5866060.8872",
+      "tax_amount": "703927.306464",
+      "line_total": "6569988.193664",
+      "po_line_id": "694ea48d-9f92-404d-b76a-2c567e642f6a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE947",
+      "item_description": "Hydrochloric Acid",
+      "hsn_code": "2902",
+      "uom": "KG",
+      "quantity": "499.41",
+      "unit_price": "1784.43",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "891162.1863",
+      "tax_amount": "160409.193534",
+      "line_total": "1051571.379834",
+      "po_line_id": "15116433-375d-451e-a2ce-995ecc1c3135"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE145",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "2801",
+      "uom": "LTR",
+      "quantity": "854.72",
+      "unit_price": "19258.42",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "16460556.7424",
+      "tax_amount": "823027.837120",
+      "line_total": "17283584.579520",
+      "po_line_id": "93473d3b-9e12-4ed5-8c9e-94b06157c07d"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "823027.837120",
+    "igst": "7401180.0993215760",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58516136.60675320",
+    "total_tax": "8224207.9364415760",
+    "grand_total": "66740344.5431947760"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D04",
+      "evidence": "No Goods Receipt Note found for this invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "hold_until_grn"
+  ],
+  "po_id": "246857ee-06cd-416a-bdde-1177d14b0d26",
+  "grn_id": "015bee9b-3f57-4ff0-ae81-6b68aef07b54",
+  "generated_at": "2026-11-18T15:45:20.776120"
+}

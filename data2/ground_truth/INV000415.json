@@ -1,0 +1,141 @@
+{
+  "invoice_id": "008eaf74-80dc-4b44-a231-26e840d8b7f6",
+  "invoice_number": "INV000415",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000415",
+    "invoice_date": "2026-11-11",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000341",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC871",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "7.24",
+      "unit_price": "3388.96",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "24536.0704",
+      "tax_amount": "4416.492672",
+      "line_total": "28952.563072",
+      "po_line_id": "98fd59b3-0a7b-491f-8160-8a97214c5aa1"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC211",
+      "item_description": "Air Compressor",
+      "hsn_code": "8413",
+      "uom": "PCS",
+      "quantity": "574.79",
+      "unit_price": "48738.76",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28014551.8604",
+      "tax_amount": "3361746.223248",
+      "line_total": "31376298.083648",
+      "po_line_id": "21d1c697-eb3a-41ff-b2b8-db5bd35eb2aa"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC936",
+      "item_description": "Air Compressor",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "186.74",
+      "unit_price": "4135.45",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "772253.9330",
+      "tax_amount": "38612.696650",
+      "line_total": "810866.629650",
+      "po_line_id": "6602dd0c-9057-42cc-a887-a4dbd8a0d77a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC796",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "200.41",
+      "unit_price": "1738.12",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "348336.6292",
+      "tax_amount": "17416.831460",
+      "line_total": "365753.460660",
+      "po_line_id": "7ffe72cd-e1cd-4f27-bf25-e94420d22fbc"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MAC419",
+      "item_description": "Water Pump 1HP",
+      "hsn_code": "8413",
+      "uom": "SET",
+      "quantity": "257.17",
+      "unit_price": "35062.99",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "9017149.1383",
+      "tax_amount": "450857.456915",
+      "line_total": "9468006.595215",
+      "po_line_id": "cf0c494b-dd84-4ea3-8e7d-9f9c8f3a39e3"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MAC884",
+      "item_description": "CNC Lathe",
+      "hsn_code": "8421",
+      "uom": "PCS",
+      "quantity": "865.34",
+      "unit_price": "20665.04",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "9.57",
+      "taxable_value": "16170950.97080848",
+      "tax_amount": "1940514.1164970176",
+      "line_total": "18111465.0873054976",
+      "po_line_id": "73a5f07c-5ed4-4b81-9cd6-7c88312281c2"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "3379163.054708",
+    "igst": "2434400.7627340176",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "54347778.60210848",
+    "total_tax": "5813563.8174420176",
+    "grand_total": "60161342.4195504976"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "7b73e15d-3fc9-4665-89b7-e26b2c03b7b0",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.702368"
+}

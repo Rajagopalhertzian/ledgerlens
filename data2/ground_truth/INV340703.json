@@ -1,0 +1,141 @@
+{
+  "invoice_id": "b58d6a9a-d852-4f64-91aa-f255947cb535",
+  "invoice_number": "INV340703",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV340703",
+    "invoice_date": "2026-10-19",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000285",
+    "grn_reference": "GRN000331",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE879",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3801",
+      "uom": "KG",
+      "quantity": "118.76",
+      "unit_price": "45620.84",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "5417930.9584",
+      "tax_amount": "650151.715008",
+      "line_total": "6068082.673408",
+      "po_line_id": "5c01ba5f-a0b4-425e-8546-459613262c12"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE275",
+      "item_description": "Degreaser",
+      "hsn_code": "2901",
+      "uom": "LTR",
+      "quantity": "154.78",
+      "unit_price": "3257.07",
+      "tax_rate": "0.12",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "504129.2946",
+      "tax_amount": "60495.515352",
+      "line_total": "564624.809952",
+      "po_line_id": "aac32e12-9296-4e24-bd15-5f0bcb44c4aa"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE174",
+      "item_description": "Sulfuric Acid",
+      "hsn_code": "2901",
+      "uom": "PCS",
+      "quantity": "175.92",
+      "unit_price": "42161.09",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "1.58",
+      "taxable_value": "7299790.68534576",
+      "tax_amount": "2043941.3918968128",
+      "line_total": "9343732.0772425728",
+      "po_line_id": "e8832df1-4ee1-4903-a537-e9f3534e8931"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE720",
+      "item_description": "Rust Remover",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "953.66",
+      "unit_price": "21301.83",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "20314703.1978",
+      "tax_amount": "5688116.895384",
+      "line_total": "26002820.093184",
+      "po_line_id": "a55e618e-7f53-44a1-a0f5-a7017e34b6fb"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE218",
+      "item_description": "pH Buffer Solution",
+      "hsn_code": "2802",
+      "uom": "KG",
+      "quantity": "197.07",
+      "unit_price": "14847.16",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2925929.8212",
+      "tax_amount": "819260.349936",
+      "line_total": "3745190.171136",
+      "po_line_id": "55a0ecb5-b38e-4520-abc5-a96c919981d3"
+    },
+    {
+      "line_number": 6,
+      "item_code": "CHE765",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "3802",
+      "uom": "KG",
+      "quantity": "230.51",
+      "unit_price": "35043.45",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "8077865.6595",
+      "tax_amount": "403893.282975",
+      "line_total": "8481758.942475",
+      "po_line_id": "195a3d19-ebac-4952-ace6-079692329ecb"
+    }
+  ],
+  "taxes": {
+    "cgst": "2863201.7418328128",
+    "sgst": "6398764.125744",
+    "igst": "403893.282975",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "44540349.61684576",
+    "total_tax": "9665859.1505518128",
+    "grand_total": "54206208.7673975728"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D06",
+      "evidence": "Near duplicate: similar vendor and amount, different number/date",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1cd2a388-bcf9-4425-b33f-79c38662ca1a",
+  "grn_id": "d4d404ef-d0d4-4e1c-8914-69870bffb1ae",
+  "generated_at": "2026-11-18T15:45:20.639507"
+}

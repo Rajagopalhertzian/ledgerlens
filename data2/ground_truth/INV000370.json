@@ -1,0 +1,77 @@
+{
+  "invoice_id": "ac7b1db7-09ad-4d4d-9190-3c7619cbc098",
+  "invoice_number": "INV000370",
+  "vendor_id": "ca67588c-306d-4cd0-bcdd-39278fdb344d",
+  "vendor_gstin": "36WWJEV7696AKZN",
+  "header": {
+    "invoice_number": "INV000370",
+    "invoice_date": "2026-11-03",
+    "vendor_gstin": "36WWJEV7696AKZN",
+    "vendor_name": "Universal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX716",
+      "item_description": "Safety Vest",
+      "hsn_code": "5513",
+      "uom": "PCS",
+      "quantity": "434.25",
+      "unit_price": "46816.94",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "20330256.1950",
+      "tax_amount": "3659446.115100",
+      "line_total": "23989702.310100",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX125",
+      "item_description": "Gloves Industrial",
+      "hsn_code": "5512",
+      "uom": "SET",
+      "quantity": "816.55",
+      "unit_price": "1477.89",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "1206771.0795",
+      "tax_amount": "337895.902260",
+      "line_total": "1544666.981760",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "337895.902260",
+    "sgst": "0",
+    "igst": "3659446.115100",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "21537027.2745",
+    "total_tax": "3997342.017360",
+    "grand_total": "25534369.291860"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.689262"
+}

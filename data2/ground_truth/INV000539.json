@@ -1,0 +1,125 @@
+{
+  "invoice_id": "7f2d487a-52ea-4bfe-a941-bdd2f8cb974f",
+  "invoice_number": "INV000539",
+  "vendor_id": "447409ea-71f7-4509-bc4e-bae504d2a808",
+  "vendor_gstin": "24YYOCH5343PVZJ",
+  "header": {
+    "invoice_number": "INV000539",
+    "invoice_date": "2026-11-10",
+    "vendor_gstin": "24YYOCH5343PVZJ",
+    "vendor_name": "Elite Corporation",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000331",
+    "grn_reference": null,
+    "place_of_supply": "24",
+    "place_of_delivery": "24",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "CHE996",
+      "item_description": "Coolant Fluid",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "29.86",
+      "unit_price": "6629.71",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "197963.1406",
+      "tax_amount": "35633.365308",
+      "line_total": "233596.505908",
+      "po_line_id": "029c20b1-7df5-4785-af14-89f16b41fefb"
+    },
+    {
+      "line_number": 2,
+      "item_code": "CHE718",
+      "item_description": "Sodium Hydroxide",
+      "hsn_code": "2902",
+      "uom": "PCS",
+      "quantity": "185.14",
+      "unit_price": "20994.83",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "6.33",
+      "taxable_value": "3640936.81330154",
+      "tax_amount": "655368.6263942772",
+      "line_total": "4296305.4396958172",
+      "po_line_id": "b3deb794-56da-47d3-8c2b-59f0136d94f9"
+    },
+    {
+      "line_number": 3,
+      "item_code": "CHE221",
+      "item_description": "Cleaning Agent",
+      "hsn_code": "3801",
+      "uom": "KG",
+      "quantity": "925.43",
+      "unit_price": "556.89",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "515362.7127",
+      "tax_amount": "144301.559556",
+      "line_total": "659664.272256",
+      "po_line_id": "bb645b00-7806-4717-916f-0324279ddae2"
+    },
+    {
+      "line_number": 4,
+      "item_code": "CHE180",
+      "item_description": "Degreaser",
+      "hsn_code": "3802",
+      "uom": "LTR",
+      "quantity": "311.31",
+      "unit_price": "6803.39",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0.28",
+      "taxable_value": "2112033.04354548",
+      "tax_amount": "380165.9478381864",
+      "line_total": "2492198.9913836664",
+      "po_line_id": "1f68238c-84f5-4779-837c-00dd90d26333"
+    },
+    {
+      "line_number": 5,
+      "item_code": "CHE754",
+      "item_description": "Industrial Solvent",
+      "hsn_code": "2802",
+      "uom": "PCS",
+      "quantity": "983.51",
+      "unit_price": "4705.78",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4628181.6878",
+      "tax_amount": "833072.703804",
+      "line_total": "5461254.391604",
+      "po_line_id": "55b15a90-c3f0-40b0-9599-fff1e5417619"
+    }
+  ],
+  "taxes": {
+    "cgst": "799670.1859502772",
+    "sgst": "35633.365308",
+    "igst": "1213238.6516421864",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "11094477.39794702",
+    "total_tax": "2048542.2029004636",
+    "grand_total": "13143019.6008474836"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "a30892ca-e68a-4233-bd96-509ebdbaabd9",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.742317"
+}

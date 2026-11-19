@@ -39,10 +39,7 @@ def init_metrics(
     """
     global _meter_provider
 
-    resource = Resource.create({
-        SERVICE_NAME: service_name,
-        SERVICE_VERSION: service_version,
-    })
+    resource = Resource.create({SERVICE_NAME: service_name, SERVICE_VERSION: service_version})
 
     readers = []
 
@@ -83,93 +80,59 @@ class Metrics:
 
         # Invoice processing metrics
         self.invoices_processed = meter.create_counter(
-            "ledgerlens.invoices.processed",
-            description="Total invoices processed",
-            unit="1",
+            "ledgerlens.invoices.processed", description="Total invoices processed", unit="1"
         )
 
         self.invoice_processing_duration = meter.create_histogram(
-            "ledgerlens.invoice.processing.duration",
-            description="Invoice processing duration",
-            unit="s",
+            "ledgerlens.invoice.processing.duration", description="Invoice processing duration", unit="s"
         )
 
         self.invoice_cost = meter.create_histogram(
-            "ledgerlens.invoice.cost",
-            description="Cost per invoice in USD",
-            unit="USD",
+            "ledgerlens.invoice.cost", description="Cost per invoice in USD", unit="USD"
         )
 
         # LLM metrics
-        self.llm_tokens = meter.create_histogram(
-            "ledgerlens.llm.tokens",
-            description="LLM token usage",
-            unit="tokens",
-        )
+        self.llm_tokens = meter.create_histogram("ledgerlens.llm.tokens", description="LLM token usage", unit="tokens")
 
-        self.llm_cost = meter.create_histogram(
-            "ledgerlens.llm.cost",
-            description="LLM cost in USD",
-            unit="USD",
-        )
+        self.llm_cost = meter.create_histogram("ledgerlens.llm.cost", description="LLM cost in USD", unit="USD")
 
-        self.llm_latency = meter.create_histogram(
-            "ledgerlens.llm.latency",
-            description="LLM call latency",
-            unit="ms",
-        )
+        self.llm_latency = meter.create_histogram("ledgerlens.llm.latency", description="LLM call latency", unit="ms")
 
         # Extraction metrics
         self.extraction_confidence = meter.create_histogram(
-            "ledgerlens.extraction.confidence",
-            description="Extraction confidence scores",
-            unit="1",
+            "ledgerlens.extraction.confidence", description="Extraction confidence scores", unit="1"
         )
 
         self.extraction_field_accuracy = meter.create_gauge(
-            "ledgerlens.extraction.field.accuracy",
-            description="Field-level extraction accuracy",
-            unit="1",
+            "ledgerlens.extraction.field.accuracy", description="Field-level extraction accuracy", unit="1"
         )
 
         # Matching metrics
         self.matching_precision = meter.create_gauge(
-            "ledgerlens.matching.precision",
-            description="3-way matching precision",
-            unit="1",
+            "ledgerlens.matching.precision", description="3-way matching precision", unit="1"
         )
 
         self.matching_recall = meter.create_gauge(
-            "ledgerlens.matching.recall",
-            description="3-way matching recall",
-            unit="1",
+            "ledgerlens.matching.recall", description="3-way matching recall", unit="1"
         )
 
         # Agent metrics
         self.agent_tool_calls = meter.create_histogram(
-            "ledgerlens.agent.tool_calls",
-            description="Number of tool calls per agent run",
-            unit="1",
+            "ledgerlens.agent.tool_calls", description="Number of tool calls per agent run", unit="1"
         )
 
         self.agent_unsafe_actions = meter.create_counter(
-            "ledgerlens.agent.unsafe_actions",
-            description="Unsafe actions attempted (should be 0)",
-            unit="1",
+            "ledgerlens.agent.unsafe_actions", description="Unsafe actions attempted (should be 0)", unit="1"
         )
 
         # Queue metrics
         self.queue_depth = meter.create_up_down_counter(
-            "ledgerlens.queue.depth",
-            description="Current queue depth",
-            unit="1",
+            "ledgerlens.queue.depth", description="Current queue depth", unit="1"
         )
 
         # Error metrics
         self.errors_total = meter.create_counter(
-            "ledgerlens.errors.total",
-            description="Total errors by type",
-            unit="1",
+            "ledgerlens.errors.total", description="Total errors by type", unit="1"
         )
 
 

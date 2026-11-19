@@ -1,0 +1,77 @@
+{
+  "invoice_id": "49587e02-4703-4072-b742-bc3242f77816",
+  "invoice_number": "INV000664",
+  "vendor_id": "7b6d9df2-e12a-4ce4-88ee-11e58212c5ed",
+  "vendor_gstin": "06KVILG9171DBZS",
+  "header": {
+    "invoice_number": "INV000664",
+    "invoice_date": "2026-11-06",
+    "vendor_gstin": "06KVILG9171DBZS",
+    "vendor_name": "First Suppliers",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000165",
+    "grn_reference": null,
+    "place_of_supply": "06",
+    "place_of_delivery": "06",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "TEX281",
+      "item_description": "Towels Bath",
+      "hsn_code": "5209",
+      "uom": "SET",
+      "quantity": "142.69",
+      "unit_price": "735.47",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "104944.2143",
+      "tax_amount": "29384.380004",
+      "line_total": "134328.594304",
+      "po_line_id": "f4f2ac67-9f31-48d0-aedb-a03bc10c2c70"
+    },
+    {
+      "line_number": 2,
+      "item_code": "TEX600",
+      "item_description": "Polyester Yarn",
+      "hsn_code": "5407",
+      "uom": "ROL",
+      "quantity": "679.52",
+      "unit_price": "42669.17",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "28994554.3984",
+      "tax_amount": "5219019.791712",
+      "line_total": "34213574.190112",
+      "po_line_id": "59741b6c-8754-4cf4-a7fb-381f34f4d884"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "5248404.171716",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "29099498.6127",
+    "total_tax": "5248404.171716",
+    "grand_total": "34347902.784416"
+  },
+  "expected_decision": "reject",
+  "defects": [
+    {
+      "type": "D14",
+      "evidence": "Document is illegible or not a valid invoice",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "09d23171-ecfc-46e1-86aa-c888849a7543",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.778900"
+}

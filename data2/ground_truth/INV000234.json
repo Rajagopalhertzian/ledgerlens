@@ -1,0 +1,111 @@
+{
+  "invoice_id": "84ff82a0-25c9-4808-b9de-f4619df003b1",
+  "invoice_number": "INV000234",
+  "vendor_id": "1e14ef2e-c386-4ef7-b045-41995840634b",
+  "vendor_gstin": "27TQSAI2616UQZB",
+  "header": {
+    "invoice_number": "INV000234",
+    "invoice_date": "2026-10-30",
+    "vendor_gstin": "27TQSAI2616UQZB",
+    "vendor_name": "Sri Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000291",
+    "grn_reference": "GRN000338",
+    "place_of_supply": "27",
+    "place_of_delivery": "27",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FUR135",
+      "item_description": "Partition Screen",
+      "hsn_code": "9401",
+      "uom": "PCS",
+      "quantity": "493.09",
+      "unit_price": "6821.88",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.07",
+      "taxable_value": "3226894.11626556",
+      "tax_amount": "580840.9409278008",
+      "line_total": "3807735.0571933608",
+      "po_line_id": "fa755920-1c5d-45a9-b978-b10fddc8046e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "FUR612",
+      "item_description": "Executive Desk",
+      "hsn_code": "9401",
+      "uom": "SET",
+      "quantity": "758.64",
+      "unit_price": "16439.31",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "12471518.1384",
+      "tax_amount": "3492025.078752",
+      "line_total": "15963543.217152",
+      "po_line_id": "8372ad06-4e48-425e-9821-b2ab5e215859"
+    },
+    {
+      "line_number": 3,
+      "item_code": "FUR442",
+      "item_description": "Cafeteria Table",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "11.66",
+      "unit_price": "9322.96",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "108705.7136",
+      "tax_amount": "5435.285680",
+      "line_total": "114140.999280",
+      "po_line_id": "5a58fe5b-ea23-4fe1-b75b-dc5e23005ee7"
+    },
+    {
+      "line_number": 4,
+      "item_code": "FUR441",
+      "item_description": "Executive Desk",
+      "hsn_code": "9404",
+      "uom": "PCS",
+      "quantity": "837.76",
+      "unit_price": "26241.10",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "21983743.9360",
+      "tax_amount": "1099187.196800",
+      "line_total": "23082931.132800",
+      "po_line_id": "d331b1b5-52fc-46f0-93da-6715393686af"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "5177488.5021598008",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "37790861.90426556",
+    "total_tax": "5177488.5021598008",
+    "grand_total": "42968350.4064253608"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D07",
+      "evidence": "Tax type mismatch: IGST used for intra-state supply or CGST/SGST for inter-state",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "request_corrected_invoice"
+  ],
+  "po_id": "0dedfe02-8cc1-431e-96c3-50819c33b592",
+  "grn_id": "39a047b8-79c8-444a-b686-8cb617cfde4a",
+  "generated_at": "2026-11-18T15:45:20.648934"
+}

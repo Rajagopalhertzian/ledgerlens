@@ -1,0 +1,63 @@
+{
+  "invoice_id": "e2148492-8e1a-4d3d-a483-6807cc67a415",
+  "invoice_number": "INV000426",
+  "vendor_id": "bc1349b3-3c4a-4ad5-baa4-580a1ac14c63",
+  "vendor_gstin": "36XADWZ0726M6Z1",
+  "header": {
+    "invoice_number": "INV000426",
+    "invoice_date": "2026-11-16",
+    "vendor_gstin": "36XADWZ0726M6Z1",
+    "vendor_name": "Major Construction",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC236",
+      "item_description": "Industrial Mixer",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "246.60",
+      "unit_price": "50286.64",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "12400685.4240",
+      "tax_amount": "620034.271200",
+      "line_total": "13020719.695200",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "620034.271200",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "12400685.4240",
+    "total_tax": "620034.271200",
+    "grand_total": "13020719.695200"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D02",
+      "evidence": "Line 1: PO price 38999.27, Invoice price 50286.64 (>15% variance)",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "verify_price_with_vendor"
+  ],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.705967"
+}

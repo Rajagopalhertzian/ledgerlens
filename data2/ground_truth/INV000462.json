@@ -1,0 +1,159 @@
+{
+  "invoice_id": "50538440-b5f7-4326-92cc-7e5772cc9ff7",
+  "invoice_number": "INV000462",
+  "vendor_id": "dff757f9-8f9e-4d16-8753-3d068eee286f",
+  "vendor_gstin": "29SUJVG5714NAZA",
+  "header": {
+    "invoice_number": "INV000462",
+    "invoice_date": "2026-11-13",
+    "vendor_gstin": "29SUJVG5714NAZA",
+    "vendor_name": "Jai Partners",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000260",
+    "grn_reference": "GRN000302",
+    "place_of_supply": "29",
+    "place_of_delivery": "29",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET482",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7202",
+      "uom": "BOX",
+      "quantity": "60.61",
+      "unit_price": "21650.36",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "6.72",
+      "taxable_value": "1224046.57652288",
+      "tax_amount": "220328.3837741184",
+      "line_total": "1444374.9602969984",
+      "po_line_id": "68da9c7f-b5b0-4eeb-81d2-fcb52a1b81be"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET750",
+      "item_description": "Iron Castings",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "669.06",
+      "unit_price": "6453.58",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "4317832.2348",
+      "tax_amount": "1208993.025744",
+      "line_total": "5526825.260544",
+      "po_line_id": "acfe1f67-6c27-474b-8275-f3be32d4f6bb"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET895",
+      "item_description": "SS 304 Pipe",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "497.64",
+      "unit_price": "3845.26",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0.85",
+      "taxable_value": "1897289.96731560",
+      "tax_amount": "94864.4983657800",
+      "line_total": "1992154.4656813800",
+      "po_line_id": "b230d752-b63b-412b-a2e3-7ee33459401d"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET449",
+      "item_description": "Flat Bars",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "370.15",
+      "unit_price": "19724.04",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7300853.4060",
+      "tax_amount": "2044238.953680",
+      "line_total": "9345092.359680",
+      "po_line_id": "d798c0c1-18aa-4924-9159-e191e9daad66"
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET875",
+      "item_description": "Steel Channels",
+      "hsn_code": "7208",
+      "uom": "PCS",
+      "quantity": "919.41",
+      "unit_price": "42783.41",
+      "tax_rate": "0.28",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "39335494.9881",
+      "tax_amount": "11013938.596668",
+      "line_total": "50349433.584768",
+      "po_line_id": "b5316b9c-fa30-4d4b-b96c-3661c2ee72f3"
+    },
+    {
+      "line_number": 6,
+      "item_code": "MET731",
+      "item_description": "Angle Iron",
+      "hsn_code": "7302",
+      "uom": "MTR",
+      "quantity": "469.86",
+      "unit_price": "4640.29",
+      "tax_rate": "0.28",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "2180286.6594",
+      "tax_amount": "610480.264632",
+      "line_total": "2790766.924032",
+      "po_line_id": "0f8ead4e-cdac-4519-8d57-71ae60d203af"
+    },
+    {
+      "line_number": 7,
+      "item_code": "MET420",
+      "item_description": "MS Plate 10mm",
+      "hsn_code": "7302",
+      "uom": "PCS",
+      "quantity": "629.49",
+      "unit_price": "46714.63",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "29406392.4387",
+      "tax_amount": "5293150.638966",
+      "line_total": "34699543.077666",
+      "po_line_id": "06a16575-987a-4192-a2b9-1abd69fb6806"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "925673.1467718984",
+    "igst": "19560321.215058",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "85662196.27083848",
+    "total_tax": "20485994.3618298984",
+    "grand_total": "106148190.6326683784"
+  },
+  "expected_decision": "investigate",
+  "defects": [
+    {
+      "type": "D03",
+      "evidence": "Line 2: Invoiced qty 669.06 > GRN accepted 539.99",
+      "details": {}
+    }
+  ],
+  "expected_actions": [
+    "partial_approve_or_reject"
+  ],
+  "po_id": "6931ba83-d9f4-4263-b6e4-9a2dc767927c",
+  "grn_id": "63fd23b2-2cea-4f38-a507-ac8526c4fc87",
+  "generated_at": "2026-11-18T15:45:20.718979"
+}

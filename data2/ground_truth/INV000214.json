@@ -1,0 +1,61 @@
+{
+  "invoice_id": "60cb1d50-fb82-47bf-8f2a-de0a006c81bd",
+  "invoice_number": "INV000214",
+  "vendor_id": "bcf62784-0118-48c8-8a43-ae202815c60d",
+  "vendor_gstin": "36TRMPG4468CQZR",
+  "header": {
+    "invoice_number": "INV000214",
+    "invoice_date": "2026-10-24",
+    "vendor_gstin": "36TRMPG4468CQZR",
+    "vendor_name": "First Steel",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "FOO143",
+      "item_description": "Sugar Refined",
+      "hsn_code": "1901",
+      "uom": "LTR",
+      "quantity": "93.64",
+      "unit_price": "24655.10",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0.15",
+      "taxable_value": "2305240.50865400",
+      "tax_amount": "115262.0254327000",
+      "line_total": "2420502.5340867000",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "115262.0254327000",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "2305240.50865400",
+    "total_tax": "115262.0254327000",
+    "grand_total": "2420502.5340867000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.643672"
+}

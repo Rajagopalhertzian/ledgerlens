@@ -1,0 +1,125 @@
+{
+  "invoice_id": "f75ef2c0-fd26-4dc3-aa39-ffcbf5718057",
+  "invoice_number": "INV000348",
+  "vendor_id": "79532d76-885d-47bf-b329-f9b8cf4cd524",
+  "vendor_gstin": "33UXFRO4775NBZK",
+  "header": {
+    "invoice_number": "INV000348",
+    "invoice_date": "2026-11-02",
+    "vendor_gstin": "33UXFRO4775NBZK",
+    "vendor_name": "Jai Associates",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": null,
+    "grn_reference": null,
+    "place_of_supply": "33",
+    "place_of_delivery": "33",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MET360",
+      "item_description": "Aluminum Angles",
+      "hsn_code": "7302",
+      "uom": "BOX",
+      "quantity": "21.68",
+      "unit_price": "5123.72",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "111082.2496",
+      "tax_amount": "5554.112480",
+      "line_total": "116636.362080",
+      "po_line_id": null
+    },
+    {
+      "line_number": 2,
+      "item_code": "MET194",
+      "item_description": "Iron Castings",
+      "hsn_code": "7201",
+      "uom": "MTR",
+      "quantity": "859.85",
+      "unit_price": "12738.73",
+      "tax_rate": "0.18",
+      "tax_type": "IGST",
+      "discount_percent": "4.35",
+      "taxable_value": "10476924.22141325",
+      "tax_amount": "1885846.3598543850",
+      "line_total": "12362770.5812676350",
+      "po_line_id": null
+    },
+    {
+      "line_number": 3,
+      "item_code": "MET506",
+      "item_description": "Steel Bars 12mm",
+      "hsn_code": "7210",
+      "uom": "MTR",
+      "quantity": "142.19",
+      "unit_price": "31648.44",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "5.64",
+      "taxable_value": "4246286.51264496",
+      "tax_amount": "764331.5722760928",
+      "line_total": "5010618.0849210528",
+      "po_line_id": null
+    },
+    {
+      "line_number": 4,
+      "item_code": "MET158",
+      "item_description": "Copper Wire",
+      "hsn_code": "7202",
+      "uom": "KG",
+      "quantity": "706.95",
+      "unit_price": "14902.77",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "10535513.2515",
+      "tax_amount": "526775.662575",
+      "line_total": "11062288.914075",
+      "po_line_id": null
+    },
+    {
+      "line_number": 5,
+      "item_code": "MET711",
+      "item_description": "GI Sheets",
+      "hsn_code": "7202",
+      "uom": "PCS",
+      "quantity": "59.66",
+      "unit_price": "41279.07",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "2462709.3162",
+      "tax_amount": "443287.676916",
+      "line_total": "2905996.993116",
+      "po_line_id": null
+    }
+  ],
+  "taxes": {
+    "cgst": "448841.789396",
+    "sgst": "764331.5722760928",
+    "igst": "2412622.0224293850",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "27832515.55135821",
+    "total_tax": "3625795.3841014778",
+    "grand_total": "31458310.9354596878"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": null,
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.683213"
+}

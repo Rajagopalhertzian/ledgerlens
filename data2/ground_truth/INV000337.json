@@ -1,0 +1,109 @@
+{
+  "invoice_id": "80d93693-aa58-483d-b322-a511e0a9c768",
+  "invoice_number": "INV000337",
+  "vendor_id": "ccdfde3a-c6ee-4772-9d19-4e0472731d01",
+  "vendor_gstin": "07VHOHC7209HFZK",
+  "header": {
+    "invoice_number": "INV000337",
+    "invoice_date": "2026-11-08",
+    "vendor_gstin": "07VHOHC7209HFZK",
+    "vendor_name": "Royal Distributors",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000133",
+    "grn_reference": "GRN000159",
+    "place_of_supply": "07",
+    "place_of_delivery": "07",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "MAC113",
+      "item_description": "Refrigeration Unit",
+      "hsn_code": "8418",
+      "uom": "PCS",
+      "quantity": "957.72",
+      "unit_price": "39656.38",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "37979708.2536",
+      "tax_amount": "4557564.990432",
+      "line_total": "42537273.244032",
+      "po_line_id": "1e7fd308-f91d-4796-a911-1d92d98a9bf8"
+    },
+    {
+      "line_number": 2,
+      "item_code": "MAC388",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "PCS",
+      "quantity": "678.63",
+      "unit_price": "17172.84",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "11654004.4092",
+      "tax_amount": "582700.220460",
+      "line_total": "12236704.629660",
+      "po_line_id": "9d8de659-5458-4de6-a51d-6599defb2979"
+    },
+    {
+      "line_number": 3,
+      "item_code": "MAC369",
+      "item_description": "Air Compressor",
+      "hsn_code": "8418",
+      "uom": "SET",
+      "quantity": "248.50",
+      "unit_price": "7709.54",
+      "tax_rate": "0.12",
+      "tax_type": "CGST",
+      "discount_percent": "1.15",
+      "taxable_value": "1893788.75206500",
+      "tax_amount": "227254.6502478000",
+      "line_total": "2121043.4023128000",
+      "po_line_id": "d12f1935-3475-4a1b-94aa-9a536ca771a1"
+    },
+    {
+      "line_number": 4,
+      "item_code": "MAC725",
+      "item_description": "Centrifugal Fan",
+      "hsn_code": "8422",
+      "uom": "SET",
+      "quantity": "199.21",
+      "unit_price": "35352.40",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "7042551.6040",
+      "tax_amount": "352127.580200",
+      "line_total": "7394679.184200",
+      "po_line_id": "225046d5-9e26-4033-8a94-cc551ed11026"
+    }
+  ],
+  "taxes": {
+    "cgst": "4784819.6406798000",
+    "sgst": "582700.220460",
+    "igst": "352127.580200",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "58570053.01886500",
+    "total_tax": "5719647.4413398000",
+    "grand_total": "64289700.4602048000"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "1f7033b5-12f9-4b2c-ae49-cbc9f898aad8",
+  "grn_id": "f9246046-f2c0-40b1-94b7-01ad401b69bb",
+  "generated_at": "2026-11-18T15:45:20.679742"
+}

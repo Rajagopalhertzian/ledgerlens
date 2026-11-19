@@ -1,0 +1,61 @@
+{
+  "invoice_id": "952b8ecb-8982-493b-ae70-ed70ccf842f5",
+  "invoice_number": "INV000233",
+  "vendor_id": "3715d6b0-082c-4a85-945e-9fa983c68417",
+  "vendor_gstin": "09YNBGW4869TLZA",
+  "header": {
+    "invoice_number": "INV000233",
+    "invoice_date": "2026-11-07",
+    "vendor_gstin": "09YNBGW4869TLZA",
+    "vendor_name": "Hindustan Plastics",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000093",
+    "grn_reference": "GRN000110",
+    "place_of_supply": "09",
+    "place_of_delivery": "09",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "PAP745",
+      "item_description": "Notebooks 200pg",
+      "hsn_code": "4810",
+      "uom": "PCS",
+      "quantity": "781.87",
+      "unit_price": "30521.83",
+      "tax_rate": "0.05",
+      "tax_type": "IGST",
+      "discount_percent": "1.05",
+      "taxable_value": "23613530.13826795",
+      "tax_amount": "1180676.5069133975",
+      "line_total": "24794206.6451813475",
+      "po_line_id": "60b3bc74-e03a-4ab4-a249-4df887b87364"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "1180676.5069133975",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "23613530.13826795",
+    "total_tax": "1180676.5069133975",
+    "grand_total": "24794206.6451813475"
+  },
+  "expected_decision": "post",
+  "defects": [
+    {
+      "type": "D01",
+      "evidence": "All fields consistent",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "4121e541-eb26-4802-8a9e-4e5a07bf5c0f",
+  "grn_id": "a95a1672-7ca5-4083-8969-16b344b7e50a",
+  "generated_at": "2026-11-18T15:45:20.648642"
+}

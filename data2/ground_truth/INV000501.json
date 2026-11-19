@@ -1,0 +1,61 @@
+{
+  "invoice_id": "97424cd0-85a8-4a72-b0c8-9307392661bb",
+  "invoice_number": "INV000501",
+  "vendor_id": "bc1349b3-3c4a-4ad5-baa4-580a1ac14c63",
+  "vendor_gstin": "36XADWZ0726M6Z1",
+  "header": {
+    "invoice_number": "INV000501",
+    "invoice_date": "2026-10-31",
+    "vendor_gstin": "36XADWZ0726M6Z1",
+    "vendor_name": "Major Construction",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000386",
+    "grn_reference": null,
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE267",
+      "item_description": "Laptop Computer",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "480.21",
+      "unit_price": "28914.23",
+      "tax_rate": "0.12",
+      "tax_type": "IGST",
+      "discount_percent": "0",
+      "taxable_value": "13884902.3883",
+      "tax_amount": "1666188.286596",
+      "line_total": "15551090.674896",
+      "po_line_id": "da906160-e510-49a7-99cc-c3255f109fd6"
+    }
+  ],
+  "taxes": {
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "1666188.286596",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "13884902.3883",
+    "total_tax": "1666188.286596",
+    "grand_total": "15551090.674896"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D15",
+      "evidence": "Policy violation: amount exceeds approval limit or vendor blocked",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "80aa5afe-65dc-4a29-9487-b29c6fe0e73e",
+  "grn_id": null,
+  "generated_at": "2026-11-18T15:45:20.730700"
+}

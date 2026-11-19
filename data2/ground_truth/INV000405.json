@@ -1,0 +1,141 @@
+{
+  "invoice_id": "4cc347f7-899d-49b4-a269-baa96d235995",
+  "invoice_number": "INV000405",
+  "vendor_id": "09536e34-0119-4515-9d1c-311630a6bdf6",
+  "vendor_gstin": "36LGVOD6068NFZC",
+  "header": {
+    "invoice_number": "INV000405",
+    "invoice_date": "2026-10-29",
+    "vendor_gstin": "36LGVOD6068NFZC",
+    "vendor_name": "Quality Products",
+    "buyer_gstin": "29AAAAA0000A1Z5",
+    "buyer_name": "LedgerLens Technologies Pvt Ltd",
+    "po_reference": "PO000277",
+    "grn_reference": "GRN000323",
+    "place_of_supply": "36",
+    "place_of_delivery": "36",
+    "irn": null,
+    "eway_bill_number": null
+  },
+  "lines": [
+    {
+      "line_number": 1,
+      "item_code": "ELE708",
+      "item_description": "UPS 1KVA",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "416.12",
+      "unit_price": "41892.20",
+      "tax_rate": "0.18",
+      "tax_type": "SGST",
+      "discount_percent": "8.43",
+      "taxable_value": "15962649.29914480",
+      "tax_amount": "2873276.8738460640",
+      "line_total": "18835926.1729908640",
+      "po_line_id": "c7c7a2db-8a16-4a61-bb50-6b762b6c642e"
+    },
+    {
+      "line_number": 2,
+      "item_code": "ELE133",
+      "item_description": "Switch 24 Port",
+      "hsn_code": "8536",
+      "uom": "PCS",
+      "quantity": "593.29",
+      "unit_price": "23724.15",
+      "tax_rate": "0.18",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14075300.9535",
+      "tax_amount": "2533554.171630",
+      "line_total": "16608855.125130",
+      "po_line_id": "a32fc871-0c24-4f53-b487-a205354a2d7f"
+    },
+    {
+      "line_number": 3,
+      "item_code": "ELE240",
+      "item_description": "Keyboard USB",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "537.54",
+      "unit_price": "21339.47",
+      "tax_rate": "0.05",
+      "tax_type": "CGST",
+      "discount_percent": "3.00",
+      "taxable_value": "11126694.142686",
+      "tax_amount": "556334.70713430",
+      "line_total": "11683028.84982030",
+      "po_line_id": "82f7e1da-257e-4a0d-bc0c-b855a6a3593a"
+    },
+    {
+      "line_number": 4,
+      "item_code": "ELE472",
+      "item_description": "Graphics Card",
+      "hsn_code": "8528",
+      "uom": "SET",
+      "quantity": "999.28",
+      "unit_price": "14105.34",
+      "tax_rate": "0.28",
+      "tax_type": "CGST",
+      "discount_percent": "0",
+      "taxable_value": "14095184.1552",
+      "tax_amount": "3946651.563456",
+      "line_total": "18041835.718656",
+      "po_line_id": "71ec2b9d-4214-46af-8e60-cac1d090785c"
+    },
+    {
+      "line_number": 5,
+      "item_code": "ELE828",
+      "item_description": "Router WiFi",
+      "hsn_code": "8471",
+      "uom": "SET",
+      "quantity": "738.89",
+      "unit_price": "20402.86",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "0",
+      "taxable_value": "15075469.2254",
+      "tax_amount": "753773.461270",
+      "line_total": "15829242.686670",
+      "po_line_id": "6b48d9ba-c6c1-4bfa-871e-7979ae063e7b"
+    },
+    {
+      "line_number": 6,
+      "item_code": "ELE886",
+      "item_description": "Graphics Card",
+      "hsn_code": "8471",
+      "uom": "PCS",
+      "quantity": "931.48",
+      "unit_price": "30185.03",
+      "tax_rate": "0.05",
+      "tax_type": "SGST",
+      "discount_percent": "9.75",
+      "taxable_value": "25375368.44932100",
+      "tax_amount": "1268768.4224660500",
+      "line_total": "26644136.8717870500",
+      "po_line_id": "cedb0fbd-6e48-48f3-8d0d-f3fefd140541"
+    }
+  ],
+  "taxes": {
+    "cgst": "7036540.44222030",
+    "sgst": "4895818.7575821140",
+    "igst": "0",
+    "cess": "0"
+  },
+  "totals": {
+    "subtotal": "95710666.22525180",
+    "total_tax": "11932359.1998024140",
+    "grand_total": "107643025.4250542140"
+  },
+  "expected_decision": "escalate",
+  "defects": [
+    {
+      "type": "D10",
+      "evidence": "Bank account details differ from vendor master record",
+      "details": {}
+    }
+  ],
+  "expected_actions": [],
+  "po_id": "d99c63e3-3d9b-4ecb-aea9-6df17d4dbe66",
+  "grn_id": "b96edfe8-1535-436d-b7ed-904b8a69cd97",
+  "generated_at": "2026-11-18T15:45:20.699343"
+}
